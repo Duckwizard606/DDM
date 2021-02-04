@@ -1,6 +1,6 @@
-owner = PRU
-controller = PRU
-add_core = PRU
+owner = COB
+controller = COB
+add_core = COB
 add_core = GER
 trade_goods = iron
 life_rating = 40
