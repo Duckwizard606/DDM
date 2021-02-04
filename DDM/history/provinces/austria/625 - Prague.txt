@@ -1,0 +1,13 @@
+owner = AUS
+controller = AUS
+add_core = BOH
+add_core = AUS
+trade_goods = iron
+life_rating = 35
+terrain = prague
+#state_building = {
+#	level = 4
+#	building = steel_factory
+#	upgrade = yes
+#}
+

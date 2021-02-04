@@ -1,0 +1,401 @@
+political_decisions = {
+
+	demand_thessaly = {
+		picture = balkan_war
+		potential = {
+			year = 1881
+			tag = GRE
+			TUR = {
+				OR = {
+					owns = 824
+					owns = 825
+					owns = 833
+					owns = 832
+					owns = 831
+				}
+			}
+			NOT = { 
+				is_vassal = yes
+				has_country_flag = demanded_thessaly
+				truce_with = TUR
+				alliance_with = TUR
+			}
+		}
+
+		allow = {
+			war = no
+			OR = {
+				is_greater_power = yes
+				any_greater_power = {
+					alliance_with = GRE
+					NOT = {
+						alliance_with = TUR
+						truce_with = TUR
+					}
+				}
+			}
+			TUR = { 
+				is_greater_power = no
+				OR = {
+					war = yes
+					any_owned_province = {
+						is_core = GRE
+						average_militancy = 6
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = demanded_thessaly
+			TUR = { country_event = 90027 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	demand_serb_lands_TUR = {
+		picture = balkan_war
+		potential = {
+			tag = SER
+			TUR = {
+				any_owned_province = {
+					is_core = SER
+				}
+			}
+			NOT = { 
+				is_vassal = yes
+				has_country_flag = demanded_serb_lands_TUR
+				truce_with = TUR
+				alliance_with = TUR
+			}
+		}
+
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			OR = {
+				is_greater_power = yes
+				any_greater_power = {
+					alliance_with = SER
+					NOT = {
+						alliance_with = TUR
+						truce_with = TUR
+					}
+				}
+			}
+			TUR = {
+				is_greater_power = no
+				OR = {
+					war = yes
+					any_owned_province = {
+						is_core = SER
+						average_militancy = 6
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = demanded_serb_lands_TUR
+			TUR = { country_event = 90028 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	demand_montenegro_lands = {
+		picture = balkan_war
+		potential = {
+			tag = MON
+			TUR = {
+				any_owned_province = {
+					is_core = MON
+				}
+			}
+			NOT = { 
+				is_vassal = yes
+				has_country_flag = demanded_montenegro_lands
+				truce_with = TUR
+				alliance_with = TUR
+			}
+		}
+
+		allow = {
+			war = no
+			nationalism_n_imperialism = 1
+			OR = {
+				is_greater_power = yes
+				any_greater_power = {
+					alliance_with = MON
+					NOT = {
+						alliance_with = TUR
+						truce_with = TUR
+					}
+				}
+			}
+			TUR = {
+				is_greater_power = no
+				OR = {
+					war = yes
+					any_owned_province = {
+						is_core = MON
+						average_militancy = 6
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = demanded_montenegro_lands
+			TUR = { country_event = 90035 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	move_capital_to_ankara = {
+		potential = {
+			tag = TUR
+			NOT = { capital = 876 }
+			owns = 876
+		}
+
+		allow = {
+			OR = {
+				NOT = { owns = 817 }
+				NOT = { owns = 816 }
+				NOT = { owns = 830 }
+				has_country_flag = ottomans_to_turks
+			}
+		}
+
+		effect = {
+			capital = 876
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	france_protector_of_eastern_christians = {
+		picture = protect_eastern_christians
+		potential = {
+			tag = FRA
+			is_greater_power = yes
+			ideological_thought = 1
+			NOT = { has_country_flag = claimed_authority_over_holy_land }
+			NOT = { has_global_flag = berlin_congress_held }
+			TUR = {
+				owns = 917
+				neighbour = RUS
+			}
+		}
+		
+		allow = {
+			war = no
+			state_n_government = 1
+			TUR = {
+				war = no
+				is_greater_power = no
+				NOT = { truce_with = THIS }
+			}
+		}
+		
+		effect = {
+			set_country_flag = claimed_authority_over_holy_land
+			prestige = 10
+			TUR = { country_event = 97500 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	treaty_of_paris_1856 = {
+		picture = treaty_signing
+		potential = {
+			tag = FRA
+			has_global_flag = crimea_has_happened
+			NOT = { has_global_flag = treaty_of_paris_1856 }
+			NOT = { has_global_flag = treaty_of_paris_russia }
+			NOT = { has_global_flag = berlin_congress_held }
+			NOT = { has_country_flag = crimean_surrender }
+		}
+		
+		allow = {
+			RUS = {
+				NOT = { war_with = TUR }
+				has_recently_lost_war = yes
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			set_global_flag = treaty_of_paris_1856
+			random_country = {
+				limit = {
+					tag = TUR
+					ROM = {
+						exists = yes
+						ai = yes
+						is_vassal = no
+					}
+				}
+				create_vassal = ROM
+			}
+			random_country = {
+				limit = {
+					tag = WAL
+					exists = yes
+					MOL = {
+						ai = yes
+						exists = yes
+					}
+					ROM = { exists = no }
+				}
+				inherit = MOL
+				change_tag = ROM
+			}
+			random_country = {
+				limit = {
+					tag = WAL
+					exists = yes
+					MOL = { exists = no }
+					ROM = { exists = no }
+				}
+				change_tag = ROM
+			}
+			random_country = {
+				limit = {
+					tag = MOL
+					exists = yes
+					ai = no
+					ROM = { exists = no }
+				}
+				inherit = WAL
+				change_tag = ROM
+				capital = 664
+			}
+			diplomatic_influence = { who = TUR value = -100 }
+			leave_alliance = TUR
+			random_country = {
+				limit = {
+					tag = ENG
+					has_country_flag = england_protecting_interests
+				}
+				diplomatic_influence = { who = TUR value = -100 }
+				leave_alliance = TUR
+			}
+			random_country = {
+				limit = {
+					tag = RUS
+					owns = 678
+					ROM = {
+						exists = yes
+						OR = {
+							ai = yes
+							vassal_of = TUR
+						}
+					}
+				}
+				country_event = 97510
+			}
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	treaty_of_paris_russia = {
+		picture = treaty_signing
+		potential = {
+			tag = RUS
+			has_global_flag = crimea_has_happened
+			NOT = { has_global_flag = treaty_of_paris_1856 }
+			NOT = { has_global_flag = treaty_of_paris_russia }
+			NOT = { has_global_flag = berlin_congress_held }
+		}
+		
+		allow = {
+			NOT = { war_with = TUR }
+			OR = {
+				has_recently_lost_war = no
+				has_country_flag = crimean_surrender
+			}
+		}
+		
+		effect = {
+			prestige = 20
+			set_global_flag = treaty_of_paris_russia
+			random_country = {
+				limit = {
+					tag = WAL
+					exists = yes
+					MOL = {
+						ai = yes
+						exists = yes
+					}
+					ROM = { exists = no }
+				}
+				inherit = MOL
+				change_tag = ROM
+			}
+			random_country = {
+				limit = {
+					tag = WAL
+					exists = yes
+					MOL = { exists = no }
+					ROM = { exists = no }
+				}
+				change_tag = ROM
+			}
+			random_country = {
+				limit = {
+					tag = MOL
+					exists = yes
+					ai = no
+					ROM = { exists = no }
+				}
+				inherit = WAL
+				change_tag = ROM
+				capital = 664
+			}
+			random_country = {
+				limit = {
+					tag = TUR
+					is_our_vassal = ROM
+				}
+				release_vassal = ROM
+				leave_alliance = ROM
+			}
+			random_country = {
+				limit = {
+					tag = TUR
+					THIS = { has_country_flag = crimean_surrender }
+				}
+				country_event = 97512
+				RUS = { treasury = 250000 }
+			}
+			relation = { who = ROM value = 400 }
+			diplomatic_influence = { who = ROM value = 200 }
+			diplomatic_influence = { who = TUR value = 50 }
+			FRA = {
+				diplomatic_influence = { who = TUR value = -200 }
+				leave_alliance = TUR
+			}
+			random_country = {
+				limit = {
+					tag = ENG
+					has_country_flag = england_protecting_interests
+				}
+				diplomatic_influence = { who = TUR value = -200 }
+				leave_alliance = TUR
+			}
+		}
+	}
+}

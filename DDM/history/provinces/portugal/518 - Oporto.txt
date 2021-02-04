@@ -1,0 +1,13 @@
+owner = POR
+controller = POR
+add_core = POR
+trade_goods = dye
+life_rating = 35
+terrain = good_farmland
+naval_base = 1
+#state_building = {
+#	level = 1
+#	building = winery
+#	upgrade = yes
+#}
+

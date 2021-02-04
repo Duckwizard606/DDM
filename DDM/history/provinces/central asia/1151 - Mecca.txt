@@ -1,0 +1,9 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+add_core = HDJ
+add_core = NEJ
+trade_goods = grain
+life_rating = 35
+terrain = mecca
+colonial = 2

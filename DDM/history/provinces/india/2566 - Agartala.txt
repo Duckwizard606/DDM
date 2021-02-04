@@ -1,0 +1,9 @@
+owner = ENG
+controller = ENG
+add_core = HND
+
+add_core = BNG
+trade_goods = tea
+life_rating = 30
+terrain = seasonal_jungle_mountains
+colonial = 2

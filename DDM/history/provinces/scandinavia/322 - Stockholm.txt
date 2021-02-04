@@ -1,0 +1,28 @@
+owner = SWE
+controller = SWE
+add_core = SWE
+trade_goods = coal
+life_rating = 40
+terrain = stockholm
+naval_base = 2
+state_building = {
+	level = 3
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = bronze_factory
+	upgrade = yes
+}
+#state_building = {
+#	level = 1
+#	building = ammunition_factory
+#	upgrade = yes
+#}
+#state_building = {
+#	level = 1
+#	building = small_arms_factory
+#	upgrade = yes
+#}
+

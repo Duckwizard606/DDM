@@ -1,0 +1,10 @@
+owner = TUR
+controller = TUR
+add_core = TUR
+add_core = IRQ
+add_core = KDS
+add_core = ASY
+trade_goods = wool
+life_rating = 35
+colonial = 2
+terrain = mountain_grassland

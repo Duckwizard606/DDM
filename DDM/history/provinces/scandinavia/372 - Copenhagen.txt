@@ -1,0 +1,19 @@
+owner = DEN
+controller = DEN
+add_core = DEN
+trade_goods = grain
+life_rating = 40
+terrain = copenhagen
+naval_base = 1
+fort = 1
+#state_building = {
+#	level = 1
+#	building = ammunition_factory
+#	upgrade = yes
+#}
+state_building = {
+	level = 1
+	building = clipper_shipyard
+	upgrade = yes
+}
+

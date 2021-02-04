@@ -1,0 +1,8 @@
+owner = ENG
+controller = ENG
+
+
+add_core = HND
+trade_goods = wool
+life_rating = 33
+terrain = semi_desert_hills

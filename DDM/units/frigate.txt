@@ -1,0 +1,45 @@
+frigate = {
+	icon = 5
+	naval_icon = 2	
+	type = naval
+	sprite = Frigate
+	unit_type = light_ship
+	floating_flag = yes
+	colonial_points = 2
+	
+	#Core Abilities
+	priority = 13
+	max_strength = 100
+	default_organisation = 5
+	maximum_speed = 6
+	weighted_value = 2.0
+
+
+	#Building Costs
+	build_time = 365
+	build_cost = {
+		clipper_convoy = 1
+		artillery = 0.5
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		canned_food = 1
+		lumber = 0.25
+		gunpowder = 0.25
+		fabric = 0.25
+		bronze = 0.25
+	}
+	
+
+	#Naval Abilties
+	hull = 2
+	gun_power = 3
+	can_build_overseas = no
+	fire_range = 0.5
+	evasion = 0.5
+	min_port_level = 1
+	limit_per_port = -1
+	supply_consumption_score = 2
+}
+

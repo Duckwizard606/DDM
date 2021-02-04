@@ -1,0 +1,52 @@
+dreadnought = {
+	icon = 12
+	naval_icon = 9	
+	type = naval
+	sprite = Dreadnought
+	unit_type = big_ship
+	capital = yes
+	active = no
+	move_sound = steam_move
+	select_sound = steam_selected
+	floating_flag = yes
+	can_build_overseas = no
+	colonial_points = 25
+	
+	#Core Abilities
+	priority = 60
+	max_strength = 100
+	default_organisation = 60
+	maximum_speed = 10
+	weighted_value = 100.0
+
+
+	#Building Costs
+	build_time = 1800
+	build_cost = {	
+		steel = 2000
+		bronze = 1000
+		steamer_convoy = 200
+		artillery = 120
+		canned_food = 40
+        regular_clothes = 10
+	}
+	
+	supply_consumption = 1.0
+	supply_cost = {
+		canned_food = 5
+		artillery = 2
+		ammunition = 2
+		telephones = 1
+		fuel = 1
+	}
+	
+
+	#Naval Abilties
+	hull = 240
+	gun_power = 120
+	fire_range = 0.8
+	evasion = 0
+	min_port_level = 5
+	limit_per_port = 2
+	supply_consumption_score = 50
+}

@@ -1,0 +1,13 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+trade_goods = coal
+life_rating = 35
+naval_base = 2
+terrain = cardiff
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+

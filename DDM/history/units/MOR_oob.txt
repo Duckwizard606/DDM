@@ -1,0 +1,121 @@
+TUR = {
+	value = 100
+}
+AUS = {
+	value = 75
+}
+FRA = {
+	value = 200
+}
+SPA = {
+	value = 100
+}
+USA = {
+	value = 200
+}
+ENG = {
+	value = 100
+}
+RUS = {
+	value = 75
+}
+PRU = {
+	value = 100
+}
+NET = {
+	value = 75
+}
+POR = {
+	value = 75
+}
+
+army = {
+	name = "Army of the Sultan of Morocco"
+	location = 1681
+	regiment = {
+		name= "1. infantry Brigade 'Askäria'"
+		type = infantry
+		home = 1685
+	}
+
+	regiment = {
+		name= "2. infantry Brigade"
+		type = infantry
+		home = 1685
+	}
+
+	regiment = {
+		name= "3. infantry Brigade"
+		type = infantry
+		home = 1690
+	}
+
+}
+
+army = {
+	name = "Army of the Atlas"
+	location = 1684
+	regiment = {
+		name= "4. infantry Brigade 'Ait 'Atta'"
+		type = infantry
+		home = 1685
+	}
+
+	regiment = {
+		name= "5. infantry Brigade"
+		type = infantry
+		home = 1685
+	}
+
+	regiment = {
+		name= "6. infantry Brigade 'Ait Mnad'"
+		type = infantry
+		home = 1685
+	}
+}
+
+army = {
+	name = "Army of Sahara"
+	location = 1698
+	regiment = {
+		name= "7. infantry Brigade 'Dawi Mani'"
+		type = infantry
+		home = 1693
+	}
+
+	regiment = {
+		name= "8. infantry Brigade 'Sahrawi'"
+		type = infantry
+		home = 1693
+	}
+
+	regiment = {
+		name= "9. infantry Brigade"
+		type = infantry
+		home = 1693
+	}
+
+}
+
+army = {
+	name = "Army of the Rif"
+	location = 1686
+	regiment = {
+		name= "10. infantry Brigade"
+		type = infantry
+		home = 1686
+	}
+
+	regiment = {
+		name= "11. infantry Brigade"
+		type = infantry
+		home = 1686
+	}
+
+	regiment = {
+		name= "12. infantry Brigade"
+		type = infantry
+		home = 1686
+	}
+
+}

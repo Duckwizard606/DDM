@@ -1,0 +1,102 @@
+AFG = {
+	value = 30
+}
+ENG = {
+	value = 50
+}
+QNG = {
+	value = 50
+}
+
+leader = {
+	name = "Ranjit Singh"
+	type = land
+	date = 1836.1.1
+	personality = inspiring
+	background = gifted_administrator
+}
+
+army = {
+	name = "Army of the Khalsa"
+	location = 1227
+	regiment = {
+		name= "1. Panjabi infantry"
+		type = infantry
+	}
+
+	regiment = {
+		name= "2. Panjabi infantry"
+		type = infantry
+	}
+
+	regiment = {
+		name= "3. Panjabi infantry"
+		type = infantry
+	}
+
+	regiment = {
+		name= "4. Panjabi infantry"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1. Kashmiri infantry"
+		type = infantry
+	}
+
+	regiment = {
+		name= "5. Panjabi infantry"
+		type = infantry
+	}
+
+	regiment = {
+		name= "6. Panjabi infantry"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1. Pashtun infantry"
+		type = infantry
+	}
+
+	regiment = {
+		name= "7. Panjabi infantry"
+		type = infantry
+	}
+
+	regiment = {
+		name= "1. Sikh hussar"
+		type = hussar
+	}
+
+	regiment = {
+		name= "2. Sikh hussar"
+		type = hussar
+	}
+
+	regiment = {
+		name= "3. Sikh hussar"
+		type = hussar
+	}
+
+}
+
+army = {
+	name = "Ludhiana Garrison"
+	location = 1234
+	regiment = {
+		name= "8. Panjabi infantry"
+		type = infantry
+	}
+
+	regiment = {
+		name= "9. Panjabi infantry"
+		type = infantry
+	}
+
+	regiment = {
+		name= "10. Panjabi infantry"
+		type = infantry
+	}
+}
+

@@ -1,0 +1,22 @@
+owner = RUS
+controller = RUS
+add_core = RUS
+trade_goods = iron
+life_rating = 45
+terrain = moscow
+fort = 1
+state_building = {
+	level = 1
+	building = steel_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = bronze_factory
+	upgrade = yes
+}
+state_building = {
+	level = 1
+	building = lumber_mill
+	upgrade = yes
+}

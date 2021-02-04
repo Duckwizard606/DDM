@@ -1,0 +1,10 @@
+owner = ENG
+controller = ENG
+
+
+add_core = HND
+trade_goods = sugar
+life_rating = 30
+terrain = agra
+colonial = 2
+fort = 1

@@ -1,0 +1,14 @@
+owner = ENG
+controller = ENG
+add_core = ENG
+add_core = IRE
+trade_goods = grain
+life_rating = 35
+naval_base = 2
+terrain = dublin
+#state_building = {
+#	level = 4
+#	building = liquor_distillery
+#	upgrade = yes
+#}
+

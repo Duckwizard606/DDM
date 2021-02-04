@@ -1,0 +1,8 @@
+owner = SPA
+controller = SPA
+add_core = SPA
+add_core = CAT
+trade_goods = fish
+life_rating = 35
+terrain = dry_forest_hills
+

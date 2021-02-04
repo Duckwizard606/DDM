@@ -1,0 +1,12 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+trade_goods = iron
+life_rating = 32
+terrain = lille
+#state_building = {
+#	level = 4
+#	building = steel_factory
+#	upgrade = yes
+#}
+

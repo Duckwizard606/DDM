@@ -1,0 +1,7 @@
+owner = ARG
+controller = ARG
+add_core = ARG
+trade_goods = wool
+life_rating = 15
+terrain = cold_desert_hills
+colonial = 2

@@ -1,0 +1,3858 @@
+#army_doctrine
+post_napoleonic_thought = {
+	area = army_doctrine
+	year = 1820
+	cost = 12500
+	unciv_military = yes
+	
+	activate_building = fort
+	army_base = {
+	default_organisation = 5
+	}
+	dig_in_cap = 2
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1850
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+strategic_mobility = {
+	area = army_doctrine
+	year = 1836
+	cost = 12500
+	unciv_military = yes
+	
+	army_base = {
+	supply_consumption = 0.05
+	}
+
+	max_fort = 1
+	dig_in_cap = 1
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1850
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+point_defense_system = {
+	area = army_doctrine
+	year = 1850
+	cost = 12500
+	unciv_military = yes
+	army_base = {
+	supply_consumption = 0.05
+	}
+	engineer = {
+		support = 0.1
+	} 
+
+	max_fort = 1
+	dig_in_cap = 1
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1860
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+deep_defense_system = {
+	area = army_doctrine
+	year = 1880
+	cost = 15000
+	unciv_military = yes
+	army_base = {
+	supply_consumption = 0.05
+	}
+	engineer = {
+		support = 0.1
+	} 
+	max_fort = 1
+	dig_in_cap = 1
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1890
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+infiltration = {
+	area = army_doctrine
+	year = 1900
+	cost = 20000
+	unciv_military = yes
+	army_base = {
+	supply_consumption = 0.05
+	}
+	engineer = {
+		support = 0.1
+	} 	
+	max_fort = 1
+	dig_in_cap = 1
+	
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 2
+			year = 1910
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+modern_army_doctrine = {
+	area = army_doctrine
+	year = 1910
+	cost = 40000 
+	unciv_military = yes
+	
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	max_fort = 1
+	dig_in_cap = 1
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1925
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+modern_army_doctrine_1920 = {
+	area = army_doctrine
+	year = 1920
+	cost = 50000 
+	unciv_military = yes
+	
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	dig_in_cap = 1
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 0.5
+			not = { year = 1925 }
+		}
+		modifier = {
+			factor = 2
+			year = 1925
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+
+#light_armament
+flintlock_rifles = {
+	area = light_armament
+	year = 1820
+	cost = 12500
+	unciv_military = yes
+	activate_unit = infantry
+	combat_width = 1
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1856
+		}
+		modifier = {
+			factor = 2
+			year = 1876
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = no
+			is_secondary_power = no
+			colonial_nation = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+muzzle_loaded_rifles = {
+	area = light_armament
+	year = 1836
+	cost = 12500
+	unciv_military = yes
+	activate_unit = engineer
+	combat_width = 1
+
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1856
+		}
+		modifier = {
+			factor = 2
+			year = 1876
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = no
+			is_secondary_power = no
+			colonial_nation = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+breech_loaded_rifles = {
+	area = light_armament
+	year = 1845
+	cost = 12500
+
+	activate_unit = guard
+	unciv_military = yes
+	combat_width = 1
+
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1865
+		}
+		modifier = {
+			factor = 2
+			year = 1885
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 4
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = no
+			is_secondary_power = no
+			colonial_nation = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+bolt_action_rifles = {
+	area = light_armament
+	year = 1860
+	cost = 15000
+
+	unciv_military = yes
+	combat_width = 1
+	
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1880
+		}
+		modifier = {
+			factor = 2
+			year = 1900
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 10
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 5
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 2.5
+			is_greater_power = no
+			is_secondary_power = no
+			colonial_nation = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+machine_guns = {
+	area = light_armament
+	year = 1870
+	cost = 20000
+	unit = 1
+	unciv_military = yes
+	combat_width = 1
+	
+    army_base = {
+	supply_consumption = 0.05
+	}
+	
+	ai_chance = {
+		factor = 5
+		modifier = {
+			factor = 2
+			year = 1900
+		}
+		modifier = {
+			factor = 2
+			year = 1920
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 20
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 10
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 5
+			is_greater_power = no
+			is_secondary_power = no
+			colonial_nation = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+modern_divisional_structure = {
+	area = light_armament
+	year = 1910
+	cost = 40000
+	unciv_military = yes
+	combat_width = 3
+	
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1925
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 10
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 5
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+modern_divisional_structure_1920 = {
+	area = light_armament
+	year = 1920
+	cost = 50000
+	unciv_military = yes
+	combat_width = 4
+	unit = 2
+	
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 0.5
+			not = { year = 1925 }
+		}
+		modifier = {
+			factor = 2
+			year = 1925
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 10
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 5
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+
+#heavy_armament
+bronze_muzzle_loaded_artillery = {
+	area = heavy_armament
+	year = 1820
+	cost = 12500
+	unciv_military = yes
+	activate_unit = artillery
+
+	artillery = {
+		attack = 0.25
+		support = 0.10
+	}
+                ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1850
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+iron_muzzle_loaded_artillery = {
+	area = heavy_armament
+	year = 1836
+	cost = 12500
+	unciv_military = yes
+	
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	artillery = {
+		attack = 0.25
+		defence = 0.25
+		support = 0.10
+	}
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1850
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+iron_breech_loaded_artillery = {
+	area = heavy_armament
+	year = 1850
+	cost = 12500
+	unciv_military = yes
+	
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	artillery = {
+		attack = 0.25
+		defence = 0.25
+		support = 0.10
+	}	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1860
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+steel_breech_loaded_artillery = {
+	area = heavy_armament
+	year = 1870
+	cost = 15000
+	unciv_military = yes
+	
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	artillery = {
+		attack = 0.25
+		defence = 0.25
+		support = 0.10
+	}
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1890
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+indirect_artillery_fire = {
+	area = heavy_armament
+	year = 1900
+	cost = 20000
+	unciv_military = yes
+	
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	artillery = {
+		attack = 0.25
+		defence = 0.25
+		support = 0.10
+	}
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1910
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+heavy_armament_dunno = {
+	area = heavy_armament
+	year = 1910
+	cost = 40000
+	unciv_military = yes
+	
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	artillery = {
+		attack = 0.25
+		defence = 0.25
+		support = 0.10
+	}
+
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 2
+			year = 1925
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+modern_artillery = {
+	area = heavy_armament
+	year = 1920
+	cost = 50000
+	unciv_military = yes
+	
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	artillery = {
+		attack = 0.25
+		defence = 0.25
+		support = 0.10
+	}
+
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 0.5
+			not = { year = 1925 }
+		}
+		modifier = {
+			factor = 2
+			year = 1925
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+
+#military_science
+military_staff_system = {
+	area = military_science
+	year = 1820
+	cost = 12500	
+	unciv_military = yes
+	
+	army_base = {
+	default_organisation = 5
+	}
+	reinforce_rate = 0.025
+	ai_chance = {
+		factor = 1.2
+		modifier = {
+			factor = 2
+			year = 1856
+		}
+		modifier = {
+			factor = 2
+			year = 1876
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+military_plans = {
+	area = military_science
+	year = 1836
+	cost = 12500
+	unciv_military = yes
+	
+	army_base = {
+	supply_consumption = 0.05
+    default_organisation = 5	
+	}
+	reinforce_rate = 0.025
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 2
+			year = 1856
+		}
+		modifier = {
+			factor = 2
+			year = 1876
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+military_statistics = {
+	area = military_science
+	year = 1850
+	cost = 12500	
+	unciv_military = yes
+	
+	army_base = {
+	default_organisation = 5
+	supply_consumption = 0.05
+	}
+	reinforce_rate = 0.025
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1870
+		}
+		modifier = {
+			factor = 2
+			year = 1890
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+military_logistics = {
+	area = military_science
+	year = 1870
+	cost = 15000
+	unciv_military = yes
+	
+	army_base = {
+	default_organisation = 5
+	supply_consumption = 0.05
+	}
+	
+		ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1890
+		}
+		modifier = {
+			factor = 2
+			year = 1910
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+military_directionism = {
+	area = military_science
+	year = 1900
+	cost = 20000
+	unciv_military = yes
+	
+	army_base = {
+	default_organisation = 10
+	supply_consumption = 0.05
+	}
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 2
+			year = 1920
+		}
+		modifier = {
+			factor = 5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 3
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+aeronautics = {
+	area = military_science
+	year = 1911
+	cost = 40000
+	army_base = {
+	default_organisation = 10
+	supply_consumption = 0.05
+	}
+	unciv_military = yes
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1925
+		}
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+modern_military_science = {
+	area = military_science
+	year = 1920
+	cost = 50000
+	mobilisation_size = 0.002
+	army_base = {
+	default_organisation = 10
+	supply_consumption = 0.05
+	}
+	reinforce_rate = 0.025
+	unciv_military = yes
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 0.5
+			not = { year = 1925 }
+		}
+		modifier = {
+			factor = 2
+			year = 1925
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+
+#army_leadership
+army_command_principle = {
+	area = army_leadership
+	year = 1820
+	cost = 12500
+	morale = 0.15
+	unciv_military = yes
+	military_tactics = 0.15
+	
+	ai_chance = {
+		factor = 1.5
+		modifier = {
+			factor = 2
+			year = 1856
+		}
+		modifier = {
+			factor = 2
+			year = 1876
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+army_professionalism = {
+	area = army_leadership
+	year = 1836
+	cost = 12500
+	unciv_military = yes
+	morale = 0.1
+
+	military_tactics = 0.25
+	
+	army_base = {
+	supply_consumption = 0.05
+	}
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1856
+		}
+		modifier = {
+			factor = 2
+			year = 1876
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+army_decision_making = {
+	area = army_leadership
+	year = 1850
+	cost = 12500
+	unciv_military = yes
+	morale = 0.25
+
+	military_tactics = 0.25
+
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1870
+		}
+		modifier = {
+			factor = 2
+			year = 1890
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 5
+			NOT = { total_amount_of_divisions = 10 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+army_risk_management = {
+	area = army_leadership
+	year = 1870
+	cost = 15000
+	unciv_military = yes
+	morale = 0.25
+
+	military_tactics = 0.25
+
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1890
+		}
+		modifier = {
+			factor = 2
+			year = 1910
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 5
+			NOT = { total_amount_of_divisions = 10 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+army_nco_training = {
+	area = army_leadership
+	year = 1900
+	cost = 20000
+	unciv_military = yes
+	morale = 0.25
+	
+	military_tactics = 0.25
+
+	army_base = {
+	supply_consumption = 0.05
+	}
+	
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			year = 1920
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 5
+			NOT = { total_amount_of_divisions = 10 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+great_war_experience = {
+	area = army_leadership
+	year = 1910
+	cost = 40000
+	unciv_military = yes
+	morale = 0.25
+
+	military_tactics = 0.25
+
+	army_base = {
+	supply_consumption = 0.05
+	}
+
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 2
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.5
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 5
+			NOT = { total_amount_of_divisions = 10 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}
+
+modern_army_leadership = {
+	area = army_leadership
+	year = 1920
+	cost = 50000
+	unciv_military = yes
+	morale = 0.25
+
+	military_tactics = 0.25
+
+	army_base = {
+	supply_consumption = 0.05
+	}
+
+	soldier_to_pop_loss = 0.01
+	ai_chance = {
+		factor = 1.1
+		modifier = {
+			factor = 0.5
+			not = { year = 1925 }
+		}
+		modifier = {
+			factor = 1.5
+			is_greater_power = yes
+		}
+		modifier = {
+			factor = 1.2
+			is_secondary_power = yes
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { total_amount_of_divisions = 2 }
+		}
+		modifier = {
+			factor = 0.75
+			total_amount_of_divisions = 2
+			NOT = { total_amount_of_divisions = 5 }
+		}
+		modifier = {
+			factor = 1.5
+			total_amount_of_divisions = 10
+			NOT = { total_amount_of_divisions = 20 }
+		}
+		modifier = {
+			factor = 2
+			total_amount_of_divisions = 20
+		}
+		modifier = {
+			factor = 2
+			war = yes
+		}
+		modifier = {
+			factor = 1.5
+			any_neighbor_country = {
+				NOT = { relation = { who = THIS value = 50 } }
+				brigades_compare = 1
+			}
+		}
+		modifier = {
+			factor = 1.2
+			any_core = {
+				empty = no
+				NOT = { owned_by = THIS }
+			}
+		}
+		modifier = {
+			factor = 1.2
+			war_policy = jingoism
+		}
+		modifier = {
+			factor = 0.8
+			war_policy = anti_military
+		}
+		modifier = {
+			factor = 0.5
+			war_policy = pacifism
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				nationalvalue = nv_might
+				nationalvalue = nv_glory
+			}
+		}
+		modifier = {
+			factor = 1.4
+			nationalvalue = nv_supremacy
+		}
+		modifier = {
+			factor = 0.8
+			nationalvalue = nv_equality
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				tech_school = army_tech_school
+				tech_school = prussian_tech_school
+			}
+		}
+		modifier = {
+			factor = 1.2
+			OR = {
+				tech_school = japanese_tech_school
+				tech_school = russian_tech_school
+			}
+		}
+		modifier = {
+			factor = 0.9
+			OR = {
+				tech_school = naval_tech_school
+				tech_school = industrial_tech_school
+				tech_school = culture_tech_school
+				tech_school = commerce_tech_school
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+owner = AUS
+controller = AUS
+add_core = TRE
+add_core = SLO
+add_core = AUS
+trade_goods = horses
+life_rating = 32
+naval_base = 2
+terrain = trieste
+#state_building = {
+#	level = 4
+#	building = liquor_distillery
+#	upgrade = yes
+#}
+

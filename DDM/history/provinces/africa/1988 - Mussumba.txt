@@ -1,0 +1,6 @@
+add_core = LUN
+add_core = LBA
+trade_goods = copper
+life_rating = 15
+colonial = 2
+terrain = seasonal_jungle

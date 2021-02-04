@@ -1,0 +1,12 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+add_core = ALS
+trade_goods = precious_metal
+life_rating = 32
+terrain = good_farmland
+	state_building = {
+		level = 2
+		building = bronze_factory
+		upgrade = yes
+	}

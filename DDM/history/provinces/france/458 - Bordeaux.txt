@@ -1,0 +1,18 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+trade_goods = fruit
+life_rating = 32
+terrain = bordeaux
+naval_base = 2
+#state_building = {
+#	level = 4
+#	building = winery
+#	upgrade = yes
+#}
+state_building = {
+	level = 2
+	building = gunpowder_factory
+	upgrade = yes
+}
+

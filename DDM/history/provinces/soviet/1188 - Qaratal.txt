@@ -1,0 +1,4 @@
+add_core = UYG
+trade_goods = fish
+life_rating = 35
+terrain = mountain_grassland

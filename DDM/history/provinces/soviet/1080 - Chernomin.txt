@@ -1,0 +1,8 @@
+owner = RUS
+controller = RUS
+add_core = RUS
+
+trade_goods = horses
+life_rating = 35
+terrain = boreal_forest_hills
+colonial = 2

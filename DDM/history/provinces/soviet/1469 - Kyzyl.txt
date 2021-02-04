@@ -1,0 +1,10 @@
+owner = MGL
+controller = MGL
+
+add_core = TNT
+add_core = MGL
+add_core = CHI
+trade_goods = coal
+life_rating = 35
+terrain = conifer_forest_mountains
+

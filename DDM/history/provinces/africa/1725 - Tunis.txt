@@ -1,0 +1,7 @@
+owner = TUR
+controller = TUR
+add_core = TUN
+terrain = tunis
+trade_goods = lead
+colonial = 2
+life_rating = 35

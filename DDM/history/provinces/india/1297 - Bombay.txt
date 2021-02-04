@@ -1,0 +1,11 @@
+owner = ENG
+controller = ENG
+add_core = HND
+
+trade_goods = sulphur
+life_rating = 35
+terrain = bombay
+colonial = 2
+fort = 1
+naval_base = 1
+

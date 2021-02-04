@@ -1,0 +1,7 @@
+owner = MEX
+controller = MEX
+add_core = MEX
+trade_goods = lead
+life_rating = 40
+terrain = conifer_forest_hills
+colonial = 2

@@ -1,0 +1,7 @@
+owner = ENG
+controller = ENG
+add_core = SRI
+trade_goods = fish
+life_rating = 31
+terrain = colombo
+colonial = 2

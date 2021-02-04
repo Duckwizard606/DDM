@@ -1,0 +1,27 @@
+owner = NET
+controller = NET
+add_core = NET
+trade_goods = cattle
+life_rating = 40
+terrain = amsterdam
+state_building = {
+	level = 1
+	building = fabric_factory
+	upgrade = yes
+}
+state_building = {
+level = 2
+building = fish_cannery
+upgrade = yes
+}
+#state_building = {
+#	level = 4
+#	building = ammunition_factory
+#	upgrade = yes
+#}
+state_building = {
+level = 1
+building = stock_exchange
+upgrade = yes
+}
+

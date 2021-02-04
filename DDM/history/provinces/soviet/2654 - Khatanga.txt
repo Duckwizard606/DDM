@@ -1,0 +1,7 @@
+owner = RUS
+controller = RUS
+add_core = RUS
+trade_goods = timber
+terrain = tundra_hills
+colonial = 2
+life_rating = 15

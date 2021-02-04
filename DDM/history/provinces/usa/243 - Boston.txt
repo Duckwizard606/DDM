@@ -1,0 +1,19 @@
+owner = USA
+controller = USA
+add_core = USA
+
+trade_goods = grain
+life_rating = 40
+terrain = boston
+railroad = 1
+state_building = {
+	level = 2
+	building = fabric_factory
+	upgrade = yes
+}
+state_building = {
+	level = 2
+	building = regular_clothes_factory
+	upgrade = yes
+}
+

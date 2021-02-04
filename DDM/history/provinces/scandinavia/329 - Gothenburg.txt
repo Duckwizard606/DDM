@@ -1,0 +1,11 @@
+owner = SWE
+controller = SWE
+add_core = SWE
+trade_goods = fish
+life_rating = 35
+terrain = goteborg
+state_building = {
+	level = 1
+	building = lumber_mill
+	upgrade = yes
+}

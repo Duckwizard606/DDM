@@ -1,0 +1,9 @@
+owner = PNJ
+controller = PNJ
+add_core = PNJ
+
+add_core = HND
+trade_goods = sugar
+life_rating = 35
+terrain = tundra_mountains
+

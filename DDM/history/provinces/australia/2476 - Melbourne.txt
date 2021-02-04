@@ -1,0 +1,9 @@
+owner = ENG
+controller = ENG
+add_core = AST
+add_core = ENG
+trade_goods = wool
+life_rating = 40
+terrain = melbourne
+colonial = 2
+

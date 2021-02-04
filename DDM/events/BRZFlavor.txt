@@ -1,0 +1,302 @@
+country_event = {
+
+	id = 46300
+	news = yes
+	news_desc_long = "EVTDESC46300_NEWS_LONG"
+	news_desc_medium = "EVTDESC46300_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC46300_NEWS_SHORT"
+
+	trigger = {
+		tag = BRZ 
+		year = 1864
+		romanticism = 1 #has romanticism tech
+		slavery = yes_slavery
+		NOT = {
+			year = 1872
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 6
+
+		modifier = {
+			factor = 0.85 #increase likelihood to happen
+			year = 1865
+		}
+
+		modifier = {
+			factor = 0.95 #increase likelihood to happen
+			year = 1867
+		}
+	}
+
+	title = "EVTNAME46300"
+	desc = "EVTDESC46300"
+	picture = "NavioNegreiro"
+
+	option = {
+		name = "EVTOPTA46300" 
+		any_pop = {
+			limit = {
+				consciousness = 4
+			}
+			dominant_issue = {
+				value = no_slavery
+				factor = 0.3
+			}
+		}
+		slaves = {
+			consciousness = 1
+		}
+	}
+}
+
+country_event = {
+
+	id = 46301
+	news = yes
+	news_desc_long = "EVTDESC46301_NEWS_LONG"
+	news_desc_medium = "EVTDESC46301_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC46301_NEWS_SHORT"
+
+	trigger = {
+		tag = BRZ 
+		year = 1895
+		NOT = {
+			year = 1910
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 18
+
+		modifier = {
+			factor = 0.55 #increase likelihood to happen
+			year = 1898
+		}
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1902
+		}
+	}
+
+	title = "EVTNAME46301"
+	desc = "EVTDESC46301"
+	picture = "football"
+
+	option = {
+		name = "EVTOPTA46301" 
+		set_country_flag = JogoBonito
+		prestige = 3
+		poor_strata = {
+			militancy = -2
+		}
+	}
+}
+
+province_event = {
+
+	id = 46302
+	news = yes
+	news_desc_long = "EVTDESC46302_NEWS_LONG"
+	news_desc_medium = "EVTDESC46302_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC46302_NEWS_SHORT"
+
+	trigger = {
+		province_id = 2436 #Bahia
+		owned_by = BRZ 
+		year = 1837
+		owner = { slavery = yes_slavery }
+		NOT = {
+			year = 1840
+		}
+	}
+	
+	fire_only_once = yes
+ 
+	mean_time_to_happen =  {
+		months = 18
+
+		modifier = {
+			factor = 0.75 #increase likelihood to happen
+			year = 1838
+		}
+
+		modifier = {
+			factor = 0.80 #increase likelihood to happen
+			year = 1839
+		}
+	}
+
+	title = "EVTNAME46302"
+	desc = "EVTDESC46302"
+	picture = "Slaves"
+
+	option = {
+		name = "EVTOPTA46302" 
+		set_country_flag = Sabinada
+		slaves = {
+			militancy = 6
+		}		
+	}
+}
+
+country_event = {
+
+	id = 46303
+
+	title = "EVTNAME46303" #War of the Farrapos
+	desc = "EVTDESC46303"
+	picture = "rebellion"
+
+	trigger = {
+		tag = BRZ
+		owns = 2463
+		NOT = { year = 1845 }
+		OR = {
+			government = hms_government
+			government = prussian_constitutionalism
+			government = absolute_monarchy
+		}
+	}
+
+	fire_only_once = yes
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "They will submit or suffer the consequences."
+		any_pop = {
+			limit = {
+				location = { is_core = RGS }
+				has_pop_culture = brazilian
+			}
+			militancy = 6
+			consciousness = 3
+		}
+		any_owned = {
+			limit = { is_core = RGS }
+			add_province_modifier = {
+				name = nationalist_agitation
+				duration = 1095
+			}
+		}
+	}
+}
+
+country_event = {
+	id = 46304
+	title = "EVTNAME46304" #Solano's Ambition
+	desc = "EVTDESC46304"
+	picture = "administration"
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = PRG
+		war = no
+		year = 1860
+		OR = {
+			ARG = { owns = 2460 }
+			BRZ = { owns = 2554 }
+		}
+		NOT = {
+			num_of_revolts = 1
+			truce_with = BRZ
+			in_sphere = BRZ
+			in_sphere = ARG
+			government = democracy
+			government = hms_government
+			badboy = 0.64
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 36
+		modifier = {
+			factor = 0.1
+			BRZ = { war = yes }
+		}
+		modifier = {
+			factor = 0.5
+			URU = { ruling_party_ideology = liberal }
+		}
+	}
+
+	option = {
+		name = "Begin the war!"
+		2554 = { add_core = PRG } #Posadas
+		add_country_modifier = {
+			name = small_country_draft
+			duration = 365
+		}
+		any_pop = {
+			militancy = -6
+			dominant_issue = {
+				factor = 0.20
+				value = jingoism
+			}
+		}
+		random_country = {
+			limit = {
+				tag = BRZ
+				owns = 2460
+			}
+			THIS = {
+				leave_alliance = BRZ
+				war = {
+					target = BRZ
+					attacker_goal = {
+						casus_belli = acquire_any_state
+						state_province_id = 2460
+					}
+					call_ally = yes
+				}
+			}
+		}
+		random_country = {
+			limit = {
+				tag = BRZ
+				NOT = { owns = 2460 }
+				ARG = { owns = 2554 }
+			}
+			THIS = {
+				leave_alliance = ARG
+				war = {
+					target = ARG
+					attacker_goal = {
+						casus_belli = acquire_core_state
+						state_province_id = 2554
+					}
+					call_ally = yes
+				}
+			}
+		}
+		ai_chance = {
+			factor = 80
+		}
+	}
+
+	option = {
+		name = "This would be terrible for Paraguay."
+		prestige = -5
+		any_pop = {
+			militancy = 3
+			dominant_issue = {
+				factor = 0.10
+				value = pacifism
+			}
+		}
+		ai_chance = {
+			factor = 20
+		}
+	}
+} 
+		

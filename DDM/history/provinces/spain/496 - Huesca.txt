@@ -1,0 +1,11 @@
+owner = SPA
+controller = SPA
+add_core = SPA
+trade_goods = wool
+life_rating = 35
+terrain = deciduous_forest_mountains
+revolt = {
+type = reactionary_rebels
+controller = yes
+}
+

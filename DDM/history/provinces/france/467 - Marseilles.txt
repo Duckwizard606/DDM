@@ -1,0 +1,12 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+trade_goods = fish
+life_rating = 32
+terrain = marseille
+state_building = {
+	level = 1
+	building = machine_parts_factory
+	upgrade = yes
+}
+

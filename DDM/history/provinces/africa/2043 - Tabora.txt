@@ -1,0 +1,4 @@
+trade_goods = tobacco
+life_rating = 15
+terrain = dry_forest
+colonial = 2

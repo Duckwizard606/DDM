@@ -1,0 +1,8 @@
+owner = FRA
+controller = FRA
+add_core = FRA
+add_core = ALS
+trade_goods = timber
+life_rating = 32
+terrain = strasburg
+
