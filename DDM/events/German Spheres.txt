@@ -1,0 +1,146 @@
+#German Spheres
+country_event = {
+	id = 45600
+	title = "EVTNAME45600"
+	desc = "EVTDESC45600"
+	major = yes
+	
+	trigger = {
+		OR = {
+			tag = COB
+			tag = HEK
+			tag = MEC
+			tag = BRE
+			tag = SAX
+			tag = HOL
+			tag = BAV
+			tag = WUR
+			tag = BAD
+			tag = HAN
+			tag = SCH
+			}
+		OR = {
+			AND = {
+				vassal_of = PRU
+				NOT = { in_sphere = PRU }
+			}
+			AND = {
+				vassal_of = NGF
+				NOT = { in_sphere = NGF }
+			}
+			AND = {
+				vassal_of = AUS
+				NOT = { in_sphere = AUS }
+			}
+			AND = {
+				vassal_of = SGF
+				NOT = { in_sphere = SGF }
+			}
+			AND = {
+				vassal_of = KUK
+				NOT = { in_sphere = KUK }
+			}
+		}
+		
+		
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA45600"
+		release_vassal = THIS
+	}
+}
+
+
+
+
+
+
+country_event = {
+	id = 45601
+	title = "EVTNAME45601"
+	desc = "EVTDESC45601"
+	major = yes
+	
+	trigger = {
+		OR = {
+			tag = COB
+			tag = HEK
+			tag = MEC
+			tag = BRE
+			tag = SAX
+			tag = HOL
+			tag = BAV
+			tag = WUR
+			tag = BAD
+			tag = HAN
+			tag = SCH
+		}
+		OR = {
+			AND = {
+				NOT = { vassal_of = PRU }
+				in_sphere = PRU
+			}
+			AND = {
+				NOT = { vassal_of = NGF }
+				in_sphere = NGF
+			}
+			AND = {
+				NOT = { vassal_of = AUS }
+				in_sphere = AUS
+			}
+			AND = {
+				NOT = { vassal_of = SGF }
+				in_sphere = SGF
+			}
+			AND = {
+				NOT = { vassal_of = KUK }
+				in_sphere = KUK
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA45601"
+		FROM = {
+			limit = { in_sphere = PRU }
+			PRU = { create_vassal = this }
+		}
+		FROM = {
+			limit = { in_sphere = NGF }
+			NGF = { create_vassal = this }
+		}
+		FROM = {
+			limit = { in_sphere = AUS }
+			AUS = { create_vassal = this }
+		}
+		FROM = {
+			limit = { in_sphere = SGF }
+			SGF = { create_vassal = this }
+		}
+		FROM = {
+			limit = { in_sphere = KUK }
+			KUK = { create_vassal = this }
+		}
+	}
+	option = {
+		name = "EVTOPTA45601"
+	}
+	option = {
+		name = "EVTOPTA45601"
+	}
+	option = {
+		name = "EVTOPTA45601"
+	}
+	option = {
+		name = "EVTOPTA45601"
+	}
+}
