@@ -1,77 +1,17 @@
-#########
-#GERMANY#
-#########
-
-# Prussia-Saxe-Coburg-Gotha
+# Denmark-Schleswig-Holstein
 vassal = {
-	first = PRU
-	second = COB
-	start_date = 1830.1.1
-	end_date = 1960.1.1
+	first = DEN
+	second = SWH
+	start_date = 1773.1.1
+	end_date = 1864.10.30
 }
 
-# Prussia-Hesse-Kassel
+# USA-Liberia
 vassal = {
-	first = PRU
-	second = HEK
-	start_date = 1830.1.1
-	end_date = 1960.1.1
-}
-
-# Prussia-Mecklenburg
-vassal = {
-	first = PRU
-	second = MEC
-	start_date = 1830.1.1
-	end_date = 1960.1.1
-}
-
-# Prussia-Bremen
-vassal = {
-	first = PRU
-	second = BRE
-	start_date = 1830.1.1
-	end_date = 1960.1.1
-}
-
-# Austria-Saxony
-vassal = {
-	first = AUS
-	second = SAX
-	start_date = 1830.1.1
-	end_date = 1960.1.1
-}
-
-# Austria-Holstein
-vassal = {
-	first = AUS
-	second = HOL
-	start_date = 1830.1.1
-	end_date = 1960.1.1
-}
-
-# Austria-Bavaria
-vassal = {
-	first = AUS
-	second = BAV
-	start_date = 1830.1.1
-	end_date = 1960.1.1
-}
-
-# Austria-Wurttemberg
-vassal = {
-	first = AUS
-	second = WUR
-	start_date = 1830.1.1
-	end_date = 1960.1.1
-}
-
-# Austria-Baden
-vassal = {
-	first = AUS
-	second = BAD
-	start_date = 1830.1.1
-	end_date = 1960.1.1
+	first = USA
+	second = LIB
+	start_date = 1822.1.1
+	end_date = 1847.7.26
 }
 
 # United Kingdom-Hanover
@@ -80,16 +20,6 @@ vassal = {
 	second = HAN
 	start_date = 1814.10.1
 	end_date = 1837.1.1
-}
-
-#############
-
-# USA-Liberia
-vassal = {
-	first = USA
-	second = LIB
-	start_date = 1822.1.1
-	end_date = 1847.7.26
 }
 
 # United Kingdom-Ionian Islands
@@ -319,10 +249,6 @@ vassal = {
 	end_date = 1863.1.1
 }
 
-#######
-#CHINA#
-#######
-
 # China/tibet.
 vassal = {
 	first = QNG
@@ -346,3 +272,37 @@ vassal = {
 	start_date = 1691.1.1
 	end_date = 1911.1.1
 }
+
+#########1861
+# Siam - Cambodia
+vassal = {
+	first = SIA
+	second = CAM
+	start_date = 1861.1.1
+	end_date = 1936.1.1
+}
+
+# UK - KAS
+vassal = {
+	first = ENG
+	second = KAS
+	start_date = 1861.1.1
+	end_date = 1936.1.1
+}
+
+# OE - Romania 
+vassal = {
+	first = TUR
+	second = ROM
+	start_date = 1861.1.1
+	end_date = 1936.1.1
+}
+
+# OE - Hejaz 
+vassal = {
+	first = TUR
+	second = HDJ
+	start_date = 1861.1.1
+	end_date = 1936.1.1
+}
+
