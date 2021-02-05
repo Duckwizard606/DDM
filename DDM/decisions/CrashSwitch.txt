@@ -1,0 +1,31 @@
+political_decisions = {
+	ukraine_breadbasket_decision = {
+		picture = wheatfields
+		potential = {
+                OR = {
+                tag = RUS
+                tag = GER
+                tag = AUS
+                tag = KUK
+                tag = UKR
+                }
+                owns = 958
+				958 = { NOT = { has_province_modifier = ukraine_breadbasket } }
+		}
+		
+		allow = {
+		owns = 958
+		958 = { NOT = { has_province_modifier = ukraine_breadbasket } }
+		}
+		
+		effect = {
+		958 = { add_province_modifier = { name = ukraine_breadbasket duration = -1 } }
+		959 = { add_province_modifier = { name = ukraine_breadbasket duration = -1 } }
+		960 = { add_province_modifier = { name = ukraine_breadbasket duration = -1 } }	
+		}
+		
+		ai_will_do = {
+			factor = 1 
+		}
+	}
+}
