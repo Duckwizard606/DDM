@@ -1,6 +1,8 @@
-owner = PRU
-controller = PRU
-add_core = PRU
+owner = DEN
+controller = DEN
+add_core = DEN
+add_core = SWH
+add_core = SCH
 add_core = GER
 trade_goods = cattle
 life_rating = 35
