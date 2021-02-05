@@ -1,4 +1,6 @@
 #German Spheres
+
+#Loss of Control
 country_event = {
 	id = 45600
 	title = "EVTNAME45600"
@@ -56,9 +58,7 @@ country_event = {
 }
 
 
-
-
-
+#Shifting Allegiances 
 
 country_event = {
 	id = 45601
@@ -110,37 +110,6 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA45601"
-		FROM = {
-			limit = { in_sphere = PRU }
-			PRU = { create_vassal = this }
-		}
-		FROM = {
-			limit = { in_sphere = NGF }
-			NGF = { create_vassal = this }
-		}
-		FROM = {
-			limit = { in_sphere = AUS }
-			AUS = { create_vassal = this }
-		}
-		FROM = {
-			limit = { in_sphere = SGF }
-			SGF = { create_vassal = this }
-		}
-		FROM = {
-			limit = { in_sphere = KUK }
-			KUK = { create_vassal = this }
-		}
-	}
-	option = {
-		name = "EVTOPTA45601"
-	}
-	option = {
-		name = "EVTOPTA45601"
-	}
-	option = {
-		name = "EVTOPTA45601"
-	}
-	option = {
-		name = "EVTOPTA45601"
+		sphere_owner = { create_vassal = this }
 	}
 }
