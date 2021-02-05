@@ -4,6 +4,14 @@ FRA = {
 AUS = {
 	value = 125
 }
+leader = {
+	name = "Filippo Resta"
+	date = 1815.1.1
+	type = land
+	personality = doughty
+	background = old_school
+	prestige = 0.5
+}
 
 army = {
 	name = "Esercito Pontificio"

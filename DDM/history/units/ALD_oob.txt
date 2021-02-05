@@ -3,12 +3,21 @@ FRA = {
 }
 
 leader = {
-	name = "Abd el Kader"
+	name = "Emir Abdelkader"
 	type = land
 	date = 1836.1.1
-	personality = inspiring
-	background = brilliant_strategist
-	prestige = 0.2
+	personality = stalwart
+	background = school_of_offense
+	prestige = 0.1
+}
+
+leader = {
+	name = "Ahmed Bey"
+	type = land
+	date = 1780.1.1
+	personality = stalwart
+	background = elderly
+	prestige = 0.1
 }
 
 army = {

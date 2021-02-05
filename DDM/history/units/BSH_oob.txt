@@ -9,7 +9,13 @@ SUA = {
 ZUL = {
 	value = 50
 }
-
+leader = {
+	name = "Moshoeshoe I"
+	type = land
+	date = 1836.1.1
+	background = adventurer
+	personality = skilled
+ }
 army = {
 	name = "Royal army of Basotho"
 	location = 2104

@@ -4,7 +4,14 @@ AUS = {
 PRU = {
 	value = 100
 }
-
+leader = {
+	name = "Leopold of Baden"
+	date = 1830.1.1
+	type = land
+	personality = mediocre
+	background = aristocrat
+	prestige = 0.3
+}
 army = {
 	name = "Badische Armee"
 	location = 586

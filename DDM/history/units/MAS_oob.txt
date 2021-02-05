@@ -37,7 +37,7 @@ leader = {
 	type = land
 	date="1836.1.1"
 	personality = charismatic
-	background = religious_fanatic
+	background = deeply_religious
 }
 
 army = {

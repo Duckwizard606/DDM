@@ -1,6 +1,14 @@
 AUS = {
 	value = 75
 }
+leader = {
+	name = "Carlo di Borbone-Parma"
+	date = 1815.1.1
+	type = land
+	personality = polite
+	background = cursed_luck
+	prestige = 0.5
+}
 
 army = {
 	name = "Esercito di Lucca"

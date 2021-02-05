@@ -13,7 +13,14 @@ ZUL = {
 ENG = {
 	value = -50
 }
-
+leader = {
+	name = "Maqoma"
+	type = land
+	date = 1836.1.1
+	background = expert_raider
+	personality = merciless
+ }
+ 
 army = {
 	name = "Army of the Xhosa"
 		location = 2100	

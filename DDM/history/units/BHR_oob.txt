@@ -1,6 +1,14 @@
 ENG = {
 	value = 50
 }
+leader = {
+	name = "Muhammad bin Al-Khalifa	"
+	type = land
+	date = 1836.1.1
+		background = aristocrat
+		personality = skilled
+	}
+
 
 army = {
 	name = "Al Khalifa Army"

@@ -1,6 +1,15 @@
 ENG = {
 	value = 25
 }
+
+leader = {
+	name = "Sultan Alauddin Syah"
+	date = 1836.1.1
+	type = land
+	personality = bigoted
+	background = powerful_friends
+}
+
 army = {
 	name = "Army of the Sultan of Atjeh"
 	location = 1405

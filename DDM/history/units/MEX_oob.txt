@@ -12,6 +12,37 @@ leader = {
 	personality = impulsive
 	background = aristocrat
 }
+leader = {
+	name = "Nicolas Bravo"
+	type = land
+	date="1836.1.1"
+	personality = heroic
+	background = politician
+}
+
+leader = {
+	name = "Mariano Arista"
+	type = land
+	date="1836.1.1"
+	personality = skilled
+	background = war_college
+}
+
+leader = {
+	name = "Juan Álvarez"
+	type = land
+	date="1836.1.1"
+	personality = skilled
+	background = elderly
+}
+
+leader = {
+	name = "José de Herrera"
+	type = land
+	date="1836.1.1"
+	personality = soldierly
+	background = exranker
+}
 
 army = {
 

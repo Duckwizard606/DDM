@@ -4,6 +4,15 @@ BRU = { value = 100 }
 AIN = { value = 100 }
 USA = { value = 0 }
 
+leader = {
+	name = "Tokugawa Nariaki"
+	date = 1836.1.1
+	type = land
+	personality = disciplined
+	background = old_school
+	prestige = 0.1
+ }
+
 army = {
 	name = "Army of the Tokugawa Shogunate"
 	location = 1649

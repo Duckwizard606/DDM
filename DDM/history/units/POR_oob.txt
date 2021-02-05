@@ -56,6 +56,52 @@ MOR = {
 	value = 75
 }
 
+leader = {
+	name = "Duke of Saldanha"
+	picture = european_general_55
+	type = land
+	date = 1825.8.20
+	background = aristocrat
+	personality = soldierly
+	prestige = 0.1
+	}
+	
+leader = {
+	name = "Jos? Joaquim da Rosa Coelho"
+	picture = european_admiral_5
+	type = sea
+	date = 1820.12.14
+	background = generals_aide
+	personality = stout
+	prestige = 0.05
+	}
+
+leader = {
+	name = "Nunes Vidigal"
+	date = 1808.1.1
+	type = land
+	personality = aggressive
+	background = hated
+	prestige = 0.2
+}
+
+leader = {
+	name = "Lu?s Barreto"
+	date = 1824.1.1
+	type = land
+	personality = resolute
+	background = gifted_administrator
+	prestige = 0.2
+}
+
+leader = {
+	name = "Vicente de Mesquita"
+	date = 1808.1.1
+	type = land
+	personality = dauntless
+	background = madman
+	prestige = 0.0
+}
 army = {
 	name = "Exército Português"
 	location = 521

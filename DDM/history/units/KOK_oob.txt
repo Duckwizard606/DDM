@@ -1,6 +1,13 @@
 QNG = {
 	value = 150
 }
+leader = {
+	name = "Muhammad Ali Khan"
+	type = land
+	date = 1820.8.20
+	background = aristocrat
+	personality = merciless
+}
 
 army = {
 	name = "Army of the Khanate of Kokand"

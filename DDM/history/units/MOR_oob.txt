@@ -28,7 +28,15 @@ NET = {
 POR = {
 	value = 75
 }
-
+leader = {
+	name = "Sultan Abd al-Rahman"
+	type = land
+	date = 1820.1.1
+	background = gifted_administrator
+	personality = harsh
+	prestige = 0.1
+}
+	
 army = {
 	name = "Army of the Sultan of Morocco"
 	location = 1681

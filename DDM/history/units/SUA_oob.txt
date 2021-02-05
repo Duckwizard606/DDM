@@ -13,7 +13,13 @@ BSH = {
 ZUL = {
 	value = 40
 }
-
+leader = {
+	name = "Sobhuza I"
+	type = land
+	date = 1836.1.1
+	background = clueless
+	personality = mediocre
+ }
 army = {
 	name = "Royal army of Suazi"
 	location = 2114

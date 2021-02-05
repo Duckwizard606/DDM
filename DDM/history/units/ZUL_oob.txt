@@ -17,7 +17,14 @@ ENG = {
 POR = {
 	value = 50
 }
-
+leader = {
+	name = "Dingane"
+	type = land
+	date = 1836.1.1
+	background = incompetent
+	personality = aggressive
+ }
+ 
 army = {
 	name = "Impi of the Zulu"
 	location = 2113

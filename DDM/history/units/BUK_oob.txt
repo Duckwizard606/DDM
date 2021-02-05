@@ -1,4 +1,12 @@
 KHI = { value = -100}
+leader = {
+	name = "Nasr-Allah bin Haydar Tora"
+	type = land
+	date = 1820.8.20
+	background = aristocrat
+	personality = merciless
+}
+
 army = {
 	name = "Army of Nasrullah Khan"
 	location = 1198

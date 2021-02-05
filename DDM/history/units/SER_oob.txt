@@ -7,7 +7,13 @@ RUS = {
 TUR = {
 	value = 75
 }
-
+leader = {
+	name = "Prince Aleksandar"
+	type = land
+	date="1836.1.1"
+	personality = openminded
+	background = gifted_administrator
+}
 army = {
 	name = "Army of the Principality of Serbia"
 	location = 794

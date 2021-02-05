@@ -4,7 +4,15 @@ AUS = {
 PRU = {
 	value = 125
 }
-
+leader = {
+	name = "Adolf Wilhelm Friedrich"
+	picture = european_general_12
+	date = 1836.1.1
+	type = land
+	personality = gallant
+	background = aristocrat
+	prestige = 0.2
+}
 army = {
 	name = "Nassauische Heer"
 	location = 565

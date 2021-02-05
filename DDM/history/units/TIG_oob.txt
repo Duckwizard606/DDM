@@ -22,7 +22,7 @@ leader = {
    name = "Wolde Selassie"
    type = land
    date = 1836.1.1
-   background = sinner
+   background = immoral
    personality = diligent
 }
 

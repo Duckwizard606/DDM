@@ -5,6 +5,23 @@ FRA = {
 	value = 125
 }
 
+leader = {
+	name = "de Kalbermatten"
+	date = 1815.1.1
+	type = land
+	personality = tactful
+	background = exranker
+	prestige = 0.2
+}
+
+leader = {
+	name = "Henri Dufour"
+	date = 1831.1.1
+	type = land
+	personality = intelligent
+	background = cartographer
+	prestige = 0.1
+}
 army = {
 	name = "Landwehr I"
 	location = 603

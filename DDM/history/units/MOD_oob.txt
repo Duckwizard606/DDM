@@ -1,6 +1,14 @@
 AUS = {
 	value = 100
 }
+leader = {
+	name = "Francesco IV"
+	date = 1815.1.1
+	type = land
+	personality = arrogant
+	background = hated
+	prestige = 0.5
+}
 
 army = {
 	name = "Esercito di Modena"

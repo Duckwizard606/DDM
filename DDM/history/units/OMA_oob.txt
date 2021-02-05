@@ -4,6 +4,14 @@ GEL = {
 ENG = {
 	value = 50
 }
+leader = {
+	name = "Said bin Sultan"
+	type = land
+	date = 1807.12.12
+	background = aristocrat
+	personality = aggressive
+	}
+
 
 army = {
 
