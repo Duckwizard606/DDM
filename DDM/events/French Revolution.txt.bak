@@ -466,13 +466,15 @@ country_event = {
 
 
 	trigger = {
-		tag = FRA
+		primary_culture = french
+		is_greater_power = yes
+		capital = 425
 		has_country_flag = 2nd_republic
 		has_country_modifier = louis_napoleon_iii
 		government = democracy
 		election = yes
-		year = 1850
-		rank = 5
+		year = 1848
+		rank = 4
 		is_disarmed = no
 		NOT = {
 			year = 1870
@@ -486,28 +488,13 @@ country_event = {
 	}
 	
 	mean_time_to_happen =  {
-		months = 3
-		modifier = {
-			factor = 0.9
-			NOT = { conservative = 40 }
-		}
-		modifier = {
-			factor = 0.8
-			NOT = { conservative = 30 }
-		}
-		modifier = {
-			factor = 0.7
-			NOT = { conservative = 20 }
-		}
-		modifier = {
-			factor = 0.5
-			NOT = { conservative = 10 }
-		}
+		days = 7
 	}
 
 	option = {
 		name = "Viva la 2nd Empire!"
-		set_country_flag = napoleons_coup_de_tat		
+		 FRA = { set_country_flag = napoleons_coup_de_tat }
+		 #BOR = { set_country_flag = napoleons_coup_de_tat }
 		prestige = 25
 		government = absolute_monarchy
 		ruling_party_ideology = conservative
@@ -527,7 +514,7 @@ country_event = {
 		}
 		any_pop = {
 			limit = {
-				location = { is_core = FRA }
+				location = { is_core = THIS }
 				OR = {
 					type = soldiers
 					type = officers
@@ -590,13 +577,7 @@ country_event = {
 	trigger = {
 		tag = FRA
 		has_country_flag = 2nd_empire
-		OR = {
-			has_country_modifier = louis_napoleon_iii
-			AND = {
-				NOT = { has_country_modifier = louis_napoleon_iii }
-				NOT = { has_country_flag = louis_deposed }
-			}
-		}
+		has_country_modifier = louis_napoleon_iii
 		OR = {
 			government = absolute_monarchy
 			government = prussian_constitutionalism
@@ -604,29 +585,13 @@ country_event = {
 		}
 		war = no
 		OR = {
-			AND = {
-				412 = { NOT = { owned_by = THIS } }
-				OR = {
-					has_country_flag = lost_the_rhine_crisis
-					has_global_flag = franco_prussian_war_has_begun
-					AND = { 
-						exists = GER
-						412 = { owned_by = GER }
-					}
-					AND = { 
-						exists = GCF
-						412 = { owned_by = GCF }
-					}
-				}
+			NOT = { rank = 5 }
+			any_core = {
+				NOT = { is_core = ITA }
+				NOT = { owned_by = THIS }
 			}
-			is_greater_power = no
 			is_disarmed = yes
-			AND = {
-				472 = { is_core = THIS NOT = { owned_by = THIS } } #Savoie
-				exists = ITA
-				truce_with = ITA
-			}
-		}
+		}	
 		NOT = {
 			has_country_flag = louis_deposed
 			year = 1890
@@ -634,31 +599,14 @@ country_event = {
 		}
 	}
 	
-	
 	mean_time_to_happen =  {
 		months = 1
 	}
 
 	option = {
 		name = "Vive le 3me Republique!"
-		FRA = {
-			set_country_flag = louis_deposed
-			set_country_flag = 3rd_republic
-		}
-		#BOR = {
-		# 	set_country_flag = louis_deposed
-		# 	set_country_flag = 3rd_republic
-		# }
-
+		set_country_flag = louis_deposed
 		remove_country_modifier = louis_napoleon_iii
-		
-		any_greater_power = {
-			limit = {
-				capital_scope = { continent = europe }
-			}
-			relation = { who = THIS value = 30 }
-		}
-
 		prestige = -25
 		government = democracy
 		ruling_party_ideology = liberal
@@ -678,7 +626,7 @@ country_event = {
 		clr_country_flag = social_liberal_election_win
 		any_pop = {
 			limit = {
-				location = { is_core = THIS }
+				location = { is_core = FRA }
 			}
 			scaled_militancy = {
 				ideology = reactionary
@@ -701,14 +649,8 @@ country_event = {
 				factor = -2
 			}
 		}
-		any_greater_power = {
-			limit = {
-				government = democracy
-			}
-			relation = { who = THIS value = 200 }
-		}
 		ai_chance = {
-			factor = 85
+			factor = 60
 		}
 	}
 
@@ -721,11 +663,6 @@ country_event = {
 			duration = 3650
 		}
 		prestige = 25
-
-		change_tag = BOR
-		all_core = { add_core = BOR remove_core = FRA }
-		2126 = { change_province_name = "Bourbon" }
-
 		government = absolute_monarchy
 		ruling_party_ideology = reactionary
 		political_reform = none_voting
@@ -744,7 +681,7 @@ country_event = {
 		clr_country_flag = social_liberal_election_win
 		any_pop = {
 			limit = {
-				location = { is_core = THIS }
+				location = { is_core = FRA }
 			}
 			scaled_militancy = {
 				ideology = reactionary
@@ -764,33 +701,22 @@ country_event = {
 			}
 		}
 		ai_chance = {
-			factor = 10
+			factor = 25
+			modifier = {
+				factor = 0
+				government = hms_government
+			}
 		}
 	}
 
 	option = {
 		name = "Favor the Count of Paris!" 
-		FRA = {
-			set_country_flag = louis_deposed
-		}
-		BOR = {
-			set_country_flag = louis_deposed
-		}
+		set_country_flag = louis_deposed
 		remove_country_modifier = louis_napoleon_iii
 		add_country_modifier = {
 			name = man_of_the_people
 			duration = 3650
 		}
-
-		any_greater_power = {
-			limit = {
-				capital_scope = { continent = europe }
-			}
-			relation = { who = THIS value = 30 }
-		}
-		change_tag = BOR
-		all_core = { add_core = BOR remove_core = FRA }
-
 		government = hms_government
 		ruling_party_ideology = conservative
 		political_reform = universal_voting
@@ -809,7 +735,7 @@ country_event = {
 		clr_country_flag = social_liberal_election_win
 		any_pop = {
 			limit = {
-				location = { is_core = THIS }
+				location = { is_core = FRA }
 			}
 			scaled_militancy = {
 				ideology = reactionary

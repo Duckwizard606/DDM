@@ -4,8 +4,7 @@
 REB 	= 	"countries/rebels.txt"
 
 ### NEW NATIONS MOD ###
-###France Mod###
-BOR		="countries/The Kingdom of France.txt"
+
 #Latin America
 
 ENT		= "countries/Entre Rios.txt"
