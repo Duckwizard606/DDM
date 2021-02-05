@@ -47,10 +47,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.9
-			OR = {
-				tag = FRA
-				tag = BOR
-			}
+			tag = FRA
 		}
 	}
 	

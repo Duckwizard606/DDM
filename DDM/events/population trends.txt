@@ -98,10 +98,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {
-				tag = FRA
-				tag = BOR
-			}
+			tag = FRA
 		}
 		modifier = {
 			factor = 1.5
@@ -222,10 +219,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 0.5
-			OR = {
-				tag = FRA
-				tag = BOR
-			}
+			tag = FRA
 		}
 		modifier = {
 			factor = 1.5
@@ -710,10 +704,7 @@ country_event = {
 		}
 		modifier = {
 			factor = 1.5
-			OR = {
-				tag = FRA
-				tag = BOR
-			}
+			tag = FRA
 		}
 		modifier = {
 			factor = 0.5

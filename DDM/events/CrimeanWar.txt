@@ -182,7 +182,6 @@ country_event = {
 			limit = {
 				is_sphere_leader_of = TUR
 				NOT = { tag = FRA }
-				NOT = { tag = BOR }
 				NOT = { tag = RUS }
 			}
 			diplomatic_influence = { who = TUR value = -100 }
@@ -563,8 +562,6 @@ country_event = {
 				NOT = { tag = THIS }
 				OR = {
 					tag = FRA
-					tag = BOR
-					
 					has_country_flag = england_protecting_interests
 					alliance_with = TUR
 				}

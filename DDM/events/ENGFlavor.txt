@@ -2429,7 +2429,6 @@ country_event = {
 		OR = {
 			tag = ENG
 			tag = FRA
-			tag = BOR
 		}
 		is_greater_power = yes
 		steam_turbine = 1
@@ -2495,7 +2494,6 @@ country_event = {
 			capital_scope = { continent = south_america }
 			tag = ENG
 			tag = FRA
-			tag = BOR
 			tag = NGF
 			tag = GER
 		}

@@ -480,10 +480,7 @@ country_event = {
 	id = 37210
 
 	trigger = {
-		OR = {
-			tag = FRA
-			tag = BOR
-		}
+		tag = FRA
 		year = 1851
 		war = no
 		NOT = {
@@ -522,10 +519,7 @@ country_event = {
 	id = 37211
 
 	trigger = {
-		OR = {
-			tag = FRA
-			tag = BOR
-		}
+		tag = FRA
 		year = 1852
 		war = no
 		NOT = {
@@ -617,10 +611,7 @@ country_event = {
 	id = 37215
 
 	trigger = {
-		OR = {
-			tag = FRA
-			tag = BOR
-		}
+		tag = FRA
 		year = 1857
 		NOT = {
 			year = 1860
@@ -665,10 +656,7 @@ country_event = {
 	news_desc_short = "EVTDESC37216_NEWS_SHORT"
 
 	trigger = {
-		OR = {
-			tag = FRA
-			tag = BOR
-		}
+		tag = FRA
 		exists = GER
 		year = 1894
 		NOT = {
@@ -732,10 +720,7 @@ country_event = {
 	news_desc_short = "EVTDESC37217_NEWS_SHORT"
 
 	trigger = {
-		OR = {
-			tag = FRA
-			tag = BOR
-		}		
+		tag = FRA
 		exists = GER
 		year = 1898
 		has_country_flag = DreyfusTrial
@@ -800,10 +785,7 @@ country_event = {
 	news_desc_short = "EVTDESC37218_NEWS_SHORT"
 
 	trigger = {
-		OR = {
-			tag = FRA
-			tag = BOR
-		}
+		tag = FRA
 		exists = GER
 		year = 1899
 		has_country_flag = DreyfusGuilty
@@ -857,10 +839,7 @@ country_event = {
 	news_desc_short = "EVTDESC37220_NEWS_SHORT"
 
 	trigger = {
-		OR = {
-			tag = FRA
-			tag = BOR
-		}
+		tag = FRA
 		year = 1858
 		NOT = {
 			year = 1861
@@ -900,10 +879,7 @@ country_event = {
 	id = 37221
 
 	trigger = {
-		OR = {
-			tag = FRA
-			tag = BOR
-		}
+		tag = FRA
 		year = 1892
 		NOT = {
 			year = 1895
@@ -1027,10 +1003,7 @@ country_event = {
 	id = 37224
 
 	trigger = {
-		OR = {
-			tag = FRA
-			tag = BOR
-		}
+		tag = FRA
 		invention = expressionist_art
 		invention = expressionist_music
 		year = 1909
@@ -1245,10 +1218,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		OR = {
-			tag = FRA
-			tag = BOR
-		}
+		tag = FRA
 		war = no
 		money = 1000
 		801 = { empty = yes }
