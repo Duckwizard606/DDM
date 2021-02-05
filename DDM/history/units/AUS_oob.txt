@@ -1,27 +1,7 @@
 #Sphere of Influence
 
 #German Minors
-MEC = {
-	value = 125
-	level = 4
-	influence_value = 0
-}
-COB = {
-	value = 125
-	level = 4
-	influence_value = 0
-}
-HEK = {
-	value = 125
-	level = 4
-	influence_value = 0
-}
-BRE = {
-	value = 125
-	level = 4
-	influence_value = 0
-}
-HOL = {
+BAD = {	
 	value = 125
 	level = 5
 	influence_value = 0
@@ -31,25 +11,79 @@ BAV = {
 	level = 5
 	influence_value = 0
 }
-SAX = {
-	value = 125
-	level = 5
-	influence_value = 0
-}
 WUR = {
 	value = 125
 	level = 5
 	influence_value = 0
 }
-BAD = {
+SAX = {
 	value = 125
 	level = 5
 	influence_value = 0
 }
+ANH = {
+	value = 125
+	military_access = yes
+}
+BRA = {
+	value = 125
+	military_access = yes
+}
+BRE = {
+	value = 125
+	military_access = yes
+}
+COB = {
+	value = 125
+	military_access = yes
+}
+FRM = {
+	value = 125
+	military_access = yes
+}
+HAM = {
+	value = 125
+	military_access = yes
+}
 HAN = {
 	value = 125
-	level = 4
-	influence_value = 0
+	military_access = yes
+}
+HEK = {
+	value = 125
+	military_access = yes
+}
+HES = {
+	value = 125
+	military_access = yes
+}
+LIP = {
+	value = 125
+	military_access = yes
+}
+LUB = {
+	value = 125
+	military_access = yes
+}
+MEC = {
+	value = 125
+	military_access = yes
+}
+MEI = {
+	value = 125
+	military_access = yes
+}
+NAS = {
+	value = 125
+	military_access = yes
+}
+OLD = {
+	value = 125
+	military_access = yes
+}
+WEI = {
+	value = 125
+	military_access = yes
 }
 
 #Europe
