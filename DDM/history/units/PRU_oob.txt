@@ -161,8 +161,8 @@ EGY = {
 
 army = {
 	name = "I. Korps"
-	location = 553
-	
+	location = 549
+
 regiment = {
 		name= "I. Linieninfanteriebrigade"
 		type = infantry
@@ -211,14 +211,7 @@ regiment = {
 			home = 549
 	}
 
-}
 
-
-
-army = {
-	name = "II. Korps"
-	location = 682
-	
 regiment = {
 		name= "VII. Linieninfanteriebrigade"
 		type = infantry
@@ -245,8 +238,14 @@ regiment = {
 			type = engineer
 			home = 546
 	}
+}
 
-	
+
+
+army = {
+	name = "II. Korps"
+	location = 695
+
 regiment = {
 		name= "X. Linieninfanteriebrigade"
 		type = infantry
@@ -266,15 +265,8 @@ regiment = {
 			type = artillery
 			home = 546
 	}
-
-}
-
-
-
-army = {
-	name = "III. Korps"
-	location = 695
 	
+
 regiment = {
 		name= "XIII. Linieninfanteriebrigade"
 		type = infantry
@@ -322,23 +314,21 @@ regiment = {
 			type = artillery
 			home = 682
 	}
-
-}
-
-
-
-army = {
-	name = "IV. Korps"
-	location = 548
 	
 regiment = {
 		name= "XIX. Linieninfanteriebrigade"
 		type = infantry
 		home = 682
 	}
+}
 
+
+
+army = {
+	name = "III. Korps"
+	location = 578
 	
-regiment = {
+	regiment = {
 		name= "XX. Linieninfanteriebrigade"
 		type = infantry
 		home = 682
@@ -379,14 +369,6 @@ regiment = {
 		home = 682
 	}
 
-}
-
-
-
-army = {
-	name = "V. Korps"
-	location = 580
-	
 regiment = {
 		name= "XXV. Linieninfanteriebrigade"
 		type = infantry
@@ -406,14 +388,6 @@ regiment = {
 		type = infantry
 		home = 701
 	}
-
-}
-
-
-
-army = {
-	name = "VI. Korps"
-	location = 575
 	
 regiment = {
 		name= "XXVIII. Linieninfanteriebrigade"
@@ -427,21 +401,19 @@ regiment = {
 		type = infantry
 		home = 701
 	}
-
-	
-regiment = {
-		name= "XXX. Linieninfanteriebrigade"
-		type = infantry
-		home = 701
-	}
-
 }
 
 
 
 army = {
-	name = "VII. Korps"
-	location = 546
+	name = "IV. Korps"
+	location = 575
+
+regiment = {
+		name= "XXX. Linieninfanteriebrigade"
+		type = infantry
+		home = 701
+	}
 	
 regiment = {
 		name= "I. Kavalleriebrigade"
@@ -511,14 +483,6 @@ regiment = {
 			type = dragoon
 			home = 684
 	}
-}
-
-
-
-army = {
-	name = "VIII. Korps"
-	location = 594
-	
 	
 regiment = {
 		name = "XXXI. Linieninfanteriebrigade"
