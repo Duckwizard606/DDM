@@ -418,7 +418,10 @@ country_event = {
 	picture = "deliberation"
 
 	trigger = {
-		tag = FRA
+		OR = {
+			tag = FRA
+			tag = BOR
+		}
 		war = no
 		is_disarmed = no
 		is_greater_power = yes

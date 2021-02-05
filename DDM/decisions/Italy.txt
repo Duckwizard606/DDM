@@ -44,8 +44,10 @@ political_decisions = {
 				}
 			}
 			FRA = {
+				NOT = { war_exhaustion = 1 }
 				neighbour = THIS
 				is_greater_power = yes
+				has_country_modifier = louis_napoleon_iii
 			}
 		}
 

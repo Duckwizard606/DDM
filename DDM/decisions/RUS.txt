@@ -185,6 +185,7 @@ political_decisions = {
 				limit = {
 					NOT = { tag = TUR }
 					NOT = { tag = FRA }
+					NOT = { tag = BOR }
 					NOT = { tag = THIS }
 					NOT = { alliance_with = THIS }
 					capital_scope = { continent = europe }

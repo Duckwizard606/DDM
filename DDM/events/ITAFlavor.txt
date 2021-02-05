@@ -681,7 +681,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 0.5
-				tag = FRA
+				OR = {
+					tag = FRA
+					tag = BOR
+				}
 				NOT = {
 					465 = { owned_by = ITA }
 					466 = { owned_by = ITA }
@@ -729,7 +732,10 @@ country_event = {
 			}
 			modifier = {
 				factor = 1.5
-				tag = FRA
+				OR = {
+					tag = FRA
+					tag = BOR
+				}
 				NOT = {
 					465 = { owned_by = ITA }
 					466 = { owned_by = ITA }

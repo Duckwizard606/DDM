@@ -123,25 +123,23 @@ political_decisions = {
 				tag = NGF
 				tag = PRU
 			}
-			exists = FRA
+			OR = {
+				exists = FRA
+				exists = BOR
+			}
 			NOT = {
 				has_country_flag = watching_the_rhine
 			}
 		}
 		allow = {
 			romanticism = 1
-			NOT = {
-				relation = {
-					who = FRA
-					value = -50
-				}
-			}
+			OR = {
+			
 		}
 		effect = {
 			prestige = 5
 			badboy = -1
 			set_country_flag = watching_the_rhine
-			relation = { who = FRA value = -50 }
 			any_pop = {
 				limit = { is_primary_culture = yes }
 				dominant_issue = {

@@ -657,8 +657,12 @@ political_decisions = {
 				exists = YUG
 				is_culture_group = south_slavic
 				has_global_flag = yugoslavia_formed
+				tag = TUR
 			}
 			OR = {
+				primary_culture = french
+				tag = BOR
+				tag = RUS
 				any_owned_province = { is_core = ALB }
 				any_owned_province = { is_core = BUL }
 				is_sphere_leader_of = SER

@@ -458,6 +458,7 @@ country_event = {
 			tag = USA
 			tag = ENG
 			tag = FRA
+			tag = BOR
 			tag = AUS
 			tag = KUK
 			tag = DNB
@@ -1675,6 +1676,7 @@ country_event = {
 			tag = USA
 			tag = ENG
 			tag = FRA
+			tag = BOR
 			tag = AUS
 			tag = KUK
 			tag = TUR
@@ -2387,7 +2389,10 @@ country_event = {
 		#remove cores from Alsace-Lorraine if France has a truce	
 		random_country = {
 			limit = {
-				tag = FRA
+				OR = {
+					tag = FRA
+					tag = BOR
+				}
 				truce_with = THIS
 			}
 			FRA_412 = {
@@ -2427,7 +2432,10 @@ country_event = {
 		#if France has a truce, and the Rhineland is not owned, release Westfalen as its puppet
 		random_country = {
 			limit = {
-				tag = FRA
+				OR = {
+					tag = FRA
+					tag = BOR
+				}
 				truce_with = THIS
 				THIS = {
 					NOT = {
@@ -2465,7 +2473,10 @@ country_event = {
 		#if France has a truce and owns any Rhineland province, release the Rhineland as its puppet
 		random_country = {
 			limit = {
-				tag = FRA
+				OR = {
+					tag = FRA
+					tag = BOR
+				}
 				any_owned_province = {
 					OR = {
 						region = PRU_575

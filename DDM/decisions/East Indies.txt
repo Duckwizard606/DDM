@@ -717,10 +717,16 @@ political_decisions = {
 	create_cambodian_protectorate = {
 		picture = unequal_treaty
 		potential = {
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			
 			CAM = {
 				exists = yes
+				OR = {
+				neighbour = BOR
 				neighbour = FRA
+				}
 				civilized = no
 				ai = yes
 			}
@@ -735,11 +741,14 @@ political_decisions = {
 				OR = {
 					part_of_sphere = no
 					in_sphere = FRA
+					in_sphere = BOR
 				}
 				OR = {
 					is_vassal = no
 					vassal_of = FRA
+					vassal_of = BOR
 				}
+				
 			}
 		}
 		
@@ -753,7 +762,10 @@ political_decisions = {
 	create_laos_protectorate = {
 		picture = unequal_treaty
 		potential = {
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			
 			is_greater_power = yes
 			OR = {
 				LUA = {
@@ -765,10 +777,12 @@ political_decisions = {
 					OR = {
 						part_of_sphere = no
 						in_sphere = FRA
+						in_sphere = BOR
 					}
 					OR = {
 						is_vassal = no
 						vassal_of = FRA
+						vassal_of = BOR
 					}
 				}
 				WIA = {
@@ -780,10 +794,12 @@ political_decisions = {
 					OR = {
 						part_of_sphere = no
 						in_sphere = FRA
+						in_sphere = BOR
 					}
 					OR = {
 						is_vassal = no
 						vassal_of = FRA
+						vassal_of = BOR
 					}
 				}
 				CHK = {
@@ -795,10 +811,13 @@ political_decisions = {
 					OR = {
 						part_of_sphere = no
 						in_sphere = FRA
+						in_sphere = BOR
+
 					}
 					OR = {
 						is_vassal = no
 						vassal_of = FRA
+						vassal_of = BOR
 					}
 				}
 			}
@@ -822,14 +841,16 @@ political_decisions = {
 					OR = {
 						part_of_sphere = no
 						in_sphere = FRA
+						in_sphere = BOR
 					}
 					OR = {
 						is_vassal = no
 						vassal_of = FRA
+						vassal_of = BOR
 					}
 				}
 				set_country_flag = annexed_to_FRA
-				annex_to = FRA
+				annex_to = THIS
 			}		
 		}
 	}
@@ -837,11 +858,16 @@ political_decisions = {
 	siamese_border_treaty = {
 		picture = unequal_treaty
 		potential = {
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+						
 			is_greater_power = yes
 			has_global_flag = berlin_conference
 			SIA = {
+				OR = {
 				neighbour = FRA
+				neighbour = BOR
 				any_owned_province = {
 					OR = {
 						is_core = DAI
@@ -871,7 +897,10 @@ political_decisions = {
 		picture = unequal_treaty
 		potential = {
 			is_greater_power = yes
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			
 			NOT = { has_country_flag = negotiate_unequal_treaty }
 			DAI = {
 				capital = 1369
@@ -979,7 +1008,10 @@ political_decisions = {
 	form_french_indochina = {
 		picture = map_east_indies
 		potential = {
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			
 			1380 = {
 				owned_by = THIS
 				is_colonial = yes

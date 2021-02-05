@@ -183,31 +183,69 @@ political_decisions = {
 	france_protector_of_eastern_christians = {
 		picture = protect_eastern_christians
 		potential = {
-			tag = FRA
+			primary_culture = french
 			is_greater_power = yes
+			capital = 425
 			ideological_thought = 1
 			NOT = { has_country_flag = claimed_authority_over_holy_land }
 			NOT = { has_global_flag = berlin_congress_held }
 			TUR = {
-				owns = 917
 				neighbour = RUS
+			}
+			917 = {
+				OR = {
+					owned_by = TUR
+					AND = {
+						owned_by = EGY
+						EGY = {
+							in_sphere = THIS
+							is_vassal = no
+						}
+					}
+				}
 			}
 		}
 		
 		allow = {
+			OR = { 
+				state_n_government = 1
+				AND = {
+					year = 1845
+					has_country_modifier = louis_napoleon_iii
+					has_country_flag = 2nd_empire
+					NOT = { has_country_flag = louis_deposed }
+				}
+			}
 			war = no
-			state_n_government = 1
 			TUR = {
 				war = no
-				is_greater_power = no
 				NOT = { truce_with = THIS }
 			}
+			NOT = { war_exhaustion = 1 }
 		}
 		
 		effect = {
-			set_country_flag = claimed_authority_over_holy_land
+			FRA = { set_country_flag = claimed_authority_over_holy_land }
+			BOR = { set_country_flag = claimed_authority_over_holy_land }
 			prestige = 10
 			TUR = { country_event = 97500 }
+
+			any_owned = { any_pop = { limit = { is_primary_culture = yes }
+			scaled_militancy = {
+				factor = -0.5
+				ideology = liberal
+				}
+			scaled_militancy = {
+				factor = -0.5
+				ideology = conservative
+				}
+			scaled_militancy = {
+				factor = -1
+				ideology = reactionary
+				}
+			}
+		}
+
 		}
 		
 		ai_will_do = {
@@ -218,7 +256,11 @@ political_decisions = {
 	treaty_of_paris_1856 = {
 		picture = treaty_signing
 		potential = {
-			tag = FRA
+
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			
 			has_global_flag = crimea_has_happened
 			NOT = { has_global_flag = treaty_of_paris_1856 }
 			NOT = { has_global_flag = treaty_of_paris_russia }

@@ -4,8 +4,14 @@ political_decisions = {
 			NOT = {
 				has_global_flag = statue_of_liberty_has_been_built
 			}
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			
+			OR = {
 			exists = FRA
+			exists = BOR
+			}
 			exists = USA
 			USA = {
 				government = democracy
@@ -52,7 +58,10 @@ political_decisions = {
 	}
 	support_french_foreign_legion = {
 		potential = {
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			
 			owns = 1700
 			NOT = {
 				has_country_flag = french_foreign_legion_supported
@@ -72,7 +81,10 @@ political_decisions = {
 	
 	french_military_mission_to_japan = {
 		potential = {
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			
 			OR = {
 				AND = {
 					exists = JAP
@@ -105,7 +117,7 @@ political_decisions = {
 					}
 					exists = yes
 				}
-				relation = { who = FRA value = 50 }
+				relation = { who = THIS value = 50 }
 				years_of_research = 0.2
 			}
 			prestige = 20
@@ -118,7 +130,10 @@ political_decisions = {
 			NOT = {
 				has_country_flag = palais_garnier_built
 			}
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			
 			owns = 425
 		}
 		
@@ -137,7 +152,9 @@ political_decisions = {
 			NOT = {
 				has_country_flag = lambert_has_been_chartered
 			}
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
 			exists = MAD
 		}
 		
@@ -188,7 +205,9 @@ political_decisions = {
 	
 	brazzas_expedition = {
 		potential = {
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
 			invention = the_white_mans_burden
 			is_greater_power = yes
 			LOA = {
@@ -214,7 +233,9 @@ political_decisions = {
 	
 	the_rhine_crisis = {
 		potential = {
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
 			exists = PRU
 			PRU = {
 				owns = 572
@@ -267,7 +288,10 @@ political_decisions = {
 	
 	build_the_eiffel_tower = {
 		potential = {
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			
 			NOT = {
 				has_country_flag = the_eiffel_tower_was_built
 			}
@@ -291,7 +315,9 @@ political_decisions = {
 	
 	haussmanns_renovations = {
 		potential = {
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
 			owns = 425
 			NOT = {
 				has_country_flag = extreme_home_makeover
@@ -320,7 +346,10 @@ political_decisions = {
 	annex_mayotte = {
 		picture = dreams_of_empire
 		potential = {
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			
 			is_greater_power = yes
 			2124 = { empty = yes }
 		}
@@ -333,7 +362,7 @@ political_decisions = {
 		effect = {
 			prestige = 3
 			2124 = {
-				secede_province = FRA
+				secede_province = THIS
 				change_province_name = "Mayotte"
 			}
 		}
@@ -342,10 +371,13 @@ political_decisions = {
 	claim_savoy = {
 		picture = form_italy
 		potential = {
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			
 			is_greater_power = yes
 			NOT = {
-				465 = { is_core = FRA }
+				465 = { is_core = THIS }
 				has_global_flag = plombieres_refused
 				has_country_flag = claimed_savoy
 			}
@@ -358,7 +390,7 @@ political_decisions = {
 			}
 			ITA = {
 				exists = yes
-				NOT = { in_sphere = FRA }
+				NOT = { in_sphere = THIS }
 			}
 			NOT = {
 				has_country_modifier = punitive_effects
@@ -369,9 +401,9 @@ political_decisions = {
 		effect = {
 			set_country_flag = claimed_savoy
 			badboy = 3
-			465 = { add_core = FRA }
-			466 = { add_core = FRA }
-			472 = { add_core = FRA }
+			465 = { add_core = THIS }
+			466 = { add_core = THIS }
+			472 = { add_core = THIS }
 			random_country = {
 				limit = { owns = 465 }
 				leave_alliance = THIS
@@ -383,7 +415,9 @@ political_decisions = {
 	annex_new_caledonia = {
 		picture = dreams_of_empire
 		potential = {
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
 			is_greater_power = yes
 			ideological_thought = 1
 			1097 = { empty = yes }
@@ -401,7 +435,9 @@ political_decisions = {
 		
 		effect = {
 			prestige = 3
-			1097 = { secede_province = FRA }
+			1097 = { secede_province = THIS }
+			1097 = { add_core = THIS }
+
 			add_country_modifier = {
 				name = penal_colonies
 				duration = -1
@@ -412,7 +448,10 @@ political_decisions = {
 	french_language_schooling = {
 		picture = embrace_minority
 		potential = {
-			tag = FRA
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			
 			any_owned_province = { is_core = OCC }
 			OCC = { exists = no }
 			NOT = {

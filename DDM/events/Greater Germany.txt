@@ -387,6 +387,7 @@ country_event = {
 					neighbour = THIS
 					is_culture_group = THIS
 					tag = FRA
+					tag = BOR
 					tag = RUS
 					tag = ENG
 				}
@@ -442,6 +443,7 @@ country_event = {
 					neighbour = THIS
 					is_culture_group = THIS
 					tag = FRA
+					tag = BOR
 					tag = RUS
 					tag = ENG
 				}
@@ -970,6 +972,7 @@ country_event = {
 					neighbour = THIS
 					is_culture_group = THIS
 					tag = FRA
+					tag = BOR
 					tag = RUS
 					tag = ENG
 				}
@@ -1416,6 +1419,7 @@ country_event = {
 					neighbour = THIS
 					is_culture_group = THIS
 					tag = FRA
+					tag = BOR
 					tag = RUS
 					tag = ENG
 				}
@@ -1607,6 +1611,7 @@ country_event = {
 				capital_scope = { continent = europe }
 				OR = {
 					tag = FRA
+					tag = BOR
 					tag = RUS
 					NOT = { relation = { who = THIS value = 0 } }
 				}

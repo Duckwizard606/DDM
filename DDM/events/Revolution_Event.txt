@@ -850,7 +850,10 @@ country_event = {
 		random_owned = {
 			limit = {
 				owner = {
-					tag = FRA
+					OR = {
+						tag = FRA
+						tag = BOR
+					}
 					NOT = { has_country_flag = 2nd_republic }
 					OR = {
 						has_country_modifier = springtime_of_nations
@@ -2525,6 +2528,7 @@ country_event = {
 				OR = {
 					tag = AUS
 					tag = FRA
+					tag = BOR
 				}
 				FROM = { is_culture_group = italian }
 			}
