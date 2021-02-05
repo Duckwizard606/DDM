@@ -133,6 +133,7 @@ political_decisions = {
 		}
 		allow = {
 			romanticism = 1
+			OR = {
 			
 		}
 		effect = {

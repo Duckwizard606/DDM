@@ -724,8 +724,8 @@ political_decisions = {
 			CAM = {
 				exists = yes
 				OR = {
-					neighbour = BOR
-					neighbour = FRA
+				neighbour = BOR
+				neighbour = FRA
 				}
 				civilized = no
 				ai = yes
@@ -812,6 +812,7 @@ political_decisions = {
 						part_of_sphere = no
 						in_sphere = FRA
 						in_sphere = BOR
+
 					}
 					OR = {
 						is_vassal = no
@@ -864,7 +865,9 @@ political_decisions = {
 			is_greater_power = yes
 			has_global_flag = berlin_conference
 			SIA = {
-				neighbour = THIS
+				OR = {
+				neighbour = FRA
+				neighbour = BOR
 				any_owned_province = {
 					OR = {
 						is_core = DAI
@@ -874,7 +877,7 @@ political_decisions = {
 						is_core = CHK
 					}
 				}
-			
+			}
 			NOT = { has_country_flag = enacted_siamese_border_treaty }
 		}
 		

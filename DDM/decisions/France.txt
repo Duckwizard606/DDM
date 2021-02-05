@@ -8,12 +8,16 @@ political_decisions = {
 			is_greater_power = yes
 			capital = 425
 			
+			OR = {
+			exists = FRA
+			exists = BOR
+			}
 			exists = USA
 			USA = {
 				government = democracy
 				owns = 232
 			}
-			THIS = {
+			FRA = {
 				OR = {
 					government = hms_government
 					government = democracy
@@ -57,8 +61,8 @@ political_decisions = {
 			primary_culture = french
 			is_greater_power = yes
 			capital = 425
-			owns = 1700
 			
+			owns = 1700
 			NOT = {
 				has_country_flag = french_foreign_legion_supported
 			}
