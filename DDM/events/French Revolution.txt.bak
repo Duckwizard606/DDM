@@ -95,13 +95,13 @@ country_event = {
 		clr_country_flag = liberal_revolution_in_progress
 		set_country_flag = had_liberal_revolution
 		}
-		# BOR = { 
-		# 	set_country_flag = 2nd_republic
-		# 	set_global_flag = french_revolution_1848
-		# 	clr_country_flag = liberal_revolution_fired
-		# 	clr_country_flag = liberal_revolution_in_progress
-		# 	set_country_flag = had_liberal_revolution
-		# }
+		BOR = { 
+			set_country_flag = 2nd_republic
+			set_global_flag = french_revolution_1848
+			clr_country_flag = liberal_revolution_fired
+			clr_country_flag = liberal_revolution_in_progress
+			set_country_flag = had_liberal_revolution
+		}
 	}
 	
 	option = {
@@ -119,14 +119,12 @@ country_event = {
 			}
 			change_controller = THIS
 		}
-
 		government = democracy
 		ruling_party_ideology = liberal
 		political_reform = universal_voting
 		political_reform = population_equal_weight
 		political_reform = yes_meeting
 		political_reform = free_press
-
 		random_owned = {
 			limit = { owner = { NOT = { border_policy = open_borders } } }
 			owner = { political_reform = open_borders }
@@ -134,12 +132,15 @@ country_event = {
 		random_owned = {
 			limit = { owner = { NOT = { political_parties = secret_ballots } } }
 			owner = { political_reform = non_secret_ballots }
-		}		
+		}
+			owner = { political_reform = non_secret_ballots }
+		}
 		random_owned = {
-			limit = { owner = { NOT = { trade_unions = all_trade_unions } } }	
+			limit = {
+				owner = { NOT = { trade_unions = all_trade_unions } }
+			}
 			owner = { political_reform = non_socialist }
 		}
-
 		remove_country_modifier = expert_diplomat
 		remove_country_modifier = successful_industrialist
 		remove_country_modifier = ivory_tower_intellectual
@@ -169,7 +170,6 @@ country_event = {
 		any_pop = {
 			limit = {
 				is_primary_culture = yes
-				is_accepted_culture = yes
 				OR = {
 					type = soldiers
 					type = officers
@@ -183,15 +183,14 @@ country_event = {
 			limit = {
 				strata = poor
 				is_culture_group = french
-				location = { is_core = THIS }
-
+				location = { is_core = FRA }
 			}
-			ideology = { factor = 0.25 value = conservative }
+			ideology = { factor = 0.2 value = conservative }
 			dominant_issue = { factor = 0.10 value = jingoism }
 		}
 		any_pop = {
 			limit = {
-				location = { is_core = THIS }
+				location = { is_core = FRA }
 			}
 			scaled_militancy = {
 				ideology = reactionary
@@ -239,18 +238,6 @@ country_event = {
 			relation = { who = THIS value = -100 }
 			leave_alliance = THIS
 		}
-		any_country = {
-			limit = {
-				government = democracy
-				NOT = {
-					vassal_of = THIS
-					substate_of = THIS
-					in_sphere = THIS
-				}
-			}
-			relation = { who = THIS value = 200 }
-		}
-		2126 = { change_province_name = "Reunion" }
 	}
 }
 
@@ -261,9 +248,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		primary_culture = french
-		is_greater_power = yes
-		capital = 425
+		tag = FRA
 		has_country_modifier = power_vacuum
 		has_country_flag = 2nd_republic
 		government = democracy
@@ -280,12 +265,10 @@ country_event = {
 	mean_time_to_happen = {
 		months = 3
 	}
-	fire_only_once = yes
 	
 	option = {
 		name = "Napoleon shall be the rightful president."
-		FRA = { set_country_flag = french_presidential_election }
-		# BOR = { set_country_flag = french_presidential_election }
+		set_country_flag = french_presidential_election
 		prestige = 20
 		remove_country_modifier = power_vacuum
 		remove_country_modifier = expert_diplomat
@@ -318,7 +301,7 @@ country_event = {
 		any_pop = {
 			limit = {
 				is_primary_culture = yes
-				location = { is_core = THIS }
+				location = { is_core = FRA }
 			}
 			scaled_consciousness = {
 				ideology = conservative
@@ -332,27 +315,19 @@ country_event = {
 	
 	option = {
 		name = "Rig the election. Cavaignac must win."
-		FRA = {set_country_flag = french_presidential_election }
-		#BOR = {set_country_flag = french_presidential_election }
-		define_general = {
-			name = "Louis-Eugène Cavaignac"
-			personality = indecisive
-			background = rising_star
-		}
-		
+		set_country_flag = french_presidential_election
+		remove_country_modifier = power_vacuum
 		add_country_modifier = {
 			name = military_man
 			duration = 3650
 		}
-		remove_country_modifier = power_vacuum
-
 		ruling_party_ideology = liberal
 		political_reform = wealth_voting
 		political_reform = censored_press
 		political_reform = underground_parties
 		any_owned = {
 			limit = {
-				is_core = THIS
+				is_core = FRA
 				pop_majority_ideology = conservative
 			}
 			add_province_modifier = {
@@ -363,8 +338,7 @@ country_event = {
 		any_pop = {
 			limit = {
 				is_primary_culture = yes
-				is_accepted_culture = yes
-				location = { is_core = THIS }
+				location = { is_core = FRA }
 			}
 			scaled_militancy = {
 				ideology = conservative
@@ -384,9 +358,7 @@ country_event = {
 	major = yes
 	
 	trigger = {
-		primary_culture = french
-		is_greater_power = yes
-		capital = 425
+		tag = FRA
 		has_country_flag = 2nd_republic
 		government = democracy
 		ruling_party_ideology = conservative
@@ -402,17 +374,10 @@ country_event = {
 	mean_time_to_happen = {
 		days = 1
 	}
-	fire_only_once = yes
 	
 	option = {
 		name = "This may not end well."
-		prestige = 15
-		
-		FRA = { set_country_flag = louies_back }
-		#BOR = { set_country_flag = louies_back }
-		any_pop = { ideology = { factor = 0.10 value = liberal } }
-		
-		
+		prestige = 10
 		remove_country_modifier = expert_diplomat
 		remove_country_modifier = successful_industrialist
 		remove_country_modifier = ivory_tower_intellectual
@@ -438,12 +403,12 @@ country_event = {
 		remove_country_modifier = power_vacuum
 		add_country_modifier = {
 			name = louis_napoleon_iii
-			duration = -1
+			duration = 7300
 		}
 		any_pop = {
 			limit = {
 				is_primary_culture = yes
-				location = { is_core = THIS }
+				location = { is_core = FRA }
 			}
 			scaled_consciousness = {
 				ideology = conservative
@@ -463,18 +428,16 @@ country_event = {
 	news_desc_medium = "EVTDESC10405_NEWS_MEDIUM"
 	news_desc_short = "EVTDESC10405_NEWS_SHORT"
 	picture = "napoleon3"
-
+	major = yes
 
 	trigger = {
-		primary_culture = french
-		is_greater_power = yes
-		capital = 425
+		tag = FRA
 		has_country_flag = 2nd_republic
 		has_country_modifier = louis_napoleon_iii
 		government = democracy
 		election = yes
-		year = 1848
-		rank = 4
+		year = 1850
+		rank = 5
 		is_disarmed = no
 		NOT = {
 			year = 1870
@@ -488,13 +451,28 @@ country_event = {
 	}
 	
 	mean_time_to_happen =  {
-		days = 7
+		months = 3
+		modifier = {
+			factor = 0.9
+			NOT = { conservative = 40 }
+		}
+		modifier = {
+			factor = 0.8
+			NOT = { conservative = 30 }
+		}
+		modifier = {
+			factor = 0.7
+			NOT = { conservative = 20 }
+		}
+		modifier = {
+			factor = 0.5
+			NOT = { conservative = 10 }
+		}
 	}
 
 	option = {
 		name = "Viva la 2nd Empire!"
-		 FRA = { set_country_flag = napoleons_coup_de_tat }
-		 #BOR = { set_country_flag = napoleons_coup_de_tat }
+		set_country_flag = napoleons_coup_de_tat		
 		prestige = 25
 		government = absolute_monarchy
 		ruling_party_ideology = conservative
@@ -514,7 +492,7 @@ country_event = {
 		}
 		any_pop = {
 			limit = {
-				location = { is_core = THIS }
+				location = { is_core = FRA }
 				OR = {
 					type = soldiers
 					type = officers
