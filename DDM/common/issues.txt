@@ -578,25 +578,24 @@ social_reforms = {
 		administrative = yes
 		next_step_only = yes
 		no_health_care = {
+			global_population_growth = -0.001			
 		}
 		trinket_health_care = {
 			global_population_growth = 0.0005
 			global_immigrant_attract = 0.05
 			administrative_multiplier = 1
+			global_population_growth = -0.001
 		}
 		low_health_care = {
-			global_population_growth = 0.001
 			global_immigrant_attract = 0.1
 			administrative_multiplier = 2
 		}
 		acceptable_health_care = {
-			global_population_growth = 0.0015
 			global_immigrant_attract = 0.15
 			administrative_multiplier = 3
 			global_pop_consciousness_modifier = -0.01
 		}
 		good_health_care = {
-			global_population_growth = 0.002
 			global_immigrant_attract = 0.2
 			administrative_multiplier = 4
 			global_pop_consciousness_modifier = -0.02
@@ -607,29 +606,48 @@ social_reforms = {
 		administrative = yes
 		next_step_only = yes
 		no_controls = {
+			global_population_growth = -0.002
+			
 		}
 		trinket_envir = {
 			factory_maintenance = 0.1
 			administrative_multiplier = 1
 			global_immigrant_attract = 0.05
+			social_reform_desire = -0.025
+			political_reform_desire = -0.025
+			global_population_growth = -0.001			
+			allow = { has_country_flag = water_wheel_power_invented }
+			
 		}
 		low_envir = {
 			factory_maintenance = 0.2
 			administrative_multiplier = 2
 			global_immigrant_attract = 0.1
-			global_population_growth = 0.0005
+			social_reform_desire = -0.05
+			political_reform_desire = -0.05
+			global_pop_consciousness_modifier = -0.01
+			allow = { has_country_flag = practical_steam_engine_invented }
+			
 		}
 		acceptable_envir = {
 			factory_maintenance = 0.3
 			administrative_multiplier = 3
 			global_immigrant_attract = 0.15
-			global_population_growth = 0.001
+			social_reform_desire = -0.075
+			political_reform_desire = -0.075
+			global_pop_consciousness_modifier = -0.02
+			allow = { has_country_flag = steam_turbine_invented }
+			
 		}
 		good_envir = {
 			factory_maintenance = 0.4
 			administrative_multiplier = 4
 			global_immigrant_attract = 0.2
-			global_population_growth = 0.0015
+			social_reform_desire = -0.10
+			political_reform_desire = -0.10
+			global_pop_consciousness_modifier = -0.03
+			allow = { has_country_flag = electrical_power_generation_invented }
+			
 		}
 	}
 	
@@ -653,14 +671,20 @@ social_reforms = {
 		next_step_only = yes
 		administrative = yes
 		elite = {
+		global_assimilation_rate = -0.002
 		}
 		church = {
-		education_efficiency_modifier = 0.25
-		global_immigrant_attract = 0.05
+		education_efficiency_modifier = 0.05
+		global_assimilation_rate = 0.002
+		global_immigrant_attract = 0.02
+		administrative_multiplier = 1
 		}
 		public = {
-		education_efficiency_modifier = 0.5
-		global_immigrant_attract = 0.1
+		education_efficiency_modifier = 0.1
+		global_assimilation_rate = 0.01
+		global_immigrant_attract = 0.04
+		administrative_multiplier = 3
+		allow = { has_country_flag = biologism_invented }
 		}
 	}
 	
