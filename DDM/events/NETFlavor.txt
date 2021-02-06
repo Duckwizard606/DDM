@@ -1,0 +1,63 @@
+# Luxembourg Purchase
+country_event = {
+	id = 100000
+	title = EVTNAME100000
+	desc = EVTDESC100000
+	picture = "luxembourg_crisis"
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #Agree to the sale
+	name = EVTOPTA100000
+	any_country = {
+		limit = {
+			exists = yes
+			OR  = { 
+				AND = { 
+					tag = PRU
+					549 = { OR = { owned_by = PRU owner = { in_sphere = PRU OR = { is_vassal = no vassal_of = PRU } } } }
+				}
+				AND = { 
+					tag = NGF
+					549 = { OR = { owned_by = NGF owner = { in_sphere = NGF OR = { is_vassal = no vassal_of = NGF } } } }
+				}
+				AND = { 
+					tag = GER
+					549 = { OR = { owned_by = GER owner = { in_sphere = GER OR = { is_vassal = no vassal_of = GER } } } }
+				}
+				# AND = { 
+				# 	tag = GCF
+				# 	549 = { OR = { owned_by = GCF owner = { in_sphere = GCF OR = { is_vassal = no vassal_of = GCF } } } }
+				# }
+			}
+		}
+		country_event = 99979
+	}
+
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = { #Decline the sale
+		name = EVTOPTB100000
+		FRA = {
+			country_event = 100001
+		}
+	}
+}
+
+country_event = {
+	id = 100001
+	title = EVTNAME100001
+	desc = EVTDESC100001
+	picture = "luxembourg_crisis"
+	fire_only_once = yes
+	is_triggered_only = yes
+
+
+	option = {
+		name = EVTOPTA100001
+	}
+}
