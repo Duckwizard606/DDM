@@ -42,10 +42,10 @@ vassal = {
 	end_date = 1960.1.1
 }
 
-# Austria-Holstein
+# Denmark-Schleswig-Holstein
 vassal = {
-	first = AUS
-	second = HOL
+	first = DEN
+	second = SWH
 	start_date = 1830.1.1
 	end_date = 1960.1.1
 }

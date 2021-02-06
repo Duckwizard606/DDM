@@ -42,6 +42,10 @@ country_event = {
 				vassal_of = KUK
 				NOT = { in_sphere = KUK }
 			}
+			AND = {
+				vassal_of = ENG
+				NOT = { in_sphere = ENG }
+			}
 		}
 		
 		
