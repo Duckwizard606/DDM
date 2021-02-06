@@ -24,18 +24,295 @@ political_decisions = {
 		}
 		ai_will_do = { factor = 1 }
 	}
-	
+	establish_panfrenchism = {
+		picture = establish_panfrenchism
+		potential = {
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			has_country_modifier = louis_napoleon_iii
+			owns = 412
+			NOT = { exists = GCF }
+			NOT = { exists = GER }
+			NOT = { has_global_flag = pan_french_nationalism }
+		}
+		
+		allow = {
+			war_policy = jingoism
+			state_n_government = 1
+		}
+		
+		effect = {
+			set_global_flag = pan_french_nationalism
+			prestige = 20
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
 
+	claim_wallonia = {
+		picture = become_wallonia
+			potential = {
+				primary_culture = french
+				is_greater_power = yes
+				capital = 425
+				has_country_flag = 2nd_empire
+				has_global_flag = pan_french_nationalism
+				OR = {
+					has_global_flag = franco_prussian_war_started
+					year = 1871
+				}
+				NOT = { has_country_flag = claim_wallonia }
+				NOT = { exists = GER }
+				NOT = { exists = GCF }
+				WLL = { all_core = { NOT = { owned_by = THIS } } }
+				owns = 412
+			}
+			
+			allow = {
+				crisis_exist = no
+				war = no
+				war_policy = jingoism
+				OR = {
+					AND = {
+						NOT = { relation = { who = BEL value = 100 } }
+						BEL = { exists = yes }
+					}
+					AND = {
+						NOT = { relation = { who = NET value = 100 } }
+						394 = { owned_by = NET }
+					}
+					AND = {
+						WLL = { exists = yes }
+						NOT = { relation = { who = WLL value = 100 } }
+					}
+				}
+				OR = {
+					RHI = {  exists = yes vassal_of = THIS }
+					AND = { owns = 575 owns = 573 }
+				}
+			}
+			
+			effect = {
+				FRA = { set_country_flag = claim_wallonia }
+				BOR = { set_country_flag = claim_wallonia }
+				badboy = 6
+				WLL = { all_core = { add_core = THIS } }
+				any_country = {
+					limit = { owns = 394 }
+					leave_alliance = THIS
+					relation = {
+						who = THIS
+						value = -400
+					}
+					country_event = 99984
+				}
+			}
+			
+			ai_will_do = {
+				factor = 1
+				modifier = {
+					factor = 0
+					badboy = 0.6
+				}
+			}
+		}
 
+		take_the_channel_islands = {
+			picture = channel_islands
+			potential = {
+				OR = {
+					419 = { owner = { war_with = THIS } }
+					419 = { owner = { truce_with = THIS } }
+				}
+				NOT = { owns = 419 }
+				primary_culture = french
+				is_greater_power = yes
+				capital = 425
+				419 = { NOT = { is_core = THIS } }
+			}
+			
+			allow = {
+				war = no
+				is_vassal = no
+				is_greater_power = yes 
+				NOT = { is_disarmed = yes }
+				NOT = { has_recently_lost_war = yes }
+				owns = 418
+				war_policy = jingoism
+				419 = { owner = { is_disarmed = yes truce_with = THIS war = no NOT = { military_score = THIS } } }
+			}
+			
+			effect = {
+				badboy = 1
+				419 = { secede_province = THIS }
+				419 = { add_core = THIS }
+			}
+			
+			ai_will_do = {
+				factor = 1
+				modifier = { factor = 0 badboy = 0.8 }
+			}
+		}
+		
+		annex_rhineland = {
+		picture = rhineland
+			potential = {
+				primary_culture = french
+				is_greater_power = yes
+				capital = 425
+				RHI = { exists = yes vassal_of = THIS }
+				has_recently_lost_war = no
+				NOT = { has_country_flag = annexed_rhineland }
+			}
+			
+			allow = {
+				war = no		
+				owns = 412
+				revolution_n_counterrevolution = 1
+				is_greater_power = yes
+				OR = {
+					has_global_flag = franco_prussian_war_has_begun
+					AND = {
+						owns = 412
+						year = 1875
+					}
+				}
+			}
+			
+			effect = {
+				FRA = { set_country_flag = annexed_rhineland }
+				BOR = { set_country_flag = annexed_rhineland }
+				prestige = 25
+				badboy = 8
+				inherit = RHI
+			}
+			
+			ai_will_do = { 
+				factor = 1
+				modifier = { factor = 0 badboy = 0.5 }
+			}
+		}
+		
 
-
-
-
-
-
-
-
-
+		walloon_autonomy = {
+			picture = become_wallonia
+			potential = {
+				is_greater_power = yes
+				WLL = { all_core = { owned_by = THIS } }
+				primary_culture = french
+				capital = 425
+				NOT = { has_country_flag = walloon_autonomy }
+			}
+			
+			allow = {
+				war = no
+				ruling_party_ideology = liberal
+				394 = {	average_militancy = 7 }
+			}
+			
+			effect = {
+				FRA = { set_country_flag = walloon_autonomy }
+				BOR = { set_country_flag = walloon_autonomy }
+				prestige = -25
+				add_accepted_culture = wallonian
+				random_country = {
+					limit = { tag = BEL exists = no }
+					BEL = { all_core = { remove_core = BEL } }
+				}
+				any_pop = {
+					limit = {
+						has_pop_culture = wallonian
+					}
+					consciousness = -5
+					militancy = -5
+				}
+				any_pop = {
+					limit = {
+						OR = {
+							is_primary_culture = yes
+							is_accepted_culture = yes
+						}
+					}
+					consciousness = 3
+					militancy = 3
+				}
+				WLL = { all_core = { add_core = THIS } }
+			}
+			ai_will_do = { factor = 1 }
+		}
+	integrate_guyana = {
+		picture = french_guyane
+		potential = {
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			owns = 2241
+			owns = 2246			
+			year = 1880
+			NOT = { has_country_flag = french_guiana }
+		}
+		allow = {
+			invention = the_dark_continent
+			war = no
+		}
+		effect = {
+			any_owned = {
+				limit = { is_core = GUY }
+				add_province_modifier = {
+					name = core_integration
+					duration = -1
+				}
+			}
+			FRA = { set_country_flag = french_guiana }
+			BOR = { set_country_flag = french_guiana }
+		}
+		
+		ai_will_do = { factor = 1 }
+	}
+	haitian_integration = {
+		picture = map_caribbean
+		potential = {
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			OR = {
+				government = hms_government
+				government = democracy
+			}
+			slavery = no_slavery
+			HAI = { all_core = { owned_by = THIS } }
+			NOT = { has_country_flag = integrated_haiti }
+		}
+		allow = {
+			biologism = 1
+			NOT = { average_militancy = 3 }	
+		}
+		effect = {
+			any_pop = {
+				limit = { culture = afro_antillean }
+				consciousness = -4
+				militancy = -4
+			}
+			DOM = { all_core = { remove_core = HAI } }
+			HAI = {
+				all_core = {
+					add_province_modifier = {
+						name = core_integration
+						duration = -1
+					}
+				}
+			}
+			any_owned = {
+				limit = { is_core = DOM }
+				secede_province = DOM
+			}
+			add_accepted_culture = afro_antillean
+			FRA = { set_country_flag = integrated_haiti }
+			BOR = { set_country_flag = integrated_haiti }
+		}
+		ai_will_do = { factor = 1 }
+	}
 
 
 	liberty_enlightening_the_world = {
