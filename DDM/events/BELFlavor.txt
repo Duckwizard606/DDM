@@ -414,7 +414,6 @@ country_event = {
 						tag = NGF
 						tag = GER
 						tag = FRA
-						tag = BOR
 						tag = AUS
 						tag = KUK
 						tag = NET
@@ -538,7 +537,6 @@ country_event = {
 				NOT = { 
 					OR = {
 						tag = FRA
-						tag = BOR
 						tag = ENG
 					}
 				}
@@ -644,7 +642,6 @@ country_event = {
 					OR = {
 						tag = FRA
 						tag = ENG
-						tag = BOR
 					}
 				}
 			}	

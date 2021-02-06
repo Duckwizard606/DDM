@@ -351,7 +351,6 @@ country_event = {
 				OR = {
 					has_country_flag = objects_to_italy
 					tag = FRA
-					tag = BOR
 					tag = AUS
 					tag = KUK
 					AND = {

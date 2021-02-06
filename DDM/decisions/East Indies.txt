@@ -717,16 +717,17 @@ political_decisions = {
 	create_cambodian_protectorate = {
 		picture = unequal_treaty
 		potential = {
-			primary_culture = french
-			is_greater_power = yes
-			capital = 425
-			
+			tag = FRA
 			CAM = {
 				exists = yes
+<<<<<<< HEAD
 				OR = {
 					neighbour = BOR
 					neighbour = FRA
 				}
+=======
+				neighbour = FRA
+>>>>>>> parent of 6941892... Bourbon France now gets all french decisions and events.
 				civilized = no
 				ai = yes
 			}
@@ -741,14 +742,11 @@ political_decisions = {
 				OR = {
 					part_of_sphere = no
 					in_sphere = FRA
-					in_sphere = BOR
 				}
 				OR = {
 					is_vassal = no
 					vassal_of = FRA
-					vassal_of = BOR
 				}
-				
 			}
 		}
 		
@@ -762,10 +760,7 @@ political_decisions = {
 	create_laos_protectorate = {
 		picture = unequal_treaty
 		potential = {
-			primary_culture = french
-			is_greater_power = yes
-			capital = 425
-			
+			tag = FRA
 			is_greater_power = yes
 			OR = {
 				LUA = {
@@ -777,12 +772,10 @@ political_decisions = {
 					OR = {
 						part_of_sphere = no
 						in_sphere = FRA
-						in_sphere = BOR
 					}
 					OR = {
 						is_vassal = no
 						vassal_of = FRA
-						vassal_of = BOR
 					}
 				}
 				WIA = {
@@ -794,12 +787,10 @@ political_decisions = {
 					OR = {
 						part_of_sphere = no
 						in_sphere = FRA
-						in_sphere = BOR
 					}
 					OR = {
 						is_vassal = no
 						vassal_of = FRA
-						vassal_of = BOR
 					}
 				}
 				CHK = {
@@ -811,12 +802,14 @@ political_decisions = {
 					OR = {
 						part_of_sphere = no
 						in_sphere = FRA
+<<<<<<< HEAD
 						in_sphere = BOR
+=======
+>>>>>>> parent of 6941892... Bourbon France now gets all french decisions and events.
 					}
 					OR = {
 						is_vassal = no
 						vassal_of = FRA
-						vassal_of = BOR
 					}
 				}
 			}
@@ -840,16 +833,14 @@ political_decisions = {
 					OR = {
 						part_of_sphere = no
 						in_sphere = FRA
-						in_sphere = BOR
 					}
 					OR = {
 						is_vassal = no
 						vassal_of = FRA
-						vassal_of = BOR
 					}
 				}
 				set_country_flag = annexed_to_FRA
-				annex_to = THIS
+				annex_to = FRA
 			}		
 		}
 	}
@@ -857,14 +848,15 @@ political_decisions = {
 	siamese_border_treaty = {
 		picture = unequal_treaty
 		potential = {
-			primary_culture = french
-			is_greater_power = yes
-			capital = 425
-						
+			tag = FRA
 			is_greater_power = yes
 			has_global_flag = berlin_conference
 			SIA = {
+<<<<<<< HEAD
 				neighbour = THIS
+=======
+				neighbour = FRA
+>>>>>>> parent of 6941892... Bourbon France now gets all french decisions and events.
 				any_owned_province = {
 					OR = {
 						is_core = DAI
@@ -894,10 +886,7 @@ political_decisions = {
 		picture = unequal_treaty
 		potential = {
 			is_greater_power = yes
-			primary_culture = french
-			is_greater_power = yes
-			capital = 425
-			
+			tag = FRA
 			NOT = { has_country_flag = negotiate_unequal_treaty }
 			DAI = {
 				capital = 1369
@@ -1005,10 +994,7 @@ political_decisions = {
 	form_french_indochina = {
 		picture = map_east_indies
 		potential = {
-			primary_culture = french
-			is_greater_power = yes
-			capital = 425
-			
+			tag = FRA
 			1380 = {
 				owned_by = THIS
 				is_colonial = yes

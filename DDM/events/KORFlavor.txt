@@ -18,10 +18,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		OR = {
-			tag = FRA
-			tag = BOR
-		}
+		tag = FRA
 		war = no
 		year = 1866
 		KOR = {
