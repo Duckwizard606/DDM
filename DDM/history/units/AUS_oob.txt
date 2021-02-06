@@ -23,6 +23,7 @@ SAX = {
 }
 ANH = {
 	value = 125
+<<<<<<< HEAD
 	military_access = yes
 }
 BRA = {
@@ -32,6 +33,10 @@ BRA = {
 BRE = {
 	value = 125
 	military_access = yes
+=======
+	level = 5
+	influence_value = 0
+>>>>>>> parent of 377e56d... functional SSW event chain
 }
 COB = {
 	value = 125

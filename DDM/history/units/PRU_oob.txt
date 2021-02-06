@@ -59,6 +59,7 @@ LIP = {
 	influence_value = 0
 	military_access = yes
 }
+<<<<<<< HEAD
 LUB = {
 	value = 125
 	level = 5
@@ -72,6 +73,9 @@ MEC = {
 	military_access = yes
 }
 MEI = {
+=======
+BAV = {
+>>>>>>> parent of 377e56d... functional SSW event chain
 	value = 125
 	level = 5
 	influence_value = 0
