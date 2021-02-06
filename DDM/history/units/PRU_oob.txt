@@ -1,64 +1,135 @@
 #German Minors
-MEC = {
+ANH = {
 	value = 125
 	level = 5
 	influence_value = 0
+	military_access = yes
 }
-COB = {
+BRA = {
 	value = 125
 	level = 5
 	influence_value = 0
-}
-HEK = {
-	value = 125
-	level = 5
-	influence_value = 0
+	military_access = yes
 }
 BRE = {
 	value = 125
 	level = 5
 	influence_value = 0
+	military_access = yes
 }
-HOL = {
-	value = 125
-	level = 4
-	influence_value = 0
-}
-SCH = {
-	value = 125
-	level = 4
-	influence_value = 0
-}
-SWH = {
+COB = {
 	value = 125
 	level = 5
 	influence_value = 0
+	military_access = yes
 }
-BAV = {
+FRM = {
 	value = 125
-	level = 4
+	level = 5
 	influence_value = 0
+	military_access = yes
 }
-SAX = {
+HAM = {
 	value = 125
-	level = 4
+	level = 5
 	influence_value = 0
-}
-WUR = {
-	value = 125
-	level = 4
-	influence_value = 0
-}
-BAD = {
-	value = 125
-	level = 4
-	influence_value = 0
+	military_access = yes
 }
 HAN = {
 	value = 125
+	level = 3
+	influence_value = 0
+	military_access = yes
+}
+HEK = {
+	value = 125
+	level = 5
+	influence_value = 0
+	military_access = yes
+}
+HES = {
+	value = 125
+	level = 5
+	influence_value = 0
+	military_access = yes
+}
+LIP = {
+	value = 125
+	level = 5
+	influence_value = 0
+	military_access = yes
+}
+LUB = {
+	value = 125
+	level = 5
+	influence_value = 0
+	military_access = yes
+}
+MEC = {
+	value = 125
+	level = 5
+	influence_value = 0
+	military_access = yes
+}
+MEI = {
+	value = 125
+	level = 5
+	influence_value = 0
+	military_access = yes
+}
+NAS = {
+	value = 125
+	level = 5
+	influence_value = 0
+	military_access = yes
+}
+OLD = {
+	value = 125
+	level = 5
+	influence_value = 0
+	military_access = yes
+}
+SAX = {
+	value = 50
+	level = 3
+	influence_value = 0
+	military_access = yes
+}
+WEI = {
+	value = 125
+	level = 5
+	influence_value = 0
+	military_access = yes
+}
+BAV = {
+	value = 75
+	level = 3
+	influence_value = 0
+	military_access = yes
+}
+BAD = {
+	value = 100
+	level = 3
+	influence_value = 0
+	military_access = yes
+}
+WUR = {
+	value = 100
+	level = 3
+	influence_value = 0
+	military_access = yes
+}
+
+#Europe
+KRA = {
+	value = 125
 	level = 4
 	influence_value = 0
 }
+DEN = {
+	value = 55
+}
+
 #Other GP's
 AUS = {
 	value = 150
@@ -87,7 +158,95 @@ EGY = {
 }
 
 #Army
+leader = {
+	name = "Prince H. Wilhelm Adalbert"
+	picture = european_admiral_2
+	type = sea
+	date = 1836.1.1
+	background = gifted_administrator
+	personality = soldierly
+	prestige = 0.1
+	}
 
+leader = {
+	name = "Helmuth von Moltke"
+	picture = european_general_36
+	type = land
+	date = 1836.1.1
+	background = school_of_firepower
+	personality = implacable
+	prestige = 1.0
+	}
+	
+leader = {
+	name = "Albrecht von Roon"
+	picture = european_general_41
+	type = land
+	date = 1836.1.1
+	background = school_of_the_bayonet
+	personality = au_fait
+	prestige = 0.75
+	}
+	
+leader = {
+	name = "Friedrich Graf von Wrangel"
+	picture = pru_gen_wrangel
+	type = land
+	date = 1810.1.1
+	background = school_of_the_bayonet
+	personality = unflinching
+	prestige = 0.5
+	}	
+	
+leader = {
+	name = "Eduard Vogel von Falckenstein"
+	picture = european_general_27
+	type = land
+	date = 1826.1.1
+	background = cartographer
+	personality = audacious
+	prestige = 0.3
+	}
+	
+leader = {
+	name = "Leopold Hermann von Boyen"
+	picture = pru_gen_boyen
+	date = 1813.1.1
+	type = land
+	personality = openminded
+	background = gifted_administrator
+	prestige = 0.5
+}
+
+leader = {
+	name = "Prince Friedrich Wilhelm August"
+	picture = pru_gen_prinzaugust
+	date = 1814.1.1
+	type = land
+	personality = resourceful
+	background = womanizer
+	prestige = 0.8
+}
+
+leader = {
+	name = "Prince Friedrich Karl"
+	picture = pru_gen_prinzkarl
+	date = 1824.1.1
+	type = land
+	personality = indifferent
+	background = armchair_general
+	prestige = 0.8
+}
+
+leader = {
+	name = "Friedrich Wilhelm IV"
+	picture = pru_gen_prinzwilhelm
+	date = 1836.1.1
+	type = land
+	personality = soldierly
+	background = aristocrat
+	prestige = 0.9
+}
 army = {
 	name = "I. Korps"
 	location = 549
