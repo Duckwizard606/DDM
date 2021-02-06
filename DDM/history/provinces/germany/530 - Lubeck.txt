@@ -1,5 +1,5 @@
-owner = HOL
-controller = HOL
+owner = SWH
+controller = SWH
 add_core = HOL
 add_core = SWH
 add_core = GER
