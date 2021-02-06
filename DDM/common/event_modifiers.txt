@@ -831,6 +831,21 @@ the_french_foreign_legion = {
 	icon = 17
 }
 
+rhine_crisis = {
+	icon = 6
+}
+
+puppet_rhineland = {
+	prestige = -1
+	icon = 6
+}
+
+the_eiffel_tower = {
+	prestige = 0.05
+	icon = 13
+}
+
+
 #### SWI - Switzerland ####
 signed_the_geneva_convention = {
 	war_exhaustion = -0.01
@@ -871,10 +886,6 @@ the_walhalla = {
 	icon = 13
 }
 
-the_eiffel_tower = {
-	prestige = 0.05
-	icon = 13
-}
 
 #### Suez Canal ####
 building_suez_canal = {

@@ -1,4 +1,130 @@
 
+#The Rhine Crisis - French Declaration
+country_event = {
+	id = 33037
+	title = "EVTNAME33037"
+	desc = "EVTDESC33037"
+	picture = "rhineland"
+	
+	fire_only_once = yes
+	
+	trigger = {
+		primary_culture = french
+		is_greater_power = yes
+		capital = 425
+		has_country_flag = crisis_on_the_rhine
+	}
+	
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "EVT33037OPTA"
+		badboy = 5
+		set_country_flag = french_claimed_the_rhine
+		PRU = { set_country_flag = french_claimed_the_rhine }
+		any_country = {
+			limit = {
+				is_greater_power = yes
+				alliance_with = THIS
+			}
+			leave_alliance = THIS
+		}
+		PRU = { country_event = 99925 }
+		casus_belli = {
+			target = PRU
+			type = acquire_state
+			months = 6
+		}
+		casus_belli = {
+			target = PRU
+			type = liberate_country
+			months = 6
+		}
+		any_country = {
+			limit = { 
+				is_greater_power = no
+				OR = {
+					primary_culture = north_german 
+					primary_culture = south_german
+				}
+			}
+			casus_belli = {
+				target = THIS
+				type = cut_down_to_size
+				months = 24
+			}
+			end_military_access = THIS
+			leave_alliance = THIS
+			relation = { who = THIS value = -200 }
+		}
+		any_country = {
+			limit = { 
+				is_greater_power = yes
+				OR = {
+					primary_culture = north_german 
+					primary_culture = south_german
+				}
+			}
+			end_military_access = THIS
+			leave_alliance = THIS
+			relation = { who = THIS value = -150 }
+		}
+		ai_chance = {
+			factor = 0.15
+			modifier = {
+				factor = 0
+				has_recently_lost_war = yes
+			}
+			modifier = {
+				factor = 0
+				is_disarmed = yes
+			}
+			modifier = {
+				factor = 0
+				war_exhaustion = 1
+			}
+			modifier = {
+				factor = 0
+				num_of_revolts = 1
+			}
+			modifier = {
+				factor = 0
+				war = yes
+			}
+		}
+	}
+	
+	
+	option = {
+		name = "EVT33037OPTB"
+		prestige = -30
+		badboy = -2
+		remove_country_modifier = rhine_crisis
+		any_country = {
+			limit = {
+					OR = {
+					primary_culture = north_german 
+					primary_culture = south_german
+				}
+			}
+			relation = { who = THIS value = 50 }
+		}
+		any_pop = {
+			limit = { is_primary_culture = yes }
+			scaled_militancy = {
+				issue = jingoism
+				factor = 4
+			}
+		}
+
+		ai_chance = { factor = 0.85 }
+	}
+}
+
+
+
+
+
 country_event = {
 
 	id = 33003 #parallel event is BAY 33403

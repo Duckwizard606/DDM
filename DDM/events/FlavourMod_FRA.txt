@@ -108,216 +108,216 @@
 # 	}
 # }
 
-# #French Claims on Wallonia - Wallonia Owner's Response
-# country_event = {
-# 	id = 99984
-# 	title = "EVTNAME99984"
-# 	desc = "EVTDESC99984"
+#French Claims on Wallonia - Wallonia Owner's Response
+country_event = {
+	id = 99984
+	title = "EVTNAME99984"
+	desc = "EVTDESC99984"
 
-# 	is_triggered_only = yes
-# 	major = yes
+	is_triggered_only = yes
+	major = yes
 
-# 	option = {
-# 		name = "EVT99984OPTA"
-# 		set_country_flag = walloon_crisis
-# 		set_country_flag = walloon_owner
-# 		FROM = { country_event = 99986 }
-# 		FROM = {
-# 			relation = { who = THIS value = -400 }
-# 			diplomatic_influence = { who = THIS value = -400 }
-# 		}
-# 		any_country = {	limit = { is_greater_power = yes NOT = { alliance_with = FROM } capital_scope = { continent = europe } NOT = { tag = FRA tag = BOR } }
-# 			country_event = 99985
-# 		}
-# 		ai_chance = { factor = 1 }
-# 	}
+	option = {
+		name = "EVT99984OPTA"
+		set_country_flag = walloon_crisis
+		set_country_flag = walloon_owner
+		FROM = { country_event = 99986 }
+		FROM = {
+			relation = { who = THIS value = -400 }
+			diplomatic_influence = { who = THIS value = -400 }
+		}
+		any_country = {	limit = { is_greater_power = yes NOT = { alliance_with = FROM } capital_scope = { continent = europe } NOT = { tag = FRA tag = BOR } }
+			country_event = 99985
+		}
+		ai_chance = { factor = 1 }
+	}
 	
 	
-# 	option = {
-# 		name = "EVT99984OPTB"
-# 		prestige = -50
-# 		relation = { who = FROM value = 100 }
-# 		release_vassal = WLL
-# 		FROM = { inherit = WLL }
-# 		any_pop = {
-# 			limit = { 
-# 				OR = {
-# 					is_primary_culture = yes
-# 					is_accepted_culture = yes
-# 				}
-# 			}
-# 			militancy = 10
-# 		}
-# 		ai_chance = { factor = 0 }
-# 	}
-# }
+	option = {
+		name = "EVT99984OPTB"
+		prestige = -50
+		relation = { who = FROM value = 100 }
+		release_vassal = WLL
+		FROM = { inherit = WLL }
+		any_pop = {
+			limit = { 
+				OR = {
+					is_primary_culture = yes
+					is_accepted_culture = yes
+				}
+			}
+			militancy = 10
+		}
+		ai_chance = { factor = 0 }
+	}
+}
 
-# #French Claims on Wallonia - GP involvement
-# country_event = {
-# 	id = 99985
-# 	title = "EVTNAME99985"
-# 	desc = "EVTDESC99985"
-# 	picture = "german_rhine"
+#French Claims on Wallonia - GP involvement
+country_event = {
+	id = 99985
+	title = "EVTNAME99985"
+	desc = "EVTDESC99985"
+	picture = "german_rhine"
 
-# 	is_triggered_only = yes
-# 	major = yes
+	is_triggered_only = yes
+	major = yes
 	
-# 	option = {
-# 		name = "EVT99985OPTA"
-# 		set_country_flag = support_walloon_owner
-# 		random_owned = {
-# 			limit = { exists = FRA }
-# 			owner = { 
-# 				leave_alliance = FRA 
-# 				relation = { who = FRA value = -250 }
-# 			}
-# 		}	
-# 		random_owned = {
-# 			limit = { exists = BOR }
-# 			owner = { 
-# 				leave_alliance = BOR 
-# 				relation = { who = BOR value = -250 }
-# 			}
-# 		}
-# 		create_alliance = FROM
-# 		relation = { who = FROM value = 400 }
-# 		ai_chance = {
-# 			factor = 80 
-# 			modifier = {
-# 				factor = 0
-# 				OR = { 
-# 					alliance_with = FRA
-# 					alliance_with = BOR
-# 				}
-# 			}
-# 			modifier = {
-# 				factor = 75
-# 				OR = { 
-# 					relation = { who = FRA value = 175 }
-# 					relation = { who = BOR value = 175 }
-# 				}	
-# 			}
-# 			modifier = {
-# 				factor = 40
-# 				NOT = { relation = { who = FROM value = 0 } }
-# 			}
-# 		}
-# 	}
+	option = {
+		name = "EVT99985OPTA"
+		set_country_flag = support_walloon_owner
+		random_owned = {
+			limit = { exists = FRA }
+			owner = { 
+				leave_alliance = FRA 
+				relation = { who = FRA value = -250 }
+			}
+		}	
+		random_owned = {
+			limit = { exists = BOR }
+			owner = { 
+				leave_alliance = BOR 
+				relation = { who = BOR value = -250 }
+			}
+		}
+		create_alliance = FROM
+		relation = { who = FROM value = 400 }
+		ai_chance = {
+			factor = 80 
+			modifier = {
+				factor = 0
+				OR = { 
+					alliance_with = FRA
+					alliance_with = BOR
+				}
+			}
+			modifier = {
+				factor = 75
+				OR = { 
+					relation = { who = FRA value = 175 }
+					relation = { who = BOR value = 175 }
+				}	
+			}
+			modifier = {
+				factor = 40
+				NOT = { relation = { who = FROM value = 0 } }
+			}
+		}
+	}
 	
-# 	option = {
-# 		name = "EVT99985OPTB"
-# 		ai_chance = {
-# 			factor = 0 
-# 			modifier = {
-# 				factor = 100
-# 				OR = { 
-# 					alliance_with = FRA
-# 					alliance_with = BOR
-# 				}
-# 			}
-# 			modifier = {
-# 				factor = 10
-# 				OR = { 
-# 					relation = { who = FRA value = 175 }
-# 					relation = { who = BOR value = 175 }
-# 				}	
-# 			}
-# 		}
-# 	}
-# }
+	option = {
+		name = "EVT99985OPTB"
+		ai_chance = {
+			factor = 0 
+			modifier = {
+				factor = 100
+				OR = { 
+					alliance_with = FRA
+					alliance_with = BOR
+				}
+			}
+			modifier = {
+				factor = 10
+				OR = { 
+					relation = { who = FRA value = 175 }
+					relation = { who = BOR value = 175 }
+				}	
+			}
+		}
+	}
+}
 
-# #French Claims on Wallonia - France Back Down or War
-# country_event = {
-# 	id = 99986
-# 	title = "EVTNAME99986"
-# 	desc = "EVTDESC99986"
-# 	picture = "german_rhine"
+#French Claims on Wallonia - France Back Down or War
+country_event = {
+	id = 99986
+	title = "EVTNAME99986"
+	desc = "EVTDESC99986"
+	picture = "german_rhine"
 
-# 	is_triggered_only = yes
-# 	major = yes
+	is_triggered_only = yes
+	major = yes
 	
-# 	option = {
-# 		name = "EVT99986OPTA"
-# 		war = {
-# 			target = FROM
-# 			attacker_goal = { casus_belli = acquire_core_state state_province_id = 394 }
-# 			defender_goal = { casus_belli = status_quo }
-# 			call_ally = yes
-# 		}
-# 		ai_chance = {
-# 			factor = 80 
-# 			modifier = {
-# 				factor = 0
-# 				war_exhaustion = 50 
-# 			}
-# 			modifier = {
-# 				factor = 75
-# 				rank = 1
-# 			}
-# 			modifier = {
-# 				factor = 40
-# 				any_greater_power = {
-# 					alliance_with = THIS
-# 				}
-# 			}
-# 		}
-# 	}
+	option = {
+		name = "EVT99986OPTA"
+		war = {
+			target = FROM
+			attacker_goal = { casus_belli = acquire_core_state state_province_id = 394 }
+			defender_goal = { casus_belli = status_quo }
+			call_ally = yes
+		}
+		ai_chance = {
+			factor = 80 
+			modifier = {
+				factor = 0
+				war_exhaustion = 50 
+			}
+			modifier = {
+				factor = 75
+				rank = 1
+			}
+			modifier = {
+				factor = 40
+				any_greater_power = {
+					alliance_with = THIS
+				}
+			}
+		}
+	}
 	
-# 	option = {
-# 		name = "EVT99986OPTB"
-# 		prestige = -25
-# 		badboy = -6
-# 		WLL = {
-# 			all_core = {
-# 				remove_core = THIS
-# 			}
-# 		}
-# 		any_country = {
-# 			limit = {
-# 				has_country_flag = support_walloon_owner
-# 			}
-# 			country_event = 99987
-# 		}
-# 		ai_chance = {
-# 			factor = 0 
-# 			modifier = {
-# 				factor = 100
-# 				war_exhaustion = 50 
-# 			}
-# 			modifier = {
-# 				factor = 100
-# 				NOT = {
-# 					any_greater_power = {
-# 						alliance_with = THIS
-# 					}
-# 				}
-# 			}
-# 		}
-# 	}
-# }
+	option = {
+		name = "EVT99986OPTB"
+		prestige = -25
+		badboy = -6
+		WLL = {
+			all_core = {
+				remove_core = THIS
+			}
+		}
+		any_country = {
+			limit = {
+				has_country_flag = support_walloon_owner
+			}
+			country_event = 99987
+		}
+		ai_chance = {
+			factor = 0 
+			modifier = {
+				factor = 100
+				war_exhaustion = 50 
+			}
+			modifier = {
+				factor = 100
+				NOT = {
+					any_greater_power = {
+						alliance_with = THIS
+					}
+				}
+			}
+		}
+	}
+}
 
 
-# #French Claims on Wallonia - No War
-# country_event = {
-# 	id = 99987
-# 	title = "EVTNAME99987"
-# 	desc = "EVTDESC99987"
-# 	picture = "german_rhine"
-# 	major = yes
+#French Claims on Wallonia - No War
+country_event = {
+	id = 99987
+	title = "EVTNAME99987"
+	desc = "EVTDESC99987"
+	picture = "german_rhine"
+	major = yes
 
-# 	is_triggered_only = yes
+	is_triggered_only = yes
 	
-# 	option = {
-# 		name = "EVT99987OPTA"
-# 		prestige = 15
-# 		any_country = {
-# 			limit = {
-# 				has_country_flag = walloon_owner
-# 			}
-# 			leave_alliance = THIS
-# 		}
-# 	}
-# }
+	option = {
+		name = "EVT99987OPTA"
+		prestige = 15
+		any_country = {
+			limit = {
+				has_country_flag = walloon_owner
+			}
+			leave_alliance = THIS
+		}
+	}
+}
 
 # #France/Austria - Remove Jewish as accepted pops
 # country_event = {
@@ -397,81 +397,81 @@
 # 	}
 # }
 
-# #The Rhine Crisis - France loses
-# country_event = {
-# 	id = 99993
-# 	title = "EVTNAME99993"
-# 	desc = "EVTDESC99993"
-# 	major = yes
+#The Rhine Crisis - France loses
+country_event = {
+	id = 99993
+	title = "EVTNAME99993"
+	desc = "EVTDESC99993"
+	major = yes
 
-# 	is_triggered_only = yes
+	is_triggered_only = yes
 	
-# 	option = {
-# 		name = "EVT99993OPTA"
-# 		prestige = -15
-# 		set_country_flag = lost_the_rhine_crisis
-# 		remove_country_modifier = rhine_crisis
-# 	}
-# }
+	option = {
+		name = "EVT99993OPTA"
+		prestige = -15
+		set_country_flag = lost_the_rhine_crisis
+		remove_country_modifier = rhine_crisis
+	}
+}
 
-# #The Rhine Crisis - France Wins
-# country_event = {
-# 	id = 99994
-# 	title = "EVTNAME99994"
-# 	desc = "EVTDESC99994"
-# 	major = yes
+#The Rhine Crisis - France Wins
+country_event = {
+	id = 99994
+	title = "EVTNAME99994"
+	desc = "EVTDESC99994"
+	major = yes
 
-# 	is_triggered_only = yes
+	is_triggered_only = yes
 	
-# 	option = {
-# 		name = "EVT99993OPTA"
-# 		prestige = 5
-# 		set_global_flag = left_bank_french_victory
-# 		badboy = 5
-# 		diplomatic_influence = {
-# 			who = RHI
-# 			value = 400
-# 		}
-# 		create_alliance = RHI
-# 		create_vassal = RHI
-# 		remove_country_modifier = rhine_crisis
+	option = {
+		name = "EVT99993OPTA"
+		prestige = 5
+		set_global_flag = left_bank_french_victory
+		badboy = 5
+		diplomatic_influence = {
+			who = RHI
+			value = 400
+		}
+		create_alliance = RHI
+		create_vassal = RHI
+		remove_country_modifier = rhine_crisis
 		
-# 		any_country = {
-# 			limit = {
-# 				owns = 570
-# 				truce_with = THIS
-# 			}
-# 			country_event = 99995
-# 		}
+		any_country = {
+			limit = {
+				owns = 570
+				truce_with = THIS
+			}
+			country_event = 99995
+		}
 		
-# 		any_country = {
-# 			limit = {
-# 				owns = 571
-# 				truce_with = THIS
-# 			}
-# 			country_event = 99995
-# 		}
-# 	}
-# }
+		any_country = {
+			limit = {
+				owns = 571
+				truce_with = THIS
+			}
+			country_event = 99995
+		}
+	}
+}
 
-# #The Rhine Crisis - France Wins / Seceding Mainz & Kaiserslautern to Rhineland
-# country_event = {
-# 	id = 99995
-# 	title = "EVTNAME99995"
-# 	desc = "EVTDESC99995"
-# 	major = yes
+#The Rhine Crisis - France Wins / Seceding Mainz & Kaiserslautern to Rhineland
+country_event = {
+	id = 99995
+	title = "EVTNAME99995"
+	desc = "EVTDESC99995"
+	major = yes
 
-# 	is_triggered_only = yes
+	is_triggered_only = yes
 	
-# 	option = {
-# 		name = "EVT99993OPTA"
-# 		prestige = -15
-# 		any_owned = {
-# 			limit = { is_core = RHI }
-# 			secede_province = RHI
-# 		}
-# 	}
-# }
+	option = {
+		name = "EVT99993OPTA"
+		prestige = -15
+		any_owned = {
+			limit = { is_core = RHI }
+			secede_province = RHI
+		}
+	}
+}
 
 # #French Government - Changing to Kingdom
 # country_event = {
