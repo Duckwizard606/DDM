@@ -59,6 +59,12 @@ HAN = {
 	level = 4
 	influence_value = 0
 }
+SWH = {
+	value = 125
+	level = 5
+	influence_value = 0
+}
+
 #Other GP's
 AUS = {
 	value = 150

@@ -42,7 +42,11 @@ vassal = {
 	end_date = 1960.1.1
 }
 
+<<<<<<< Updated upstream
 # Denmark-Schleswig-Holstein
+=======
+# Demmark-Schleswig-Holstein
+>>>>>>> Stashed changes
 vassal = {
 	first = DEN
 	second = SWH

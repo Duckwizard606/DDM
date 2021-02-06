@@ -1,0 +1,227 @@
+#German Spheres
+
+#Loss of Control
+country_event = {
+	id = 45600
+	title = "EVTNAME45600"
+	desc = "EVTDESC45600"
+	major = yes
+	
+	trigger = {
+		OR = {
+			tag = COB
+			tag = HEK
+			tag = MEC
+			tag = BRE
+			tag = SAX
+			tag = HOL
+			tag = BAV
+			tag = WUR
+			tag = BAD
+			tag = HAN
+			tag = SCH
+			}
+		OR = {
+			AND = {
+				vassal_of = PRU
+				NOT = { in_sphere = PRU }
+			}
+			AND = {
+				vassal_of = NGF
+				NOT = { in_sphere = NGF }
+			}
+			AND = {
+				vassal_of = AUS
+				NOT = { in_sphere = AUS }
+			}
+			AND = {
+				vassal_of = SGF
+				NOT = { in_sphere = SGF }
+			}
+			AND = {
+				vassal_of = KUK
+				NOT = { in_sphere = KUK }
+			}
+		}
+		
+		
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA45600"
+		release_vassal = THIS
+	}
+}
+
+
+#Shifting Allegiances 
+
+country_event = {
+	id = 45601
+	title = "EVTNAME45601"
+	desc = "EVTDESC45601"
+	major = yes
+	
+	trigger = {
+		OR = {
+			tag = COB
+			tag = HEK
+			tag = MEC
+			tag = BRE
+			tag = SAX
+			tag = HOL
+			tag = BAV
+			tag = WUR
+			tag = BAD
+			tag = HAN
+			tag = SCH
+		}
+		OR = {
+			AND = {
+				NOT = { vassal_of = PRU }
+				in_sphere = PRU
+			}
+			AND = {
+				NOT = { vassal_of = NGF }
+				in_sphere = NGF
+			}
+			AND = {
+				NOT = { vassal_of = AUS }
+				in_sphere = AUS
+			}
+			AND = {
+				NOT = { vassal_of = SGF }
+				in_sphere = SGF
+			}
+			AND = {
+				NOT = { vassal_of = KUK }
+				in_sphere = KUK
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = "EVTOPTA45601"
+		sphere_owner = { create_vassal = this }
+	}
+}
+
+country_event = {
+
+	id = 45602 # The Annexation of Schleswig
+
+	title = "EVTNAME45602"
+	desc = "EVTDESC45602"
+	picture = "danishgovernment"
+
+	trigger = {
+		OR = {
+			tag = DEN
+			tag = SCA
+		}
+		OR = {
+			war_with = PRU
+			war_with = NGF
+			war_with = AUS
+			war_with = SGF
+			war_with = KUK
+		}
+		exists = SWH
+		year = 1848
+		SWH = {
+			owns = 370
+			owns = 371
+			vassal_of = THIS
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "EVTOPTA45602"
+		370 = { add_core = DEN }
+		371 = { add_core = DEN }
+		DEN = { country_event = 45603 }
+	}
+}
+
+country_event = {
+
+	id = 45603 # Schleswig-Holstein Rebellion
+
+	title = "EVTNAME45603"
+	desc = "EVTDESC45603"
+	
+	major = yes
+	picture = "danishgovernment"
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA45603"
+		prestige = 5
+		badboy = 2
+
+		leave_alliance = SWH
+		relation = {
+			who = SWH
+			value = -100
+		}
+	
+		any_country = {
+			limit = { primary_culture = north_german }
+			leave_alliance = THIS
+			relation = {
+				who = THIS
+				value = -50
+			}
+		}
+	
+		SWH = { government = hms_government }
+		any_greater_power = {
+			limit = { 
+				OR = { 
+					primary_culture = north_german
+					primary_culture = south_german
+				}
+			}
+			create_alliance = SWH
+		}
+	
+		war = {
+			target = SWH
+			attacker_goal = {
+				casus_belli = annex_core_country
+			}
+			defender_goal = {
+				casus_belli = status_quo
+			}
+			call_ally = yes
+		}
+		ai_chance = {
+			factor = 95
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB45603"
+		prestige = -20
+		badboy = -2
+		any_pop = {
+			militancy = 4
+			consciousness = 2
+		}
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
