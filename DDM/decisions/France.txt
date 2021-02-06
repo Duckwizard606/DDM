@@ -4,14 +4,21 @@ political_decisions = {
 			NOT = {
 				has_global_flag = statue_of_liberty_has_been_built
 			}
+<<<<<<< HEAD
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+			
+=======
 			tag = FRA
 			exists = FRA
+>>>>>>> parent of 6941892... Bourbon France now gets all french decisions and events.
 			exists = USA
 			USA = {
 				government = democracy
 				owns = 232
 			}
-			FRA = {
+			THIS = {
 				OR = {
 					government = hms_government
 					government = democracy
@@ -52,8 +59,15 @@ political_decisions = {
 	}
 	support_french_foreign_legion = {
 		potential = {
+<<<<<<< HEAD
+			primary_culture = french
+			is_greater_power = yes
+			capital = 425
+=======
 			tag = FRA
+>>>>>>> parent of 6941892... Bourbon France now gets all french decisions and events.
 			owns = 1700
+			
 			NOT = {
 				has_country_flag = french_foreign_legion_supported
 			}

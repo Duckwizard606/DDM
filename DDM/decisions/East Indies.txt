@@ -720,7 +720,14 @@ political_decisions = {
 			tag = FRA
 			CAM = {
 				exists = yes
+<<<<<<< HEAD
+				OR = {
+					neighbour = BOR
+					neighbour = FRA
+				}
+=======
 				neighbour = FRA
+>>>>>>> parent of 6941892... Bourbon France now gets all french decisions and events.
 				civilized = no
 				ai = yes
 			}
@@ -795,6 +802,10 @@ political_decisions = {
 					OR = {
 						part_of_sphere = no
 						in_sphere = FRA
+<<<<<<< HEAD
+						in_sphere = BOR
+=======
+>>>>>>> parent of 6941892... Bourbon France now gets all french decisions and events.
 					}
 					OR = {
 						is_vassal = no
@@ -841,7 +852,11 @@ political_decisions = {
 			is_greater_power = yes
 			has_global_flag = berlin_conference
 			SIA = {
+<<<<<<< HEAD
+				neighbour = THIS
+=======
 				neighbour = FRA
+>>>>>>> parent of 6941892... Bourbon France now gets all french decisions and events.
 				any_owned_province = {
 					OR = {
 						is_core = DAI
@@ -851,7 +866,7 @@ political_decisions = {
 						is_core = CHK
 					}
 				}
-			}
+			
 			NOT = { has_country_flag = enacted_siamese_border_treaty }
 		}
 		
