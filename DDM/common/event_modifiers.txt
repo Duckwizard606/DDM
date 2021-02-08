@@ -3,6 +3,12 @@
 ##################################################################################################
 
 ##### POLITICAL EVENTS ######
+
+
+requested_grant = {
+	icon = 1
+}
+
 government_sanitarium = {
 	population_growth = 0.001
 	icon = 19
