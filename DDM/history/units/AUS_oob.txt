@@ -85,6 +85,11 @@ WEI = {
 	value = 125
 	military_access = yes
 }
+SWH = {
+	value = 125
+	level = 4
+	influence_value = 0
+}
 
 #Europe
 KRA = {

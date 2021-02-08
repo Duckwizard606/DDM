@@ -1,4 +1,48 @@
-# Denmark-Schleswig-Holstein
+#########
+#GERMANY#
+#########
+
+# Prussia-Saxe-Coburg-Gotha
+vassal = {
+	first = PRU
+	second = COB
+	start_date = 1830.1.1
+	end_date = 1960.1.1
+}
+
+# Prussia-Hesse-Kassel
+vassal = {
+	first = PRU
+	second = HEK
+	start_date = 1830.1.1
+	end_date = 1960.1.1
+}
+
+# Prussia-Mecklenburg
+vassal = {
+	first = PRU
+	second = MEC
+	start_date = 1830.1.1
+	end_date = 1960.1.1
+}
+
+# Prussia-Bremen
+vassal = {
+	first = PRU
+	second = BRE
+	start_date = 1830.1.1
+	end_date = 1960.1.1
+}
+
+# Austria-Saxony
+vassal = {
+	first = AUS
+	second = SAX
+	start_date = 1830.1.1
+	end_date = 1960.1.1
+}
+
+# Demmark-Schleswig-Holstein
 vassal = {
 	first = DEN
 	second = SWH
