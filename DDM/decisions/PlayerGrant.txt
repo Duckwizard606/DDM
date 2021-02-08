@@ -2,11 +2,11 @@ political_decisions = {
 	request_grant = {
 		alert = no
 		potential = {
-			is_ai = no
+			ai = no
 		}
 		
 		allow = {
-			is_ai = no
+			ai = no
 			NOT = {
 				has_country_modifier = requested_grant
 			}
@@ -25,13 +25,13 @@ political_decisions = {
 	disable_grants = {
 		alert = no
 		potential = {
-			is_ai = no
+			ai = no
 			NOT = {
 				has_country_flag = disabled_grant_requests
 			}
 		}
 		allow = {
-			is_ai = no
+			ai = no
 			NOT = {
 				has_country_flag = disabled_grant_requests
 			}
@@ -44,11 +44,11 @@ political_decisions = {
 	enable_grants = {
 		alert = no
 		potential = {
-			is_ai = no
+			ai = no
 			has_country_flag = disabled_grant_requests		
 		}
 		allow = {
-			is_ai = no
+			ai = no
 			has_country_flag = disabled_grant_requests		
 		}
 		effect = {
