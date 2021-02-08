@@ -5,5 +5,5 @@ add_core = IRE
 trade_goods = fish
 life_rating = 35
 terrain = hilly_farmland
-naval_base = 2#Base in Cobh, important since pre-Napoleonic times
+#Base in Cobh, important since pre-Napoleonic times
 
