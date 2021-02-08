@@ -2,8 +2,8 @@ country_event = {
 	#danish event to add cores and fire event chain
 	id = 87301 # The Annexation of Schleswig
 
-	title = "EVTNAME90050"
-	desc = "EVTDESC90050"
+	title = "EVTNAME87301"
+	desc = "EVTDESC87301"
 	picture = "danishgovernment"
 	
 	trigger = {
@@ -51,14 +51,14 @@ country_event = {
 
 	id = 87302 # Response from Schleswig-Holstein
 
-	title = "EVTNAME90051"
-	desc = "EVTDESC90051"
+	title = "EVTNAME87302"
+	desc = "EVTDESC87302"
 	picture = "danishgovernment"
 
 	is_triggered_only = yes
 
 	option = {
-		name = "EVT90051OPTA"
+		name = "The Danes have gone too far!"
 		DEN = {
 			release_vassal = SWH
 			leave_alliance = SWH
@@ -94,14 +94,14 @@ country_event = {
 
 	id = 87303 # North German Alliance
 
-	title = "EVTNAME90051"
-	desc = "EVTDESC90051"
+	title = "EVTNAME87303"
+	desc = "EVTDESC87303"
 	picture = "danishgovernment"
 
 	is_triggered_only = yes
 
 	option = {
-		name = "EVT90051OPTA"
+		name = "We will help our brothers."
 
 		random_country = {
 			limit = {
@@ -127,20 +127,38 @@ country_event = {
 			}
 		}
 	}
+	
+	option = {
+		name = "War is not in our best interests."
+		
+		random_country = {
+			limit = {
+				AND = {
+					is_greater_power = yes
+					OR = {
+						primary_culture = south_german 
+					}
+				}
+			}
+			country_event = 87304
+		}
+		
+		set_country_flag = german_schleswig
+	}
 }
 
 country_event = {
 
 	id = 87304 # South German Alliance
 
-	title = "EVTNAME90051"
-	desc = "EVTDESC90051"
+	title = "EVTNAME87304"
+	desc = "EVTDESC87304"
 	picture = "danishgovernment"
 
 	is_triggered_only = yes
 
 	option = {
-		name = "EVT90051OPTA"
+		name = "We will help our brothers."
 		
 		random_country = {
 			limit = {
@@ -164,6 +182,22 @@ country_event = {
 			}
 		}
 	}
+	
+	option = {
+		name = "War is not in our best interests."
+		
+		random_country = {
+			limit = {
+				OR = {
+					tag = DEN
+					tag = SCA
+				}
+			}
+			country_event = 87305
+		}
+		
+		set_country_flag = german_holstein
+	}
 }
 
 #########################Start the war#########################
@@ -171,8 +205,8 @@ country_event = {
 
 	id = 87305 # Schleswig-Holstein Rebellion
 
-	title = "EVTNAME90054"
-	desc = "EVTDESC90054"
+	title = "EVTNAME87305"
+	desc = "EVTDESC87305"
 	news = yes
 	news_title = "EVTNAME90054_NEWS_TITLE"
 	news_desc_long = "EVTDESC90054_NEWS_LONG"
@@ -238,8 +272,8 @@ country_event = {
 
 	id = 87306
 
-	title = "EVTNAME90054"
-	desc = "EVTDESC90055"
+	title = "EVTNAME87306"
+	desc = "EVTDESC87306"
 	news = yes
 	news_desc_long = "EVTDESC90055_NEWS_LONG"
 	news_desc_medium = "EVTDESC90055_NEWS_MEDIUM"
@@ -333,8 +367,8 @@ country_event = {
 	#danish event to add cores and fire event chain
 	id = 87307 # The Annexation of Schleswig
 
-	title = "EVTNAME90050"
-	desc = "EVTDESC90050"
+	title = "EVTNAME87307"
+	desc = "EVTDESC87307"
 	picture = "danishgovernment"
 	
 	is_triggered_only = yes
@@ -368,8 +402,8 @@ country_event = {
 
 	id = 87308 # Austrian Response
 
-	title = "EVTNAME90054"
-	desc = "EVTDESC90056"
+	title = "EVTNAME87308"
+	desc = "EVTDESC87308"
 	picture = "danishgovernment"
 
 	is_triggered_only = yes
@@ -411,8 +445,8 @@ country_event = {
 
 	id = 87309 # Schleswig-Holstein Under Our Control
 
-	title = "EVTNAME90052"
-	desc = "EVTDESC90052"
+	title = "EVTNAME87309"
+	desc = "EVTDESC87309"
 	picture = "tropper_1849"
 
 	trigger = {
@@ -433,7 +467,7 @@ country_event = {
 	}
 
 	option = {
-		name = "EVT90052OPTA"
+		name = "Leniency will be shown."
 		set_country_flag = schleswig_holstein_restored
 		prestige = 10
 		badboy = -3
@@ -450,7 +484,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVT90052OPTB"
+		name = "Our claim must be respected."
 		badboy = 2
 		SWH = { all_core = { remove_core = SWH } }
 		SCH = { all_core = { remove_core = SCH } }
@@ -489,7 +523,7 @@ country_event = {
 		}
 	}
 	option = {
-		name = "EVT90052OPTC"
+		name = "All will denmark!"
 		prestige = -10
 		badboy = 5
 		any_pop = {

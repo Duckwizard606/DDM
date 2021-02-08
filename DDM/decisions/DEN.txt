@@ -49,6 +49,7 @@ political_decisions = {
 		
 		allow = {
 			war = no
+			year = 1844
 			SWH = {
 				war = no
 				OR = {
@@ -75,7 +76,7 @@ political_decisions = {
 			}
 			modifier = {
 				factor = 50
-				year = 1848
+				year = 1850
 			}
 			modifier = {
 				factor = 100
