@@ -5,5 +5,5 @@ trade_goods = lead
 life_rating = 25
 terrain = swamp_jungle
 is_slave = yes
-naval_base = 1
+
 

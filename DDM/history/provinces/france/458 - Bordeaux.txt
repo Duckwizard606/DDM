@@ -4,7 +4,6 @@ add_core = FRA
 trade_goods = fruit
 life_rating = 32
 terrain = bordeaux
-naval_base = 2
 #state_building = {
 #	level = 4
 #	building = winery

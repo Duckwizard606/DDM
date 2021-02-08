@@ -4,5 +4,4 @@ add_core = FRA
 trade_goods = lead
 life_rating = 32
 terrain = good_farmland
-naval_base = 2
 

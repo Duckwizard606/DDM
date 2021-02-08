@@ -4,5 +4,4 @@ add_core = ENG
 trade_goods = fish
 life_rating = 35
 terrain = southampton
-naval_base = 2
 

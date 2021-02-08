@@ -9,5 +9,5 @@ life_rating = 32
 terrain = madras
 colonial = 2
 fort = 1
-naval_base = 1
+
 

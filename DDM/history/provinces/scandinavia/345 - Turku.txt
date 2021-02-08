@@ -5,4 +5,3 @@ add_core = SWE
 trade_goods = fish
 life_rating = 35
 terrain = forested_farmland
-naval_base = 2

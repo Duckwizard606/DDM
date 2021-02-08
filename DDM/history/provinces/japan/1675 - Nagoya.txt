@@ -4,5 +4,5 @@ add_core = JAP
 trade_goods = silk
 life_rating = 35
 terrain = hilly_farmland
-naval_base = 1
+
 

@@ -4,6 +4,6 @@ add_core = ENG
 trade_goods = coal
 life_rating = 35
 terrain = good_farmland
-#naval_base = 1#Chatham
+##Chatham
 fort = 1
 

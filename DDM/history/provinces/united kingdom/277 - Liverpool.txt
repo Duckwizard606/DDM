@@ -20,5 +20,4 @@ state_building = {
 	building = bronze_factory 
 	upgrade = yes
 }
-naval_base = 2
 

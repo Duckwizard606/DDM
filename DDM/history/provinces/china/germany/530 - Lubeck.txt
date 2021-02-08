@@ -6,5 +6,4 @@ add_core = GER
 trade_goods = fish
 life_rating = 40
 terrain = lubeck
-naval_base = 2
 
