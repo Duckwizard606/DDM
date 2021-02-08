@@ -1101,7 +1101,7 @@ naval_base = {
 		cement = 500
 	}
 	time = 1440
-	naval_capacity = 20
+	naval_capacity = 1
 	capital = yes
 	onmap = yes
 	port = yes
