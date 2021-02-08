@@ -15,7 +15,7 @@ political_decisions = {
 		effect = {
 			add_country_modifier = {
 				name = requested_grant
-				days = 365
+				duration = 365
 			}
 			country_event = 200000
 		}
