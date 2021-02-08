@@ -1,0 +1,58 @@
+political_decisions = {
+	request_grant = {
+		alert = no
+		potential = {
+			is_ai = no
+		}
+		
+		allow = {
+			is_ai = no
+			NOT = {
+				has_country_modifier = requested_grant
+			}
+		}
+		
+		effect = {
+			add_country_modifier = {
+				name = requested_grant
+				days = 365
+			}
+			country_event = 200000
+		}
+	}
+	
+	
+	disable_grants = {
+		alert = no
+		potential = {
+			is_ai = no
+			NOT = {
+				has_country_flag = disabled_grant_requests
+			}
+		}
+		allow = {
+			is_ai = no
+			NOT = {
+				has_country_flag = disabled_grant_requests
+			}
+		}
+		effect = {
+			set_country_flag = disabled_grant_requests
+		}
+	}
+
+	enable_grants = {
+		alert = no
+		potential = {
+			is_ai = no
+			has_country_flag = disabled_grant_requests		
+		}
+		allow = {
+			is_ai = no
+			has_country_flag = disabled_grant_requests		
+		}
+		effect = {
+			clr_country_flag = disabled_grant_requests
+		}
+	}
+}
