@@ -42,6 +42,30 @@ vassal = {
 	end_date = 1960.1.1
 }
 
+# Austria-Bavaria
+vassal = {
+	first = AUS
+	second = BAV
+	start_date = 1830.1.1
+	end_date = 1960.1.1
+}
+
+# Austria-Wurttemberg
+vassal = {
+	first = AUS
+	second = WUR
+	start_date = 1830.1.1
+	end_date = 1960.1.1
+}
+
+# Austria-Baden
+vassal = {
+	first = AUS
+	second = BAD
+	start_date = 1830.1.1
+	end_date = 1960.1.1
+}
+
 # Demmark-Schleswig-Holstein
 vassal = {
 	first = DEN
@@ -316,37 +340,3 @@ vassal = {
 	start_date = 1691.1.1
 	end_date = 1911.1.1
 }
-
-#########1861
-# Siam - Cambodia
-vassal = {
-	first = SIA
-	second = CAM
-	start_date = 1861.1.1
-	end_date = 1936.1.1
-}
-
-# UK - KAS
-vassal = {
-	first = ENG
-	second = KAS
-	start_date = 1861.1.1
-	end_date = 1936.1.1
-}
-
-# OE - Romania 
-vassal = {
-	first = TUR
-	second = ROM
-	start_date = 1861.1.1
-	end_date = 1936.1.1
-}
-
-# OE - Hejaz 
-vassal = {
-	first = TUR
-	second = HDJ
-	start_date = 1861.1.1
-	end_date = 1936.1.1
-}
-
