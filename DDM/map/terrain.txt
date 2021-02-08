@@ -19,6 +19,7 @@ categories =  {
 		mine_rgo_eff = -0.25
 		supply_limit = 1
 		min_build_railroad = 3
+		min_build_naval_base = 7
 	}
 
 	farmlands = {
@@ -29,6 +30,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 8
+		min_build_naval_base = 7
 	}
 
 	forest = {
@@ -40,9 +42,10 @@ categories =  {
 		mine_rgo_size = 0 #mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 3
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
-
+	
 	woods = {
 		movement_cost = 1.1
 		defence = 1
@@ -52,6 +55,7 @@ categories =  {
 		mine_rgo_size = 0 #mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 3
+		min_build_naval_base = 7
 	}
 
 	steppe = {
@@ -62,7 +66,7 @@ categories =  {
 		mine_rgo_size = 0 #mine_rgo_size = -0.1
 		mine_rgo_eff = 0
 		supply_limit = 4
-
+		min_build_naval_base = 7
 	}
 
 	plains = {
@@ -73,7 +77,7 @@ categories =  {
 		mine_rgo_size = 0.0 #mine_rgo_size = -0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 7
-
+		min_build_naval_base = 7
 	}
 
 	coastal_desert = {
@@ -85,6 +89,7 @@ categories =  {
 		mine_rgo_size = -0.1
 		mine_rgo_eff = -0.1
 		supply_limit = 2
+		min_build_naval_base = 7
 	}
 
 	good_farmland = {
@@ -97,6 +102,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 8
 		min_build_railroad = 0
+		min_build_naval_base = 7
 	}
 
 	floodplain_farmland = {
@@ -109,6 +115,7 @@ categories =  {
 		mine_rgo_eff = -0.25
 		supply_limit = 8
 		min_build_railroad = 0
+		min_build_naval_base = 7
 	}
 
 	marginal_farmland = {
@@ -121,6 +128,7 @@ categories =  {
 		mine_rgo_eff = 0
 		supply_limit = 7
 		min_build_railroad = 0
+		min_build_naval_base = 7
 	}
 
 	hilly_farmland = {
@@ -134,7 +142,7 @@ categories =  {
 		mine_rgo_eff = 0.1
 		supply_limit = 5
 		min_build_railroad = 0
-
+		min_build_naval_base = 7
 		combat_width = -0.30
 	}
 
@@ -149,7 +157,7 @@ categories =  {
 		mine_rgo_eff = 0.2
 		supply_limit = 3
 		min_build_railroad = 1
-
+		min_build_naval_base = 7
 		combat_width = -0.50
 	}
 
@@ -164,6 +172,7 @@ categories =  {
 		mine_rgo_eff = 0
 		supply_limit = 6
 		min_build_railroad = 0
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -178,6 +187,7 @@ categories =  {
 		mine_rgo_eff = -0.2
 		supply_limit = 3
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.30
 	}
 
@@ -191,6 +201,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 5
 		min_build_railroad = 0
+		min_build_naval_base = 7
 	}
 
 	hills = {
@@ -204,6 +215,7 @@ categories =  {
 		mine_rgo_eff = 0.1
 		supply_limit = 3
 		min_build_railroad = 0
+		min_build_naval_base = 7
 	}
 
 	mountain = {
@@ -217,7 +229,7 @@ categories =  {
 		mine_rgo_eff = 0.25
 		supply_limit = 2
 		min_build_railroad = 2
-
+		min_build_naval_base = 7
 		combat_width = -0.50
 	}
 
@@ -232,6 +244,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 4
 		min_build_railroad = 1
+		min_build_naval_base = 7
 	}
 
 	hilly_grassland = {
@@ -245,6 +258,7 @@ categories =  {
 		mine_rgo_eff = 0.15
 		supply_limit = 3
 		min_build_railroad = 1
+		min_build_naval_base = 7
 		combat_width = -0.30
 	}
 
@@ -259,6 +273,7 @@ categories =  {
 		mine_rgo_eff = 0.25
 		supply_limit = 1.8
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.50
 	}
 
@@ -273,6 +288,7 @@ categories =  {
 		mine_rgo_eff = -0.15
 		supply_limit = 2
 		min_build_railroad = 2
+		min_build_naval_base = 7
 	}
 
 	semi_desert_hills = {
@@ -286,6 +302,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 2.1
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -300,6 +317,7 @@ categories =  {
 		mine_rgo_eff = 0.1
 		supply_limit = 1.6
 		min_build_railroad = 3
+		min_build_naval_base = 7
 		combat_width = -0.40
 	}
 
@@ -314,6 +332,7 @@ categories =  {
 		mine_rgo_eff = -0.3
 		supply_limit = 1
 		min_build_railroad = 3
+		min_build_naval_base = 7
 	}
 
 	desert_hills = {
@@ -327,6 +346,7 @@ categories =  {
 		mine_rgo_eff = -0.15
 		supply_limit = 1.5
 		min_build_railroad = 3
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -341,7 +361,7 @@ categories =  {
 		mine_rgo_eff = -0.05
 		supply_limit = 1.25
 		min_build_railroad = 4
-
+		min_build_naval_base = 7
 		combat_width = -0.40
 	}
 
@@ -356,7 +376,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 3
 		min_build_railroad = 1
-
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -371,6 +391,7 @@ categories =  {
 		mine_rgo_eff = 0.15
 		supply_limit = 3
 		min_build_railroad = 1
+		min_build_naval_base = 7
 		combat_width = -0.60
 	}
 
@@ -385,6 +406,7 @@ categories =  {
 		mine_rgo_eff = 0.25
 		supply_limit = 2
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.75
 	}
 
@@ -399,6 +421,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 4
 		min_build_railroad = 1
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -413,6 +436,7 @@ categories =  {
 		mine_rgo_eff = 0.15
 		supply_limit = 3
 		min_build_railroad = 1
+		min_build_naval_base = 7
 		combat_width = -0.40
 	}
 
@@ -427,6 +451,7 @@ categories =  {
 		mine_rgo_eff = 0.25
 		supply_limit = 2.4
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.70
 	}
 
@@ -441,6 +466,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 3
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -455,6 +481,7 @@ categories =  {
 		mine_rgo_eff = 0.15
 		supply_limit = 2.8
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.40
 	}
 
@@ -469,6 +496,7 @@ categories =  {
 		mine_rgo_eff = 0.25
 		supply_limit = 2.1
 		min_build_railroad = 3
+		min_build_naval_base = 7
 		combat_width = -0.70
 	}
 
@@ -483,6 +511,7 @@ categories =  {
 		mine_rgo_eff = -0.1
 		supply_limit = 2
 		min_build_railroad = 3
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -497,6 +526,7 @@ categories =  {
 		mine_rgo_eff = 0.05
 		supply_limit = 2
 		min_build_railroad = 3
+		min_build_naval_base = 7
 		combat_width = -0.40
 	}
 
@@ -511,7 +541,7 @@ categories =  {
 		mine_rgo_eff = 0.1
 		supply_limit = 1.8
 		min_build_railroad = 4
-
+		min_build_naval_base = 7
 		combat_width = -0.70
 	}
 
@@ -526,6 +556,7 @@ categories =  {
 		mine_rgo_eff = -0.25
 		supply_limit = 2
 		min_build_railroad = 3
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -540,6 +571,7 @@ categories =  {
 		mine_rgo_eff = -0.1
 		supply_limit = 2
 		min_build_railroad = 3
+		min_build_naval_base = 7
 		combat_width = -0.50
 	}
 
@@ -554,6 +586,7 @@ categories =  {
 		mine_rgo_eff = -0.05
 		supply_limit = 1.4
 		min_build_railroad = 4
+		min_build_naval_base = 7
 		combat_width = -0.80
 	}
 
@@ -568,6 +601,7 @@ categories =  {
 		mine_rgo_eff = -0.2
 		supply_limit = 2
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -582,6 +616,7 @@ categories =  {
 		mine_rgo_eff = -0.05
 		supply_limit = 2
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.50
 	}
 
@@ -596,7 +631,7 @@ categories =  {
 		mine_rgo_eff = 0.05
 		supply_limit = 1.7
 		min_build_railroad = 3
-
+		min_build_naval_base = 7
 		combat_width = -0.80
 	}
 
@@ -611,6 +646,7 @@ categories =  {
 		mine_rgo_eff = -0.35
 		supply_limit = 1
 		min_build_railroad = 3
+		min_build_naval_base = 7
 	}
 
 	cold_desert_hills = {
@@ -624,7 +660,7 @@ categories =  {
 		mine_rgo_eff = -0.2
 		supply_limit = 1.1
 		min_build_railroad = 3
-
+		min_build_naval_base = 7
 		combat_width = -0.30
 	}
 
@@ -639,7 +675,7 @@ categories =  {
 		mine_rgo_eff = -0.1
 		supply_limit = 1
 		min_build_railroad = 4
-
+		min_build_naval_base = 7
 		combat_width = -0.60
 	}
 
@@ -654,6 +690,7 @@ categories =  {
 		mine_rgo_eff = -0.5
 		supply_limit = 0.5
 		min_build_railroad = 4
+		min_build_naval_base = 7
 	}
 
 	tundra_hills = {
@@ -667,7 +704,7 @@ categories =  {
 		mine_rgo_eff = -0.3
 		supply_limit = 0.5
 		min_build_railroad = 4
-
+		min_build_naval_base = 7
 		combat_width = -0.30
 	}
 
@@ -682,7 +719,7 @@ categories =  {
 		mine_rgo_eff = -0.2
 		supply_limit = 0.25
 		min_build_railroad = 5
-
+		min_build_naval_base = 7
 		combat_width = -0.60
 	}
 
@@ -697,6 +734,7 @@ categories =  {
 		mine_rgo_eff = -0.4
 		supply_limit = 2
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.30
 	}
 
@@ -711,7 +749,7 @@ categories =  {
 		mine_rgo_eff = -0.5
 		supply_limit = 1.8
 		min_build_railroad = 4
-
+		min_build_naval_base = 7
 		combat_width = -0.50
 	}
 
@@ -726,7 +764,7 @@ categories =  {
 		mine_rgo_eff = -0.55
 		supply_limit = 1.6
 		min_build_railroad = 4
-
+		min_build_naval_base = 7
 		combat_width = -0.80
 	}
 	
