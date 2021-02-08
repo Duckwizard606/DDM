@@ -130,16 +130,6 @@ political_decisions = {
 		}
 		allow = {
 			romanticism = 1
-<<<<<<< HEAD
-			
-=======
-			NOT = {
-				relation = {
-					who = FRA
-					value = -50
-				}
-			}
->>>>>>> parent of 6941892... Bourbon France now gets all french decisions and events.
 		}
 		effect = {
 			prestige = 5
