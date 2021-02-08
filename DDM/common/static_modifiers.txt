@@ -153,6 +153,7 @@ base_values = {
 war = {
 	max_war_exhaustion = 100			#base max at war.
 	badboy = -0.05
+	war_exhaustion = -1
 	global_pop_consciousness_modifier = -0.02
 }
 
