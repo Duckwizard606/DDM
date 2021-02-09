@@ -11,10 +11,14 @@ Germany - 7 {2} #t bremen schwerin
 Lowlands - 3 {1} #p ???antwerp??? / t bruges
 Spain - 4 {1} #t cadiz la_coruna -bilbao
 Portugal - 1 {2} # setubal oporto
-Italy - 7 {0} #t leghorn(Rename) brindisi -palermo	-nice
+Italy - 8 {1} #t leghorn(Rename) brindisi cagliari -palermo	-nice
 Adratic - 4 {1} #t fiume vlore -pola *covers only the non-italian adratic
 Scandanvia - 5 {2} #p ??ribe??(looks so funky) / t aalborg malmo
 Baltic - 4 {0} #t memel *all baltic aside from scandanvia and germany
+Aegean - 2 {2} #t salonika gallipoli
+Black Sea - 2 {3} #t bolu nikoleav novorossiysk rostov -odessa
+Asia Minor - 0 {2} #t izmir mersin limassol	
+Levant and Egypt - 	2{3} #p ??beersheba/aqaba??(not coastal) / t latakia beruit jaffa 
 
 (numbers within parentheses on the left with be on the pacific and right on the atlantic)
 AMERICAS - ??? (???/???) {?}
@@ -27,6 +31,12 @@ South SA - ??? (???/???) {?}
 
 
 ASIA - ??? {?}
-India - ??? {?} #including non-british ports
+South Asia - 7 {8} #t mandvi cuttack vizagapatnam cochin mangalore surat pegu chittagong *including non-british ports
+Middle East - 1{?} #p qeshm / t abadon basra kuwait
 
-AFRICA - ??? {?}
+AFRICA - 8 {34}
+North Africa - 3{5} #t casablanca melilla oran ??bougie??(change name add terrain) benghazi
+Western Africa 3{8} #t dakar banjul bissau freetown accra cotonou lagos benin onne -cape coast
+Central Africa 0{7} #t douala libreville bata loango boma luanda benguela
+South Africa - 1{7} #t walvis_bay port_elizabeth durban ulundi lourenco_marques sofala tomasina
+Eastern Africa - 1{7} #t kilwa dar_es_salaam mombasa mogadishu djibuti massawa suakin
