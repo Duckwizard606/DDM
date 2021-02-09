@@ -1,8 +1,10 @@
 # Count each nation/regions coastal city so they can be balanced on a more realistic and interesting basis
 
 (CLASSIFACTIONS ARE REGIONAL NOT NATIONAL)
+*any province with a asterisk will be limit down a levels. 2 asterisks will mean 2 levels
 [brackets is number of cities that will be added / or removed]
 # p will be for province modding / t will just change terrain
+
 
 EUROPE - 53 {13}
 Great Britian - 9 {4} #p scapa_flow / t cork hull ipswich
@@ -32,7 +34,17 @@ South SA - ??? (???/???) {?}
 
 ASIA - ??? {?}
 South Asia - 7 {8} #t mandvi cuttack vizagapatnam cochin mangalore surat pegu chittagong *including non-british ports
-Middle East - 1{?} #p qeshm / t abadon basra kuwait
+Middle East - 1{10} #p qeshm / t abadon basra kuwait jidda qatif bahrain doha abu_dhabi muscat
+China - ???{?} #t
+Korea - ???{?} #t
+Japan - ???{?} #t
+North Asian Pacific - ???{?} #t
+
+Oceania - ???{?}
+South East Asia - 6{16} #t prachinburi kuala_lumpur api* penang tanjungpinang(rename batam) medan siak padang* yogyakarta* surabaya makassar* banjarmasin* pontianak* samarinda cebu* davao
+Australasia - 4{8} #t lae** port_moresby** christchurch wellington brisbane palmerston adelaide roebourne
+Polynesia - 0{3} tahiti** apia** hawaii
+Micronesia and Melanesia - 0{5} new_caledonia** soloman_islands** fiji** gilbert_islands** yap**
 
 AFRICA - 8 {34}
 North Africa - 3{5} #t casablanca melilla oran ??bougie??(change name add terrain) benghazi
