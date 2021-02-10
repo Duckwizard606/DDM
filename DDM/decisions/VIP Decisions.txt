@@ -1,39 +1,39 @@
 political_decisions = {
-	a_telegraph_line_to_uruguay = { #original VIP event idea by General Perón, scripted by Scythe
-		potential = {
-			tag = ARG
-			exists = URU
-			NOT = { has_country_flag = a_telegraph_line_to_uruguay }
-		}
-		allow = {
-			electricity = 1
-			relation = { who = URU value = 10 }
-			NOT = { war_with = URU }
-		}
-		effect = {
-			relation = { who = URU value = 35 }
-			treasury = -400
-			set_country_flag = a_telegraph_line_to_uruguay
-		}
-	}
+	# a_telegraph_line_to_uruguay = { #original VIP event idea by General Perón, scripted by Scythe
+	# 	potential = {
+	# 		tag = ARG
+	# 		exists = URU
+	# 		NOT = { has_country_flag = a_telegraph_line_to_uruguay }
+	# 	}
+	# 	allow = {
+	# 		electricity = 1
+	# 		relation = { who = URU value = 10 }
+	# 		NOT = { war_with = URU }
+	# 	}
+	# 	effect = {
+	# 		relation = { who = URU value = 35 }
+	# 		treasury = -400
+	# 		set_country_flag = a_telegraph_line_to_uruguay
+	# 	}
+	# }
 	
-	found_the_school_of_military_aviation = { #original VIP event idea by General Perón, scripted by Scythe
-		potential = {
-			tag = ARG
-			owns = 2379 #Cordoba de Argentina
-			NOT = { has_country_flag = foundation_of_the_school_of_military_aviation }
-		}
-		allow = {
-			aeronautics = 1
-		}
-		effect = {
-			research_points = 100
-			soldiers = { consciousness = -1 }
-			officers = { consciousness = -1 }
-			leadership = 8
-			set_country_flag = foundation_of_the_school_of_military_aviation
-		}
-	}
+	# found_the_school_of_military_aviation = { #original VIP event idea by General Perón, scripted by Scythe
+	# 	potential = {
+	# 		tag = ARG
+	# 		owns = 2379 #Cordoba de Argentina
+	# 		NOT = { has_country_flag = foundation_of_the_school_of_military_aviation }
+	# 	}
+	# 	allow = {
+	# 		aeronautics = 1
+	# 	}
+	# 	effect = {
+	# 		research_points = 100
+	# 		soldiers = { consciousness = -1 }
+	# 		officers = { consciousness = -1 }
+	# 		leadership = 8
+	# 		set_country_flag = foundation_of_the_school_of_military_aviation
+	# 	}
+	# }
 
 	state_visit_to_argentina = { #original VIP event idea by General Perón, scripted by Scythe
 		potential = {
@@ -77,48 +77,48 @@ political_decisions = {
 		}
 	}
 	
-	recognize_argentinas_independence = { #original VIP event by Generalisimo
-		potential = {
-			tag = SAR
-			exists = ARG
-			OR = { #is a monarchy
-				government = absolute_monarchy
-				government = prussian_constitutionalism
-				government = hms_government
-			}
-			NOT = {
-				has_country_flag = recognize_argentinas_independence
-			}
-		}
+	# recognize_argentinas_independence = { #original VIP event by Generalisimo
+	# 	potential = {
+	# 		tag = SAR
+	# 		exists = ARG
+	# 		OR = { #is a monarchy
+	# 			government = absolute_monarchy
+	# 			government = prussian_constitutionalism
+	# 			government = hms_government
+	# 		}
+	# 		NOT = {
+	# 			has_country_flag = recognize_argentinas_independence
+	# 		}
+	# 	}
 		
-		allow = {
-			NOT = {
-				war_with = ARG
-			}
-			war = no
-			ARG = {
-				war = no
-			}
-			SPA = {
-				is_greater_power = no
-			}
-			NOT = {
-				in_sphere = SPA
-			}
-		}
+	# 	allow = {
+	# 		NOT = {
+	# 			war_with = ARG
+	# 		}
+	# 		war = no
+	# 		ARG = {
+	# 			war = no
+	# 		}
+	# 		SPA = {
+	# 			is_greater_power = no
+	# 		}
+	# 		NOT = {
+	# 			in_sphere = SPA
+	# 		}
+	# 	}
 		
-		effect = {
-			ARG = {
-				country_event = 146603
-				relation = { who = THIS value = 20 }
-			}
-			SPA = {
-				relation = { who = THIS value = -10 }
-			} 
-			prestige = 1
-			set_country_flag = recognize_argentinas_independence
-		}
-	}
+	# 	effect = {
+	# 		ARG = {
+	# 			country_event = 146603
+	# 			relation = { who = THIS value = 20 }
+	# 		}
+	# 		SPA = {
+	# 			relation = { who = THIS value = -10 }
+	# 		} 
+	# 		prestige = 1
+	# 		set_country_flag = recognize_argentinas_independence
+	# 	}
+	# }
 
 	slovene_language_at_celje_gymnasium = { #original VIP event by Hrast, edited by Palisadoes
 		potential = {
@@ -229,199 +229,199 @@ political_decisions = {
 		}
 	}
 
-	establish_the_observatorio_astronomico = { #original VIP event idea by mfigueras, text and script by Scythe
-		potential = {
-			tag = ECU
-			owns = 2279 #Quito
-			exists = GER
-			NOT = {
-				has_country_flag = establish_the_observatorio_astronomico
-			}
-		}
-		allow = {
-			GER = {
-				semi_automatization = 1
-			}
-			relation = {
-				who = GER
-				value = 0
-			}					
-		}
-		effect = {
-			research_points = 600
-			relation = { who = GER value = 15 }
-			money = -300
-			prestige = 3
-			plurality = 2
-			set_country_flag = establish_the_observatorio_astronomico
-		}
-	}
+	# establish_the_observatorio_astronomico = { #original VIP event idea by mfigueras, text and script by Scythe
+	# 	potential = {
+	# 		tag = ECU
+	# 		owns = 2279 #Quito
+	# 		exists = GER
+	# 		NOT = {
+	# 			has_country_flag = establish_the_observatorio_astronomico
+	# 		}
+	# 	}
+	# 	allow = {
+	# 		GER = {
+	# 			semi_automatization = 1
+	# 		}
+	# 		relation = {
+	# 			who = GER
+	# 			value = 0
+	# 		}					
+	# 	}
+	# 	effect = {
+	# 		research_points = 600
+	# 		relation = { who = GER value = 15 }
+	# 		money = -300
+	# 		prestige = 3
+	# 		plurality = 2
+	# 		set_country_flag = establish_the_observatorio_astronomico
+	# 	}
+	# }
 
-	paraguayan_law_of_the_free_womb = { #original VIP event by PMLF
-		potential = {
-			tag = PRG
-			slavery = yes_slavery
-			NOT = { has_country_flag = paraguayan_law_of_the_free_womb }
-		}
-		allow = {
-			OR = {
-				ruling_party_ideology = liberal
-				ruling_party_ideology = anarcho_liberal
-				ruling_party_ideology = socialist
-				ruling_party_ideology = communist
-			}
-			OR = {
-				upper_house = {
-					ideology = liberal
-					value = 0.3
-				}
-				upper_house = {
-					ideology = anarcho_liberal
-					value = 0.3
-				}
-				upper_house = {
-					ideology = socialist
-					value = 0.3
-				}
-				upper_house = {
-					ideology = communist
-					value = 0.3
-				}
-			}
-		}
-		effect = {
-			prestige = 5
-			slaves = {
-				militancy = -1
-				dominant_issue = {
-					value = no_slavery
-					factor = 1
-				}
-			}
-			any_pop = {
-				dominant_issue = {
-					value = no_slavery
-					factor = 0.15
-				}
-			}
-			upper_house = {
-				ideology = conservative
-				value = 0.25
-			}
-			set_country_flag = paraguayan_law_of_the_free_womb
-		}
-	}
+	# paraguayan_law_of_the_free_womb = { #original VIP event by PMLF
+	# 	potential = {
+	# 		tag = PRG
+	# 		slavery = yes_slavery
+	# 		NOT = { has_country_flag = paraguayan_law_of_the_free_womb }
+	# 	}
+	# 	allow = {
+	# 		OR = {
+	# 			ruling_party_ideology = liberal
+	# 			ruling_party_ideology = anarcho_liberal
+	# 			ruling_party_ideology = socialist
+	# 			ruling_party_ideology = communist
+	# 		}
+	# 		OR = {
+	# 			upper_house = {
+	# 				ideology = liberal
+	# 				value = 0.3
+	# 			}
+	# 			upper_house = {
+	# 				ideology = anarcho_liberal
+	# 				value = 0.3
+	# 			}
+	# 			upper_house = {
+	# 				ideology = socialist
+	# 				value = 0.3
+	# 			}
+	# 			upper_house = {
+	# 				ideology = communist
+	# 				value = 0.3
+	# 			}
+	# 		}
+	# 	}
+	# 	effect = {
+	# 		prestige = 5
+	# 		slaves = {
+	# 			militancy = -1
+	# 			dominant_issue = {
+	# 				value = no_slavery
+	# 				factor = 1
+	# 			}
+	# 		}
+	# 		any_pop = {
+	# 			dominant_issue = {
+	# 				value = no_slavery
+	# 				factor = 0.15
+	# 			}
+	# 		}
+	# 		upper_house = {
+	# 			ideology = conservative
+	# 			value = 0.25
+	# 		}
+	# 		set_country_flag = paraguayan_law_of_the_free_womb
+	# 	}
+	# }
 
-	reaffirm_paraguayan_independence = { #original VIP event by PMLF
-		potential = {
-			tag = PRG
-			NOT = { has_country_flag = reaffirm_paraguayan_independence }
-		}
-		allow = {
-			prestige = 2
-		}
-		effect = {
-			prestige = 5
-			relation = { who = ARG value = -30 }
-			any_pop = { militancy = -2 consciousness = -2 }
-			set_country_flag = reaffirm_paraguayan_independence
-		}
-	}
+	# reaffirm_paraguayan_independence = { #original VIP event by PMLF
+	# 	potential = {
+	# 		tag = PRG
+	# 		NOT = { has_country_flag = reaffirm_paraguayan_independence }
+	# 	}
+	# 	allow = {
+	# 		prestige = 2
+	# 	}
+	# 	effect = {
+	# 		prestige = 5
+	# 		relation = { who = ARG value = -30 }
+	# 		any_pop = { militancy = -2 consciousness = -2 }
+	# 		set_country_flag = reaffirm_paraguayan_independence
+	# 	}
+	# }
 
-	start_the_campaign_against_the_guaranis = { #original VIP event by PMLF
-		potential = {
-			tag = PRG
-			NOT = { accepted_culture = guarani }
-			any_owned_province = { has_pop_culture = guarani }
-			NOT = { has_country_flag = start_the_campaign_against_the_guaranis }
-		}
-		allow = {
-			OR = {
-				economic_policy = state_capitalism
-				economic_policy = planned_economy
-			}
-		}
-		effect = {
-			money = 200
-			any_pop = { limit = { culture = guarani } consciousness = 1 militancy = 2 }
-			any_owned = {
-				limit = {
-					culture = guarani
-					OR = {
-						trade_goods = timber
-						trade_goods = tropical_wood
-					}
-				}
-				add_province_modifier = {
-					name = colonial_exploitation
-					duration = 3650
-				}
-			}
-			set_country_flag = start_the_campaign_against_the_guaranis
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				average_militancy = 1
-			}
-		}
-	}
+	# start_the_campaign_against_the_guaranis = { #original VIP event by PMLF
+	# 	potential = {
+	# 		tag = PRG
+	# 		NOT = { accepted_culture = guarani }
+	# 		any_owned_province = { has_pop_culture = guarani }
+	# 		NOT = { has_country_flag = start_the_campaign_against_the_guaranis }
+	# 	}
+	# 	allow = {
+	# 		OR = {
+	# 			economic_policy = state_capitalism
+	# 			economic_policy = planned_economy
+	# 		}
+	# 	}
+	# 	effect = {
+	# 		money = 200
+	# 		any_pop = { limit = { culture = guarani } consciousness = 1 militancy = 2 }
+	# 		any_owned = {
+	# 			limit = {
+	# 				culture = guarani
+	# 				OR = {
+	# 					trade_goods = timber
+	# 					trade_goods = tropical_wood
+	# 				}
+	# 			}
+	# 			add_province_modifier = {
+	# 				name = colonial_exploitation
+	# 				duration = 3650
+	# 			}
+	# 		}
+	# 		set_country_flag = start_the_campaign_against_the_guaranis
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 		modifier = {
+	# 			factor = 0
+	# 			average_militancy = 1
+	# 		}
+	# 	}
+	# }
 
-	student_exchange_and_importation_of_technicians = { #original VIP event by Pimparel
-		potential = {
-			tag = PRG
-			NOT = { has_country_flag = student_exchange_and_importation_of_technicians }
-		}
-		allow = {
-			prestige = 5
-			money = 250
-		}
-		effect = {
-			any_pop = {
-				random = {
-					chance = 25
-					consciousness = 1
-				}
-			}
-			research_points = 200
-			money = -250
-			set_country_flag = student_exchange_and_importation_of_technicians
-		}
-	}
+	# student_exchange_and_importation_of_technicians = { #original VIP event by Pimparel
+	# 	potential = {
+	# 		tag = PRG
+	# 		NOT = { has_country_flag = student_exchange_and_importation_of_technicians }
+	# 	}
+	# 	allow = {
+	# 		prestige = 5
+	# 		money = 250
+	# 	}
+	# 	effect = {
+	# 		any_pop = {
+	# 			random = {
+	# 				chance = 25
+	# 				consciousness = 1
+	# 			}
+	# 		}
+	# 		research_points = 200
+	# 		money = -250
+	# 		set_country_flag = student_exchange_and_importation_of_technicians
+	# 	}
+	# }
 
-	send_solano_lopez_to_europe = { #original VIP event by PMLF
-		potential = {
-			tag = PRG
-			government = presidential_dictatorship
-			NOT = { has_country_flag = send_solano_lopez_to_europe }
-		}
-		allow = {
-			money = 500
-		}
-		effect = {
-			small_arms = 20
-			relation = { who = FRA value = 10 }
-			money = -500
-			set_country_flag = send_solano_lopez_to_europe
-		}
-	}
+	# send_solano_lopez_to_europe = { #original VIP event by PMLF
+	# 	potential = {
+	# 		tag = PRG
+	# 		government = presidential_dictatorship
+	# 		NOT = { has_country_flag = send_solano_lopez_to_europe }
+	# 	}
+	# 	allow = {
+	# 		money = 500
+	# 	}
+	# 	effect = {
+	# 		small_arms = 20
+	# 		relation = { who = FRA value = 10 }
+	# 		money = -500
+	# 		set_country_flag = send_solano_lopez_to_europe
+	# 	}
+	# }
 
-	the_vesuvius_observatory = { #original VIP event by aprof
-		potential = {
-			tag = SIC #Two Sicilies
-			NOT = {
-				has_country_flag = the_vesuvius_observatory
-			}
-		}
+	# the_vesuvius_observatory = { #original VIP event by aprof
+	# 	potential = {
+	# 		tag = SIC #Two Sicilies
+	# 		NOT = {
+	# 			has_country_flag = the_vesuvius_observatory
+	# 		}
+	# 	}
 		
-		allow = {
-			invention = machine_tools
-		}
+	# 	allow = {
+	# 		invention = machine_tools
+	# 	}
 		
-		effect = {
-			research_points = 100
-			set_country_flag = the_vesuvius_observatory
-		}
-	}
+	# 	effect = {
+	# 		research_points = 100
+	# 		set_country_flag = the_vesuvius_observatory
+	# 	}
+	# }
 }
