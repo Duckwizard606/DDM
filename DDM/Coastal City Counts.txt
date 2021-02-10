@@ -20,16 +20,16 @@ Baltic - 4 {0} #t memel *all baltic aside from scandanvia and germany
 Aegean - 2 {2} #t salonika gallipoli
 Black Sea - 2 {3} #t bolu nikoleav novorossiysk rostov -odessa
 Asia Minor - 0 {2} #t izmir mersin limassol	
-Levant and Egypt - 	2{3} #p ??beersheba/aqaba??(not coastal) / t latakia beruit jaffa 
+Levant and Egypt - 	2{3} #p ??beersheba/aqaba??(not coastal) / t latakia beruit jaffa
 
 (numbers within parentheses or brackets on the left with be on the pacific and right on the atlantic)
-AMERICAS - ??? (???/???) {?}
+AMERICAS - 14 (4/10) {14/24}
 USA - 6 (2/4) {2/10} #p new_york philadelphia / t san_antonio houston mobile tampa st_augustine charleston norfolk baltimore newark hartford san_deigo seattle -austin -washington
-Canada - ???/??? (???/???) {?} *the number after the bracket is the alaskan ports
-Central America - ??? (???/???) {?}
-Brazil - ??? {?}
-North SA - ??? (???/???) {?}
-South SA - ??? (???/???) {?}
+Canada - 3/0 (1/2) {3/1} #t vancover_island halifax stika** kenai** -saint_joins** *the number after the bracket is the alaskan ports
+Central America - 1 (1/0) {4/3} #t colima veracruz tampico panama_city liberia guatemala san_salvador
+Brazil - 1 {4} #t porto_alegre santos recife belem
+North SA - 1 (0/1) {3/4} #t georgetown paramaribo cayenne guiria cartagena_de_indias quibdo guayaquil lima
+South SA - 2 (0/2) {2/2} #t antofagasta valparaiso parana rio_grande
 
 
 ASIA - 27 {36}
