@@ -1,5 +1,7 @@
+owner = USA
+controller = USA
+add_core = USA
 trade_goods = timber
 life_rating = 40
 terrain = conifer_forest_hills
 colonial = 2
-
