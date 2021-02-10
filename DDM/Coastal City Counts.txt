@@ -1,5 +1,5 @@
 # Count each nation/regions coastal city so they can be balanced on a more realistic and interesting basis
-
+Provinces are made coastal by adding a port in the positions.txt
 (CLASSIFACTIONS ARE REGIONAL NOT NATIONAL)
 *any province with a asterisk will be limit down a levels. 2 asterisks will mean 2 levels
 [brackets is number of cities that will be added / or removed]
@@ -22,9 +22,9 @@ Black Sea - 2 {3} #t bolu nikoleav novorossiysk rostov -odessa
 Asia Minor - 0 {2} #t izmir mersin limassol	
 Levant and Egypt - 	2{3} #p ??beersheba/aqaba??(not coastal) / t latakia beruit jaffa 
 
-(numbers within parentheses on the left with be on the pacific and right on the atlantic)
+(numbers within parentheses or brackets on the left with be on the pacific and right on the atlantic)
 AMERICAS - ??? (???/???) {?}
-USA - ??? (???/???) {?}
+USA - 6 (2/4) {2/10} #p new_york philadelphia / t san_antonio houston mobile tampa st_augustine charleston norfolk baltimore newark hartford san_deigo seattle -austin -washington
 Canada - ???/??? (???/???) {?} *the number after the bracket is the alaskan ports
 Central America - ??? (???/???) {?}
 Brazil - ??? {?}

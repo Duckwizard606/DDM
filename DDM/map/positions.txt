@@ -10584,7 +10584,16 @@ fort=
 			x=1622.000000
 			y=1627.000000
 		}
+naval_base=
+		{
+			x=1641.599976
+			y=1612.699951
+		}
 
+	}
+building_rotation = 
+	{
+naval_base=3.577925
 	}
 	spawn_railway_track=
 	{
@@ -11000,7 +11009,16 @@ fort=
 			x=1654.400024
 			y=1647.800049
 		}
+naval_base=
+		{
+			x=1659.199951
+			y=1640.400024
+		}
 
+	}
+building_rotation = 
+	{
+naval_base=4.625122
 	}
 }
 
