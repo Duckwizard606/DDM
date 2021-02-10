@@ -1588,7 +1588,7 @@ guiTypes = {
 	
 	positionType = {
 		name = "focuscategory_start"
-		position = { x = 34 y = 73 }
+		position = { x = 25 y = 73 }
 	}
 	positionType = {
 		name = "focuscategory_step"
