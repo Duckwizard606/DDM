@@ -25,22 +25,22 @@ Levant and Egypt - 	2{3} #p ??beersheba/aqaba??(not coastal) / t latakia beruit 
 (numbers within parentheses on the left with be on the pacific and right on the atlantic)
 AMERICAS - ??? (???/???) {?}
 USA - ??? (???/???) {?}
-Canada - ??? (???/???) {?}
-CA - ??? (???/???) {?}
+Canada - ???/??? (???/???) {?} *the number after the bracket is the alaskan ports
+Central America - ??? (???/???) {?}
 Brazil - ??? {?}
 North SA - ??? (???/???) {?}
 South SA - ??? (???/???) {?}
 
 
-ASIA - ??? {?}
+ASIA - 27 {36}
 South Asia - 7 {8} #t mandvi cuttack vizagapatnam cochin mangalore surat pegu chittagong *including non-british ports
 Middle East - 1{10} #p qeshm / t abadon basra kuwait jidda qatif bahrain doha abu_dhabi muscat
-China - ???{?} #t
-Korea - ???{?} #t
-Japan - ???{?} #t
-North Asian Pacific - ???{?} #t
+China - 3/8{9} #t zhanjiang chaozhou zhangzhou fuzhou wenzhou taizhou taicangzhou xuzhou tianjin jinzhou -peking *second number after slash is the number of treaty port cities
+Korea - 2{1} #t inchon
+Japan - 5{7} #t okinawa fukuokta hiroshima kobe kochi nagoya niigata
+North Asian Pacific - 1{1} #t utchan
 
-Oceania - ???{?}
+Oceania - 10{32}
 South East Asia - 6{16} #t prachinburi kuala_lumpur api* penang tanjungpinang(rename batam) medan siak padang* yogyakarta* surabaya makassar* banjarmasin* pontianak* samarinda cebu* davao
 Australasia - 4{8} #t lae** port_moresby** christchurch wellington brisbane palmerston adelaide roebourne
 Polynesia - 0{3} tahiti** apia** hawaii
