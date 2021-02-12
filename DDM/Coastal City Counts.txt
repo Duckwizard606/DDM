@@ -1,25 +1,27 @@
 # Count each nation/regions coastal city so they can be balanced on a more realistic and interesting basis
 Provinces are made coastal by adding a port in the positions.txt
+empty state in defines is per state not province
+non core supply malus rounds up to 1
 (CLASSIFACTIONS ARE REGIONAL NOT NATIONAL)
 *any province with a asterisk will be limit down a levels. 2 asterisks will mean 2 levels
 [brackets is number of cities that will be added / or removed]
 # p will be for province modding / t will just change terrain
 
 
-EUROPE - 53 {13}
+EUROPE - 53 {23}
 Great Britian - 9 {4} #p scapa_flow / t cork hull ipswich
 France - 9 {0} #t montpellier -rennes
 Germany - 7 {2} #t bremen schwerin
-Lowlands - 3 {1} #p ???antwerp??? / t bruges
+Lowlands - 3 {2} #p antwerp / t bruges
 Spain - 4 {1} #t cadiz la_coruna -bilbao
 Portugal - 1 {2} # setubal oporto
 Italy - 8 {1} #t leghorn(Rename) brindisi cagliari -palermo	-nice
 Adratic - 4 {1} #t fiume vlore -pola *covers only the non-italian adratic
 Scandanvia - 5 {2} #p ??ribe??(looks so funky) / t aalborg malmo
-Baltic - 4 {0} #t memel *all baltic aside from scandanvia and germany
+Baltic - 4 {1} #t memel *all baltic aside from scandanvia and germany
 Aegean - 2 {2} #t salonika gallipoli
 Black Sea - 2 {3} #t bolu nikoleav novorossiysk rostov -odessa
-Asia Minor - 0 {2} #t izmir mersin limassol	
+Asia Minor - 0 {3} #t izmir mersin limassol	
 Levant and Egypt - 	2{3} #p ??beersheba/aqaba??(not coastal) / t latakia beruit jaffa
 
 (numbers within parentheses or brackets on the left with be on the pacific and right on the atlantic)
