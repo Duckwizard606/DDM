@@ -1749,10 +1749,7 @@ pan_nationalist_rebels = {
 			factor = 0
 			country = { tag = CSA }
 		}
-		modifier = {
-			factor = 0
-			country = { tag = FSA }
-		}
+
 		modifier = {
 			factor = 0
 			country = { has_country_flag = post_colonial_country }
@@ -1772,11 +1769,7 @@ pan_nationalist_rebels = {
 			is_culture_group = south_asian
 			cultural_union = { exists = no }
 		}
-		modifier = {
-			factor = 0
-			is_culture_group = polish_culture_group
-			country = { tag = PLC }
-		}
+
 		modifier = {
 			factor = 0
 			OR = {

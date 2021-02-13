@@ -181,7 +181,6 @@ country_event = {
 		OR = {
 			tag = USA
 			tag = CSA
-			tag = FSA
 		}
 		OR = {
 			has_country_modifier = usa_draft

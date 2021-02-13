@@ -640,7 +640,6 @@ country_event = {
 			tag = AUS
 			tag = DNB
 			tag = CSA
-			tag = FSA
 			tag = UIL
 			tag = UNB
 		}
