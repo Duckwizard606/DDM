@@ -21,7 +21,6 @@ SPU		= "countries/South Peru.txt"
 YUC		= "countries/Yucatan.txt"
 
 #North America
-DAK		= "countries/Dakota.txt"
 FSA		= "countries/Free States of America.txt"
 JAM		= "countries/Jamaica.txt"
 LSK		= "countries/Alaska.txt"
