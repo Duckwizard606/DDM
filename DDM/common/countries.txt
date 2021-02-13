@@ -6,7 +6,6 @@ REB 	= 	"countries/rebels.txt"
 ### NEW NATIONS MOD ###
 
 #Latin America
-GUY		= "countries/Guyana.txt"
 LOS		= "countries/Los Altos.txt"
 LPL		= "countries/La Plata.txt"
 PBC		= "countries/Peru-Bolivia Confederation.txt"
