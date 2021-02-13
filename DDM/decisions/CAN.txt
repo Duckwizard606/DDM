@@ -104,10 +104,7 @@ political_decisions = {
 		
 	organize_british_columbia = {
 		potential = {
-			OR = {
-				tag = ENG
-				tag = ENL
-			}
+			tag = ENG
 			owns = 13
 			owns = 14
 			owns = 19
@@ -226,7 +223,6 @@ political_decisions = {
 					primary_culture = british
 					accepted_culture = anglo_canadian
 					NOT = { tag = ENG }
-					NOT = { tag = ENL }
 				}
 			}
 			CAN = {

@@ -9,10 +9,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		war = no
 		year = 1907
 		any_owned_province = { is_core = NEW }
@@ -211,14 +208,11 @@ country_event = {
 	trigger = {
 		tag = NEW
 		war = no
+		vassal_of = ENG
 		OR = {
 			has_country_modifier = great_depression
 			has_country_modifier = in_bankrupcy
 			has_country_modifier = generalised_debt_default
-		}
-		OR = {
-			vassal_of = ENG
-			vassal_of = ENL
 		}
 	}
 
@@ -252,10 +246,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		war = no
 		year = 1901
 		any_owned_province = { is_core = AST }
@@ -450,10 +441,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		war = no
 		year = 1907
 		any_owned_province = { is_core = NZL }
@@ -657,10 +645,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		war = no
 		year = 1909
 		any_owned_province = { is_core = SAF }
@@ -1264,10 +1249,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		war = no
 		CAN = { war = no }
 		is_our_vassal = CAN
@@ -1390,10 +1372,7 @@ country_event = {
 	major = yes
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		war = no
 		year = 1924
 		any_owned_province = { is_core = RHO }

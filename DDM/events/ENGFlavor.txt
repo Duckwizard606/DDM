@@ -11,10 +11,7 @@ country_event = {
 
 	
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		year = 1838
 		OR = {
 			government = absolute_monarchy
@@ -47,10 +44,7 @@ country_event = {
 	id = 36900  
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1836
 		public_meetings = yes_meeting
 		NOT = {
@@ -97,10 +91,7 @@ country_event = {
 	news_desc_short = "EVTDESC36901_NEWS_SHORT"	
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1837
 		realism = 1 #has this tech
 		NOT = {
@@ -154,10 +145,7 @@ country_event = {
 	id = 36902  
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1840
 		NOT = {
 			year = 1843
@@ -209,10 +197,7 @@ country_event = {
 	news_desc_short = "EVTDESC36903_NEWS_SHORT"	
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1839
 		OR = {
 			government = absolute_monarchy
@@ -256,10 +241,7 @@ country_event = {
 	id = 36904  
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1840
 		press_rights = free_press 
 		NOT = {
@@ -310,10 +292,7 @@ country_event = {
 	id = 36905  
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1843
 		public_meetings = yes_meeting
 		NOT = {
@@ -358,10 +337,7 @@ country_event = {
 	id = 36907  
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1846
 		press_rights = free_press 
 		NOT = {
@@ -415,10 +391,7 @@ country_event = {
 	id = 36908  
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1849
 		early_railroad = 1	
 		NOT = {
@@ -500,10 +473,7 @@ country_event = {
 	id = 36910  
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1884
 		press_rights = free_press
 		realism = 1 
@@ -546,10 +516,7 @@ country_event = {
 	news_desc_short = "EVTDESC36911_NEWS_SHORT"
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1892
 		press_rights = free_press
 		realism = 1 
@@ -594,10 +561,7 @@ country_event = {
 	news_desc_short = "EVTDESC36912_NEWS_SHORT"
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1917
 		press_rights = free_press
 		expressionism = 1 
@@ -639,10 +603,7 @@ country_event = {
 	id = 36913 
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1850
 		exists = USA
 		NOT = {
@@ -681,10 +642,7 @@ country_event = {
 	id = 36914 
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1850
 		invention = steamer_transports
 		NOT = {
@@ -727,10 +685,7 @@ country_event = {
 	id = 36915 
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1896
 		OR = {
 			government = absolute_monarchy
@@ -777,10 +732,7 @@ country_event = {
 	id = 36917  
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1856
 		public_meetings = yes_meeting #allows public meetings
 		NOT = {
@@ -818,10 +770,7 @@ country_event = {
 	id = 36918  
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1856
 		public_meetings = yes_meeting #allows public meetings
 		NOT = {
@@ -877,10 +826,7 @@ country_event = {
 	news_desc_short = "EVTDESC36919_NEWS_SHORT"
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		war = yes
 		medicine = 1 
 		year = 1851
@@ -921,10 +867,7 @@ country_event = {
 	id = 36921
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1901
 		ruling_party_ideology = conservative
 		NOT = {
@@ -986,10 +929,7 @@ country_event = {
 	news_desc_short = "EVTDESC36922_NEWS_SHORT"
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1881
 		owns = 2468 #Sydney
 		owns = 2476 #Melbourne
@@ -1041,10 +981,7 @@ country_event = {
 	news_desc_short = "EVTDESC36923_NEWS_SHORT"
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		functionalism = 1
 		year = 1858
 		NOT = {
@@ -1094,10 +1031,7 @@ country_event = {
 	id = 36924  
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1876
 		public_meetings = yes_meeting #allows public meetings
 		NOT = {
@@ -1140,10 +1074,7 @@ country_event = {
 	news_desc_short = "EVTDESC36925_NEWS_SHORT"	
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		year = 1887
 		experimental_psychology = 1
 		NOT = {
@@ -1196,10 +1127,7 @@ country_event = {
 	id = 36926  
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1853
 		public_meetings = yes_meeting
 		NOT = {
@@ -1239,10 +1167,7 @@ country_event = {
 	id = 36927 
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1864
 		NOT = {
 			year = 1867
@@ -1281,10 +1206,7 @@ country_event = {
 	id = 36928 
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG 
 		year = 1867
 		NOT = {
 			year = 1870
@@ -1327,10 +1249,7 @@ country_event = {
 	news_desc_short = "EVTDESC36929_NEWS_SHORT"
 	
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		year = 1879
 		owns = 270
 		owns = 269
@@ -1372,10 +1291,7 @@ country_event = {
 	id = 36930
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1865
 		NOT = {
 			war_with = QNG
@@ -1414,10 +1330,7 @@ country_event = {
 	id = 36932
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG
 		year = 1897
 		expressionism = 1
 		NOT = {
@@ -1457,10 +1370,7 @@ country_event = {
 	id = 36933
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		year = 1867
 		NOT = {
 			year = 1870
@@ -1501,10 +1411,7 @@ country_event = {
 	id = 36935 #parallel to AST43800, ENG more often than not will own AST directly at this point, so needs own event.
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		} 
+		tag = ENG 
 		year = 1844
 		owns = 2468 #Sydney
 		owns = 2476 #Melbourne
@@ -1599,10 +1506,7 @@ country_event = {
 	id = 36937 #sets up COB35000
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		year = 1836
 		exists = COB
 		OR = {
@@ -1710,10 +1614,7 @@ country_event = {
 	news_desc_short = "EVTDESC36939_NEWS_SHORT"
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		owns = 1251 #Calcutta
 		year = 1853
 		NOT = {
@@ -1795,10 +1696,7 @@ country_event = {
 	picture = "Waitangi"
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		owns = 2509 #Auckland
 		year = 1840
 		NOT = { exists = NZL }
@@ -1843,10 +1741,7 @@ country_event = {
 	picture = "flagstaffwar"
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		owns = 2509 #Auckland
 		has_global_flag = treaty_of_waitangi
 		year = 1845
@@ -1902,10 +1797,7 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		NZL = {
 			exists = no
 			all_core = { owned_by = THIS }
@@ -1942,10 +1834,7 @@ country_event = {
 	picture = "flagstaffwar"
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		has_global_flag = treaty_of_waitangi
 		any_owned_province = {
 			is_core = NZL
@@ -1993,10 +1882,7 @@ country_event = {
 	picture = "administration"
 
 	trigger = {
-		OR = {
-			tag = ENG
-			tag = ENL
-		}
+		tag = ENG
 		ASH = { owns = 1907 }
 		owns = 1908
 		year = 1850

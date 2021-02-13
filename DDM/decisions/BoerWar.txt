@@ -456,10 +456,7 @@ political_decisions = {
 	claim_north_cape_colony = {
 		picture = map_africa
 		potential = {
-			OR = {
-				tag = ENG
-				tag = ENL
-			}
+			tag = ENG
 			2093 = {
 				empty = no
 				NOT = { owned_by = THIS }
@@ -492,10 +489,7 @@ political_decisions = {
 	claim_xhosa_lands = {
 		picture = map_africa
 		potential = {
-			OR = {
-				tag = ENG
-				tag = ENL
-			}
+			tag = ENG
 			owns = 2087
 			2100 = {
 				OR = {
