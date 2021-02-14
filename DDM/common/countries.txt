@@ -5,12 +5,6 @@ REB 	= 	"countries/rebels.txt"
 
 ### NEW NATIONS MOD ###
 
-#Latin America
-RGS		= "countries/Rio Grande do Sul.txt"
-SON		= "countries/Sonora.txt"
-SPU		= "countries/South Peru.txt"
-YUC		= "countries/Yucatan.txt"
-
 #North America
 JAM		= "countries/Jamaica.txt"
 LSK		= "countries/Alaska.txt"

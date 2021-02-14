@@ -16,7 +16,7 @@ political_decisions = {
 			NOT = {	government = democracy }
 			NOT = { war_policy = pacifism }
 			OR = {
-				owns = 994
+				owns = 994F
 				is_greater_power = yes
 				AND = {
 					is_secondary_power = yes
@@ -90,84 +90,6 @@ political_decisions = {
 			}
 		}
 	}
-
-	claim_mayan_lands = {
-
-		potential = {
-			tag = YUC
-			NOT = { has_country_flag = claim_mayan_lands }
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			prestige = 45
-		}
-
-		effect = {
-			set_country_flag = claim_mayan_lands
-			2165 = { #villa hermosa
-				add_core = YUC
-			}
-			2181 = { #tuxtla
-				add_core = YUC
-			}
-			2182 = { #tapachula
-				add_core = YUC
-			}
-			2186 = { #guatemala
-				add_core = YUC
-			}
-			2187 = { #quetzaltenango
-				add_core = YUC
-			}
-			2188 = { #puerto barrios
-				add_core = YUC
-			}
-			2189 = { #sayaxche
-				add_core = YUC
-			}
-			2190 = { #belize
-				add_core = YUC
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	claim_santa_catarina = {
-
-		potential = {
-			tag = RGS
-			NOT = { has_country_flag = claim_santa_catarina }
-		}
-
-		allow = {
-			war = no
-			is_vassal = no
-			prestige = 45
-		}
-
-		effect = {
-			set_country_flag = claim_santa_catarina
-			2461 = { #Desterro
-				add_core = RGS
-			}
-			2462 = { #Sao Miguel
-				add_core = RGS
-			}
-			2459 = { #Lajes
-				add_core = RGS
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}		
-
 	claim_greater_albania = {
 
 		potential = {
