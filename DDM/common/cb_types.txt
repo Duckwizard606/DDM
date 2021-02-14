@@ -1653,10 +1653,6 @@ free_peoples = {
 				FROM = { tag = ETH }
 				ETH = { exists = no }
 			}
-			AND = {
-				FROM = { tag = BOL }
-				exists = PBC
-			}
 		}
 		FROM = {
 			OR = {
@@ -2002,10 +1998,6 @@ liberate_country = {
 			AND = {
 				FROM = { tag = ETH }
 				NOT = { exists = ETH }
-			}
-			AND = {
-				FROM = { tag = BOL }
-				exists = PBC
 			}
 		}
 		OR = {

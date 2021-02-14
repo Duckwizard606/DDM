@@ -7,10 +7,7 @@ country_event = {
 	news_desc_short = "EVTDESC46600_NEWS_SHORT"
 
 	trigger = {
-		OR = {
-			tag = ARG
-			tag = LPL
-		}
+		tag = ARG
 		year = 1851
 		NOT = {
 			year = 1885
@@ -107,10 +104,7 @@ country_event = {
 	news_desc_short = "EVTDESC46601_NEWS_SHORT" 
 
 	trigger = {
-		OR = {
-			tag = ARG
-			tag = LPL
-		}  
+		tag = ARG
 		year = 1844
 		NOT = {
 			year = 1855

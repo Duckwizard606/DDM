@@ -4,9 +4,7 @@ SPA = {
 USA = {
 	value = 100
 }
-PBC = {
-	value = -100
-}
+
 ARG = {
 	value = 75
 }

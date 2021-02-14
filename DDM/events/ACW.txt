@@ -2110,14 +2110,7 @@ country_event = {
 			THIS = { add_accepted_culture = anglo_canadian }
 		}
 		inherit = FROM
-		random_owned = {
-			limit = {
-				is_core = RGR
-				state_scope = { is_slave = no }
-				owner = { slavery = yes_slavery }
-			}
-			state_scope = { is_slave = yes }
-		}
+
 		ai_chance = {
 			factor = 10
 		}

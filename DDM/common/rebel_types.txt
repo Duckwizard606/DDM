@@ -1474,12 +1474,6 @@ nationalist_rebels = {
 		}
 		modifier = {
 			factor = 0
-			culture = south_andean
-			location = { is_core = BOL }
-			country = { tag = PBC }
-		}
-		modifier = {
-			factor = 0
 			culture = british
 			country = { primary_culture = boer }
 		}
