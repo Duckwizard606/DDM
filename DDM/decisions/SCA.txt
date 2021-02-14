@@ -45,10 +45,6 @@ political_decisions = {
 					DEN = { has_country_modifier = kalmar_union }
 				}
 				AND = {
-					NOT = { tag = ICL }
-					ICL = { has_country_modifier = kalmar_union }
-				}
-				AND = {
 					NOT = { tag = FIN }
 					FIN = { has_country_modifier = kalmar_union }
 				}
@@ -112,70 +108,6 @@ political_decisions = {
 		}
 	}
 
-	reform_kalmar = {
-		potential = {
-			is_culture_group = scandinavian
-			NOT = { exists = SCA }
-			NOT = { has_global_flag = kalmar_reformed }
-			NOT = { has_country_flag = greater_finland }
-			NOT = { has_country_flag = post_colonial_country }
-		}
-		
-		allow = {
-			prestige = 50
-			is_greater_power = yes
-			war = no
-			OR = {
-				tag = SWE
-				NOT = { exists = SWE }
-				relation = { who = SWE value = 100 }
-				is_sphere_leader_of = SWE
-			}
-			OR = {
-				tag = NOR
-				NOT = { exists = NOR }
-				relation = { who = NOR value = 100 }
-				is_sphere_leader_of = NOR
-			}
-			OR = {
-				tag = DEN
-				NOT = { exists = DEN }
-				relation = { who = DEN value = 100 }
-				is_sphere_leader_of = DEN
-			}
-			OR = {
-				tag = FIN
-				NOT = { exists = FIN }
-				relation = { who = FIN value = 100 }
-				is_sphere_leader_of = FIN
-			}
-		}
-		
-		effect = {
-			any_country = {
-				limit = {
-					is_culture_group = scandinavian
-					NOT = { tag = THIS }
-					NOT = { has_country_flag = post_colonial_country }
-					OR = {
-						is_vassal = no
-						vassal_of = THIS
-					}
-					exists = yes
-				}
-				country_event = 49501
-			}
-			add_country_modifier = {
-				name = leader_of_kalmar
-				duration = -1
-			}
-			set_global_flag = kalmar_reformed 
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
 
 	SCA_customs_union = {
 		potential = {
@@ -195,10 +127,7 @@ political_decisions = {
 					NOT = { tag = DEN }
 					DEN = { has_country_modifier = kalmar_union }
 				}
-				AND = {
-					NOT = { tag = ICL }
-					ICL = { has_country_modifier = kalmar_union }
-				}
+
 				AND = {
 					NOT = { tag = FIN }
 					FIN = { has_country_modifier = kalmar_union }
@@ -255,10 +184,7 @@ political_decisions = {
 					NOT = { tag = DEN }
 					DEN = { has_country_modifier = kalmar_union }
 				}
-				AND = {
-					NOT = { tag = ICL }
-					ICL = { has_country_modifier = kalmar_union }
-				}
+
 				AND = {
 					NOT = { tag = FIN }
 					FIN = { has_country_modifier = kalmar_union }
@@ -300,143 +226,6 @@ political_decisions = {
 		}
 	}
 
-	usurp_kalmar = {
-		picture = reform_kalmar
-		potential = {
-			has_country_modifier = kalmar_union
-			OR = { 
-				DEN = { 
-					has_country_modifier = leader_of_kalmar	
-					is_greater_power = no
-				}				
-				NOR = { 
-					has_country_modifier = leader_of_kalmar	
-					is_greater_power = no
-				}
-				SWE = { 
-					has_country_modifier = leader_of_kalmar	
-					is_greater_power = no
-				}
-				ICL = { 
-					has_country_modifier = leader_of_kalmar	
-					is_greater_power = no
-				}
-				FIN = { 
-					has_country_modifier = leader_of_kalmar	
-					is_greater_power = no
-				}
-				SCH = { 
-					has_country_modifier = leader_of_kalmar	
-					is_greater_power = no
-				}
-			}
-		}
-		
-		allow = {
-			is_greater_power = yes
-			war = no
-		}
-		
-		effect = {
-			random_country = {
-				limit = { has_country_modifier = leader_of_kalmar }
-				country_event = 49509
-			}
-			remove_country_modifier = kalmar_union
-			add_country_modifier = {
-				name = leader_of_kalmar
-				duration = -1
-			}
-		}
-
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	join_kalmar_union = {
-		picture = reform_kalmar
-		potential = {
-			is_culture_group = scandinavian
-			is_greater_power = no
-			NOT = { has_country_modifier = kalmar_union }
-			NOT = { has_country_flag = refused_kalmar_union }
-			NOT = { has_country_flag = post_colonial_country }
-			any_greater_power = {
-				has_country_modifier = leader_of_kalmar
-			}
-		}
-		
-		allow = {
-			war = no
-			OR = {
-				is_vassal = no
-				overlord = { has_country_modifier = leader_of_kalmar }
-			}
-			any_greater_power = {
-				has_country_modifier = leader_of_kalmar
-				NOT = { truce_with = THIS }
-				OR = {
-					is_sphere_leader_of = THIS
-					relation = { who = THIS value = 150 }
-				}
-			}
-		}
-		
-		effect = {
-			clr_country_flag = refused_kalmar_union
-			add_country_modifier = {
-				name = kalmar_union
-				duration = -1
-			}
-			random_owned = {
-				limit = {
-					owner = { has_global_flag = scandinavian_customs_union }
-				}
-				owner = {
-					add_country_modifier = {
-						name = customs_union 
-						duration = -1
-					}
-				}
-			}
-			random_owned = {
-				limit = {
-					owner = { has_global_flag = scandinavian_call_to_union }
-				}
-				owner = {
-					any_owned = { 
-						limit = {
-							is_colonial = no
-							is_core = THIS
-						}
-						add_core = SCA 
-					}
-					add_accepted_culture = swedish
-					add_accepted_culture = danish
-					add_accepted_culture = norwegian
-					add_accepted_culture = finnish
-					add_accepted_culture = icelandic
-				}
-			}
-			random_country = {
-				limit = {
-					has_country_modifier = leader_of_kalmar
-					SCA = { exists = no }
-				}
-				relation = { who = THIS value = 200 }
-				diplomatic_influence = { who = THIS value = 100 }
-			}
-			random_country = {
-				limit = {
-					tag = SCA
-					exists = yes
-				}
-				country_event = 60130
-			}
-		}
-	}
-	
 	embrace_estonians = {
 		picture = greater_finland
 		potential = {
