@@ -2145,6 +2145,862 @@ spriteTypes = {
 		texturefile = "gfx\\interface\\terrain_kassel.tga"
 		norefcount = yes
 	}
+
+	spriteType = {
+		name = "GFX_terrainimg_kassel"
+		texturefile = "gfx\\interface\\terrain_kassel.tga"
+		norefcount = yes
+	}
+
+	spritType = {
+		name = "GFX_terrainimg_cork"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_cork.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_hull"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_hull.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_ipswich"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_ipswich.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_montpellier"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_montpellier.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_bremen"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_bremen.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_schwerin"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_schwerin.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_bruges"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_bruges.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_cadiz"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_cadiz.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_la_coruna"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_la_coruna.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_setubal"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_setubal.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_oporto"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_oporto.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_leghorn"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_leghorn.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_brindisi"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_brindisi.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_cagliari"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_cagliari.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_fiume"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_fiume.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_vlore"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_vlore.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_aalborg"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_aalborg.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_malmo"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_malmo.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_memel"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_memel.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_salonika"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_salonika.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_gallipoli"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_gallipoli.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_bolu"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_bolu.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_novorossiysk"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_novorossiysk.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_izmir"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_izmir.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_mersin"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_mersin.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_limassol"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_limassol.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_latakia"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_latakia.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_beruit"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_beruit.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_jaffa"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_jaffa.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_san_antonio"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_san_antonio.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_houston"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_houston.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_mobile"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_mobile.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_tampa"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_tampa.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_st_augustine"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_st_augustine.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_charleston"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_charleston.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_norfolk"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_norfolk.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_newark"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_newark.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_hartford"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_hartford.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_san_deigo"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_san_deigo.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_seattle"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_seattle.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_stika"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_stika.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_kenai"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_kenai.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_vancouver_island"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_vancouver_island.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_colima"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_colima.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_veracruz"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_veracruz.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_tampico"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_tampico.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_panama_city"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_panama_city.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_liberia"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_liberia.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_guatemala"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_guatemala.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_san_salvador"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_san_salvador.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_porto_alegre"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_porto_alegre.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_santos"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_santos.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_recife"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_recife.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_belem"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_belem.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_georgetown"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_georgetown.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_paramaribo"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_paramaribo.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_cayenne"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_cayenne.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_guiria"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_guiria.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_cartagena_de_indias"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_cartagena_de_indias.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_quibdo"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_quibdo.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_guayaquil"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_guayaquil.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_lima"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_lima.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_antofagasta"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_antofagasta.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_valparaiso"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_valparaiso.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_parana"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_parana.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_rio_grande"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_rio_grande.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_mandvi"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_mandvi.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_cuttack"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_cuttack.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_vizagapatnam"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_vizagapatnam.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_cochin"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_cochin.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_mangalore"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_mangalore.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_surat"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_surat.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_pegu"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_pegu.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_chittagong"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_chittagong.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_abadon"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_abadon.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_basra"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_basra.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_kuwait"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_kuwait.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_jidda"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_jidda.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_qatif"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_qatif.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_bahrain"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_bahrain.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_doha"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_doha.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_abu_dhabi"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_abu_dhabi.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_muscat"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_muscat.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_zhanjiang"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_zhanjiang.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_chaozhou"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_chaozhou.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_zhangzhou"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_zhangzhou.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_fuzhou"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_fuzhou.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_wenzhou"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_wenzhou.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_taizhou"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_taizhou.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_taicangzhou"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_taicangzhou.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_xuzhou"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_xuzhou.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_tianjin"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_tianjin.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_jinzhou"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_jinzhou.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_inchon"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_inchon.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_okinawa"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_okinawa.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_fukuoka"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_fukuoka.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_hiroshima"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_hiroshima.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_kobe"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_kobe.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_kochi"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_kochi.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_nagoya"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_nagoya.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_niigata"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_niigata.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_utchan"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_utchan.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_prachinburi"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_prachinburi.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_kuala_lumpur"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_kuala_lumpur.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_api"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_api.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_penang"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_penang.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_tanjungpinang"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_tanjungpinang.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_medan"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_medan.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_siak"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_siak.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_padang"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_padang.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_yogyakarta"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_yogyakarta.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_surabaya"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_surabaya.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_makassar"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_makassar.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_banjarmasin"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_banjarmasin.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_pontianak"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_pontianak.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_samarinda"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_samarinda.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_cebu"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_cebu.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_davao"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_davao.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_lae"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_lae.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_port_moresby"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_port_moresby.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_christchurch"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_christchurch.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_wellington"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_wellington.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_brisbane"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_brisbane.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_palmerston"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_palmerston.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_adelaide"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_adelaide.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_roebourne"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_roebourne.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_tahiti"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_tahiti.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_apia"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_apia.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_hawaii"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_hawaii.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_new_caledonia"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_new_caledonia.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_soloman_islands"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_soloman_islands.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_fiji"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_fiji.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_gilbert_islands"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_gilbert_islands.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_yap"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_yap.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_casablanca"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_casablanca.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_melilla"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_melilla.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_oran"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_oran.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_bougie"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_bougie.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_benghazi"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_benghazi.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_dakar"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_dakar.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_banjul"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_banjul.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_bissau"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_bissau.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_freetown"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_freetown.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_accra"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_accra.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_cotonou"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_cotonou.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_lagos"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_lagos.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_benin"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_benin.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_#"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_#.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_douala"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_douala.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_libreville"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_libreville.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_bata"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_bata.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_loango"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_loango.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_boma"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_boma.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_luanda"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_luanda.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_benguela"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_benguela.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_walvis_bay"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_walvis_bay.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_port_elizabeth"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_port_elizabeth.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_durban"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_durban.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_ulundi"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_ulundi.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_lourenco_marques"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_lourenco_marques.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_sofala"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_sofala.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_toamasina"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_toamasina.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_kilwa"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_kilwa.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_dar_es_salaam"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_dar_es_salaam.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_mombasa"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_mombasa.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_mogadishu"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_mogadishu.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_djibuti"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_djibuti.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_massawa"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_massawa.tga"
+		norefcount = yes
+	 }
+	spritType = {
+		name = "GFX_terrainimg_suakin"
+		texturefile = "gfx\\interface\\NewCoastalCities\\DDM_terrain_suakin.tga"
+		norefcount = yes
+	 }
+	
+
+	
+
 	spriteType = {
 		name = "GFX_invest_rail_button"
 		texturefile = "gfx\\interface\\invest_rail_button.tga"
