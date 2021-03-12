@@ -5,5 +5,5 @@ add_core = HND
 
 trade_goods = sugar
 life_rating = 30
-terrain = hilly_farmland
+terrain = surat
 colonial = 2

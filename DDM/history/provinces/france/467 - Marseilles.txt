@@ -4,6 +4,7 @@ add_core = FRA
 trade_goods = fish
 life_rating = 32
 terrain = marseille
+naval_base = 2
 state_building = {
 	level = 1
 	building = machine_parts_factory

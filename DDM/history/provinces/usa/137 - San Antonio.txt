@@ -4,6 +4,6 @@ add_core = TEX
 add_core = MEX
 trade_goods = cattle
 life_rating = 35
-terrain = hilly_grassland
+terrain = san_antonio
 fort = 1
 

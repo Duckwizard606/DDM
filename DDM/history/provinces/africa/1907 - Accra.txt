@@ -3,5 +3,5 @@ controller = ASH
 add_core = ASH
 trade_goods = cattle
 life_rating = 35
-terrain = jungle_farmland
+terrain = accra
 

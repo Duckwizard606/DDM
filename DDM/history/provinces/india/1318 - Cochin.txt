@@ -4,4 +4,4 @@ add_core = HND
 
 trade_goods = tea
 life_rating = 30
-terrain = seasonal_jungle_hills
+terrain = cochin

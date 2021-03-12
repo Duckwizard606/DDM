@@ -5,3 +5,4 @@ trade_goods = fish
 life_rating = 31
 terrain = colombo
 colonial = 2
+naval_base = 1

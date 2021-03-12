@@ -4,5 +4,5 @@ add_core = ETH
 add_core = TUR
 trade_goods = sugar
 life_rating = 35
-terrain = semi_desert_hills
+terrain = massawa
 

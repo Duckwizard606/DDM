@@ -4,5 +4,5 @@ add_core = AST
 add_core = ENG
 trade_goods = iron
 life_rating = 20
-terrain = seasonal_jungle
+terrain = palmerston
 colonial = 2

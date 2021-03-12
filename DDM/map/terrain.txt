@@ -4418,7 +4418,7 @@ categories =  {
 		combat_width = -0.60
 	}
 
-	beruit = {
+	beirut = {
 		movement_cost = 2.3 #dry forest mountains
 		defence = 3
 		attrition = 2.1
@@ -4576,7 +4576,7 @@ categories =  {
 		min_build_railroad = 0
 	}
 
-	san_deigo = {
+	san_diego = {
 		movement_cost = 1.8 #semi desert hills
 		defence = 1
 		attrition = 1.4
@@ -5888,7 +5888,7 @@ categories =  {
 		combat_width = -0.50
 	}
 
-	soloman_islands = {
+	solomon_islands = {
 		movement_cost = 2.8 #Jungle hills
 		defence = 2
 		attrition = 2.2
@@ -6321,7 +6321,7 @@ categories =  {
 		combat_width = -0.20
 	}
 
-	toamasina = {
+	tomasina = {
 		movement_cost = 2.8 #Jungle hills
 		defence = 2
 		attrition = 2.2

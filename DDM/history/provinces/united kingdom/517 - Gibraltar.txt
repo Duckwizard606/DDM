@@ -6,3 +6,4 @@ life_rating = 35
 terrain = gibraltar
 colonial = 2
 fort = 2
+naval_base = 2

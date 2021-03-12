@@ -3,5 +3,5 @@ controller = PEU
 add_core = PEU
 trade_goods = cattle
 life_rating = 35
-terrain = semi_desert_hills
-
+terrain = lima
+naval_base = 1

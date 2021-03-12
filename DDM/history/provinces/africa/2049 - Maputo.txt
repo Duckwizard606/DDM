@@ -3,5 +3,5 @@ controller = POR
 add_core = MAT
 trade_goods = grain
 life_rating = 35
-terrain = dry_forest
+terrain = lourenco_marques
 colonial = 2

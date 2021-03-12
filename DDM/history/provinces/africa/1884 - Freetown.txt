@@ -3,5 +3,5 @@ controller = ENG
 trade_goods = grain
 life_rating = 35
 
-terrain = jungle_farmland
+terrain = freetown
 colonial = 2

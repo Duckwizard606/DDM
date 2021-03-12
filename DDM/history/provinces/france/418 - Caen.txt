@@ -2,6 +2,7 @@ owner = FRA
 controller = FRA
 add_core = FRA
 trade_goods = cattle
+naval_base = 2
 life_rating = 31
 terrain = caen
 

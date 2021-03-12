@@ -3,5 +3,5 @@ controller = NET
 add_core = SLW
 trade_goods = tropical_wood
 life_rating = 30
-terrain = jungle_farmland
+terrain = makassar
 colonial = 2

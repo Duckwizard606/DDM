@@ -5,5 +5,6 @@ add_core = ENG
 add_core = XHO
 trade_goods = fruit
 life_rating = 35
-terrain = dry_forest_hills
+terrain = port_elizabeth
 colonial = 2
+naval_base = 1

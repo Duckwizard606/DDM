@@ -3,5 +3,5 @@ controller = ARG
 add_core = ARG
 trade_goods = wool
 life_rating = 10
-terrain = tundra_hills
+terrain = rio_grande
 colonial = 2

@@ -4,4 +4,4 @@ add_core = CRO
 add_core = AUS
 trade_goods = fruit
 life_rating = 38
-terrain = deciduous_forest_hills
+terrain = fiume

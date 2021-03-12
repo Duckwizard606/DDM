@@ -4,6 +4,7 @@ add_core = SWE
 trade_goods = coal
 life_rating = 40
 terrain = stockholm
+naval_base = 1
 state_building = {
 	level = 3
 	building = steel_factory

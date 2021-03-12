@@ -3,4 +3,4 @@ controller = UCA
 add_core = UCA
 trade_goods = coffee
 life_rating = 30
-terrain = seasonal_jungle_hills
+terrain = san_salvador
