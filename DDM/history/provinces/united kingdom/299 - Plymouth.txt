@@ -4,5 +4,5 @@ add_core = ENG
 trade_goods = iron
 life_rating = 35
 terrain = plymouth
-naval_base = 1
+naval_base = 2
 

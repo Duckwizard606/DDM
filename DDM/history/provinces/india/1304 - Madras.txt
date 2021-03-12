@@ -8,6 +8,7 @@ trade_goods = sugar
 life_rating = 32
 terrain = madras
 colonial = 2
+naval_port = 1
 fort = 1
 
 
