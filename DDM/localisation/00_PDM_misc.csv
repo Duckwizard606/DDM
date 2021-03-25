@@ -457,3 +457,7 @@ bleeding_desc;Caught between the forces of abolitionism and those supporting sla
 submarine;Submarine;;;;;;;;;;;;x,,,
 shastar_vidya;Shastar Vidiya;;;;;;;;;;;;x,,,
 shastar_vidya_desc;From the Sanskrit 'sastravidya' or 'knowledge of the sword', this was the Sikh martial art that used swordplay from horseback, and made the Sikh mounted forces a terror feared even by the more modern armies of the United Kingdom.;;;;;;;;;;;;x,
+negotiated_transfer;Negotiated Transfer;;;;;;;;;;;;x
+negotiated_transfer_desc;Transfer a state or colonial region to another country with no effect on infamy, prestige, or jingoism;;;;;;;;;;;;x
+negotiated_transfer_short;$RECIPIENT$ receives $STATE$ from us;;;;;;;;;;;;;x
+negotiated_transfer_setup;Transfer $STATE$ from our country to $RECIPIENT$;;;;;;;;;;;;x

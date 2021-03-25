@@ -186,7 +186,7 @@ dismantle_cb = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 3
 	break_truce_militancy_factor = 1
-	truce_months = 0	
+	truce_months = 24	
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
 	good_relation_militancy_factor = 0
@@ -249,7 +249,7 @@ dismantle_cb = {
 dismantle_cb_add = {
 	sprite_index = 20
 	is_triggered_only = yes
-	months = 12
+	months = 24
 	crisis = no
 	
 	construction_speed = 1.5
@@ -331,7 +331,7 @@ dismantle_cb_add_new = {
 	break_truce_prestige_factor = 5
 	break_truce_infamy_factor = 3
 	break_truce_militancy_factor = 1
-	truce_months = 0
+	truce_months = 24
 	
 	good_relation_prestige_factor = 0
 	good_relation_infamy_factor = 0
