@@ -340,3 +340,17 @@ vassal = {
 	start_date = 1691.1.1
 	end_date = 1911.1.1
 }
+
+
+
+
+
+#British Dominions
+
+# Canada
+vassal = {
+	first = ENG
+	second = CAN
+	start_date = 1830.1.1
+	end_date = 1960.1.1
+}
