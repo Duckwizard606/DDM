@@ -1,8 +1,6 @@
-owner = ENG
-controller = ENG
+owner = NZL
+controller = NZL
 add_core = NZL
 trade_goods = wool
 life_rating = 30
 terrain = hilly_farmland
-colonial = 2
-
