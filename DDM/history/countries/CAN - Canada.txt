@@ -10,26 +10,26 @@ civilized = yes
 
 # Political reforms
 slavery = no_slavery
-upper_house_composition = state_equal_weight
-vote_franschise = universal_weighted_voting
+upper_house_composition = appointed
+vote_franschise = wealth_voting
 public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = all_trade_unions
+press_rights = censored_press
+trade_unions = non_socialist
 voting_system = first_past_the_post
-political_parties = gerrymandering
+political_parties = non_secret_ballots
 minorities_reform = limited
 immigration_policy = open_immigration
 conscription = no_draft
 
 # Social Reforms
-wage_reform = trinket_wage
-work_hours = twelve_hours
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
 safety_regulations = trinket_safety
 health_care = trinket_health_care
 unemployment_subsidies = trinket_subsidies
 pensions = no_pensions
 pollution = no_controls
-child_labor = child_labor_legal
+child_labor = child_labor_restricted
 arts_endowment = no_endowment
 education = elite
 

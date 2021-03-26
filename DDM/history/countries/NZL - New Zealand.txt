@@ -4,7 +4,7 @@ religion = protestant
 government = hms_government
 plurality = 0.88
 nationalvalue = nv_liberty
-literacy = 0.5
+literacy = 0.6
 civilized = yes
 
 
@@ -13,33 +13,33 @@ slavery = no_slavery
 upper_house_composition = appointed
 vote_franschise = wealth_voting
 public_meetings = yes_meeting
-press_rights = free_press
-trade_unions = all_trade_unions
-voting_system = jefferson_method
+press_rights = censored_press
+trade_unions = non_socialist
+voting_system = first_past_the_post
 political_parties = non_secret_ballots
 minorities_reform = limited
 immigration_policy = open_immigration
-conscription=two_year_draft
+conscription = no_draft
 
 # Social Reforms
-wage_reform = low_minimum_wage
-work_hours = ten_hours
-safety_regulations = low_safety
-health_care = low_health_care
-unemployment_subsidies = low_subsidies
-pensions = low_pensions
-pollution=no_controls
+wage_reform = no_minimum_wage
+work_hours = no_work_hour_limit
+safety_regulations = trinket_safety
+health_care = trinket_health_care
+unemployment_subsidies = trinket_subsidies
+pensions = no_pensions
+pollution = no_controls
 child_labor = child_labor_restricted
-arts_endowment=no_endowment
+arts_endowment = no_endowment
 education = elite
 
 ruling_party = NWZ_conservative
 upper_house = {
 	fascist = 0
-	liberal = 30
-	conservative = 60
-	reactionary = 5
-	anarcho_liberal = 5
+	liberal = 35
+	conservative = 50
+	reactionary = 8
+	anarcho_liberal = 7
 	socialist = 0
 	communist = 0
 }

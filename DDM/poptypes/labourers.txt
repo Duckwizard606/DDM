@@ -81,6 +81,77 @@ country_migration_target =
 			}
 		}
 	}
+
+	modifier = {
+		factor = 1.5
+
+		AND = {
+			THIS = { is_culture_group = polish_culture_group }
+			is_culture_group = french
+		}
+
+	}
+
+		modifier = {
+		factor = 2.81
+		OR = {
+			##is_culture_group = THIS
+			AND = {
+				THIS = { is_culture_group = iberian }
+				is_culture_group = latin_american_cultures
+			}
+			AND = {
+				THIS = { has_pop_culture = dutch }
+				primary_culture = boer
+			}
+			AND = {
+				OR = {
+					THIS = { is_culture_group = french }
+					THIS = { has_pop_culture = wallonian }
+				}
+				OR = { 
+					primary_culture = french_canadian
+					primary_culture = french
+					primary_culture = wallonian
+					is_culture_group = pan_swiss
+				}
+			}
+			AND = {
+				THIS = { is_culture_group = british }
+				OR = {
+					is_culture_group = american_cultures
+					primary_culture = australian
+					primary_culture = anglo_canadian
+				}
+			}
+			AND = {
+				THIS = { is_culture_group = polish_culture_group }
+				OR = { 
+					is_culture_group = polish_culture_group
+					primary_culture = french
+				}	
+			}
+			AND = {
+				THIS = { is_culture_group = germanic }
+				OR = {
+					is_culture_group = germanic
+					is_culture_group = pan_swiss
+				}
+				NOT = { continent = asia }
+			}
+
+			AND = {
+				THIS = { is_culture_group = italian }
+				OR = {
+					is_culture_group = latin_american_cultures
+					is_culture_group = american_cultures
+				}
+			}
+		}
+	}
+
+
+
 	modifier = {
 		factor = 1.2
 		is_greater_power = yes
@@ -172,6 +243,7 @@ country_migration_target =
 		factor = 1.2
 		citizenship_policy = full_citizenship
 	}
+	
 
 	modifier = {
 		factor = 0.9
@@ -207,12 +279,14 @@ country_migration_target =
 	}
 	modifier = {
 		factor = 2
-		OR = { 
-			continent = north_america
-			continent = south_america
-			continent = oceania
-		}
+		government = democracy
 	}
+	modifier = {
+		factor = 4
+		continent = north_america
+		continent = south_america	
+	}
+
 	modifier = {
 		factor = 0.8
 		average_militancy = 3

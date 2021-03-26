@@ -1351,6 +1351,7 @@ census = {
 recruitment_drive = {
 	icon = 17
 }
+
 	
 ### American Events ###
 csa_draft = {
