@@ -129,7 +129,7 @@ political_decisions = {
 			}
 		}
 		allow = {
-			romanticism = 1
+			realism = 1
 		}
 		effect = {
 			prestige = 5
