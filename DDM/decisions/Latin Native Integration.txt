@@ -63,9 +63,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				tag = PEU
-				tag = SPU
 				tag = BOL
-				tag = PBC
 			}
 			OR = {
 				government = hms_government

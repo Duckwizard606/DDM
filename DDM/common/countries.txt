@@ -5,24 +5,7 @@ REB 	= 	"countries/rebels.txt"
 
 ### NEW NATIONS MOD ###
 
-#Latin America
-
-ENT		= "countries/Entre Rios.txt"
-GCO		= "countries/Gran Colombia.txt"
-GUY		= "countries/Guyana.txt"
-LOS		= "countries/Los Altos.txt"
-LPL		= "countries/La Plata.txt"
-PBC		= "countries/Peru-Bolivia Confederation.txt"
-PTG		= "countries/Patagonia.txt"
-RGR		= "countries/Rio Grande.txt"
-RGS		= "countries/Rio Grande do Sul.txt"
-SON		= "countries/Sonora.txt"
-SPU		= "countries/South Peru.txt"
-YUC		= "countries/Yucatan.txt"
-
 #North America
-DAK		= "countries/Dakota.txt"
-FSA		= "countries/Free States of America.txt"
 JAM		= "countries/Jamaica.txt"
 LSK		= "countries/Alaska.txt"
 MRU		= "countries/Maritime Union.txt"
@@ -43,7 +26,6 @@ BKV		= "countries/Bukovina.txt"
 DLM		= "countries/Dalmatia.txt"
 DNB		= "countries/Danubian Federation.txt"
 CRS     = "countries/Corsica.txt"
-ENL		= "countries/England.txt"
 GLM		= "countries/Galicia-Lodomeria.txt"
 IBR		= "countries/Iberia.txt"
 MCD		= "countries/Macedonia.txt"
@@ -440,7 +422,6 @@ GUA		="countries/Guatemala.txt"
 HAI		="countries/Haiti.txt"
 HAW		="countries/Hawaii.txt"
 MEX		="countries/Mexico.txt"
-MTC		="countries/Metis Confederacy.txt"
 HON		="countries/Honduras.txt"
 NEN		="countries/New England.txt"
 NEW		="countries/Newfoundland.txt"
@@ -468,11 +449,6 @@ AST		="countries/Australia.txt"
 NZL		="countries/New Zealand.txt"
 
 
-#new for 1.2
-ISR		="countries/Israel.txt"
-BYZ		="countries/Byzantium.txt"
-ICL		="countries/Iceland.txt"
-BAB		="countries/Babylonia.txt"
 
 # Common Great Powers
 ENG		= "countries/United Kingdom.txt"

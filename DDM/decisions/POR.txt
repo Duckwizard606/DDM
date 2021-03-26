@@ -140,10 +140,7 @@ political_decisions = {
 	ultimatum_to_portugal = {
 		picture = map_africa
 		potential = {
-			OR = {
-				tag = ENG
-				tag = ENL
-			}
+			tag = ENG
 			any_owned_province = { is_colonial = yes }
 			NOT = { war_policy = pacifism }
 			NOT = { has_country_modifier = no_more_war }

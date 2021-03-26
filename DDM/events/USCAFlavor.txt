@@ -860,13 +860,6 @@ country_event = {
 			}
 			owner = { release = COS }
 		}
-		random_owned = {
-			limit = {
-				province_id = 2183
-				YUC = { exists = no }
-			}
-			owner = { release = YUC }
-		}
 		add_country_modifier = {
 			name = csa_draft
 			duration = 1095
@@ -964,13 +957,6 @@ country_event = {
 				COS = { exists = no }
 			}
 			owner = { release = COS }
-		}
-		random_owned = {
-			limit = {
-				province_id = 2183
-				YUC = { exists = no }
-			}
-			owner = { release = YUC }
 		}
 		all_core = { remove_core = UCA }
 		change_tag = GUA
@@ -1094,12 +1080,6 @@ country_event = {
 		prestige = 5
 		FROM = {
 			all_core = { add_core = UCA }
-		}
-		random_owned = {
-			limit = {
-				FROM = { tag = YUC }
-			}
-			owner = { add_accepted_culture = mayan }
 		}
 		inherit = FROM
 		ai_chance = {

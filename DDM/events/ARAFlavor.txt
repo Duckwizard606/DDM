@@ -54,7 +54,6 @@ country_event = {
 			has_country_flag = arab_revolt_ended
 			has_country_flag = friend_of_the_arabs
 			has_country_flag = ottoman_islamic_caliphate
-			tag = ISR
 		}
 		any_owned_province = {
 			any_core = {

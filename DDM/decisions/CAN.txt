@@ -1,28 +1,5 @@
 political_decisions = {
-	canada_1861_start = {
-		potential = {
-			tag = ENG
-			always = no
-		}
-		allow = {
-			owns = 57
-		}
-		effect = {
-			QUE = {
-				all_core = { add_core = CAN }
-			}
-			any_pop = {
-				limit = {
-					location = { is_core = CAN }
-				}
-				ideology = {
-					value = liberal
-					factor = 0.30
-				}
-			}
-		}
-	}
-	
+
 	canadian_dominion = {
 		potential = {
 			tag = CAN
@@ -105,10 +82,7 @@ political_decisions = {
 		
 	organize_british_columbia = {
 		potential = {
-			OR = {
-				tag = ENG
-				tag = ENL
-			}
+			tag = ENG
 			owns = 13
 			owns = 14
 			owns = 19

@@ -1,286 +1,3 @@
-country_event = {
-	id = 97050
-	title = "EVTNAME97050" #The Peru-Bolivian Confederation
-	desc = "EVTDESC97050"
-	picture = "deliberation"
-
-	trigger = {
-		OR = {
-			AND = {
-				tag = CHL
-				PBC = { owns = 2305 }
-			}
-			AND = {
-				tag = ARG
-				PBC = { owns = 2370 }
-				OR = {
-					CHL = { has_country_flag = fight_the_PBC }
-					CHL = { has_country_flag = peace_with_the_PBC }
-					CHL = { war_with = PBC }
-				}
-			}
-		}
-		war = no
-		neighbour = PBC
-		NOT = {
-			num_of_revolts = 1
-			truce_with = PBC
-			has_country_flag = fight_the_PBC
-			has_country_flag = peace_with_the_PBC
-			PBC = { has_country_flag = the_confederation_is_legitime }
-		}
-	}
-
-	mean_time_to_happen = {
-		months = 12
-		modifier = {
-			factor = 0.2
-			PBC = { war = yes }
-		}
-	}
-
-	option = {
-		name = "The PBC must fall."
-		set_country_flag = fight_the_PBC
-		prestige = 5
-		leave_alliance = PBC
-		any_pop = {
-			dominant_issue = {
-				factor = 0.05
-				value = jingoism
-			}
-		}
-		add_country_modifier = {
-			name = usa_draft
-			duration = 365
-		}
-		random_owned = {
-			limit = {
-				owner = { tag = CHL }
-			}
-			owner = {
-				war = {
-					target = PBC
-					attacker_goal = {
-						casus_belli = acquire_core_state
-						state_province_id = 2305
-					}
-				call_ally = yes
-				}
-			}
-		}
-		random_owned = {
-			limit = {
-				owner = { tag = ARG }
-			}
-			owner = {
-				war = {
-					target = PBC
-					attacker_goal = {
-						casus_belli = acquire_core_state
-						state_province_id = 2370
-					}
-				call_ally = yes
-				}
-			}
-		}
-							
-		ai_chance = {
-			factor = 80
-		}
-	}
-
-	option = {
-		name = "Reconciling with the PBC is our only hope."
-		set_country_flag = peace_with_the_PBC
-		prestige = -3
-		relation = {
-			who = PBC
-			value = 100
-		}
-		any_pop = {
-			dominant_issue = {
-				factor = 0.05
-				value = jingoism
-			}
-			scaled_militancy = {
-				issue = jingoism
-				factor = 4
-			}
-		}
-		ai_chance = {
-			factor = 20
-			modifier = {
-				factor = 0.25
-				tag = CHL
-			}
-		}
-	}
-}
-
-country_event = {
-	id = 97055
-	title = "EVTNAME97055" #End of the Confederation?
-	desc = "EVTDESC97055"
-	news = yes
-	news_title = "EVTNAME97055_NEWS_TITLE"
-	news_desc_long = "EVTDESC97055_NEWS_LONG"
-	news_desc_medium = "EVTDESC97055_NEWS_MEDIUM"
-	news_desc_short = "EVTDESC97055_NEWS_SHORT"
-	picture = "demonstration"
-	major = yes
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = PBC
-		war = no
-		has_recently_lost_war = yes
-		OR = {
-			AND = {
-				NOT = { owns = 2305 }
-				NOT = { owns = 2370 }
-			}
-			AND = {
-				exists = PEU
-				NOT = { is_our_vassal = PEU }
-				is_our_vassal = SPU
-			}
-		}
-		NOT = { has_country_flag = end_of_the_confederation }
-	}
-
-	mean_time_to_happen = {
-		months = 2
-	}
-	
-	immediate = {
-		set_country_flag = end_of_the_confederation
-	}
-
-	option = {
-		name = "So must it be."
-		prestige = -5
-		badboy = -2
-		random_country = {
-			limit = {
-				tag = PEU
-				vassal_of = PBC
-			}
-			set_global_flag = first_pbc_fell
-			THIS = { release_vassal = PEU }
-		}
-		random_country = {
-			limit = {
-				tag = SPU
-				vassal_of = PBC
-			}
-			THIS = { release_vassal = SPU }
-		}
-		random_owned = {
-			limit = {
-				province_id = 2295
-				NOT = { exists = PEU }
-			}
-			owner = { release = PEU }
-		}
-		random_owned = {
-			limit = {
-				province_id = 2304
-				NOT = { exists = SPU }
-			}
-			owner = { release = SPU }
-		}
-		PBC = {
-			all_core = { remove_core = PBC }
-		}
-		random_owned = {
-			limit = { province_id = 2313 }
-			owner = { capital = 2313 }
-		}
-		change_tag = BOL
-		any_country = {
-			limit = {
-				OR = {
-					tag = CHL
-					tag = ARG
-					tag = LPL
-					tag = PEU
-				}
-			}
-			relation = { who = BOL value = 300 }
-		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 1.5
-				NOT = { owns = 2295 }
-			}
-		}
-	}
-
-	option = {
-		name = "Never! The Confederation lives on!"
-		badboy = 2
-		all_core = {
-			limit = { is_core = PEU }
-			remove_core = PBC
-		}
-		any_owned = {
-			limit = { is_core = PEU }
-			any_pop = { militancy = 6 }
-			add_province_modifier = {
-				name = nationalist_agitation
-				duration = 1095
-			}
-		}
-		random_country = {
-			limit = {
-				tag = PEU
-				vassal_of = PBC
-			}
-			THIS = {
-				release_vassal = PEU
-				leave_alliance = PEU
-				war = {
-					target = PEU
-					attacker_goal = {
-						casus_belli = annex_core_country
-					}
-					call_ally = yes
-				}
-			}
-		}
-		random_country = {
-			limit = {
-				tag = SPU
-				vassal_of = PBC
-			}
-			THIS = {
-				release_vassal = SPU
-				leave_alliance = SPU
-				war = {
-					target = SPU
-					attacker_goal = {
-						casus_belli = annex_core_country
-					}
-					call_ally = yes
-				}
-			}
-		}
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 1.5
-				owns = 2295
-			}
-			modifier = {
-				factor = 0
-				NOT = { total_amount_of_divisions = 1 }
-			}
-		}
-	}
-}
 
 country_event = {
 	id = 97060
@@ -548,28 +265,7 @@ country_event = {
 		clr_country_flag = reactionary_election_win
 		clr_country_flag = anarcho_liberal_election_win
 		clr_country_flag = social_liberal_election_win
-		remove_country_modifier = expert_diplomat
-		remove_country_modifier = successful_industrialist
-		remove_country_modifier = ivory_tower_intellectual
-		remove_country_modifier = man_of_the_people
-		remove_country_modifier = landed_gentleman
-		remove_country_modifier = military_man
-		remove_country_modifier = lord_admiral
-		remove_country_modifier = raving_loon
-		remove_country_modifier = luddite
-		remove_country_modifier = great_statesman
-		remove_country_modifier = backroom_boy
-		remove_country_modifier = great_reformer
-		remove_country_modifier = gauche_buffoon
-		remove_country_modifier = administrative_genius
-		remove_country_modifier = visionary_thinker
-		remove_country_modifier = competent_placeholder
-		remove_country_modifier = imperious_autocrat
-		remove_country_modifier = prince_of_terror
-		remove_country_modifier = efficient_sociopath
-		remove_country_modifier = pig_headed_isolationist
-		remove_country_modifier = ambitious_union_boss
-		remove_country_modifier = dour_economist
+
 		add_country_modifier = {
 			name = national_confusion
 			duration = 365
@@ -653,28 +349,7 @@ country_event = {
 		clr_country_flag = reactionary_election_win
 		clr_country_flag = anarcho_liberal_election_win
 		clr_country_flag = social_liberal_election_win
-		remove_country_modifier = expert_diplomat
-		remove_country_modifier = successful_industrialist
-		remove_country_modifier = ivory_tower_intellectual
-		remove_country_modifier = man_of_the_people
-		remove_country_modifier = landed_gentleman
-		remove_country_modifier = military_man
-		remove_country_modifier = lord_admiral
-		remove_country_modifier = raving_loon
-		remove_country_modifier = luddite
-		remove_country_modifier = great_statesman
-		remove_country_modifier = backroom_boy
-		remove_country_modifier = great_reformer
-		remove_country_modifier = gauche_buffoon
-		remove_country_modifier = administrative_genius
-		remove_country_modifier = visionary_thinker
-		remove_country_modifier = competent_placeholder
-		remove_country_modifier = imperious_autocrat
-		remove_country_modifier = prince_of_terror
-		remove_country_modifier = efficient_sociopath
-		remove_country_modifier = pig_headed_isolationist
-		remove_country_modifier = ambitious_union_boss
-		remove_country_modifier = dour_economist
+
 		add_country_modifier = {
 			name = national_confusion
 			duration = 365
@@ -994,10 +669,7 @@ country_event = {
 	picture = "administration"
 	
 	trigger = {
-		OR = {
-			tag = ARG
-			tag = LPL
-		}
+		tag = ARG
 		OR = {
 			2332 = { empty = yes }
 			2333 = { empty = yes }
@@ -1190,43 +862,6 @@ country_event = {
 	}
 }
 
-province_event = {
-	id = 97086
-	title = "EVTNAME97086" #Pacification of Patagonia
-	desc = "EVTDESC97086"
-	
-	trigger = {
-		OR = {
-			region = CHL_2332
-			region = ARG_2398
-			region = ARG_2391
-		}
-		is_core = PTG
-		NOT = { life_rating = 16 }
-	}
-	
-	mean_time_to_happen = {
-		months = 40
-		modifier = {
-			factor = 0.5
-			is_core = THIS
-		}
-		modifier = {
-			factor = 0.5
-			owner = { machine_guns = 1 }
-		}
-	}
-	
-	option = {
-		name = "Excellent!"
-		life_rating = 10
-		any_pop = {
-			limit = { has_pop_culture = patagonian }
-			militancy = 8
-			consciousness = 3
-		}
-	}
-}
 		
 
 country_event = {
@@ -1251,14 +886,6 @@ country_event = {
 				is_core = PTG
 			}
 			secede_province = ARG
-		}
-		any_owned = {
-			limit = {
-				FROM = { tag = LPL }
-				is_core = LPL
-				is_core = PTG
-			}
-			secede_province = LPL
 		}
 		FROM = {
 			any_owned = {
@@ -1306,14 +933,6 @@ country_event = {
 			2335 = { add_core = ARG }
 			2334 = { add_core = ARG }
 			2333 = { add_core = ARG }
-		}
-		random_owned = {
-			limit = {
-				FROM = { tag = LPL }
-			}
-			2335 = { add_core = LPL }
-			2334 = { add_core = LPL }
-			2333 = { add_core = LPL }
 		}
 		relation = {
 			who = FROM

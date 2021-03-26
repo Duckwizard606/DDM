@@ -160,6 +160,7 @@ political_decisions = {
 		alert = yes
 		picture = exhibition
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = no
 			is_secondary_power = no
@@ -191,6 +192,7 @@ political_decisions = {
 		alert = yes
 		picture = exhibition
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = no
 			is_secondary_power = no
@@ -223,6 +225,7 @@ political_decisions = {
 		alert = yes
 		picture = exhibition
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = no
 			is_secondary_power = no
@@ -255,6 +258,7 @@ political_decisions = {
 		alert = yes
 		picture = exhibition
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = no
 			is_secondary_power = no
@@ -287,6 +291,7 @@ political_decisions = {
 		alert = yes
 		picture = exhibition
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = no
 			is_secondary_power = no
@@ -314,6 +319,7 @@ political_decisions = {
 	grand_exhibition = {
 		alert = yes
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = no
 			is_secondary_power = yes
@@ -346,6 +352,7 @@ political_decisions = {
 		alert = yes
 		picture = grand_exhibition
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = no
 			is_secondary_power = yes
@@ -377,6 +384,7 @@ political_decisions = {
 		alert = yes
 		picture = grand_exhibition
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = no
 			is_secondary_power = yes
@@ -409,6 +417,7 @@ political_decisions = {
 		alert = yes
 		picture = grand_exhibition
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = no
 			is_secondary_power = yes
@@ -441,6 +450,7 @@ political_decisions = {
 		alert = yes
 		picture = grand_exhibition
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = no
 			is_secondary_power = yes
@@ -472,6 +482,7 @@ political_decisions = {
 		alert = yes
 		picture = grand_exhibition
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = no
 			is_secondary_power = yes
@@ -499,6 +510,7 @@ political_decisions = {
 	lavish_exhibition = {
 		alert = yes
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = yes
 			year = 1840
@@ -530,6 +542,7 @@ political_decisions = {
 		alert = yes
 		picture = lavish_exhibition
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = yes
 			romanticism = 1
@@ -560,6 +573,7 @@ political_decisions = {
 		alert = yes
 		picture = lavish_exhibition
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = yes
 			realism = 1
@@ -591,6 +605,7 @@ political_decisions = {
 		alert = yes
 		picture = lavish_exhibition
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = yes
 			impressionism = 1
@@ -622,6 +637,7 @@ political_decisions = {
 		alert = yes
 		picture = lavish_exhibition
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = yes
 			expressionism = 1
@@ -652,6 +668,7 @@ political_decisions = {
 		alert = yes
 		picture = lavish_exhibition
 		potential = {
+			ai = no
 			civilized = yes
 			is_greater_power = yes
 			mass_culture_n_the_avant_garde = 1
@@ -975,6 +992,7 @@ political_decisions = {
 	conference1 = {
 		alert = yes
 		potential = {
+			ai = no
 			civilized = yes
 			OR = {
 				is_greater_power = yes
@@ -1009,6 +1027,7 @@ political_decisions = {
 		picture = conference1
 		alert = yes
 		potential = {
+			ai = no
 			civilized = yes
 			OR = {
 				is_greater_power = yes
@@ -1042,6 +1061,7 @@ political_decisions = {
 		picture = conference1
 		alert = yes
 		potential = {
+			ai = no
 			civilized = yes
 			OR = {
 				is_greater_power = yes
@@ -1076,6 +1096,7 @@ political_decisions = {
 		picture = conference1
 		alert = yes
 		potential = {
+			ai = no
 			civilized = yes
 			OR = {
 				is_greater_power = yes
@@ -1110,6 +1131,7 @@ political_decisions = {
 		picture = conference1
 		alert = yes
 		potential = {
+			ai = no
 			civilized = yes
 			OR = {
 				is_greater_power = yes
@@ -1143,6 +1165,7 @@ political_decisions = {
 		picture = conference1
 		alert = yes
 		potential = {
+			ai = no
 			civilized = yes
 			OR = {
 				is_greater_power = yes
@@ -1208,6 +1231,7 @@ political_decisions = {
 	military_parade = {
 		alert = yes
 		potential = {
+			ai = no
 			civilized = yes
 			is_secondary_power = yes
 			NOT = {
@@ -1238,63 +1262,63 @@ political_decisions = {
 		}
 	}
 	
-	citizenship_tests = {
-		alert = yes
-		potential = {
-			OR = { 
-				continent = north_america
-				continent = south_america
-				continent = oceania
-				tag = SAF
-				primary_culture = boer
-			}
-			NOT = {
-				has_country_modifier = citizenship_tests
-			}
-		}
-		allow = {
-			war = no
-			experimental_psychology = 1
-		}
-		effect = {
-			add_country_modifier = {
-				name = citizenship_tests
-				duration = -1
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}	
+	# citizenship_tests = {
+	# 	alert = yes
+	# 	potential = {
+	# 		OR = { 
+	# 			continent = north_america
+	# 			continent = south_america
+	# 			continent = oceania
+	# 			tag = SAF
+	# 			primary_culture = boer
+	# 		}
+	# 		NOT = {
+	# 			has_country_modifier = citizenship_tests
+	# 		}
+	# 	}
+	# 	allow = {
+	# 		war = no
+	# 		experimental_psychology = 1
+	# 	}
+	# 	effect = {
+	# 		add_country_modifier = {
+	# 			name = citizenship_tests
+	# 			duration = -1
+	# 		}
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# }	
 	
-	passports = {
-		alert = yes
-		potential = {
-			OR = { 
-				continent = north_america
-				continent = south_america
-				continent = oceania
-				tag = SAF
-				primary_culture = boer
-			}
-			NOT = {
-				has_country_modifier = passports
-			}
-		}
-		allow = {
-			war = no
-			state_n_government = 1
-		}
-		effect = {
-			add_country_modifier = {
-				name = passports
-				duration = -1
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	# passports = {
+	# 	alert = yes
+	# 	potential = {
+	# 		OR = { 
+	# 			continent = north_america
+	# 			continent = south_america
+	# 			continent = oceania
+	# 			tag = SAF
+	# 			primary_culture = boer
+	# 		}
+	# 		NOT = {
+	# 			has_country_modifier = passports
+	# 		}
+	# 	}
+	# 	allow = {
+	# 		war = no
+	# 		state_n_government = 1
+	# 	}
+	# 	effect = {
+	# 		add_country_modifier = {
+	# 			name = passports
+	# 			duration = -1
+	# 		}
+	# 	}
+	# 	ai_will_do = {
+	# 		factor = 1
+	# 	}
+	# }
 
 	conduct_census = {
 		alert = yes
@@ -1337,7 +1361,6 @@ political_decisions = {
 				has_global_flag = alt_american_civil_war_has_happened
 				tag = CSA
 				tag = USA
-				tag = FSA
 			}
 		}
 		allow = { 
@@ -1482,163 +1505,7 @@ political_decisions = {
 			factor = 1
 		}
 	}
-	
-	recognize_the_fsa = {
-		picture = form_fsa
-		potential = {
-			is_greater_power = yes
-			exists = FSA
-			exists = USA
-			has_global_flag = alt_american_civil_war_has_happened
-			NOT = {
-				has_country_flag = recognize_the_fsa
-				tag = CSA
-				tag = USA
-				tag = FSA
-			}
-		}
-		allow = { 
-			state_n_government = 1
-			OR = {
-				AND = {
-					NOT = {		
-						FSA = { national_provinces_occupied = 0.30 }
-					}
-					NOT = {
-						 relation = {
-							who = USA
-							value = 50
-						}
-					}
-				}
-				AND = {
-					has_global_flag = declaration3
-					NOT = { has_global_flag = fsa_right_to_secede }
-				}
-			}
-		}
-		effect = {
-			prestige = 1
-			set_country_flag = recognize_the_fsa
-			FSA = { prestige = 5 }
-			USA = { prestige = -5 }
-			relation = {
-				who = FSA
-				value = 100
-			}
-			diplomatic_influence = {
-				who = FSA
-				value = 25
-			}
-			relation = {
-				who = USA
-				value = -100
-			}
-		}
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				alliance_with = USA
-			}
-			modifier = {
-				factor = 0
-				relation = { who = USA value = 100 }
-			}
-		}
-	}
-	
-	FSA_right_to_secede = {
-		picture = form_fsa
-		potential = {
-			exists = FSA
-			tag = USA
-			has_global_flag = alt_american_civil_war_has_happened
-			NOT = {
-				has_global_flag = fsa_right_to_secede
-			}
-		}
-		allow = {
-			war = no
-			state_n_government = 1
-			OR = {
-				FSA = { military_score = THIS }
-				war_exhaustion = 60
-				is_greater_power = no
-			}
-		}
-		effect = {
-			prestige = -25
-			war_exhaustion = -10
-			set_global_flag = fsa_right_to_secede
-			FSA = {
-				prestige = 20
-				any_owned = {
-					limit = {
-						is_core = FSA
-						is_core = USA
-					}
-					remove_core = USA
-				}
-			}
-			relation = {
-				who = FSA
-				value = 200
-			}
-			any_country = {
-				limit = {
-					is_greater_power = yes
-					NOT = { tag = FSA }
-				}
-				relation = {
-					who = THIS
-					value = 50
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	FSA_second_declaration_of_independence = {
-		alert = yes
-		picture = form_fsa
-		potential = {
-			tag = FSA
-			has_global_flag = alt_american_civil_war_has_happened
-			NOT = { has_global_flag = declaration3 }
-		}
-		allow = {
-			war = no
-			state_n_government = 1
-		}
-		effect = {
-			prestige = 30
-			set_global_flag = declaration3
-			any_pop = {
-				limit = {
-					culture = yankee
-				}
-				militancy = -10
-			}
-			war_exhaustion = -10
-			any_country = {
-				limit = {
-					is_greater_power = yes
-					NOT = { tag = USA }
-				}
-				relation = {
-					who = THIS
-					value = 50
-				}
-			}
-			USA = { prestige = -30 }
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
+
 	
 	the_rights_of_man = {
 		alert = yes
@@ -2209,68 +2076,6 @@ political_decisions = {
 		}
 	}
 	
-	total_war_in_rio_grande = {
-		alert = yes
-		picture = begin_line_of_advantage
-		potential = {
-			NOT = { has_country_modifier = small_country_draft }
-			NOT = { has_country_flag = rgr_draft_happened }
-			tag = RGR
-		}
-		
-		allow = {
-			war_with = MEX
-		}
-		
-		effect = {
-			iron = 10
-			horses = 10
-			wool = 10
-			timber = 25
-			small_arms = 10
-			leadership = 20
-			add_country_modifier = {
-				name = small_country_draft
-				duration = 365
-			}
-			set_country_flag = rgr_draft_happened 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	total_war_in_yucatan = {
-		alert = yes
-		picture = begin_line_of_advantage
-		potential = {
-			NOT = { has_country_modifier = small_country_draft }
-			NOT = { has_country_flag = yucatan_draft_happened }
-			tag = YUC
-		}
-		
-		allow = {
-			war_with = MEX
-		}
-		
-		effect = {
-			iron = 10
-			horses = 10
-			wool = 10
-			timber = 25
-			small_arms = 10
-			leadership = 20
-			add_country_modifier = {
-				name = small_country_draft
-				duration = 365
-			}
-			set_country_flag = yucatan_draft_happened 
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 	total_war_in_peking = {
 		alert = yes
 		picture = support_boxers
