@@ -11,7 +11,7 @@
 #Cocos Islands (500/125 POPS) #british trade post 1836 
 2406 = {
 	aristocrats = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 5
 	}
