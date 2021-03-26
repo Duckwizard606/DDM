@@ -30,6 +30,7 @@ political_decisions = {
 			NOT = { has_country_flag = canadian_dominion }
 		}
 		allow = {
+			is_vassal = no
 			war = no
 			owns = 57
 		}

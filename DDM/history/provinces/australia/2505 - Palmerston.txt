@@ -1,7 +1,6 @@
-owner = ENG
-controller = ENG
+owner = AST
+controller = AST
 add_core = AST
-add_core = ENG
 trade_goods = iron
 life_rating = 20
 terrain = palmerston

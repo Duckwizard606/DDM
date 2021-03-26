@@ -3,32 +3,32 @@
 #Sydney (64000/16000 POPS)
 2468 = {
 	bureaucrats = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 35
 	}
 
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 65
 	}
 
 	artisans = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 3500
 	}
 
 	soldiers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size= 1100
 
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 4400
 	}
@@ -68,26 +68,26 @@
 #Newcastle (16000/4000 POPS)
 2469 = {
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 250
 	}
 
 	soldiers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size= 50
 
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 1670
 	}
@@ -127,26 +127,26 @@
 #Port Macquarie (12000/3000 POPS)
 2470 = {
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size= 25
 
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 900
 	}
@@ -206,20 +206,20 @@
 	}
 
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 125
 	}
 
 	soldiers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size= 25
 
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 1850
 	}
@@ -227,26 +227,26 @@
 #Wagga Wagga (12000/3000 POPS)
 2473 = {
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size= 25
 
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 900
 	}
@@ -530,27 +530,27 @@
 #Hobart (36000/9000 POPS)
 2482 = {
 	bureaucrats = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 25
 	}
 
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 100
 	}
 
 
 	soldiers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size= 100
 
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 8775
 	}
@@ -586,26 +586,26 @@
 	}
 
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 25
 	}
 
 	artisans = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 50
 	}
 
 	soldiers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size= 25
 
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 900
 	}
@@ -1000,20 +1000,20 @@
 #Perth (23000/5750 POPS)
 2497 = {
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 15
 	}
 
 	soldiers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size= 10
 
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 685
 	}
@@ -1434,20 +1434,20 @@
 #Norfolk Island (1000/250 POPS)
 2508 = {
 	clergymen = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 3
 	}
 
 	soldiers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size= 2
 
 	}
 
 	farmers = {
-		culture = british
+		culture = english
 		religion = protestant
 		size = 235
 	}

@@ -104,6 +104,26 @@ HAN = {
 	influence_value = 0
 }
 
+
+#Dominions
+
+CAN = {
+	value = 200
+	level = 5
+	influence_value = 0
+}
+AST = {
+	value = 200
+	level = 5
+	influence_value = 0
+}
+NZL = {
+	value = 200
+	level = 5
+	influence_value = 0
+}
+
+
 #South America
 VNZ = {
 	value = 125		#relation

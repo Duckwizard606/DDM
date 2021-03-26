@@ -1,9 +1,7 @@
-owner = ENG
-controller = ENG
+owner = AST
+controller = AST
 add_core = AST
-add_core = ENG
 trade_goods = wool
 life_rating = 40
 terrain = melbourne
-colonial = 2
 naval_base = 1

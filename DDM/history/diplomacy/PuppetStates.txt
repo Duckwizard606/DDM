@@ -340,3 +340,31 @@ vassal = {
 	start_date = 1691.1.1
 	end_date = 1911.1.1
 }
+
+
+
+
+
+#British Dominions
+
+# Canada
+vassal = {
+	first = ENG
+	second = CAN
+	start_date = 1830.1.1
+	end_date = 1960.1.1
+}
+#Australia
+vassal = {
+	first = ENG
+	second = AST
+	start_date = 1830.1.1
+	end_date = 1960.1.1
+}
+#New Zealand
+vassal = {
+	first = ENG
+	second = NZL
+	start_date = 1830.1.1
+	end_date = 1960.1.1
+}
