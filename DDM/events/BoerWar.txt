@@ -498,7 +498,7 @@ country_event = {
 		name = "An interesting development."
 		set_global_flag = orange_river_sovereignty
 		SAF = {
-			primary_culture = british
+			primary_culture = english
 			add_accepted_culture = boer
 		}
 		any_owned = { 
@@ -668,7 +668,7 @@ country_event = {
 		name = "An interesting development."
 		set_global_flag = transvaal_sovereignty
 		SAF = {
-			primary_culture = british
+			primary_culture = english
 			add_accepted_culture = boer
 		}
 		any_owned = { 
@@ -1584,7 +1584,7 @@ country_event = {
 			diplomatic_influence = { who = THIS value = 50 }
 		}
 		any_pop = {
-			limit = { has_pop_culture = british }
+			limit = { has_pop_culture = english }
 			consciousness = 2
 		}
 		any_country = {
@@ -1625,7 +1625,7 @@ country_event = {
 			}
 		}
 		any_pop = {
-			limit = { has_pop_culture = british }
+			limit = { has_pop_culture = english }
 			militancy = 8
 			consciousness = 4
 		}

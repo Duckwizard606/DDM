@@ -1,5 +1,5 @@
 capital = 2044
-primary_culture = british
+primary_culture = english
 culture = unyamwezi
 culture = sukuma
 culture = african_minor

@@ -803,7 +803,7 @@ province_event = {
 			any_owned = {
 				limit = {
 					is_colonial = no
-					culture = british
+					culture = english
 					is_core = ENG
 				}
 				add_province_modifier = {
@@ -821,7 +821,7 @@ province_event = {
 			}
 		}
 		any_pop = {
-			limit = { has_pop_culture = british }
+			limit = { has_pop_culture = english }
 			militancy = 5
 		}
 		ai_chance = {
@@ -944,7 +944,7 @@ country_event = {
 		set_country_flag = sinn_fein_victory
 		prestige = -50
 		any_pop = {
-			limit = { has_pop_culture = british }
+			limit = { has_pop_culture = english }
 			dominant_issue = {
 				factor = 0.1
 				value = jingoism

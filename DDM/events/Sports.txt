@@ -14,7 +14,7 @@ province_event = {
 	trigger = {
 		year = 1868
 		continent = europe
-		pop_majority_culture = british
+		pop_majority_culture = english
 		NOT = { province_id = 300 }
 		owner = {
 			tag = ENG

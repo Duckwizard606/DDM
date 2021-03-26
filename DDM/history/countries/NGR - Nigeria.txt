@@ -1,5 +1,5 @@
 capital = 1923
-primary_culture = british 
+primary_culture = english 
 culture = yoruba
 culture = edo
 culture = fulbe

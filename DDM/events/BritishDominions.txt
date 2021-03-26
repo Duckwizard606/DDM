@@ -1320,7 +1320,7 @@ country_event = {
 		LSK = {
 			prestige = -100
 			primary_culture = anglo_canadian
-			add_accepted_culture = british
+			add_accepted_culture = english
 			relation = { who = CAN value = 200 }
 		}
 		relation = {
@@ -1363,7 +1363,7 @@ country_event = {
 		LSK = {
 			prestige = -100
 			primary_culture = anglo_canadian
-			add_accepted_culture = british
+			add_accepted_culture = english
 			relation = { who = CAN value = 200 }
 		}
 		relation = {

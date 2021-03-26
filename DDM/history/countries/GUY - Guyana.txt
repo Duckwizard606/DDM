@@ -1,7 +1,7 @@
 capital = 2240
 primary_culture = afro_caribbean
 culture = afro_antillean
-culture = british
+culture = english
 culture = french
 culture = dutch
 religion = protestant

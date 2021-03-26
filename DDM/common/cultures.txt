@@ -5,7 +5,7 @@ germanic = {
 	leader = european
 	unit = EuropeanGC
 	north_german = { 
-		color = { 90 60 60 }
+		color = { 30 36 33 }
 		first_names = { Adelbert Adolf Albrecht Alexander Alfred August Bernhard Burkhard Dieter
 		Eduard Edwin Erwin Erich Ernst Florian Franz Friedrich Fritz Georg Günther
 		Gustav Hasso Heinrich Helmuth Hermann Hugo Joachim Johann Jürgen Karl
@@ -250,7 +250,7 @@ scandinavian = {
 british = {
 	leader = european
 	unit = BritishGC
-	british = {
+	english = {
 		color = {202 30 0 }
 		first_names = { Albert Alexander Alfred Archibald Arthur Augustus Benjamin Bernard Charles Colbert
 		Colin Cyril David Donald Douglas Edmund Edwar Fairfax Ferdinand Francis

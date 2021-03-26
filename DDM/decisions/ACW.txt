@@ -862,44 +862,6 @@ political_decisions = {
 		}
 	}
 	
-	webster_ashburton_treaty = {
-		potential = {
-			tag = ENG
-			NOT = { has_country_flag = webster_ashburton_signed }
-			USA = {
-				any_owned_province = { region = USA_247 }
-			}
-		}
-		
-		allow = {
-			owns = 250
-			NOT = { war_with = USA }
-		}
-		
-		effect = {
-			250 = {
-				remove_core = ENG
-				remove_core = MRU
-				remove_core = CAN
-				secede_province = USA
-			}
-			badboy = -2
-			prestige = 10
-			USA = { country_event = 44122 }
-			set_country_flag = webster_ashburton_signed
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				factor = 0
-				NOT = { year = 1842 }
-				NOT = { badboy = 0.2 }
-			}
-		}
-	
-	}
-	
 	rio_grande_treaty = {
 		potential = {
 			tag = USA

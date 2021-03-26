@@ -1,5 +1,5 @@
 capital = 1884
-primary_culture = british 
+primary_culture = english 
 culture = mande
 religion = protestant
 government = democracy

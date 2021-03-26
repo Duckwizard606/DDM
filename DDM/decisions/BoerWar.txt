@@ -613,7 +613,7 @@ political_decisions = {
 				all_core = { remove_core = SAF }
 			}
 			SAF = {
-				primary_culture = british
+				primary_culture = english
 				add_accepted_culture = boer
 			}
 		}

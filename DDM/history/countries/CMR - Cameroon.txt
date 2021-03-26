@@ -1,5 +1,5 @@
 capital = 1959
-primary_culture = british 
+primary_culture = english 
 culture = fang
 culture = african_minor
 religion = protestant

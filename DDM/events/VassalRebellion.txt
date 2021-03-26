@@ -84,7 +84,7 @@ country_event = {
 			factor = 5
 			OR = {
 				primary_culture = anglo_canadian
-				primary_culture = british
+				primary_culture = english
 			}
 			vassal_of = ENG
 			ai = yes

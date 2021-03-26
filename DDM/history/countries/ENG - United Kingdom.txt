@@ -1,5 +1,5 @@
 capital = 300
-primary_culture = british
+primary_culture = english
 culture = welsh
 culture = scottish
 culture = anglo_canadian

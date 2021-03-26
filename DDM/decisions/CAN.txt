@@ -224,7 +224,7 @@ political_decisions = {
 				tag = RPL
 				primary_culture = anglo_canadian
 				AND = {
-					primary_culture = british
+					primary_culture = english
 					accepted_culture = anglo_canadian
 					NOT = { tag = ENG }
 					NOT = { tag = ENL }

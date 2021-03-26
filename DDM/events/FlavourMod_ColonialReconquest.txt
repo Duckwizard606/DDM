@@ -228,7 +228,7 @@
 		
 # 		any_pop = {
 # 			limit = { 
-# 			has_pop_culture = british
+# 			has_pop_culture = english
 # 			location = { is_core = QUE } }
 # 			move_pop = 57
 # 		}

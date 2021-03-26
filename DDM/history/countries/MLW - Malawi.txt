@@ -1,5 +1,5 @@
 capital = 2067
-primary_culture = british 
+primary_culture = english 
 culture = chewa
 culture = lomwe
 religion = protestant

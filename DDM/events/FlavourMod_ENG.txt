@@ -425,7 +425,7 @@
 # 			limit = {
 # 				tag = SAF
 # 				exists = yes
-# 				primary_culture = british
+# 				primary_culture = english
 # 				vassal_of = ENG
 # 			}
 # 			prestige = -80 government = dominion
@@ -434,7 +434,7 @@
 # 			limit = {
 # 				tag = RHO
 # 				exists = yes
-# 				primary_culture = british
+# 				primary_culture = english
 # 				vassal_of = ENG
 # 			}
 # 			prestige = -80 government = dominion
@@ -476,7 +476,7 @@
 # 			limit = {
 # 				tag = SAF
 # 				exists = yes
-# 				primary_culture = british
+# 				primary_culture = english
 # 				vassal_of = ENG
 # 			}
 # 			prestige = -80 government = dominion
@@ -485,7 +485,7 @@
 # 			limit = {
 # 				tag = RHO
 # 				exists = yes
-# 				primary_culture = british
+# 				primary_culture = english
 # 				vassal_of = ENG
 # 			}
 # 			prestige = -80 government = dominion
@@ -527,7 +527,7 @@
 # 			limit = {
 # 				tag = SAF
 # 				exists = yes
-# 				primary_culture = british
+# 				primary_culture = english
 # 				vassal_of = ENG
 # 			}
 # 			prestige = -80 government = dominion
@@ -536,7 +536,7 @@
 # 			limit = {
 # 				tag = RHO
 # 				exists = yes
-# 				primary_culture = british
+# 				primary_culture = english
 # 				vassal_of = ENG
 # 			}
 # 			prestige = -80 government = dominion
@@ -607,7 +607,7 @@
 # 			limit = {
 # 				tag = SAF
 # 				exists = yes
-# 				primary_culture = british
+# 				primary_culture = english
 # 				vassal_of = ENG
 # 			}
 # 			prestige = -80 government = dominion
@@ -616,7 +616,7 @@
 # 			limit = {
 # 				tag = RHO
 # 				exists = yes
-# 				primary_culture = british
+# 				primary_culture = english
 # 				vassal_of = ENG
 # 			}
 # 			prestige = -80 government = dominion
