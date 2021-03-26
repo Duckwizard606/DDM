@@ -8,4 +8,4 @@ add_core = GER
 trade_goods = fish
 life_rating = 40
 terrain = danzig
-naval_port = 1
+naval_base = 1

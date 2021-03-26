@@ -5,4 +5,4 @@ add_core = IRE
 trade_goods = cattle
 life_rating = 35
 terrain = belfast
-naval_port = 2
+naval_base = 2

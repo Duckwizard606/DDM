@@ -4,4 +4,4 @@ add_core = POR
 trade_goods = fish
 life_rating = 35
 terrain = setubal
-naval_port = 1
+naval_base = 1
