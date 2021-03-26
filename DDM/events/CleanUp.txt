@@ -9,7 +9,7 @@ country_event = {
 	news_desc_short = "EVTDESC60000_NEWS_SHORT"
 	picture = "communist_crowd"
 	
-	trigger = {
+	trigger = {	exists = yes
 		is_vassal = no
 		civilized = yes
 		NOT = { government = proletarian_dictatorship }
@@ -21,12 +21,12 @@ country_event = {
 			is_disarmed = yes
 			communist = 20
 			socialist = 40
-			average_militancy = 5
+			average_militancy = 2
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 1
 		modifier = {
 			factor = 0.8
 			average_militancy = 4
@@ -63,7 +63,7 @@ country_event = {
 		social_reform = good_subsidies
 		social_reform = good_pensions
 		social_reform = good_health_care
-		prestige = -25
+		prestige = 10
 		clr_country_flag = tory_election_win
 		clr_country_flag = socialist_election_win
 		clr_country_flag = liberal_election_win
@@ -87,15 +87,15 @@ country_event = {
 	news_desc_short = "EVTDESC60010_NEWS_SHORT"
 	picture = "Fascist"
 	
-	trigger = {
+	trigger = {	exists = yes
 		is_vassal = no
 		civilized = yes
 		government = democracy
 		ruling_party_ideology = reactionary
 		average_militancy = 3
 		OR = {
-			revolt_percentage = .10
-			national_provinces_occupied = .10
+			revolt_percentage = .25
+			national_provinces_occupied = .25
 			is_disarmed = yes
 			upper_house = { ideology = reactionary value = 0.3 }
 			average_militancy = 5
@@ -103,7 +103,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 24
 		modifier = {
 			factor = 0.8
 			average_militancy = 4
@@ -131,6 +131,22 @@ country_event = {
 		modifier = {
 			factor = 4
 			literacy = 0.7
+		}
+		modifier = {
+			factor = 0.8
+			national_provinces_occupied = .25
+		}
+		modifier = {
+			factor = 0.8
+			revolt_percentage = .25
+		}
+		modifier = {
+			factor = 0.8
+			upper_house = { ideology = reactionary value = 0.3 }
+		}
+		modifier = {
+			factor = 0.8
+			is_disarmed = yes
 		}
 	}
 	major = yes
@@ -172,7 +188,7 @@ country_event = {
 	news_desc_short = "EVTDESC60020_NEWS_SHORT"
 	picture = "election"
 	
-	trigger = {
+	trigger = {	exists = yes
 		is_vassal = no
 		civilized = yes
 		NOT = { government = bourgeois_dictatorship }
@@ -243,7 +259,8 @@ country_event = {
 	news_desc_short = "EVTDESC60030_NEWS_SHORT"
 	picture = "Fascist"
 	
-	trigger = {
+	trigger = {	
+	    exists = yes
 		is_vassal = no
 		civilized = yes
 		NOT = { government = fascist_dictatorship }
@@ -251,15 +268,15 @@ country_event = {
 		average_militancy = 3
 		OR = {
 			num_of_revolts = 1
-			national_provinces_occupied = .10
+			national_provinces_occupied = .25
 			is_disarmed = yes
 			fascist = 20
-			average_militancy = 5
+			average_militancy = 2
 		}
 	}
 	
 	mean_time_to_happen = {
-		months = 12
+		months = 1
 		modifier = {
 			factor = 0.8
 			average_militancy = 4
@@ -290,7 +307,7 @@ country_event = {
 		political_reform = nobody_gets_out
 		political_reform = mandatory_service
 		political_reform = oppression
-		prestige = -25
+		prestige = 10
 		clr_country_flag = tory_election_win
 		clr_country_flag = socialist_election_win
 		clr_country_flag = liberal_election_win
@@ -313,7 +330,8 @@ country_event = {
 	news_desc_short = "EVTDESC60050_NEWS_SHORT"
 	picture = "senate_debate"
 	
-	trigger = {
+	trigger = {	
+	exists = yes
 		OR = {
 			government = proletarian_dictatorship
 			government = presidential_dictatorship
@@ -344,7 +362,7 @@ country_event = {
 	desc = "EVTDESC60040"
 	picture = "Monarchy"
 	
-	trigger = {
+	trigger = {	exists = yes
 		OR = {
 			government = hms_government
 			government = prussian_constitutionalism
@@ -382,7 +400,7 @@ country_event = {
 	news_desc_short = "EVTDESC60060_NEWS_SHORT"
 	picture = "Monarchy"
 	
-	trigger = {
+	trigger = {	exists = yes
 		government = absolute_monarchy
 		NOT = { vote_franschise = none_voting }		
 		civilized = yes	
@@ -409,7 +427,7 @@ country_event = {
 	news_desc_short = "EVTDESC60070_NEWS_SHORT"
 	picture = "Monarchy"
 	
-	trigger = {
+	trigger = {	exists = yes
 		government = prussian_constitutionalism
 		OR = {
 			political_parties = secret_ballots
@@ -443,7 +461,7 @@ country_event = {
 	news_desc_short = "EVTDESC60080_NEWS_SHORT"
 	picture = "communist_crowd"
 	
-	trigger = {
+	trigger = {	exists = yes
 		government = democracy
 		vote_franschise = none_voting		
 		OR = {
@@ -484,7 +502,7 @@ country_event = {
 	news_desc_short = "EVTDESC60080_NEWS_SHORT"
 	picture = "communist_crowd"
 	
-	trigger = {
+	trigger = {	exists = yes
 		government = democracy
 		vote_franschise = none_voting
 		ruling_party_ideology = anarcho_liberal
@@ -520,7 +538,7 @@ country_event = {
 	news_desc_short = "EVTDESC60080_NEWS_SHORT"
 	picture = "communist_crowd"
 	
-	trigger = {
+	trigger = {	exists = yes
 		government = democracy
 		vote_franschise = none_voting
 		ruling_party_ideology = communist
@@ -556,7 +574,7 @@ country_event = {
 	news_desc_short = "EVTDESC60080_NEWS_SHORT"
 	picture = "communist_crowd"
 	
-	trigger = {
+	trigger = {	exists = yes
 		government = democracy
 		vote_franschise = none_voting
 		ruling_party_ideology = fascist
@@ -588,7 +606,7 @@ country_event = {
 	desc = "EVTDESC60120"
 	picture = "greatpowers"
 	
-	trigger = {
+	trigger = {	exists = yes
 		ai = yes
 		war = no
 		part_of_sphere = yes
@@ -618,8 +636,6 @@ country_event = {
 			tag = AUS
 			tag = DNB
 			tag = CSA
-			tag = UIL
-			tag = UNB
 		}
 		NOT = { has_country_flag = post_colonial_country }
 	}
@@ -690,7 +706,7 @@ country_event = {
 	desc = "EVTDESC60140"
 	picture = "Administration"
 	
-	trigger = {
+	trigger = {	exists = yes
 		upper_house_composition = party_appointed
 		OR = {
 			ruling_party_ideology = liberal
@@ -716,7 +732,7 @@ country_event = {
 	desc = "EVTDESC60150"
 	picture = "Unite"
 	
-	trigger = {
+	trigger = {	exists = yes
 		has_country_modifier = female_suffrage
 		NOT = { vote_franschise = universal_weighted_voting }
 		NOT = {	vote_franschise = universal_voting }

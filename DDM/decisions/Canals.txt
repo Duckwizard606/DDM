@@ -1,8 +1,10 @@
 political_decisions = {	
 
+	######Canals######
 	build_kiel_canal_mod = {
 		picture = build_kiel_canal
 		potential = {
+			tag = GER
 			NOT = { is_canal_enabled = 1 }
 			is_greater_power = yes
 			NOT = { has_global_flag = kiel_canal_global }
@@ -10,10 +12,14 @@ political_decisions = {
 		allow = {
 			owns = 369
 			steam_turbine = 1
-			money = 50000
+			money = 10000000
 		}
 		effect = {
-			treasury = -50000	
+			treasury = -2000000
+			treasury = -2000000	
+			treasury = -2000000
+			treasury = -2000000
+			treasury = -2000000	
 			set_global_flag = kiel_canal_global
 			set_global_flag = building_kiel_canal_phase0
 			add_country_modifier = {
@@ -31,6 +37,18 @@ political_decisions = {
 		potential = {
 			NOT = { is_canal_enabled = 2 }
 			OR = {
+			tag = ENG
+			tag = TUR
+			tag = USA
+			tag = FRA
+			tag = ITA
+			tag = GER
+			tag = JAP
+			tag = SPA
+			tag = AUS
+			tag = KUK
+			}
+			OR = {
 				is_greater_power = yes
 				AND = {
 					is_secondary_power = yes
@@ -45,10 +63,19 @@ political_decisions = {
 				owns = 1755
 			}	
 			steam_turbine = 1
-			money = 25000
+			money = 20000000
 		}
 		effect = {
-			treasury = -25000	
+			treasury = -2000000
+			treasury = -2000000	
+			treasury = -2000000
+			treasury = -2000000
+			treasury = -2000000
+			treasury = -2000000
+			treasury = -2000000	
+			treasury = -2000000
+			treasury = -2000000
+			treasury = -2000000			
 			set_global_flag = suez_canal_global
 			set_global_flag = building_suez_canal_phase0
 			add_country_modifier = {
@@ -74,6 +101,19 @@ political_decisions = {
 		potential = {
 			NOT = { is_canal_enabled = 3 }
 			OR = {
+			tag = ENG
+			tag = TUR
+			tag = USA
+			tag = FRA
+			tag = ITA
+			tag = GER
+			tag = JAP
+			tag = SPA
+			tag = AUS
+			tag = KUK
+			tag = BRZ
+			}
+			OR = {
 				is_greater_power = yes
 				AND = {
 					is_secondary_power = yes
@@ -90,10 +130,14 @@ political_decisions = {
 			}	
 			inorganic_chemistry = 1
 			steam_turbine = 1
-			money = 100000
+			money = 10000000
 		}
 		effect = {
-			treasury = -100000	
+			treasury = -2000000
+			treasury = -2000000	
+			treasury = -2000000
+			treasury = -2000000
+			treasury = -2000000
 			set_global_flag = panama_canal_global
 			add_country_modifier = {
 				name = building_panama_canal
@@ -101,23 +145,14 @@ political_decisions = {
 			}
 			random_country = {
 				limit = {
-					NOT = { tag = PNM }
 					NOT = { tag = THIS }
 					owns = 1723
 				}
 				country_event = 97390
 			}
-			random_country = {
-				limit = {
-					tag = PNM
-					NOT = { tag = THIS }
-					owns = 1723
-				}
-				country_event = 97394
-			}
 		}
 		ai_will_do = {
 			factor = 1
 		}
-	}	
+	}		
 }
