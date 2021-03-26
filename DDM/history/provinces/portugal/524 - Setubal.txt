@@ -3,4 +3,5 @@ controller = POR
 add_core = POR
 trade_goods = fish
 life_rating = 35
-terrain = forested_farmland
+terrain = setubal
+naval_port = 1

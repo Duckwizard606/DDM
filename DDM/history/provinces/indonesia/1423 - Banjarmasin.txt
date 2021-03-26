@@ -3,5 +3,5 @@ controller = NET
 add_core = KLM
 trade_goods = sulphur
 life_rating = 30
-terrain = jungle_farmland
+terrain = banjarmasin
 colonial = 2

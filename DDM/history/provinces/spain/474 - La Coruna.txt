@@ -3,6 +3,7 @@ controller = SPA
 add_core = SPA
 trade_goods = fish
 life_rating = 35
-terrain = forested_farmland
 naval_base = 1
+terrain = la_coruna
+
 

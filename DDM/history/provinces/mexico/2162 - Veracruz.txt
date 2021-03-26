@@ -3,5 +3,5 @@ controller = MEX
 add_core = MEX
 trade_goods = spices
 life_rating = 35
-terrain = hilly_farmland
+terrain = veracruz
 naval_base = 1

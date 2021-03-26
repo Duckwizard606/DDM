@@ -4,6 +4,8 @@ add_core = ENG
 trade_goods = coal
 life_rating = 35
 terrain = newcastle
+naval_port = 2
+
 state_building = {
 level = 2
 building = steel_factory

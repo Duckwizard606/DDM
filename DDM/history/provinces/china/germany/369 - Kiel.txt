@@ -6,5 +6,4 @@ add_core = GER
 trade_goods = cattle
 life_rating = 40
 terrain = kiel
-naval_base = 2
 

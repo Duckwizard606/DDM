@@ -4,5 +4,6 @@ add_core = ALD
 trade_goods = grain
 life_rating = 35
 terrain = algiers
+naval_base = 2
 colonial = 2
 

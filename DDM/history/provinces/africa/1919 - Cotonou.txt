@@ -3,4 +3,4 @@ controller = DAH
 add_core = DAH
 trade_goods = cattle
 life_rating = 35
-terrain = seasonal_jungle
+terrain = cotonou

@@ -4,5 +4,5 @@ controller = ENG
 add_core = HND
 trade_goods = spices
 life_rating = 32
-terrain = seasonal_jungle_hills
+terrain = mangalore
 colonial = 2

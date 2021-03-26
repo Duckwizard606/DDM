@@ -3,8 +3,8 @@ controller = DEN
 add_core = DEN
 trade_goods = fish
 life_rating = 35
-terrain = marginal_farmland
-naval_base = 1
+terrain = aalborg
+
 #state_building = {
 #	level = 1
 #	building = canned_food_factory

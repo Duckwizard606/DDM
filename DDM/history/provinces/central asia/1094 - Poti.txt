@@ -5,4 +5,3 @@ add_core = RUS
 trade_goods = tea
 life_rating = 35
 terrain = forested_farmland
-naval_base = 2

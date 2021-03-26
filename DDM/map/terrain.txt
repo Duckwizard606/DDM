@@ -19,6 +19,7 @@ categories =  {
 		mine_rgo_eff = -0.25
 		supply_limit = 1
 		min_build_railroad = 3
+		min_build_naval_base = 7
 	}
 
 	farmlands = {
@@ -29,6 +30,7 @@ categories =  {
 		mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 8
+		min_build_naval_base = 7
 	}
 
 	forest = {
@@ -40,9 +42,10 @@ categories =  {
 		mine_rgo_size = 0 #mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 3
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
-
+	
 	woods = {
 		movement_cost = 1.1
 		defence = 1
@@ -52,6 +55,7 @@ categories =  {
 		mine_rgo_size = 0 #mine_rgo_size = 0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 3
+		min_build_naval_base = 7
 	}
 
 	steppe = {
@@ -62,7 +66,7 @@ categories =  {
 		mine_rgo_size = 0 #mine_rgo_size = -0.1
 		mine_rgo_eff = 0
 		supply_limit = 4
-
+		min_build_naval_base = 7
 	}
 
 	plains = {
@@ -73,7 +77,7 @@ categories =  {
 		mine_rgo_size = 0.0 #mine_rgo_size = -0.0
 		mine_rgo_eff = 0.0
 		supply_limit = 7
-
+		min_build_naval_base = 7
 	}
 
 	coastal_desert = {
@@ -85,6 +89,7 @@ categories =  {
 		mine_rgo_size = -0.1
 		mine_rgo_eff = -0.1
 		supply_limit = 2
+		min_build_naval_base = 7
 	}
 
 	good_farmland = {
@@ -97,6 +102,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 8
 		min_build_railroad = 0
+		min_build_naval_base = 7
 	}
 
 	floodplain_farmland = {
@@ -109,6 +115,7 @@ categories =  {
 		mine_rgo_eff = -0.25
 		supply_limit = 8
 		min_build_railroad = 0
+		min_build_naval_base = 7
 	}
 
 	marginal_farmland = {
@@ -121,6 +128,7 @@ categories =  {
 		mine_rgo_eff = 0
 		supply_limit = 7
 		min_build_railroad = 0
+		min_build_naval_base = 7
 	}
 
 	hilly_farmland = {
@@ -134,7 +142,7 @@ categories =  {
 		mine_rgo_eff = 0.1
 		supply_limit = 5
 		min_build_railroad = 0
-
+		min_build_naval_base = 7
 		combat_width = -0.30
 	}
 
@@ -149,7 +157,7 @@ categories =  {
 		mine_rgo_eff = 0.2
 		supply_limit = 3
 		min_build_railroad = 1
-
+		min_build_naval_base = 7
 		combat_width = -0.50
 	}
 
@@ -164,6 +172,7 @@ categories =  {
 		mine_rgo_eff = 0
 		supply_limit = 6
 		min_build_railroad = 0
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -178,6 +187,7 @@ categories =  {
 		mine_rgo_eff = -0.2
 		supply_limit = 3
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.30
 	}
 
@@ -191,6 +201,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 5
 		min_build_railroad = 0
+		min_build_naval_base = 7
 	}
 
 	hills = {
@@ -204,6 +215,7 @@ categories =  {
 		mine_rgo_eff = 0.1
 		supply_limit = 3
 		min_build_railroad = 0
+		min_build_naval_base = 7
 	}
 
 	mountain = {
@@ -217,7 +229,7 @@ categories =  {
 		mine_rgo_eff = 0.25
 		supply_limit = 2
 		min_build_railroad = 2
-
+		min_build_naval_base = 7
 		combat_width = -0.50
 	}
 
@@ -232,6 +244,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 4
 		min_build_railroad = 1
+		min_build_naval_base = 7
 	}
 
 	hilly_grassland = {
@@ -245,6 +258,7 @@ categories =  {
 		mine_rgo_eff = 0.15
 		supply_limit = 3
 		min_build_railroad = 1
+		min_build_naval_base = 7
 		combat_width = -0.30
 	}
 
@@ -259,6 +273,7 @@ categories =  {
 		mine_rgo_eff = 0.25
 		supply_limit = 1.8
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.50
 	}
 
@@ -273,6 +288,7 @@ categories =  {
 		mine_rgo_eff = -0.15
 		supply_limit = 2
 		min_build_railroad = 2
+		min_build_naval_base = 7
 	}
 
 	semi_desert_hills = {
@@ -286,6 +302,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 2.1
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -300,6 +317,7 @@ categories =  {
 		mine_rgo_eff = 0.1
 		supply_limit = 1.6
 		min_build_railroad = 3
+		min_build_naval_base = 7
 		combat_width = -0.40
 	}
 
@@ -314,6 +332,7 @@ categories =  {
 		mine_rgo_eff = -0.3
 		supply_limit = 1
 		min_build_railroad = 3
+		min_build_naval_base = 7
 	}
 
 	desert_hills = {
@@ -327,6 +346,7 @@ categories =  {
 		mine_rgo_eff = -0.15
 		supply_limit = 1.5
 		min_build_railroad = 3
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -341,7 +361,7 @@ categories =  {
 		mine_rgo_eff = -0.05
 		supply_limit = 1.25
 		min_build_railroad = 4
-
+		min_build_naval_base = 7
 		combat_width = -0.40
 	}
 
@@ -356,7 +376,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 3
 		min_build_railroad = 1
-
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -371,6 +391,7 @@ categories =  {
 		mine_rgo_eff = 0.15
 		supply_limit = 3
 		min_build_railroad = 1
+		min_build_naval_base = 7
 		combat_width = -0.60
 	}
 
@@ -385,6 +406,7 @@ categories =  {
 		mine_rgo_eff = 0.25
 		supply_limit = 2
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.75
 	}
 
@@ -399,6 +421,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 4
 		min_build_railroad = 1
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -413,6 +436,7 @@ categories =  {
 		mine_rgo_eff = 0.15
 		supply_limit = 3
 		min_build_railroad = 1
+		min_build_naval_base = 7
 		combat_width = -0.40
 	}
 
@@ -427,6 +451,7 @@ categories =  {
 		mine_rgo_eff = 0.25
 		supply_limit = 2.4
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.70
 	}
 
@@ -441,6 +466,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 3
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -455,6 +481,7 @@ categories =  {
 		mine_rgo_eff = 0.15
 		supply_limit = 2.8
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.40
 	}
 
@@ -469,6 +496,7 @@ categories =  {
 		mine_rgo_eff = 0.25
 		supply_limit = 2.1
 		min_build_railroad = 3
+		min_build_naval_base = 7
 		combat_width = -0.70
 	}
 
@@ -483,6 +511,7 @@ categories =  {
 		mine_rgo_eff = -0.1
 		supply_limit = 2
 		min_build_railroad = 3
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -497,6 +526,7 @@ categories =  {
 		mine_rgo_eff = 0.05
 		supply_limit = 2
 		min_build_railroad = 3
+		min_build_naval_base = 7
 		combat_width = -0.40
 	}
 
@@ -511,7 +541,7 @@ categories =  {
 		mine_rgo_eff = 0.1
 		supply_limit = 1.8
 		min_build_railroad = 4
-
+		min_build_naval_base = 7
 		combat_width = -0.70
 	}
 
@@ -526,6 +556,7 @@ categories =  {
 		mine_rgo_eff = -0.25
 		supply_limit = 2
 		min_build_railroad = 3
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -540,6 +571,7 @@ categories =  {
 		mine_rgo_eff = -0.1
 		supply_limit = 2
 		min_build_railroad = 3
+		min_build_naval_base = 7
 		combat_width = -0.50
 	}
 
@@ -554,6 +586,7 @@ categories =  {
 		mine_rgo_eff = -0.05
 		supply_limit = 1.4
 		min_build_railroad = 4
+		min_build_naval_base = 7
 		combat_width = -0.80
 	}
 
@@ -568,6 +601,7 @@ categories =  {
 		mine_rgo_eff = -0.2
 		supply_limit = 2
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 
@@ -582,6 +616,7 @@ categories =  {
 		mine_rgo_eff = -0.05
 		supply_limit = 2
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.50
 	}
 
@@ -596,7 +631,7 @@ categories =  {
 		mine_rgo_eff = 0.05
 		supply_limit = 1.7
 		min_build_railroad = 3
-
+		min_build_naval_base = 7
 		combat_width = -0.80
 	}
 
@@ -611,6 +646,7 @@ categories =  {
 		mine_rgo_eff = -0.35
 		supply_limit = 1
 		min_build_railroad = 3
+		min_build_naval_base = 7
 	}
 
 	cold_desert_hills = {
@@ -624,7 +660,7 @@ categories =  {
 		mine_rgo_eff = -0.2
 		supply_limit = 1.1
 		min_build_railroad = 3
-
+		min_build_naval_base = 7
 		combat_width = -0.30
 	}
 
@@ -639,7 +675,7 @@ categories =  {
 		mine_rgo_eff = -0.1
 		supply_limit = 1
 		min_build_railroad = 4
-
+		min_build_naval_base = 7
 		combat_width = -0.60
 	}
 
@@ -654,6 +690,7 @@ categories =  {
 		mine_rgo_eff = -0.5
 		supply_limit = 0.5
 		min_build_railroad = 4
+		min_build_naval_base = 7
 	}
 
 	tundra_hills = {
@@ -667,7 +704,7 @@ categories =  {
 		mine_rgo_eff = -0.3
 		supply_limit = 0.5
 		min_build_railroad = 4
-
+		min_build_naval_base = 7
 		combat_width = -0.30
 	}
 
@@ -682,7 +719,7 @@ categories =  {
 		mine_rgo_eff = -0.2
 		supply_limit = 0.25
 		min_build_railroad = 5
-
+		min_build_naval_base = 7
 		combat_width = -0.60
 	}
 
@@ -697,6 +734,7 @@ categories =  {
 		mine_rgo_eff = -0.4
 		supply_limit = 2
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.30
 	}
 
@@ -711,7 +749,7 @@ categories =  {
 		mine_rgo_eff = -0.5
 		supply_limit = 1.8
 		min_build_railroad = 4
-
+		min_build_naval_base = 7
 		combat_width = -0.50
 	}
 
@@ -726,7 +764,7 @@ categories =  {
 		mine_rgo_eff = -0.55
 		supply_limit = 1.6
 		min_build_railroad = 4
-
+		min_build_naval_base = 7
 		combat_width = -0.80
 	}
 	
@@ -1270,6 +1308,7 @@ categories =  {
 		mine_rgo_eff = 0
 		supply_limit = 6
 		min_build_railroad = 0
+		min_build_naval_base = 7
 		combat_width = -0.20
 	}
 	
@@ -1357,6 +1396,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 8
 		min_build_railroad = 0
+		min_build_naval_base = 7
 	}
 	marseille = {
 		movement_cost = 1.1 #marginal farmland
@@ -2205,6 +2245,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 4
 		min_build_railroad = 1
+		min_build_naval_base = 7
 	}
 
 	toronto = {
@@ -3328,6 +3369,7 @@ categories =  {
 		mine_rgo_eff = 0.1
 		supply_limit = 5
 		min_build_railroad = 0
+		min_build_naval_base = 7
 		combat_width = -0.30
 	}
 
@@ -3433,6 +3475,7 @@ categories =  {
 		mine_rgo_eff = -0.2
 		supply_limit = 3
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.30
 	}
 
@@ -3668,6 +3711,7 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 8
 		min_build_railroad = 0
+		min_build_naval_base = 7;
 	}
 
 	nice = {
@@ -3681,6 +3725,7 @@ categories =  {
 		mine_rgo_eff = 0.25
 		supply_limit = 2.4
 		min_build_railroad = 2
+		min_build_naval_base = 7
 		combat_width = -0.70
 	}
 	
@@ -3965,6 +4010,2433 @@ categories =  {
 		min_build_railroad = 2
 		combat_width = -0.70
 	}
+
+ ########################### NEW ADDITIONS #######################
+
+
+ ########### EUROPE ###########
+
+	############# UNITED KINGDOM ##################
+	cork = {
+		movement_cost = 1.6
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	
+	}
+	
+	hull = {
+		movement_cost = 1.6
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+	ipswich = {
+		movement_cost = 1.1 #marginal farmland
+		attrition = 0
+		color = { 179 255 179 }
+		farm_rgo_size = 0.1 #farm_rgo_size = 0.1
+		farm_rgo_eff = 0.1
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 7
+		min_build_railroad = 0
+	}
+
+
+
+
+
+
+
+
+	################# FRANCE ###################
+
+	montpellier = {
+		movement_cost = 1.1 #marginal farmland
+		attrition = 0
+		color = { 179 255 179 }
+		farm_rgo_size = 0.1 #farm_rgo_size = 0.1
+		farm_rgo_eff = 0.1
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 7
+		min_build_railroad = 0
+	}
+
+
+	################ GERMANY ####################
+
+
+	bremen = {
+		movement_cost = 1.1 #marginal farmland
+		attrition = 0
+		color = { 179 255 179 }
+		farm_rgo_size = 0.1 #farm_rgo_size = 0.1
+		farm_rgo_eff = 0.1
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 7
+		min_build_railroad = 0
+	}
+
+	schwerin = {
+		movement_cost = 1.1 # good farmland
+		attrition = 0
+		color = { 0 255 0 }
+		farm_rgo_size = 0.25 #farm_rgo_size = 0.2
+		farm_rgo_eff = 0.25
+		mine_rgo_size = 0.0 #mine_rgo_size = -0.1
+		mine_rgo_eff = 0.0
+		supply_limit = 8
+		min_build_railroad = 0
+	}
+
+
+
+	################ LOW COUNTRIES ############
+
+	bruges = {
+		movement_cost = 1.1 #marginal farmland
+		attrition = 0
+		color = { 179 255 179 }
+		farm_rgo_size = 0.1 #farm_rgo_size = 0.1
+		farm_rgo_eff = 0.1
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 7
+		min_build_railroad = 0
+	}
+
+
+	########## IBERIA ###############
+
+	cadiz = {
+		movement_cost = 1.1 # good farmland
+		attrition = 0
+		color = { 0 255 0 }
+		farm_rgo_size = 0.25 #farm_rgo_size = 0.2
+		farm_rgo_eff = 0.25
+		mine_rgo_size = 0.0 #mine_rgo_size = -0.1
+		mine_rgo_eff = 0.0
+		supply_limit = 8
+		min_build_railroad = 0
+	}
+
+	la_coruna = {
+		movement_cost = 1.4 #forested farmland
+		defence = 1
+		attrition = 0
+		color = { 86 71 146 }
+		farm_rgo_size = 0.05 #farm_rgo_size = 0.05
+		farm_rgo_eff = 0.05
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 6
+		min_build_railroad = 0
+		combat_width = -0.20
+	}
+
+	setubal = {
+		movement_cost = 1.4 #forested farmland
+		defence = 1
+		attrition = 0
+		color = { 86 71 146 }
+		farm_rgo_size = 0.05 #farm_rgo_size = 0.05
+		farm_rgo_eff = 0.05
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 6
+		min_build_railroad = 0
+		combat_width = -0.20
+	}
+
+	oporto = {
+		movement_cost = 1.1 # good farmland
+		attrition = 0
+		color = { 0 255 0 }
+		farm_rgo_size = 0.25 #farm_rgo_size = 0.2
+		farm_rgo_eff = 0.25
+		mine_rgo_size = 0.0 #mine_rgo_size = -0.1
+		mine_rgo_eff = 0.0
+		supply_limit = 8
+		min_build_railroad = 0
+	}
+
+
+	############# ITALY ################
+
+	leghorn = {
+		movement_cost = 1.6 # hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+	brindisi = {
+		movement_cost = 1.1 #marginal farmland
+		attrition = 0
+		color = { 179 255 179 }
+		farm_rgo_size = 0.1 #farm_rgo_size = 0.1
+		farm_rgo_eff = 0.1
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 7
+		min_build_railroad = 0
+	}
+
+	cagliari = {
+		movement_cost = 1.6 # hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+
+
+	########### ADRIATIC #############
+	fiume = {
+		movement_cost = 2.1 #deciduous forest hills
+		defence = 2
+		attrition = 0
+		color = { 0 85 0 }
+		farm_rgo_size = -0.15 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.15
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.40
+	}
+
+	vlore = {
+		movement_cost = 1.6 # hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+
+	########## SCANDANAVIA ############
+
+	aalborg = {
+		movement_cost = 1.1 #marginal farmland
+		attrition = 0
+		color = { 179 255 179 }
+		farm_rgo_size = 0.1 #farm_rgo_size = 0.1
+		farm_rgo_eff = 0.1
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 7
+		min_build_railroad = 0
+	}
+
+	malmo = {
+		movement_cost = 1.1 # good farmland
+		attrition = 0
+		color = { 0 255 0 }
+		farm_rgo_size = 0.25 #farm_rgo_size = 0.2
+		farm_rgo_eff = 0.25
+		mine_rgo_size = 0.0 #mine_rgo_size = -0.1
+		mine_rgo_eff = 0.0
+		supply_limit = 8
+		min_build_railroad = 0
+	}
+
+
+	######### BALTIC ##########
+
+
+
+	memel = {
+		movement_cost = 1.1 #marginal farmland
+		attrition = 0
+		color = { 179 255 179 }
+		farm_rgo_size = 0.1 #farm_rgo_size = 0.1
+		farm_rgo_eff = 0.1
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 7
+		min_build_railroad = 0
+	}
+
+
+
+	########### AEGEAN ###########
+
+
+	salonika = {
+		movement_cost = 1.1 # good farmland
+		attrition = 0
+		color = { 0 255 0 }
+		farm_rgo_size = 0.25 #farm_rgo_size = 0.2
+		farm_rgo_eff = 0.25
+		mine_rgo_size = 0.0 #mine_rgo_size = -0.1
+		mine_rgo_eff = 0.0
+		supply_limit = 8
+		min_build_railroad = 0
+	}
+
+	gallipoli = {
+		movement_cost = 1.1 # good farmland
+		attrition = 0
+		color = { 0 255 0 }
+		farm_rgo_size = 0.25 #farm_rgo_size = 0.2
+		farm_rgo_eff = 0.25
+		mine_rgo_size = 0.0 #mine_rgo_size = -0.1
+		mine_rgo_eff = 0.0
+		supply_limit = 8
+		min_build_railroad = 0
+	}
+
+	########## BLACK SEA ###########
+
+
+	bolu = {
+		movement_cost = 2.5 #deciduous forest mountains
+		defence = 3
+		attrition = 1.5
+		color = { 0 68 0 }
+		farm_rgo_size = -0.35 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.35
+		mine_rgo_size = 0.25 #mine_rgo_size = 0.25
+		mine_rgo_eff = 0.25
+		supply_limit = 2.4
+		min_build_railroad = 2
+		combat_width = -0.70
+	}
+
+	novorossiysk = {
+		movement_cost = 2.1 #deciduous forest hills
+		defence = 2
+		attrition = 0
+		color = { 0 85 0 }
+		farm_rgo_size = -0.15 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.15
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.40
+	}
+
+
+	##################### ASIA MINOR ############
+
+
+	izmir = {
+		movement_cost = 1.9 #dry forest hills
+		defence = 2
+		attrition = 0.3
+		color = { 119 35 11 }
+		farm_rgo_size = -0.2 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.2
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.13
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.60
+	}
+
+	mersin = {
+		movement_cost = 2.0 #mountain grassland
+		defence = 2
+		attrition = 2.2
+		color = { 121 70 0 }
+		farm_rgo_size = -0.30 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.30
+		mine_rgo_size = 0.25 #mine_rgo_size = 0.25
+		mine_rgo_eff = 0.25
+		supply_limit = 1.8
+		min_build_railroad = 2
+		combat_width = -0.50
+	}
+
+	limassol = {
+		movement_cost = 1.3 # dry forest
+		defence = 1
+		attrition = 0.25
+		color = { 238 108 70 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.1
+		mine_rgo_size = 0 #mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.20
+	}
+
+	############### NEAR EAST #############
+
+	latakia = {
+		movement_cost = 1.9 #dry forest hills
+		defence = 2
+		attrition = 0.3
+		color = { 119 35 11 }
+		farm_rgo_size = -0.2 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.2
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.13
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.60
+	}
+
+	beirut = {
+		movement_cost = 2.3 #dry forest mountains
+		defence = 3
+		attrition = 2.1
+		color = { 68 20 6 }
+		farm_rgo_size = -0.35 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.35
+		mine_rgo_size = 0.25 #mine_rgo_size = 0.23
+		mine_rgo_eff = 0.25
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.75
+	}
+
+	jaffa = {
+		movement_cost = 1.1 #marginal farmland
+		attrition = 0
+		color = { 179 255 179 }
+		farm_rgo_size = 0.1 #farm_rgo_size = 0.1
+		farm_rgo_eff = 0.1
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 7
+		min_build_railroad = 0
+	}
+
+
+	##### END OF EUROPE #######
+
+
+
+
+
+	####### AMERICAS ########
+
+
+	## USA ##
+
+	san_antonio = {
+		movement_cost = 1.6 #hilly grassland
+		defence = 1
+		attrition = 0.6
+		color = { 183 105 0 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.18
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.30
+	}
+
+	houston = {
+		movement_cost = 1.4 #forested farmland
+		defence = 1
+		attrition = 0
+		color = { 86 71 146 }
+		farm_rgo_size = 0.05 
+		farm_rgo_eff = 0.05
+		mine_rgo_size = 0 
+		mine_rgo_eff = 0
+		supply_limit = 6
+		min_build_railroad = 0
+		combat_width = -0.20
+	}
+
+	mobile = {
+		movement_cost = 1.4 #forested farmland
+		defence = 1
+		attrition = 0
+		color = { 86 71 146 }
+		farm_rgo_size = 0.05 
+		farm_rgo_eff = 0.05
+		mine_rgo_size = 0 
+		mine_rgo_eff = 0
+		supply_limit = 6
+		min_build_railroad = 0
+		combat_width = -0.20
+	}
+
+	tampa = {
+		movement_cost = 3.0 # swamp jungle
+		defence = 2
+		attrition = 2.5
+		color = { 100 66 91 }
+		farm_rgo_size = -0.55 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.55
+		mine_rgo_size = -0.55 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.55
+		supply_limit = 1.6
+		min_build_railroad = 4
+		combat_width = -0.80
+	}
+
+	st_augustine = {
+		movement_cost = 1.5 #deciduous forest
+		defence = 1
+		attrition = 0
+		color = { 0 117 0 }
+		farm_rgo_size = -0.05 #farm_rgo_size = -0.05
+		farm_rgo_eff = -0.05
+		mine_rgo_size = 0 #mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 4
+		min_build_railroad = 1
+		combat_width = -0.20
+	}
+
+	charleston = {
+		movement_cost = 1.1 #good farmland
+		attrition = 0
+		color = { 0 255 0 }
+		farm_rgo_size = 0.25 #farm_rgo_size = 0.2
+		farm_rgo_eff = 0.25
+		mine_rgo_size = 0.0 #mine_rgo_size = -0.1
+		mine_rgo_eff = 0.0
+		supply_limit = 8
+		min_build_railroad = 0
+	}
+
+	norfolk = {
+		movement_cost = 1.1 #good farmland
+		attrition = 0
+		color = { 0 255 0 }
+		farm_rgo_size = 0.25 #farm_rgo_size = 0.2
+		farm_rgo_eff = 0.25
+		mine_rgo_size = 0.0 #mine_rgo_size = -0.1
+		mine_rgo_eff = 0.0
+		supply_limit = 8
+		min_build_railroad = 0
+	}
+
+	newark = {
+		movement_cost = 1.4 #forested farmland
+		defence = 1
+		attrition = 0
+		color = { 86 71 146 }
+		farm_rgo_size = 0.05 
+		farm_rgo_eff = 0.05
+		mine_rgo_size = 0 
+		mine_rgo_eff = 0
+		supply_limit = 6
+		min_build_railroad = 0
+		combat_width = -0.20
+	}
+
+	hartford = {
+		movement_cost = 1.1 #marginal farmland
+		attrition = 0
+		color = { 179 255 179 }
+		farm_rgo_size = 0.1 #farm_rgo_size = 0.1
+		farm_rgo_eff = 0.1
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 7
+		min_build_railroad = 0
+	}
+
+	san_diego = {
+		movement_cost = 1.8 #semi desert hills
+		defence = 1
+		attrition = 1.4
+		color = { 187 166 15 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = 0 #mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 2.1
+		min_build_railroad = 2
+		combat_width = -0.20
+	}
+
+	seattle = {
+		movement_cost = 2.8 #conifer forest mountains
+		defence = 3
+		attrition = 1.9
+		color = { 40 53 40 }
+		farm_rgo_size = -0.35 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.35
+		mine_rgo_size = 0.25 #mine_rgo_size = 0.25
+		mine_rgo_eff = 0.25
+		supply_limit = 2.1
+		min_build_railroad = 3
+		combat_width = -0.70
+	}
+
+	stika = {
+		movement_cost = 3.0
+		defence = 3
+		attrition = 2.5
+		color = { 67 103 89 }
+		farm_rgo_size = -0.50 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.50
+		mine_rgo_size = 0 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 1.8
+		min_build_railroad = 4
+		min_build_naval_base = 2
+		combat_width = -0.70
+	}
+
+	kenai = {
+		movement_cost = 3.0
+		defence = 3
+		attrition = 2.5
+		color = { 67 103 89 }
+		farm_rgo_size = -0.50 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.50
+		mine_rgo_size = 0 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 1.8
+		min_build_railroad = 4
+		min_build_naval_base = 2
+		combat_width = -0.70
+	}
+
+	## CANADA ##
+
+	vancouver_island = {
+		movement_cost = 2.8 #conifer forest mountains
+		defence = 3
+		attrition = 1.9
+		color = { 40 53 40 }
+		farm_rgo_size = -0.35 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.35
+		mine_rgo_size = 0.25 #mine_rgo_size = 0.25
+		mine_rgo_eff = 0.25
+		supply_limit = 2.1
+		min_build_railroad = 3
+		min_build_naval_base = 2
+		combat_width = -0.70
+	}
+
+
+	## Central America ##
+
+
+	colima = {
+		movement_cost = 1.6 #hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+	veracruz = {
+		movement_cost = 1.6 #hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+	tampico = {
+		movement_cost = 1.6 #hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+	panama_city = {
+		movement_cost = 1.8 #jungle farmland
+		defence = 1
+		attrition = 0.8
+		color = { 88 122 37 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.2
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 3
+		min_build_railroad = 2
+		combat_width = -0.30
+	}
+
+	liberia = {
+		movement_cost = 1.6 #hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+	guatemala = {
+		movement_cost = 1.6 #hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+	san_salvador = {
+		movement_cost = 2.4 #seasonal jungle hills
+		defence = 2
+		attrition = 1.6
+		color = { 90 103 56 }
+		farm_rgo_size = -0.35 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.35
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.03
+		mine_rgo_eff = -0.05
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.50
+	}
+
+	## Brazil ##
+
+	porto_alegre = {
+		movement_cost = 2.1 #deciduous forest hills
+		defence = 2
+		attrition = 0
+		color = { 0 85 0 }
+		farm_rgo_size = -0.15 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.15
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.40
+	}
+
+	santos = {
+		movement_cost = 1.6 #hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+	recife = {
+		movement_cost = 1.4 #forested farmland
+		defence = 1
+		attrition = 0
+		color = { 86 71 146 }
+		farm_rgo_size = 0.05 #farm_rgo_size = 0.05
+		farm_rgo_eff = 0.05
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 6
+		min_build_railroad = 0
+		combat_width = -0.20
+	}
+
+	belem = {
+		movement_cost = 3.0 # swamp jungle
+		defence = 2
+		attrition = 2.5
+		color = { 100 66 91 }
+		farm_rgo_size = -0.55 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.55
+		mine_rgo_size = -0.55 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.55
+		supply_limit = 1.6
+		min_build_railroad = 4
+		combat_width = -0.80
+	}
+
+	## North SA ##
+
+	georgetown = {
+		movement_cost = 1.8 #jungle farmland
+		defence = 1
+		attrition = 0.8
+		color = { 88 122 37 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.2
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.30
+	}
+
+	paramaribo = {
+		movement_cost = 3.0 # swamp jungle
+		defence = 2
+		attrition = 2.5
+		color = { 100 66 91 }
+		farm_rgo_size = -0.55 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.55
+		mine_rgo_size = -0.55 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.55
+		supply_limit = 1.6
+		min_build_railroad = 4
+		combat_width = -0.80
+	}
+
+	cayenne = {
+		movement_cost = 1.8 #seasonal jungle
+		defence = 2
+		attrition = 1.5
+		color = { 55 95 46 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = -0.2 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.20
+	}
+
+	guiria = {
+		movement_cost = 2.4 #seasonal jungle hills
+		defence = 2
+		attrition = 1.6
+		color = { 90 103 56 }
+		farm_rgo_size = -0.35 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.35
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.03
+		mine_rgo_eff = -0.05
+		supply_limit = 2
+		min_build_railroad = 2
+		min_build_naval_base = 2
+		combat_width = -0.50
+	}
+
+	cartagena_de_indias = {
+		movement_cost = 1.1 #good farmland
+		attrition = 0
+		color = { 0 255 0 }
+		farm_rgo_size = 0.25 #farm_rgo_size = 0.2
+		farm_rgo_eff = 0.25
+		mine_rgo_size = 0.0 #mine_rgo_size = -0.1
+		mine_rgo_eff = 0.0
+		supply_limit = 8
+		min_build_railroad = 0
+	}
+
+	quibdo = {
+		movement_cost = 2.2 #jungle
+		defence = 2
+		attrition = 2
+		color = { 0 47 0 }
+		farm_rgo_size = -0.4 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.4
+		mine_rgo_size = -0.25 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.25
+		supply_limit = 2
+		min_build_railroad = 3
+		combat_width = -0.20
+	}
+
+	guayaquil = {
+		movement_cost = 1.1 #marginal farmland
+		attrition = 0
+		color = { 179 255 179 }
+		farm_rgo_size = 0.1 #farm_rgo_size = 0.1
+		farm_rgo_eff = 0.1
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 7
+		min_build_railroad = 0
+	}
+
+	lima = {
+		movement_cost = 1.8 #semi desert hills
+		defence = 1
+		attrition = 1.4
+		color = { 187 166 15 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = 0 #mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 2.1
+		min_build_railroad = 2
+		combat_width = -0.20
+	}
+
+	antofagasta = {
+		movement_cost = 2.1 #desert hills
+		defence = 2
+		attrition = 2
+		color = { 173 146 107 }
+		farm_rgo_size = -0.5 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.5
+		mine_rgo_size = -0.15 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.15
+		supply_limit = 1.5
+		min_build_railroad = 3
+		combat_width = -0.20
+	}
+
+	valparaiso = {
+		movement_cost = 1.1 #good farmland
+		attrition = 0
+		color = { 0 255 0 }
+		farm_rgo_size = 0.25 #farm_rgo_size = 0.2
+		farm_rgo_eff = 0.25
+		mine_rgo_size = 0.0 #mine_rgo_size = -0.1
+		mine_rgo_eff = 0.0
+		supply_limit = 8
+		min_build_railroad = 0
+	}
+
+	parana = {
+		movement_cost = 1.1 #marginal farmland
+		attrition = 0
+		color = { 179 255 179 }
+		farm_rgo_size = 0.1 #farm_rgo_size = 0.1
+		farm_rgo_eff = 0.1
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 7
+		min_build_railroad = 0
+	}
+
+	rio_grande = {
+		movement_cost = 2.6
+		defence = 2
+		attrition = 3
+		color = { 148 148 148 }
+		farm_rgo_size = -0.8 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.8
+		mine_rgo_size = -0.3 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.3
+		supply_limit = 0.5
+		min_build_railroad = 4
+		combat_width = -0.30
+	}
+
+	######### END AMERICAS #########
+
+	####### ASIA #######
+
+	## South Asia ##
+
+	mandvi = {
+		movement_cost = 1.25 #semi desert
+		defence = 0.0
+		attrition = 1.5
+		color = { 224 199 18 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = -0.15 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.15
+		supply_limit = 2
+		min_build_railroad = 2
+	}
+
+	cuttack = {
+		movement_cost = 1.05 #floodplain farmland
+		attrition = 0
+		color = { 0 255 0 }
+		farm_rgo_size = 0.33 #farm_rgo_size = 0.33
+		farm_rgo_eff = 0.33
+		mine_rgo_size = -0.25 #mine_rgo_size = -0.25
+		mine_rgo_eff = -0.25
+		supply_limit = 8
+		min_build_railroad = 0
+	}
+
+	vizagapatnam = {
+		movement_cost = 1.6 #hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+	cochin = {
+		movement_cost = 2.4 #seasonal jungle hills
+		defence = 2
+		attrition = 1.6
+		color = { 90 103 56 }
+		farm_rgo_size = -0.35 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.35
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.03
+		mine_rgo_eff = -0.05
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.50
+	}
+
+	mangalore = {
+		movement_cost = 2.4 #seasonal jungle hills
+		defence = 2
+		attrition = 1.6
+		color = { 90 103 56 }
+		farm_rgo_size = -0.35 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.35
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.03
+		mine_rgo_eff = -0.05
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.50
+	}
+
+	surat = {
+		movement_cost = 1.6 #hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+	pegu = {
+		movement_cost = 1.8 #jungle farmland
+		defence = 1
+		attrition = 0.8
+		color = { 88 122 37 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.2
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 3
+		combat_width = -0.30
+	}
+
+	chittagong = {
+		movement_cost = 2.4 #seasonal jungle hills
+		defence = 2
+		attrition = 1.6
+		color = { 90 103 56 }
+		farm_rgo_size = -0.35 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.35
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.03
+		mine_rgo_eff = -0.05
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.50
+	}
+
+	## Middle East ##
+
+
+	abadon = {
+		movement_cost = 1.0 #dry grassland
+		defence = 0
+		attrition = 0.5
+		color = { 255 147 0 }
+		farm_rgo_size = 0 #farm_rgo_size = -0.05
+		farm_rgo_eff = -0.05
+		mine_rgo_size = 0 #mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 4
+		min_build_railroad = 1
+	}
+
+	basra = {
+		movement_cost = 1.25 #semi desert
+		defence = 0.0
+		attrition = 1.5
+		color = { 224 199 18 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = -0.15 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.15
+		supply_limit = 2
+		min_build_railroad = 2
+	}
+
+	kuwait = {
+		movement_cost = 1.5
+		defence = 0.0
+		attrition = 2.5
+		color = { 241 234 188 }
+		farm_rgo_size = -0.6 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.6
+		mine_rgo_size = -0.3 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.3
+		supply_limit = 1
+		min_build_railroad = 3
+	}
+
+	jidda = {
+		movement_cost = 2.1 #desert hills
+		defence = 2
+		attrition = 2
+		color = { 173 146 107 }
+		farm_rgo_size = -0.5 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.5
+		mine_rgo_size = -0.15 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.15
+		supply_limit = 1.5
+		min_build_railroad = 3
+		combat_width = -0.20
+	}
+
+	qatif = {
+		movement_cost = 1.5
+		defence = 0.0
+		attrition = 2.5
+		color = { 241 234 188 }
+		farm_rgo_size = -0.6 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.6
+		mine_rgo_size = -0.3 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.3
+		supply_limit = 1
+		min_build_railroad = 3
+	}
+
+	bahrain = {
+		movement_cost = 1.5
+		defence = 0.0
+		attrition = 2.5
+		color = { 241 234 188 }
+		farm_rgo_size = -0.6 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.6
+		mine_rgo_size = -0.3 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.3
+		supply_limit = 1
+		min_build_railroad = 3
+	}
+
+	doha = {
+		movement_cost = 1.5
+		defence = 0.0
+		attrition = 2.5
+		color = { 241 234 188 }
+		farm_rgo_size = -0.6 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.6
+		mine_rgo_size = -0.3 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.3
+		supply_limit = 1
+		min_build_railroad = 3
+	}
+
+	abu_dhabi = {
+		movement_cost = 1.5
+		defence = 0.0
+		attrition = 2.5
+		color = { 241 234 188 }
+		farm_rgo_size = -0.6 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.6
+		mine_rgo_size = -0.3 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.3
+		supply_limit = 1
+		min_build_railroad = 3
+	}
+
+	muscat = {
+		movement_cost = 1.8 #semi desert hills
+		defence = 1
+		attrition = 1.4
+		color = { 187 166 15 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = 0 #mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 2.1
+		min_build_railroad = 2
+
+		combat_width = -0.20
+	}
+
+	## China ##
+
+	zhanjiang = {
+		movement_cost = 1.4 #forested farmland
+		defence = 1
+		attrition = 0
+		color = { 86 71 146 }
+		farm_rgo_size = 0.05 
+		farm_rgo_eff = 0.05
+		mine_rgo_size = 0 
+		mine_rgo_eff = 0
+		supply_limit = 6
+		min_build_railroad = 0
+		combat_width = -0.20
+	}
+
+	chaozhou = {
+		movement_cost = 2.4 #seasonal jungle hills
+		defence = 2
+		attrition = 1.6
+		color = { 90 103 56 }
+		farm_rgo_size = -0.35 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.35
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.03
+		mine_rgo_eff = -0.05
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.50
+	}
+
+	zhangzhou = {
+		movement_cost = 2.4 #seasonal jungle hills
+		defence = 2
+		attrition = 1.6
+		color = { 90 103 56 }
+		farm_rgo_size = -0.35 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.35
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.03
+		mine_rgo_eff = -0.05
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.50
+	}
+
+	fuzhou = {
+		movement_cost = 2.1 #deciduous forest hills
+		defence = 2
+		attrition = 0
+		color = { 0 85 0 }
+		farm_rgo_size = -0.15 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.15
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.40
+	}
+
+	wenzhou = {
+		movement_cost = 2.1 #deciduous forest hills
+		defence = 2
+		attrition = 0
+		color = { 0 85 0 }
+		farm_rgo_size = -0.15 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.15
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.40
+	}
+
+	taizhou = {
+		movement_cost = 2.1 #deciduous forest hills
+		defence = 2
+		attrition = 0
+		color = { 0 85 0 }
+		farm_rgo_size = -0.15 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.15
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.40
+	}
+
+	taicangzhou = {
+		movement_cost = 1.05 #floodplain farmland
+		attrition = 0
+		color = { 0 255 0 }
+		farm_rgo_size = 0.33 #farm_rgo_size = 0.33
+		farm_rgo_eff = 0.33
+		mine_rgo_size = -0.25 #mine_rgo_size = -0.25
+		mine_rgo_eff = -0.25
+		supply_limit = 8
+		min_build_railroad = 0
+	}
+
+	xuzhou = {
+		movement_cost = 1.4 #forested farmland
+		defence = 1
+		attrition = 0
+		color = { 86 71 146 }
+		farm_rgo_size = 0.05 #farm_rgo_size = 0.05
+		farm_rgo_eff = 0.05
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 6
+		min_build_railroad = 0
+		combat_width = -0.20
+	}
+
+
+
+	tianjin = {
+		movement_cost = 1.1 #marginal farmland
+		attrition = 0
+		color = { 179 255 179 }
+		farm_rgo_size = 0.1 #farm_rgo_size = 0.1
+		farm_rgo_eff = 0.1
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 7
+		min_build_railroad = 0
+	}
+
+	jinzhou = {
+		movement_cost = 1.0 #temperate grassland
+		attrition = 0
+		color = { 188 255 121 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0 #mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 5
+		min_build_railroad = 0
+	}
+
+	## Korea ##
+
+	inchon = {
+		movement_cost = 1.6 #hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+	## Japan ##
+
+	okinawa = {
+		movement_cost = 1.6 #hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+	fukuoka = {
+		movement_cost = 1.1 #good farmland
+		attrition = 0
+		color = { 0 255 0 }
+		farm_rgo_size = 0.25 #farm_rgo_size = 0.2
+		farm_rgo_eff = 0.25
+		mine_rgo_size = 0.0 #mine_rgo_size = -0.1
+		mine_rgo_eff = 0.0
+		supply_limit = 8
+		min_build_railroad = 0
+	}
+
+	hiroshima = {
+		movement_cost = 1.6 #hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+	kobe = {
+		movement_cost = 2.1 #deciduous forest hills
+		defence = 2
+		attrition = 0
+		color = { 0 85 0 }
+		farm_rgo_size = -0.15 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.15
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.40
+	}
+
+	kochi = {
+		movement_cost = 2.1 #deciduous forest hills
+		defence = 2
+		attrition = 0
+		color = { 0 85 0 }
+		farm_rgo_size = -0.15 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.15
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.40
+	}
+
+	nagoya = {
+		movement_cost = 1.6 #hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+	niigata = {
+		movement_cost = 1.1 #marginal farmland
+		attrition = 0
+		color = { 179 255 179 }
+		farm_rgo_size = 0.1 #farm_rgo_size = 0.1
+		farm_rgo_eff = 0.1
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 7
+		min_build_railroad = 0
+	}
+
+
+	## NAP ##
+
+	utchan = {
+		movement_cost = 2.4 #conifer forest hills
+		defence = 2
+		attrition = 0
+		color = { 55 74 55 }
+		farm_rgo_size = -0.20 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.20
+		mine_rgo_size = 0 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 2.8
+		min_build_railroad = 2
+		combat_width = -0.40
+	}
+
+	#### END ASIA ####
+
+
+	## Oceania ##
+
+	prachinburi = {
+		movement_cost = 1.8 #jungle farmland
+		defence = 1
+		attrition = 0.8
+		color = { 88 122 37 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.2
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 3
+		combat_width = -0.30
+	}
+
+	kuala_lumpur = {
+		movement_cost = 2.2 #jungle
+		defence = 2
+		attrition = 2
+		color = { 0 47 0 }
+		farm_rgo_size = -0.4 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.4
+		mine_rgo_size = -0.25 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.25
+		supply_limit = 2
+		min_build_railroad = 3
+		combat_width = -0.20
+	}
+
+	api = {
+		movement_cost = 3.5 #jungle mountains
+		defence = 3
+		attrition = 3
+		color = { 0 25 0 }
+		farm_rgo_size = -0.60 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.60
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.05
+		supply_limit = 1.4
+		min_build_railroad = 4
+		min_build_naval_base = 1
+		combat_width = -0.80
+	}
+
+	penang = {
+		movement_cost = 1.8 #jungle farmland
+		defence = 1
+		attrition = 0.8
+		color = { 88 122 37 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.2
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.30
+	}
+
+	tanjungpinang = {
+		movement_cost = 2.2 #jungle
+		defence = 2
+		attrition = 2
+		color = { 0 47 0 }
+		farm_rgo_size = -0.4 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.4
+		mine_rgo_size = -0.25 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.25
+		supply_limit = 2
+		min_build_railroad = 3
+		combat_width = -0.20
+	}
+
+	medan = {
+		movement_cost = 1.8 #jungle farmland
+		defence = 1
+		attrition = 0.8
+		color = { 88 122 37 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.2
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.30
+	}
+
+	siak = {
+		movement_cost = 3.0 # swamp jungle
+		defence = 2
+		attrition = 2.5
+		color = { 100 66 91 }
+		farm_rgo_size = -0.55 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.55
+		mine_rgo_size = -0.55 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.55
+		supply_limit = 1.6
+		min_build_railroad = 4
+		combat_width = -0.80
+	}
+
+
+	padang = {
+		movement_cost = 3.5 #jungle mountains
+		defence = 3
+		attrition = 3
+		color = { 0 25 0 }
+		farm_rgo_size = -0.60 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.60
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.05
+		supply_limit = 1.4
+		min_build_railroad = 4
+		min_build_naval_base = 1
+		combat_width = -0.80
+	}
+
+	yogyakarta = {
+		movement_cost = 3.5 #jungle mountains
+		defence = 3
+		attrition = 3
+		color = { 0 25 0 }
+		farm_rgo_size = -0.60 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.60
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.05
+		supply_limit = 1.4
+		min_build_railroad = 4
+		min_build_naval_base = 1
+		combat_width = -0.80
+	}
+
+	surabaya = {
+		movement_cost = 1.1 #good farmland
+		attrition = 0
+		color = { 0 255 0 }
+		farm_rgo_size = 0.25 #farm_rgo_size = 0.2
+		farm_rgo_eff = 0.25
+		mine_rgo_size = 0.0 #mine_rgo_size = -0.1
+		mine_rgo_eff = 0.0
+		supply_limit = 8
+		min_build_railroad = 0
+	}
+
+	makassar = {
+		movement_cost = 1.8 #jungle farmland
+		defence = 1
+		attrition = 0.8
+		color = { 88 122 37 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.2
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.30
+	}
+
+	banjarmasin = {
+		movement_cost = 1.8 #jungle farmland
+		defence = 1
+		attrition = 0.8
+		color = { 88 122 37 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.2
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.30
+	}
+
+	pontianak = {
+		movement_cost = 3.0 # swamp jungle
+		defence = 2
+		attrition = 2.5
+		color = { 100 66 91 }
+		farm_rgo_size = -0.55 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.55
+		mine_rgo_size = -0.55 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.55
+		supply_limit = 1.6
+		min_build_railroad = 4
+		min_build_naval_base = 1
+		combat_width = -0.80
+	}
+
+	samarinda = {
+		movement_cost = 3.0 # swamp jungle
+		defence = 2
+		attrition = 2.5
+		color = { 100 66 91 }
+		farm_rgo_size = -0.55 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.55
+		mine_rgo_size = -0.55 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.55
+		supply_limit = 1.6
+		min_build_railroad = 4
+		min_build_naval_base = 1
+		combat_width = -0.80
+	}
+
+	cebu = {
+		movement_cost = 1.8 #jungle farmland
+		defence = 1
+		attrition = 0.8
+		color = { 88 122 37 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.2
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 3
+		min_build_railroad = 2
+		min_build_naval_base = 1
+		combat_width = -0.30
+	}
+
+	davao = {
+		movement_cost = 2.8 #Jungle hills
+		defence = 2
+		attrition = 2.2
+		color = { 0 32 0 }
+		farm_rgo_size = -0.45 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.45
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.1
+		supply_limit = 2
+		min_build_railroad = 3
+		combat_width = -0.50
+	}
+
+
+	## Australasia ##
+
+	lae = {
+		movement_cost = 3.5 #jungle mountains
+		defence = 3
+		attrition = 3
+		color = { 0 25 0 }
+		farm_rgo_size = -0.60 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.60
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.05
+		supply_limit = 1.4
+		min_build_railroad = 4
+		min_build_naval_base = 2
+		combat_width = -0.80
+	}
+	port_moresby = {
+		movement_cost = 3.5 #jungle mountains
+		defence = 3
+		attrition = 3
+		color = { 0 25 0 }
+		farm_rgo_size = -0.60 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.60
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.05
+		supply_limit = 1.4
+		min_build_railroad = 4
+		min_build_naval_base = 2
+		combat_width = -0.80
+	}
+
+	christchurch = {
+		movement_cost = 1.6 #hilly farmland
+		defence = 1
+		attrition = 0
+		color = { 126 155 123 }
+		farm_rgo_size = 0 #farm_rgo_size = 0.0
+		farm_rgo_eff = 0.0
+		mine_rgo_size = 0.1 #mine_rgo_size = 0.1
+		mine_rgo_eff = 0.1
+		supply_limit = 5
+		min_build_railroad = 0
+		combat_width = -0.30
+	}
+
+	wellington = {
+		movement_cost = 2.1 #deciduous forest hills
+		defence = 2
+		attrition = 0
+		color = { 0 85 0 }
+		farm_rgo_size = -0.15 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.15
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.40
+	}
+
+	brisbane = {
+		movement_cost = 2.1 #deciduous forest hills
+		defence = 2
+		attrition = 0
+		color = { 0 85 0 }
+		farm_rgo_size = -0.15 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.15
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.40
+	}
+
+	palmerston = {
+		movement_cost = 1.8 #seasonal jungle
+		defence = 2
+		attrition = 1.5
+		color = { 55 95 46 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = -0.2 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.20
+	}
+
+	adelaide = {
+		movement_cost = 1.0 #dry grassland
+		defence = 0
+		attrition = 0.5
+		color = { 255 147 0 }
+		farm_rgo_size = 0 #farm_rgo_size = -0.05
+		farm_rgo_eff = -0.05
+		mine_rgo_size = 0 #mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 4
+		min_build_railroad = 1
+	}
+
+	roebourne = {
+		movement_cost = 1.8 #semi desert hills
+		defence = 1
+		attrition = 1.4
+		color = { 187 166 15 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = 0 #mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 2.1
+		min_build_railroad = 2
+		combat_width = -0.20
+	}
+
+
+	## Polynesia ##
+
+	tahiti = {
+		movement_cost = 2.2 #jungle
+		defence = 2
+		attrition = 2
+		color = { 0 47 0 }
+		farm_rgo_size = -0.4 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.4
+		mine_rgo_size = -0.25 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.25
+		supply_limit = 2
+		min_build_railroad = 3
+		min_build_naval_base = 2
+		combat_width = -0.20
+	}
+
+	apia = {
+		movement_cost = 3.5 #jungle mountains
+		defence = 3
+		attrition = 3
+		color = { 0 25 0 }
+		farm_rgo_size = -0.60 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.60
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.05
+		supply_limit = 1.4
+		min_build_railroad = 4
+		min_build_naval_base = 2
+		combat_width = -0.80
+	}
+
+	hawaii = {
+		movement_cost = 3.5 #jungle mountains
+		defence = 3
+		attrition = 3
+		color = { 0 25 0 }
+		farm_rgo_size = -0.60 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.60
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.05
+		supply_limit = 1.4
+		min_build_railroad = 4
+		combat_width = -0.80
+	}
+
+	new_caledonia = {
+		movement_cost = 2.4 #seasonal jungle hills
+		defence = 2
+		attrition = 1.6
+		color = { 90 103 56 }
+		farm_rgo_size = -0.35 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.35
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.03
+		mine_rgo_eff = -0.05
+		supply_limit = 2
+		min_build_railroad = 2
+		min_build_naval_base = 2
+		combat_width = -0.50
+	}
+
+	solomon_islands = {
+		movement_cost = 2.8 #Jungle hills
+		defence = 2
+		attrition = 2.2
+		color = { 0 32 0 }
+		farm_rgo_size = -0.45 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.45
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.1
+		supply_limit = 2
+		min_build_railroad = 3
+		min_build_naval_base = 2
+		combat_width = -0.50
+	}
+
+	fiji = {
+		movement_cost = 3.5 #jungle mountains
+		defence = 3
+		attrition = 3
+		color = { 0 25 0 }
+		farm_rgo_size = -0.60 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.60
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.05
+		supply_limit = 1.4
+		min_build_railroad = 4
+		min_build_naval_base = 2
+		combat_width = -0.80
+	}
+
+	gilbert_islands = {
+		movement_cost = 2.2 #jungle
+		defence = 2
+		attrition = 2
+		color = { 0 47 0 }
+		farm_rgo_size = -0.4 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.4
+		mine_rgo_size = -0.25 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.25
+		supply_limit = 2
+		min_build_railroad = 3
+		min_build_naval_base = 2
+		combat_width = -0.20
+	}
+
+	yap = {
+		movement_cost = 2.2 #jungle
+		defence = 2
+		attrition = 2
+		color = { 0 47 0 }
+		farm_rgo_size = -0.4 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.4
+		mine_rgo_size = -0.25 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.25
+		supply_limit = 2
+		min_build_railroad = 3
+		min_build_naval_base = 2
+		combat_width = -0.20
+	}
+
+	### END OCEANIA ##
+
+	### AFRICA ###
+
+	## North Africa ##
+
+	casablanca = {
+		movement_cost = 1.1 #good farmland
+		attrition = 0
+		color = { 0 255 0 }
+		farm_rgo_size = 0.25 #farm_rgo_size = 0.2
+		farm_rgo_eff = 0.25
+		mine_rgo_size = 0.0 #mine_rgo_size = -0.1
+		mine_rgo_eff = 0.0
+		supply_limit = 8
+		min_build_railroad = 0
+	}
+
+	melilla = {
+		movement_cost = 1.6 #hilly grassland
+		defence = 1
+		attrition = 0.6
+		color = { 183 105 0 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.18
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.30
+	}
+
+	oran = {
+		movement_cost = 1.0 #dry grassland
+		defence = 0
+		attrition = 0.5
+		color = { 255 147 0 }
+		farm_rgo_size = 0 #farm_rgo_size = -0.05
+		farm_rgo_eff = -0.05
+		mine_rgo_size = 0 #mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 4
+		min_build_railroad = 1
+	}
+
+	bougie = {
+		movement_cost = 2.3 #dry forest mountains
+		defence = 3
+		attrition = 2.1
+		color = { 68 20 6 }
+		farm_rgo_size = -0.35 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.35
+		mine_rgo_size = 0.25 #mine_rgo_size = 0.23
+		mine_rgo_eff = 0.25
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.75
+	}	
+
+	benghazi = {
+		movement_cost = 1.25 #semi desert
+		defence = 0.0
+		attrition = 1.5
+		color = { 224 199 18 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = -0.15 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.15
+		supply_limit = 2
+		min_build_railroad = 2
+	}
+
+
+	## Western Africa ##
+	dakar = {
+		movement_cost = 1.0 #dry grassland
+		defence = 0
+		attrition = 0.5
+		color = { 255 147 0 }
+		farm_rgo_size = 0 #farm_rgo_size = -0.05
+		farm_rgo_eff = -0.05
+		mine_rgo_size = 0 #mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 4
+		min_build_railroad = 1
+	}
+
+	banjul = {
+		movement_cost = 1.8 #seasonal jungle
+		defence = 2
+		attrition = 1.5
+		color = { 55 95 46 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = -0.2 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.20
+	}
+
+	bissau = {
+		movement_cost = 3.0
+		defence = 2
+		attrition = 2.5
+		color = { 100 66 91 }
+		farm_rgo_size = -0.55 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.55
+		mine_rgo_size = -0.55 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.55
+		supply_limit = 1.6
+		min_build_railroad = 4
+		combat_width = -0.80
+	}
+
+	freetown = {
+		movement_cost = 1.8 #jungle farmland
+		defence = 1
+		attrition = 0.8
+		color = { 88 122 37 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.2
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 3
+		min_build_railroad = 2
+		combat_width = -0.30
+	}
+
+	accra = {
+		movement_cost = 1.8 #jungle farmland
+		defence = 1
+		attrition = 0.8
+		color = { 88 122 37 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.2
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 3
+		min_build_railroad = 2
+		combat_width = -0.30
+	}
+
+	cotonou = {
+		movement_cost = 1.8 #seasonal jungle
+		defence = 2
+		attrition = 1.5
+		color = { 55 95 46 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = -0.2 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.20
+	}
+
+	lagos = {
+		movement_cost = 2.2 #jungle
+		defence = 2
+		attrition = 2
+		color = { 0 47 0 }
+		farm_rgo_size = -0.4 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.4
+		mine_rgo_size = -0.25 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.25
+		supply_limit = 2
+		min_build_railroad = 3
+		combat_width = -0.20
+	}
+
+	benin = {
+		movement_cost = 1.8 #jungle farmland
+		defence = 1
+		attrition = 0.8
+		color = { 88 122 37 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.2
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 3
+		min_build_railroad = 2
+		combat_width = -0.30
+	}
+
+	# onne = {
+
+	# }
+
+	## Central Africa ##
+
+	douala = {
+		movement_cost = 2.8 #Jungle hills
+		defence = 2
+		attrition = 2.2
+		color = { 0 32 0 }
+		farm_rgo_size = -0.45 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.45
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.1
+		supply_limit = 2
+		min_build_railroad = 3
+		combat_width = -0.50
+	}
+
+	libreville = {
+		movement_cost = 2.2 #jungle
+		defence = 2
+		attrition = 2
+		color = { 0 47 0 }
+		farm_rgo_size = -0.4 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.4
+		mine_rgo_size = -0.25 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.25
+		supply_limit = 2
+		min_build_railroad = 3
+		combat_width = -0.20
+	}
+
+	bata = {
+		movement_cost = 2.8 #Jungle hills
+		defence = 2
+		attrition = 2.2
+		color = { 0 32 0 }
+		farm_rgo_size = -0.45 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.45
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.1
+		supply_limit = 2
+		min_build_railroad = 3
+		combat_width = -0.50
+	}
+
+	loango = {
+		movement_cost = 1.8 #seasonal jungle
+		defence = 2
+		attrition = 1.5
+		color = { 55 95 46 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = -0.2 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.20
+	}
+
+	boma = {
+		movement_cost = 1.8 #seasonal jungle
+		defence = 2
+		attrition = 1.5
+		color = { 55 95 46 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = -0.2 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.20
+	}
+
+	luanda = {
+		movement_cost = 1.6 #hilly grassland
+		defence = 1
+		attrition = 0.6
+		color = { 183 105 0 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.18
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.30
+	}
+
+	benguela = {
+		movement_cost = 1.0 #dry grassland
+		defence = 0
+		attrition = 0.5
+		color = { 255 147 0 }
+		farm_rgo_size = 0 #farm_rgo_size = -0.05
+		farm_rgo_eff = -0.05
+		mine_rgo_size = 0 #mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 4
+		min_build_railroad = 1	
+	}
+
+	## South Africa ##
+
+	walvis_bay = {
+		movement_cost = 1.5
+		defence = 0.0
+		attrition = 2.5
+		color = { 241 234 188 }
+		farm_rgo_size = -0.6 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.6
+		mine_rgo_size = -0.3 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.3
+		supply_limit = 1
+		min_build_railroad = 3
+	}
+
+	port_elizabeth = {
+		movement_cost = 1.9 #dry forest hills
+		defence = 2
+		attrition = 0.3
+		color = { 119 35 11 }
+		farm_rgo_size = -0.2 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.2
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.13
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.60
+	}
+
+	durban = {
+		movement_cost = 2.1 #deciduous forest hills
+		defence = 2
+		attrition = 0
+		color = { 0 85 0 }
+		farm_rgo_size = -0.15 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.15
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.40
+	}
+
+	ulundi = {
+		movement_cost = 2.1 #deciduous forest hills
+		defence = 2
+		attrition = 0
+		color = { 0 85 0 }
+		farm_rgo_size = -0.15 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.15
+		mine_rgo_size = 0.15 #mine_rgo_size = 0.15
+		mine_rgo_eff = 0.15
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.40
+	}
+
+	lourenco_marques = {
+		movement_cost = 1.3 # dry forest
+		defence = 1
+		attrition = 0.25
+		color = { 238 108 70 }
+		farm_rgo_size = -0.1 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.1
+		mine_rgo_size = 0 #mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 3
+		min_build_railroad = 1
+		combat_width = -0.20
+	}
+
+	sofala = {
+		movement_cost = 1.8 #seasonal jungle
+		defence = 2
+		attrition = 1.5
+		color = { 55 95 46 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = -0.2 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.20
+	}
+
+	tomasina = {
+		movement_cost = 2.8 #Jungle hills
+		defence = 2
+		attrition = 2.2
+		color = { 0 32 0 }
+		farm_rgo_size = -0.45 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.45
+		mine_rgo_size = -0.1 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.1
+		supply_limit = 2
+		min_build_railroad = 3
+		combat_width = -0.50
+	}
+
+	## Eastern Africa ##
+
+	kilwa = {
+		movement_cost = 2.4 #seasonal jungle hills
+		defence = 2
+		attrition = 1.6
+		color = { 90 103 56 }
+		farm_rgo_size = -0.35 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.35
+		mine_rgo_size = -0.05 #mine_rgo_size = -0.03
+		mine_rgo_eff = -0.05
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.50
+	}
+
+	dar_es_salaam = {
+		movement_cost = 1.8 #seasonal jungle
+		defence = 2
+		attrition = 1.5
+		color = { 55 95 46 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = -0.2 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.20
+	}
+
+	mombasa = {
+		movement_cost = 1.8 #seasonal jungle
+		defence = 2
+		attrition = 1.5
+		color = { 55 95 46 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = -0.2 #mine_rgo_size = -0.1
+		mine_rgo_eff = -0.2
+		supply_limit = 2
+		min_build_railroad = 2
+		combat_width = -0.20
+	}
+
+	mogadishu = {
+		movement_cost = 1.4 #forested farmland
+		defence = 1
+		attrition = 0
+		color = { 86 71 146 }
+		farm_rgo_size = 0.05 #farm_rgo_size = 0.05
+		farm_rgo_eff = 0.05
+		mine_rgo_size = 0 #mine_rgo_size = -0.05
+		mine_rgo_eff = 0
+		supply_limit = 6
+		min_build_railroad = 0
+		combat_width = -0.20
+	}
+
+	djibuti = {
+		movement_cost = 1.8 #semi desert hills
+		defence = 1
+		attrition = 1.4
+		color = { 187 166 15 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = 0 #mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 2.1
+		min_build_railroad = 2
+		combat_width = -0.20
+	}
+
+	massawa = {
+		movement_cost = 1.8 #semi desert hills
+		defence = 1
+		attrition = 1.4
+		color = { 187 166 15 }
+		farm_rgo_size = -0.3 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.3
+		mine_rgo_size = 0 #mine_rgo_size = 0.0
+		mine_rgo_eff = 0.0
+		supply_limit = 2.1
+		min_build_railroad = 2
+		combat_width = -0.20
+	}
+
+	suakin = {
+		movement_cost = 2.1 #desert hills
+		defence = 2
+		attrition = 2
+		color = { 173 146 107 }
+		farm_rgo_size = -0.5 #farm_rgo_size = -0.1
+		farm_rgo_eff = -0.5
+		mine_rgo_size = -0.15 #mine_rgo_size = -0.05
+		mine_rgo_eff = -0.15
+		supply_limit = 1.5
+		min_build_railroad = 3
+		combat_width = -0.20
+	}
+
+
+
 }
 
 
@@ -3978,6 +6450,53 @@ ocean1 = {
 	}
 	has_texture = no
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

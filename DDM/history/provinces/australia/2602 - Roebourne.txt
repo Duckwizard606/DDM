@@ -4,5 +4,5 @@ add_core = AST
 add_core = ENG
 trade_goods = wool
 life_rating = 30
-terrain = semi_desert_hills
+terrain = roebourne
 colonial = 2

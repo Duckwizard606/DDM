@@ -3,6 +3,5 @@ controller = ENG
 add_core = ENG
 trade_goods = coal
 life_rating = 35
-terrain = hilly_farmland
-naval_base = 2
-
+terrain = hull
+naval_port = 2

@@ -1,0 +1,56 @@
+# Count each nation/regions coastal city so they can be balanced on a more realistic and interesting basis
+#Provinces are made coastal by adding a port in the positions.txt
+#empty state in defines is per state not province
+#non core supply malus rounds up to 1
+#(CLASSIFACTIONS ARE REGIONAL NOT NATIONAL)
+#*any province with a asterisk will be limit down a levels. 2 asterisks will mean 2 levels
+#[brackets is number of cities that will be added / or removed]
+# p will be for province modding / t will just change terrain
+
+
+EUROPE - 53 {23}
+Great Britian - 9 {4} #p scapa_flow / t cork hull ipswich
+France - 9 {0} #t montpellier -rennes
+Germany - 7 {2} #t bremen schwerin
+Lowlands - 3 {2} #p antwerp / t bruges
+Spain - 4 {1} #t cadiz la_coruna -bilbao
+Portugal - 1 {2} # setubal oporto
+Italy - 8 {1} #t leghorn(Rename) brindisi cagliari -palermo	-nice
+Adratic - 4 {1} #t fiume vlore -pola *covers only the non-italian adratic
+Scandanvia - 5 {2} #p ??ribe??(looks so funky) / t aalborg malmo
+Baltic - 4 {1} #t memel *all baltic aside from scandanvia and germany
+Aegean - 2 {2} #t salonika gallipoli
+Black Sea - 2 {3} #t bolu nikoleav novorossiysk rostov -odessa
+Asia Minor - 0 {3} #t izmir mersin limassol	
+Levant and Egypt - 	2{3} #p ??beersheba/aqaba??(not coastal) / t latakia beruit jaffa
+
+#(numbers within parentheses or brackets on the left with be on the pacific and right on the atlantic)
+AMERICAS - 14 (4/10) {14/24}
+USA - 6 (2/4) {2/10} #p new_york philadelphia / t san_antonio houston mobile tampa st_augustine charleston norfolk baltimore newark hartford san_deigo seattle -austin -washington
+Canada - 3/0 (1/2) {3/1} #t vancover_island halifax stika** kenai** -saint_joins** *the number after the bracket is the alaskan ports
+Central America - 1 (1/0) {4/3} #t colima veracruz tampico panama_city liberia guatemala san_salvador
+Brazil - 1 {4} #t porto_alegre santos recife belem
+North SA - 1 (0/1) {3/4} #t georgetown paramaribo cayenne guiria cartagena_de_indias quibdo guayaquil lima
+South SA - 2 (0/2) {2/2} #t antofagasta valparaiso parana rio_grande
+
+
+ASIA - 27 {36}
+South Asia - 7 {8} #t mandvi cuttack vizagapatnam cochin mangalore surat pegu chittagong *including non-british ports
+Middle East - 1{10} #p qeshm / t abadon basra kuwait jidda qatif bahrain doha abu_dhabi muscat
+China - 3/8{9} #t zhanjiang chaozhou zhangzhou fuzhou wenzhou taizhou taicangzhou xuzhou tianjin jinzhou -peking *second number after slash is the number of treaty port cities
+Korea - 2{1} #t inchon
+Japan - 5{7} #t okinawa fukuokta hiroshima kobe kochi nagoya niigata
+North Asian Pacific - 1{1} #t utchan
+
+Oceania - 10{32}
+South East Asia - 6{16} #t prachinburi kuala_lumpur api* penang tanjungpinang(rename batam) medan siak padang* yogyakarta* surabaya makassar* banjarmasin* pontianak* samarinda cebu* davao
+Australasia - 4{8} #t lae** port_moresby** christchurch wellington brisbane palmerston adelaide roebourne
+Polynesia - 0{3} tahiti** apia** hawaii
+Micronesia and Melanesia - 0{5} new_caledonia** soloman_islands** fiji** gilbert_islands** yap**
+
+AFRICA - 8 {34}
+North Africa - 3{5} #t casablanca melilla oran ??bougie??(change name add terrain) benghazi
+Western Africa 3{8} #t dakar banjul bissau freetown accra cotonou lagos benin onne -cape coast
+Central Africa 0{7} #t douala libreville bata loango boma luanda benguela
+South Africa - 1{7} #t walvis_bay port_elizabeth durban ulundi lourenco_marques sofala tomasina
+Eastern Africa - 1{7} #t kilwa dar_es_salaam mombasa mogadishu djibuti massawa suakin

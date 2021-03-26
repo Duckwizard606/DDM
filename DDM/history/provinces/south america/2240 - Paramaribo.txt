@@ -3,5 +3,5 @@ controller = NET
 add_core = GUY
 trade_goods = tropical_wood
 life_rating = 30
-terrain = swamp_jungle
+terrain = paramaribo
 colonial = 2

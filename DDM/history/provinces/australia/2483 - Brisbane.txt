@@ -4,5 +4,5 @@ add_core = AST
 add_core = ENG
 trade_goods = cattle
 life_rating = 35
-terrain = deciduous_forest_hills
+terrain = brisbane
 colonial = 2

@@ -3,5 +3,5 @@ controller = POR
 add_core = GBU
 trade_goods = grain
 life_rating = 35
-terrain = swamp_jungle
+terrain = bissau
 colonial = 2

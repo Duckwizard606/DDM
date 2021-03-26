@@ -5,6 +5,7 @@ trade_goods = fish
 life_rating = 40
 terrain = liverpool
 railroad = 1
+naval_port = 2
 state_building = {
 	level = 3
 	building = fabric_factory
@@ -20,5 +21,4 @@ state_building = {
 	building = bronze_factory 
 	upgrade = yes
 }
-naval_base = 2
 

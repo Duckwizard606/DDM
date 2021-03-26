@@ -5,8 +5,8 @@ trade_goods = grain
 life_rating = 45
 terrain = stpetersburg
 #terrain = forested_farmland
-naval_base = 2
 fort = 1
+naval_base = 1
 railroad = 1
 state_building = {
 	level = 1
@@ -26,3 +26,4 @@ state_building = {
 #	upgrade = yes
 #}
 
+`t

@@ -4,4 +4,4 @@ add_core = ARG
 trade_goods = wool
 life_rating = 35
 terrain = dry_grassland
-naval_base = 1
+

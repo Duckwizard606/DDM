@@ -5,4 +5,5 @@ add_core = HND
 trade_goods = silk
 life_rating = 35
 terrain = pondicherry
+naval_port = 1
 colonial = 2

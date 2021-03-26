@@ -3,5 +3,5 @@ controller = USA
 add_core = USA
 trade_goods = coal
 life_rating = 35
-terrain = good_farmland
-
+terrain = charleston
+naval_base = 2

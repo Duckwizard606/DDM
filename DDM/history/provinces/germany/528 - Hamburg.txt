@@ -7,6 +7,7 @@ trade_goods = fruit
 life_rating = 40
 terrain = hamburg
 naval_base = 1
+
 state_building = {
 	level = 2
 	building = cement_factory

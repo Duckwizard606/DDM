@@ -3,4 +3,4 @@ controller = JOH
 add_core = JOH
 trade_goods = tobacco
 life_rating = 30
-terrain = jungle
+terrain = kuala_lumpur

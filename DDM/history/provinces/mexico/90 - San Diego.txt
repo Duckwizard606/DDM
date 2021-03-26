@@ -3,5 +3,5 @@ controller = MEX
 add_core = MEX
 trade_goods = grain
 life_rating = 40
-terrain = semi_desert_hills
+terrain = san_diego
 colonial = 2

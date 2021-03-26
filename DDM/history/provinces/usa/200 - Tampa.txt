@@ -3,7 +3,7 @@ controller = USA
 add_core = USA
 trade_goods = lead
 life_rating = 25
-terrain = swamp_jungle
+terrain = tampa
 is_slave = yes
-naval_base = 1
+
 

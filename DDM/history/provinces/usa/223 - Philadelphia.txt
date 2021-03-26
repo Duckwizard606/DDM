@@ -5,6 +5,7 @@ trade_goods = iron
 life_rating = 40
 terrain = philadelphia
 railroad = 1
+naval_base = 2
 state_building = {
 level = 2
 building = steel_factory

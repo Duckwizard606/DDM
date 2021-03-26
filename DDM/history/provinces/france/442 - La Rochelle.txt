@@ -3,6 +3,6 @@ controller = FRA
 add_core = FRA
 trade_goods = fish
 life_rating = 32
-terrain = larochelle
 naval_base = 2
+terrain = larochelle
 

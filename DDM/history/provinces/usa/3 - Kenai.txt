@@ -4,5 +4,5 @@ add_core = RUS
 
 trade_goods = fish
 life_rating = 25
-terrain = boreal_forest_mountains
+terrain = kenai
 colonial = 2

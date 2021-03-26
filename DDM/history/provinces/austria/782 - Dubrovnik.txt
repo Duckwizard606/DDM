@@ -5,3 +5,4 @@ add_core = DLM
 trade_goods = fish
 life_rating = 36
 terrain = dubrovnik
+naval_base = 1

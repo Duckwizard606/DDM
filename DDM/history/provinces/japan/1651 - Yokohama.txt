@@ -4,4 +4,4 @@ add_core = JAP
 trade_goods = grain
 life_rating = 35
 terrain = yokohama
-naval_base = 1
+

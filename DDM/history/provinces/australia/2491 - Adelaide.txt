@@ -4,6 +4,6 @@ add_core = AST
 add_core = ENG
 trade_goods = wool
 life_rating = 35
-terrain = dry_grassland
+terrain = adelaide
 colonial = 2
 

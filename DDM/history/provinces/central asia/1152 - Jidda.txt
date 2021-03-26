@@ -4,5 +4,5 @@ add_core = HDJ
 add_core = NEJ
 trade_goods = grain
 life_rating = 35
-terrain = desert_hills
+terrain = jidda
 colonial = 2
