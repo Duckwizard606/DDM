@@ -3711,7 +3711,6 @@ categories =  {
 		mine_rgo_eff = 0.0
 		supply_limit = 8
 		min_build_railroad = 0
-		min_build_naval_base = 7;
 	}
 
 	nice = {
@@ -4236,6 +4235,8 @@ categories =  {
 		supply_limit = 3
 		min_build_railroad = 1
 		combat_width = -0.40
+		min_build_naval_base = 7;
+
 	}
 
 	vlore = {
