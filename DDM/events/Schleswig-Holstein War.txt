@@ -6,14 +6,12 @@ country_event = {
 	desc = "EVTDESC87301"
 	picture = "danishgovernment"
 	
-	is_triggered_only = yes
-	
 	trigger = {
 		OR = {
 			tag = DEN
 			tag = SCA
 		}
-		NOT = { 
+		NOT { 
 			any_greater_power = {
 				war_with = THIS
 			}
