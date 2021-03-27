@@ -5,7 +5,7 @@ country_event = {
 	desc = "EVTDESC90000"
 	picture = "supportwar" 
 	
-	trigger = {	exists = yes
+	trigger = {
 		NOT = { involved_in_crisis = yes }
 		constructing_cb_progress = 10 #10% progress
 		OR = {
@@ -23,7 +23,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 3
 		modifier = {
 			factor = 0.8
 			press_rights = state_press
@@ -54,7 +54,7 @@ country_event = {
 	desc = "EVTDESC90001"
 	picture = "Demonstration" 
 	
-	trigger = {	exists = yes
+	trigger = {
 		NOT = { involved_in_crisis = yes }
 		constructing_cb_progress = 10 #10% progress
 		OR = {
@@ -72,7 +72,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 3
 		modifier = {
 			factor = 1.2
 			press_rights = state_press
@@ -103,7 +103,7 @@ country_event = {
 	desc = "EVTDESC90002"
 	picture = "Outside_influences" 
 	
-	trigger = {	exists = yes
+	trigger = {
 		NOT = { involved_in_crisis = yes }
 		constructing_cb_progress = 10 #10% progress
 		constructing_cb_type = take_from_sphere
@@ -116,7 +116,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 3
 		modifier = {
 			factor = 0.8
 			press_rights = state_press
@@ -147,7 +147,7 @@ country_event = {
 	desc = "EVTDESC90003"
 	picture = "Demonstration" 
 	
-	trigger = {	exists = yes
+	trigger = {
 		NOT = { involved_in_crisis = yes }
 		constructing_cb_progress = 10 #10% progress
 		constructing_cb_type = take_from_sphere
@@ -160,7 +160,7 @@ country_event = {
 	}
 	
 		mean_time_to_happen = {
-		months = 24
+		months = 3
 		modifier = {
 			factor = 1.2
 			press_rights = state_press
@@ -191,7 +191,7 @@ country_event = {
 	desc = "EVTDESC90004"
 	picture = "Opiumwar" 
 	
-	trigger = {	exists = yes
+	trigger = {
 		NOT = { involved_in_crisis = yes }
 		constructing_cb_progress = 10 #10% progress
 		constructing_cb_type = add_to_sphere
@@ -204,7 +204,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 3
 		modifier = {
 			factor = 0.8
 			press_rights = state_press
@@ -235,7 +235,7 @@ country_event = {
 	desc = "EVTDESC90005"
 	picture = "SeaPower" 
 	
-	trigger = {	exists = yes
+	trigger = {
 		NOT = { involved_in_crisis = yes }
 		constructing_cb_progress = 10 #10% progress
 		constructing_cb_type = add_to_sphere
@@ -248,7 +248,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 3
 		modifier = {
 			factor = 1.2
 			press_rights = state_press
@@ -279,7 +279,7 @@ country_event = {
 	desc = "EVTDESC90006"
 	picture = "native_force" 
 	
-	trigger = {	exists = yes
+	trigger = {
 		NOT = { involved_in_crisis = yes }
 		constructing_cb_progress = 10 #10% progress
 		constructing_cb_type = place_in_the_sun
@@ -292,7 +292,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 3
 		modifier = {
 			factor = 0.8
 			press_rights = state_press
@@ -323,7 +323,7 @@ country_event = {
 	desc = "EVTDESC90007"
 	picture = "treaty" 
 	
-	trigger = {	exists = yes
+	trigger = {
 		NOT = { involved_in_crisis = yes }
 		constructing_cb_progress = 10 #10% progress
 		constructing_cb_type = place_in_the_sun
@@ -336,7 +336,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 3
 		modifier = {
 			factor = 1.2
 			press_rights = state_press
@@ -367,7 +367,7 @@ country_event = {
 	desc = "EVTDESC90008"
 	picture = "threehurrahs" 
 	
-	trigger = {	exists = yes
+	trigger = {
 		NOT = { involved_in_crisis = yes }
 		constructing_cb_progress = 10 #10% progress
 		OR = {
@@ -383,7 +383,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 3
 		modifier = {
 			factor = 0.8
 			press_rights = state_press
@@ -414,7 +414,7 @@ country_event = {
 	desc = "EVTDESC90009"
 	picture = "anticorn" 
 	
-	trigger = {	exists = yes
+	trigger = {
 		NOT = { involved_in_crisis = yes }
 		constructing_cb_progress = 10 #10% progress
 		OR = {
@@ -430,7 +430,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 24
+		months = 3
 		modifier = {
 			factor = 1.2
 			press_rights = state_press

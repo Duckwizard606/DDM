@@ -5,7 +5,7 @@ country_event = {
 	desc = "EVTDESC19006"
 	picture = "greatpowers"
 	
-	trigger = {	exists = yes
+	trigger = {
 		any_greater_power = {
 			OR = {
 				is_sphere_leader_of = THIS
@@ -43,7 +43,7 @@ country_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 24
+		months = 12
 		modifier = {
 			factor = 0.5
 			part_of_sphere = no
@@ -175,7 +175,7 @@ country_event = {
 	news_desc_short = "EVTDESC19010_NEWS_SHORT"
 	picture = "greatpowers"
 	
-	trigger = {	exists = yes
+	trigger = {
 		is_greater_power = yes
 		colonial_nation = yes
 		prestige = 100
@@ -204,7 +204,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA19010"
-		prestige = 5
+		prestige = 20
 		capital_scope = {
 			any_pop = {
 				militancy = -1
@@ -233,7 +233,7 @@ country_event = {
 	title = "Allies or Enemies?"
 	desc = "Relations with one of our allies have cooled. Perhaps we should reconsider our alliance?"
 	
-	trigger = {	exists = yes
+	trigger = {
 		ai = yes
 		war = no
 		OR = {
@@ -311,7 +311,7 @@ country_event = {
 	title = "The Great Game"
 	desc = "We are under the influence of a Great Power. Or we should be."
 
-	trigger = {	exists = yes
+	trigger = {
 		ai = yes
 		is_greater_power = no
 		part_of_sphere = no
@@ -355,7 +355,7 @@ country_event = {
 	title = "Questioning Our Alliance"
 	desc = "We have begun to question our alliance to a great power that is clearly not our true protector."
 	
-	trigger = {	exists = yes
+	trigger = {
 		war = no
 		great_wars_enabled = no
 		part_of_sphere = yes
@@ -491,7 +491,7 @@ country_event = {
 	desc = "EVTDESC19023"
 	picture = "Botanic_expedition"
 	
-	trigger = {	exists = yes
+	trigger = {
 		has_country_flag = participates_in_botanical_expedition
 	}
 	
@@ -527,7 +527,7 @@ country_event = {
 	desc = "EVTDESC19024"
 	picture = "Botanic_expedition"
 	
-	trigger = {	exists = yes
+	trigger = {
 		has_country_flag = participates_in_botanical_expedition
 		upper_house = {
 			ideology = liberal
@@ -562,8 +562,7 @@ country_event = {
 	desc = "EVTDESC19025"
 	picture = "Botanic_expedition"
 	
-	trigger = {	
-		exists = yes
+	trigger = {
 		has_country_flag = participates_in_botanical_expedition
 	}
 	
@@ -575,7 +574,7 @@ country_event = {
 		name = "EVTOPTA19025"
 		prestige = 5
 		any_pop = {
-			consciousness = 3
+			consciousness = 0.1
 		}
 	}
 	
@@ -592,7 +591,7 @@ country_event = {
 	desc = "EVTDESC19026"
 	picture = "Botanic_expedition"
 	
-	trigger = {	exists = yes
+	trigger = {
 		has_country_flag = participates_in_botanical_expedition
 	}
 	
@@ -618,7 +617,7 @@ country_event = {
 	desc = "EVTDESC19027"
 	picture = "Botanic_expedition"
 	
-	trigger = {	exists = yes
+	trigger = {
 		has_country_flag = participates_in_botanical_expedition
 		NOT = {
 			has_global_flag = victoria_regina_found
@@ -675,7 +674,7 @@ country_event = {
 	desc = "EVTDESC19029"
 	picture = "Botanic_expedition"
 	
-	trigger = {	exists = yes
+	trigger = {
 		has_country_flag = botanical_expedition_in_progress
 	}
 	
@@ -977,7 +976,7 @@ country_event = {
 	desc = "EVTDESC19043"
 	picture = "ValleyoftheKings"
 	
-	trigger = {	exists = yes
+	trigger = {
 		has_country_modifier = egyptian_excavations
 		NOT = {
 			OR = {
@@ -1037,7 +1036,7 @@ country_event = {
 	desc = "EVTDESC19044"
 	picture = "Tomb"
 	
-	trigger = {	exists = yes
+	trigger = {
 		has_country_modifier = egyptian_excavations
 	}
 	
@@ -1059,7 +1058,7 @@ country_event = {
 	desc = "EVTDESC19045"
 	picture = "Egyptian"
 		
-	trigger = {	exists = yes
+	trigger = {
 		has_country_modifier = egyptian_excavations
 	}
 	
@@ -1086,7 +1085,7 @@ country_event = {
 	news_desc_short = "EVTDESC19046_NEWS_SHORT"
 	picture = "Egyptian"	
 	
-	trigger = {	exists = yes
+	trigger = {
 		has_country_modifier = egyptian_excavations
 		NOT = {
 			has_global_flag = tutankhamun_found
@@ -1119,7 +1118,7 @@ country_event = {
 	desc = "EVTDESC19047"
 	picture = "Egyptian"
 	
-	trigger = {	exists = yes
+	trigger = {
 		has_country_modifier = egyptian_excavations
 	}
 	
@@ -1226,7 +1225,7 @@ country_event = {
 		232 = {
 			add_province_modifier = {
 				name = gateway_to_america
-				duration = 15000
+				duration = -1
 			}
 		}
 	}
@@ -1243,7 +1242,7 @@ country_event = {
 	news_desc_short = "EVTDESC19310_NEWS_SHORT"
 	picture = "asian_ruler"
 	
-	trigger = {	exists = yes
+	trigger = {
 		tag = QNG
 	}
 	
@@ -1269,8 +1268,11 @@ country_event = {
 	news_desc_short = "EVTDESC19320_NEWS_SHORT"
 	picture = "japanese_power"
 	
-	trigger = {	
-	tag = JAP
+	trigger = {
+		OR = {
+			tag = JAP
+			tag = TKG
+		}
 	}
 	
 	is_triggered_only = yes
@@ -1298,12 +1300,11 @@ country_event = {
 
 	fire_only_once = yes
 
-	trigger = {	
-		exists = yes
+	trigger = {
 		great_wars_enabled = no
 		NOT = { has_global_flag = great_wars_enabled }
-		invention = great_war_paradigm
-		year = 1900
+		revolution_n_counterrevolution = 1
+		year = 1890
 	}
 	
 	mean_time_to_happen = {
@@ -1317,39 +1318,6 @@ country_event = {
 	}
 }
 
-# World wars
-country_event = {
-	id = 19356
-	news = yes
-	news_desc_long = "EVTDESC19356_NEWS_LONG"
-	news_desc_medium = "EVTDESC19356_NEWS_MEDIUM"
-	news_desc_short = "EVTDESC19356_NEWS_SHORT"
-	title = "EVTNAME19356"
-	desc = "EVTDESC19356"
-	major = yes
-	picture = "greatpowers"
-
-	fire_only_once = yes
-
-	trigger = {
-		world_wars_enabled = no
-		NOT = { has_global_flag = world_wars_enabled }
-		year = 1910
-		invention = great_war_paradigm	
-	}
-
-	mean_time_to_happen = {
-		months = 8
-	}
-
-	option = {
-		name = "EVTOPTA19356"
-		world_wars_enabled = yes
-		set_global_flag = world_wars_enabled
-	}
-}
-
-
 #Asking sphere owner for help in regaining cores
 
 country_event = {
@@ -1358,7 +1326,7 @@ country_event = {
 	desc = "EVTDESC19365"
 	picture = "deliberation"
 	
-	trigger = {	exists = yes
+	trigger = {
 		war = no
 		is_greater_power = no
 		part_of_sphere = yes

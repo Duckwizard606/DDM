@@ -14,7 +14,7 @@ country_event = {
 	desc = "EVTDESC3000"
 	picture = "slums"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		health_care = no_health_care
 		is_ideology_enabled = socialist
@@ -91,7 +91,7 @@ country_event = {
 			any_pop = {
 				ideology = {
 					value = socialist
-					factor = 0.10
+					factor = -0.10
 				}
 			}
 		}
@@ -114,7 +114,7 @@ country_event = {
 	desc = "EVTDESC3001"
 	picture = "Hospital"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		health_care = acceptable_health_care
 		is_ideology_enabled = socialist
@@ -158,9 +158,6 @@ country_event = {
 				factor = 2
 			}
 		}
-		ai_chance = {
-			factor = 10
-		}
 	}
 	
 	option = {
@@ -175,9 +172,6 @@ country_event = {
 				factor = 2
 			}
 		}
-		ai_chance = {
-			factor = 45
-		}
 	}
 	
 	option = {
@@ -187,9 +181,6 @@ country_event = {
 				ideology = conservative
 				factor = 2
 			}
-		}
-		ai_chance = {
-			factor = 45
 		}
 	}
 }
@@ -201,7 +192,7 @@ country_event = {
 	desc = "EVTDESC3002"
 	picture = "Countryside"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		health_care = low_health_care
 		is_ideology_enabled = socialist
@@ -239,7 +230,7 @@ country_event = {
 	desc = "EVTDESC3003"
 	picture = "Workers"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		health_care = trinket_health_care
 		is_ideology_enabled = socialist
@@ -311,7 +302,7 @@ country_event = {
 	desc = "EVTDESC3004"
 	picture = "Poor"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		health_care = low_health_care
 		is_ideology_enabled = socialist
@@ -361,7 +352,7 @@ country_event = {
 
 	option = {
 		name = "EVTOPTC3004"
-		prestige = 3
+		prestige = 4
 		random_state = {
 			limit = { is_colonial = no }
 			middle_strata = {
@@ -387,7 +378,7 @@ country_event = {
 	desc = "EVTDESC3005"
 	picture = "Hospital"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		health_care = acceptable_health_care
@@ -465,8 +456,7 @@ country_event = {
 	desc = "EVTDESC3006"
 	picture = "Dental"
 	
-	trigger = {	
-		exists = yes
+	trigger = {
 		health_care = acceptable_health_care
 		is_ideology_enabled = socialist
 		civilized = yes
@@ -513,12 +503,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB3006"
-		any_pop = {
-			dominant_issue = {
-				value = good_health_care
-				factor = 0.1
-			}
-		}
+		social_reform = acceptable_health_care
 		any_pop = {
 			scaled_consciousness = {
 				ideology = conservative
@@ -539,7 +524,7 @@ country_event = {
 	desc = "EVTDESC3300"
 	picture = "Finepeople"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		pensions = no_pensions
 		is_ideology_enabled = socialist
@@ -572,12 +557,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA3300"
-		any_pop = {
-			dominant_issue = {
-				value = trinket_pensions
-				factor = 0.1
-			}
-		}
+		social_reform = trinket_pensions
 		any_pop = {
 			scaled_consciousness = {
 				ideology = conservative
@@ -622,7 +602,7 @@ country_event = {
 	desc = "EVTDESC3301"
 	picture = "Elderly"	
 	
-	trigger = {	exists = yes
+	trigger = {
 		pensions = trinket_pensions
 		civilized = yes
 		is_ideology_enabled = socialist
@@ -649,9 +629,6 @@ country_event = {
 				factor = 3
 			}
 		}
-		ai_chance = {
-			factor = 45
-		}
 	}
 	
 	option = {
@@ -667,9 +644,6 @@ country_event = {
 				factor = -3
 			}
 		}
-		ai_chance = {
-			factor = 45
-		}
 	}
 	
 	option = {
@@ -681,9 +655,6 @@ country_event = {
 				factor = 3
 			}
 		}
-		ai_chance = {
-			factor = 10
-		}
 	}
 }
 
@@ -694,7 +665,7 @@ country_event = {
 	desc = "EVTDESC3302"
 	picture = "Finepeople"	
 
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		pensions = low_pensions
 		acceptable_pensions = 5
@@ -707,12 +678,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTA3302"
-		any_pop = {
-			dominant_issue = {
-				value = acceptable_pensions
-				factor = 0.1
-			}
-		}
+		social_reform = acceptable_pensions
 		scaled_militancy = {
 			ideology = conservative
 			factor = 4
@@ -720,9 +686,6 @@ country_event = {
 		scaled_consciousness = {
 			ideology = conservative
 			factor = 2
-		}
-		ai_chance = {
-			factor = 45
 		}
 	}
 	
@@ -734,9 +697,6 @@ country_event = {
 		rich_strata = {
 			militancy = -2
 		}
-		ai_chance = {
-			factor = 45
-		}
 	}
 	
 	option = {
@@ -745,9 +705,6 @@ country_event = {
 		scaled_militancy = {
 			ideology = socialist
 			factor = 3
-		}
-		ai_chance = {
-			factor = 10
 		}
 	}
 }
@@ -759,7 +716,7 @@ country_event = {
 	desc = "EVTDESC3303"
 	picture = "Poor"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		pensions = acceptable_pensions
 		is_ideology_enabled = socialist
@@ -799,12 +756,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB3303"
-		any_pop = {
-			dominant_issue = {
-				value = good_pensions
-				factor = 0.1
-			}
-		}
+		social_reform = good_pensions
 		scaled_militancy = {
 			ideology = conservative
 			factor = 4
@@ -833,7 +785,7 @@ country_event = {
 	desc = "EVTDESC3304"
 	picture = "Finepeople"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		pensions = good_pensions
 		is_ideology_enabled = socialist
@@ -872,19 +824,13 @@ country_event = {
 				factor = 4
 			}
 		}
-		ai_chance = {
-			factor = 10
-		}
 	}
 	
 	option = {
 		name = "EVTOPTB3304"
-		prestige = 3
+		prestige = 5
 		any_pop = {
 			militancy = 1
-		}
-		ai_chance = {
-			factor = 90
 		}
 	}
 }
@@ -896,7 +842,7 @@ country_event = {
 	desc = "EVTDESC3305"
 	picture = "Oldsoldiers"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		social_reform_want = 0.05
 		is_ideology_enabled = socialist
@@ -962,12 +908,7 @@ country_event = {
 				owner = { pensions = low_pensions }
 			}
 			owner = {
-				any_pop = {
-					dominant_issue = {
-						value = acceptable_pensions
-						factor = 0.1
-					}
-				}
+				social_reform = acceptable_pensions
 			}
 		}
 		random_owned = {
@@ -975,12 +916,7 @@ country_event = {
 				owner = { pensions = trinket_pensions }
 			}
 			owner = {
-				any_pop = {
-					dominant_issue = {
-						value = low_pensions
-						factor = 0.1
-					}
-				}
+				social_reform = low_pensions
 			}
 		}
 		random_owned = {
@@ -988,12 +924,7 @@ country_event = {
 				owner = { pensions = no_pensions }
 			}
 			owner = {
-				any_pop = {
-					dominant_issue = {
-						value = trinket_pensions
-						factor = 0.1
-					}
-				}
+				social_reform = trinket_pensions
 			}
 		}
 		middle_strata = {
@@ -1011,12 +942,7 @@ country_event = {
 				owner = { wage_reform = low_minimum_wage }
 			}
 			owner = {
-				any_pop = {
-					dominant_issue = {
-						value = acceptable_minimum_wage
-						factor = 0.1
-					}
-				}
+				social_reform = acceptable_minimum_wage
 			}
 		}
 		random_owned = {
@@ -1024,12 +950,7 @@ country_event = {
 				owner = { wage_reform = trinket_wage }
 			}
 			owner = {
-				any_pop = {
-					dominant_issue = {
-						value = low_minimum_wage
-						factor = 0.1
-					}
-				}
+				social_reform = low_minimum_wage
 			}
 		}
 		random_owned = {
@@ -1037,12 +958,7 @@ country_event = {
 				owner = { wage_reform = no_minimum_wage }
 			}
 			owner = {
-				any_pop = {
-					dominant_issue = {
-						value = trinket_wage
-						factor = 0.1
-					}
-				}
+				social_reform = trinket_wage
 			}
 		}
 		rich_strata = {
@@ -1069,7 +985,7 @@ country_event = {
 	desc = "EVTDESC3306"
 	picture = "Oldsoldiers"
 	
-	trigger = {	exists = yes
+	trigger = {
 		pensions = no_pensions
 		is_ideology_enabled = socialist
 		civilized = yes
@@ -1132,7 +1048,7 @@ country_event = {
 	desc = "EVTDESC3307"
 	picture = "Oldsoldiers"
 	
-	trigger = {	exists = yes
+	trigger = {
 		has_country_flag = promised_post_war_pensions
 		is_ideology_enabled = socialist
 		war = no
@@ -1186,7 +1102,7 @@ country_event = {
 	desc = "EVTDESC3400"
 	picture = "Poor"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		unemployment_subsidies = no_subsidies
 		is_ideology_enabled = socialist
@@ -1258,7 +1174,7 @@ country_event = {
 	desc = "EVTDESC3401"
 	picture = "Poor"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		unemployment = 0.05
 		unemployment_subsidies = low_subsidies
@@ -1295,9 +1211,6 @@ country_event = {
 				factor = 5
 			}
 		}
-		ai_chance = {
-			factor = 10
-		}
 	}
 	
 	option = {
@@ -1305,27 +1218,16 @@ country_event = {
 		any_pop = {
 			consciousness = -1
 		}
-		ai_chance = {
-			factor = 45
-		}
 	}
 	
 	option = {
 		name = "EVTOPTC3401"
-		any_pop = {
-			dominant_issue = {
-				value = acceptable_subsidies
-				factor = 0.1
-			}
-		}
+		social_reform = acceptable_subsidies
 		any_pop = {
 			scaled_militancy = {
 				ideology = conservative
 				factor = 5
 			}
-		}
-		ai_chance = {
-			factor = 45
 		}
 	}
 }
@@ -1337,7 +1239,7 @@ country_event = {
 	desc = "EVTDESC3402"
 	picture = "Poor"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		unemployment_subsidies = acceptable_subsidies
 		is_ideology_enabled = socialist
@@ -1374,9 +1276,6 @@ country_event = {
 			militancy = 3
 			consciousness = 3
 		}
-		ai_chance = {
-			factor = 10
-		}
 	}
 	
 	option = {
@@ -1389,9 +1288,6 @@ country_event = {
 			}
 			consciousness = 2
 		}	
-		ai_chance = {
-			factor = 90
-		}
 	}
 }
 
@@ -1402,7 +1298,7 @@ country_event = {
 	desc = "EVTDESC3403"
 	picture = "Strike"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		unemployment_subsidies = low_subsidies
 		is_ideology_enabled = socialist
@@ -1481,7 +1377,7 @@ country_event = {
 	desc = "EVTDESC3404"
 	picture = "Strike"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		unemployment_subsidies = acceptable_subsidies
@@ -1537,7 +1433,7 @@ country_event = {
 	desc = "EVTDESC3600"
 	picture = "Workers"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		safety_regulations = no_safety
 		is_ideology_enabled = socialist
@@ -1593,7 +1489,7 @@ country_event = {
 	picture = "Workers"
 	
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		safety_regulations = trinket_safety
@@ -1647,7 +1543,7 @@ country_event = {
 	desc = "EVTDESC3602"
 	picture = "Workers"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		safety_regulations = low_safety
@@ -1721,7 +1617,7 @@ country_event = {
 	desc = "EVTDESC3603"
 	picture = "Workers"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		safety_regulations = acceptable_safety
@@ -1732,14 +1628,18 @@ country_event = {
 		
 		modifier = {
 			factor = 0.9
-			rich_strata_militancy = 6
-			poor_strata_militancy = 6
+			AND = {
+				rich_strata_militancy = 6
+				poor_strata_militancy = 6
+			}
 		}
 		
 		modifier = {
 			factor = 1.5
-			poor_strata_life_needs = 0.9
-			rich_strata_life_needs = 0.9
+			AND = {
+				poor_strata_life_needs = 0.9
+				rich_strata_life_needs = 0.9
+			}
 		}
 	}
 	
@@ -1755,12 +1655,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB3603"
-		any_pop = {
-			dominant_issue = {
-				value = low_safety
-				factor = 0.1
-			}
-		}
+		social_reform = low_safety
 		random_state = {
 			limit = { is_colonial = no }
 			poor_strata = {
@@ -1771,12 +1666,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTC3603"
-		any_pop = {
-			dominant_issue = {
-				value = good_safety
-				factor = 0.1
-			}
-		}
+		social_reform = good_safety
 		random_state = {
 			limit = { is_colonial = no }
 			rich_strata = {
@@ -1793,7 +1683,7 @@ country_event = {
 	desc = "EVTDESC3604"
 	picture = "Spies"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		NOT = {
@@ -1848,7 +1738,7 @@ country_event = {
 	desc = "EVTDESC3605"
 	picture = "Police"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		safety_regulations = low_safety
@@ -1909,7 +1799,7 @@ country_event = {
 	desc = "EVTDESC3606"
 	picture = "Workers"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		safety_regulations = acceptable_safety
@@ -1962,8 +1852,7 @@ country_event = {
 	desc = "EVTDESC3607"
 	picture = "Strike"
 	
-	trigger = {	
-		exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		safety_regulations = good_safety
@@ -2011,7 +1900,7 @@ country_event = {
 	desc = "EVTDESC3700"
 	picture = "Childlabor2"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		work_hours = no_work_hour_limit
@@ -2065,7 +1954,7 @@ country_event = {
 	desc = "EVTDESC3701"
 	picture = "Strike"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		work_hours = fourteen_hours
@@ -2089,12 +1978,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTB3701"
-		any_pop = {
-			dominant_issue = {
-				value = twelve_hours
-				factor = 0.1
-			}
-		}
+		social_reform = twelve_hours
 		poor_strata = {
 			consciousness = -2
 		}
@@ -2104,18 +1988,12 @@ country_event = {
 		rich_strata = {
 			consciousness = 4
 		}
-		ai_chance = {
-			factor = 45
-		}
 	}
 	
 	option = {	
 		name = "EVTOPTA3701"
 		poor_strata = {
 			militancy = -1
-		}
-		ai_chance = {
-			factor = 45
 		}
 	}
 	
@@ -2131,9 +2009,6 @@ country_event = {
 		poor_strata = {
 			consciousness = 3
 		}
-		ai_chance = {
-			factor = 10
-		}
 	}
 }
 
@@ -2144,7 +2019,7 @@ country_event = {
 	desc = "EVTDESC3702"
 	picture = "Strike"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		work_hours = twelve_hours
@@ -2177,9 +2052,7 @@ country_event = {
 		middle_strata = {
 			militancy = 2
 		}
-		ai_chance = {
-			factor = 10
-		}
+		
 	}
 	
 	option = {	
@@ -2189,27 +2062,16 @@ country_event = {
 				militancy = -2
 			}
 		}
-		ai_chance = {
-			factor = 45
-		}
 	}
 	
 	option = {
 		name = "EVTOPTC3702"
-		any_pop = {
-			dominant_issue = {
-				value = ten_hours
-				factor = 0.1
-			}
-		}
+		social_reform = ten_hours
 		rich_strata = {
 			militancy = 4
 		}
 		middle_strata = {
 			militancy = 2
-		}
-		ai_chance = {
-			factor = 45
 		}
 	}
 }
@@ -2221,8 +2083,7 @@ country_event = {
 	desc = "EVTDESC3703"
 	picture = "Upperhouse"
 	
-	trigger = {	
-		exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		OR = {
@@ -2250,26 +2111,18 @@ country_event = {
 		name = "EVTOPTA3703"
 		social_reform = fourteen_hours
 		poor_strata = {
-			dominant_issue = {
-				value = twelve_hours
-				factor = 0.1
-			}
 			militancy = 3
 			consciousness = 2
-		}
-		ai_chance = {
-			factor = 10
 		}
 	}
 	
 	option = {
 		name = "EVTOPTB3703"
-		any_pop = {
-			militancy = 1
-			consciousness = 2
-		}
-		ai_chance = {
-			factor = 45
+		random_state = {
+			limit = { is_colonial = no }
+			any_pop = {
+				militancy = 1
+			}
 		}
 	}
 	
@@ -2279,35 +2132,13 @@ country_event = {
 			limit = {
 				owner = { work_hours = ten_hours }
 			}
-			rich_strata = {
-						militancy = 3
-						consciousness = 5
-					}
 			owner = {
-				any_pop = {
-					dominant_issue = {
-						value = eight_hours
-						factor = 0.05
-					}
-				}
+				social_reform = eight_hours
 			}
 		}
-		random_owned = {
-			limit = {
-				owner = { work_hours = eight_hours }
-			}
-			rich_strata = {
-				militancy = 3
-				consciousness = 5
-			}
-			owner = {
-				prestige = 2
-				any_pop = {
-				}
-			}
-		}
-		ai_chance = {
-			factor = 45
+		rich_strata = {
+			militancy = 5
+			consciousness = 5
 		}
 	}
 }
@@ -2321,7 +2152,7 @@ country_event = {
 	desc = "EVTDESC3800"
 	picture = "Workers"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		wage_reform = no_minimum_wage
@@ -2377,12 +2208,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTC3800"
-		any_pop = {
-			dominant_issue = {
-				value = trinket_wage
-				factor = 0.1
-			}
-		}
+		social_reform = trinket_wage
 		poor_strata = {
 			militancy = -1
 		}
@@ -2400,7 +2226,7 @@ country_event = {
 	desc = "EVTDESC3801"
 	picture = "Upperhouse"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		wage_reform = trinket_wage
@@ -2437,9 +2263,6 @@ country_event = {
 			consciousness = 1
 			militancy = 2
 		}
-		ai_chance = {
-			factor = 45
-		}
 	}
 	
 	option = {	
@@ -2450,9 +2273,6 @@ country_event = {
 		rich_strata = {
 			militancy = 1
 		}
-		ai_chance = {
-			factor = 45
-		}
 	}
 	
 	option = {
@@ -2461,9 +2281,6 @@ country_event = {
 		poor_strata = {
 			consciousness = 3
 			militancy = 3
-		}
-		ai_chance = {
-			factor = 10
 		}
 	}
 }
@@ -2475,8 +2292,7 @@ country_event = {
 	desc = "EVTDESC3802"
 	picture = "Strike"
 	
-	trigger = {	
-		exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		wage_reform = low_minimum_wage
@@ -2528,12 +2344,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTC3802"
-		any_pop = {
-			dominant_issue = {
-				value = acceptable_minimum_wage
-				factor = 0.1
-			}
-		}
+		social_reform = acceptable_minimum_wage
 		rich_strata = {
 			militancy = 4
 			consciousness = 2
@@ -2556,7 +2367,7 @@ country_event = {
 	desc = "EVTDESC3803"
 	picture = "Strike"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		OR = {
@@ -2586,9 +2397,6 @@ country_event = {
 			militancy = 2
 			consciousness = -1
 		}
-		ai_chance = {
-			factor = 10
-		}
 	}
 	
 	option = {
@@ -2602,9 +2410,6 @@ country_event = {
 				militancy = 1
 			}
 		}
-		ai_chance = {
-			factor = 45
-		}
 	}
 	
 	option = {
@@ -2614,9 +2419,6 @@ country_event = {
 			rich_strata = {
 				militancy = 2
 			}
-		}
-		ai_chance = {
-			factor = 45
 		}
 	}
 }
@@ -2630,7 +2432,7 @@ country_event = {
 	desc = "EVTDESC3900"
 	picture = "Demonstration"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		trade_unions = no_trade_unions
@@ -2678,12 +2480,7 @@ country_event = {
 	
 	option = {
 		name = "EVTOPTC3900"
-		any_pop = {
-			dominant_issue = {
-				value = state_controlled
-				factor = 0.1
-			}
-		}
+		political_reform = state_controlled
 		any_pop = {
 			scaled_militancy = {
 				ideology = conservative
@@ -2700,7 +2497,7 @@ country_event = {
 	desc = "EVTDESC3901"
 	picture = "Demonstration"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		trade_unions = state_controlled
@@ -2742,9 +2539,6 @@ country_event = {
 				factor = -2
 			}
 		}
-		ai_chance = {
-			factor = 45
-		}
 	}
 	
 	option = {	
@@ -2758,27 +2552,16 @@ country_event = {
 			militancy = 2
 			consciousness = 1
 		}
-		ai_chance = {
-			factor = 10
-		}
 	}
 	
 	option = {
 		name = "EVTOPTC3901"
-		any_pop = {
-			dominant_issue = {
-				value = non_socialist
-				factor = 0.1
-			}
-		}
+		political_reform = non_socialist
 		rich_strata = {
 			militancy = 2
 		}
 		middle_strata = {
 			militancy = 2
-		}
-		ai_chance = {
-			factor = 45
 		}
 	}
 }
@@ -2792,7 +2575,7 @@ country_event = {
 	desc = "EVTDESC3902"
 	picture = "Demonstration"
 	
-	trigger = {	exists = yes
+	trigger = {
 		civilized = yes
 		is_ideology_enabled = socialist
 		trade_unions = non_socialist
@@ -2821,9 +2604,6 @@ country_event = {
 				militancy = 2
 			}
 		}
-		ai_chance = {
-			factor = 45
-		}
 	}
 	
 	option = {	
@@ -2835,9 +2615,6 @@ country_event = {
 				militancy = -2
 			}
 		}
-		ai_chance = {
-			factor = 45
-		}
 	}
 
 	option = {
@@ -2846,9 +2623,6 @@ country_event = {
 		poor_strata = {
 			militancy = 2
 			consciousness = 1
-		}
-		ai_chance = {
-			factor = 10
 		}
 	}
 }
@@ -2860,7 +2634,7 @@ country_event = {
 	desc = "EVTDESC3903"
 	picture = "Strike"
 	
-	trigger = {	exists = yes
+	trigger = {
 		trade_unions = all_trade_unions
 		civilized = yes
 		is_ideology_enabled = socialist
@@ -2898,9 +2672,6 @@ country_event = {
 			militancy = -2
 			consciousness = 1
 		}
-		ai_chance = {
-			factor = 10
-		}
 	}
 	
 	option = {
@@ -2913,9 +2684,6 @@ country_event = {
 			militancy = 1
 			consciousness = 1
 		}
-		ai_chance = {
-			factor = 45
-		}
 	}
 	
 	option = {
@@ -2926,9 +2694,6 @@ country_event = {
 		capitalists = {
 			consciousness = 1
 			militancy = 1
-		}
-		ai_chance = {
-			factor = 45
 		}
 	}
 }
@@ -2942,7 +2707,7 @@ country_event = {
 	desc = "EVTDESC4000"
 	picture = "Slaves"
 	
-	trigger = {	exists = yes
+	trigger = {
 		slavery = yes_slavery
 		civilized = yes
 		any_state = {
@@ -3017,7 +2782,7 @@ country_event = {
 	desc = "EVTDESC4001"
 	picture = "Slaves"
 	
-	trigger = {	exists = yes
+	trigger = {
 		slavery = no_slavery
 		civilized = yes
 		prestige = 20

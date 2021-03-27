@@ -5,7 +5,6 @@ country_event = {
 	trigger = {
 		tag = ITA
 		year = 1910
-		exists = yes
 		NOT = {
 			year = 1913
 		}
@@ -46,7 +45,6 @@ country_event = {
 	trigger = {
 		tag = ITA
 		year = 1902
-		exists = yes
 		NOT = {
 			year = 1905
 			}
@@ -90,7 +88,6 @@ country_event = {
 	trigger = {
 		tag = ITA
 		year = 1891
-		exists = yes
 		NOT = {
 			year = 1894
 			exists = PAP
@@ -503,7 +500,6 @@ country_event = {
 
 	trigger = {
 		primary_culture = north_italian
-		exists = yes
 		war = no
 		is_vassal = no
 		ai = yes
@@ -605,7 +601,6 @@ country_event = {
 			tag = SAR
 			tag = SVY
 		}
-		exists = yes
 		war = no
 		has_country_flag = plombieres
 		NOT = {
@@ -782,7 +777,6 @@ country_event = {
 
 	trigger = {
 		is_culture_group = italian
-		exists = yes
 		war = no
 		is_vassal = no
 		is_disarmed = no

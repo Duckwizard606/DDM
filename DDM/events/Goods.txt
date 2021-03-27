@@ -47,7 +47,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA1100"
 		trade_goods = precious_metal
-		
+		life_rating = 5
 		add_province_modifier = {
 			name = gold_rush
 			duration = 1825
@@ -68,6 +68,7 @@ province_event = {
 		or = {
 			province_id = 88			# Mariposa
 			province_id = 2142			# Chihuahua
+			province_id = 2599			# Fairbanks
 		}
 		not = { trade_goods = precious_metal }
 	}
@@ -84,7 +85,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA1100"
 		trade_goods = precious_metal
-		
+		life_rating = 5
 		add_province_modifier = {
 			name = gold_rush
 			duration = 1825
@@ -119,7 +120,41 @@ province_event = {
 	option = {
 		name = "EVTOPTA1100"
 		trade_goods = precious_metal
-		
+		life_rating = 5
+		add_province_modifier = {
+			name = gold_rush
+			duration = 1825
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 1825
+		}
+	}
+}
+
+province_event = {
+	
+	id = 1103
+
+	trigger = {
+		year = 1861
+		province_id = 93			# Pocatello
+		not = { trade_goods = precious_metal }
+	}
+
+	mean_time_to_happen =  {
+		months = 12
+
+	}
+
+	title = "EVTNAME1100"
+	desc = "EVTDESC1100"
+	picture = ""
+
+	option = {
+		name = "EVTOPTA1100"
+		trade_goods = precious_metal
+		life_rating = 5
 		add_province_modifier = {
 			name = gold_rush
 			duration = 1825
@@ -171,6 +206,42 @@ province_event = {
 	}
 }
 
+# Gold in The Black Hills
+province_event = {
+	id = 1140
+	title = "EVTNAME1140"
+	desc = "EVTDESC1140"
+	news = yes
+    news_desc_long = "EVTDESC1140_NEWS_LONG"
+	news_desc_medium = "EVTDESC1140_NEWS_MEDIUM"
+	news_desc_short = "EVTDESC1140_NEWS_SHORT"
+	picture = "goldrush"
+	
+	trigger = {
+		year = 1874
+		province_id = 122
+		owner = { has_country_flag = custers_expedition_sent }
+		not = { trade_goods = precious_metal } 
+	}
+	
+	mean_time_to_happen = {
+		months = 5
+	}
+	
+	option  ={
+		name = "EVTOPTA1140"
+		trade_goods = precious_metal
+		add_province_modifier = {
+			name = gold_rush
+			duration = 3650
+		}
+		add_province_modifier = {
+			name = switched_production
+			duration = 1825
+		}
+	}
+}
+
 province_event = {
 	
 	id = 1104
@@ -198,7 +269,7 @@ province_event = {
 	option = {
 		name = "EVTOPTA1100"
 		trade_goods = precious_metal
-		
+		life_rating = 5
 		add_province_modifier = {
 			name = gold_rush
 			duration = 1825
@@ -247,7 +318,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		
+		life_rating = 5
 	}
 }
 
@@ -279,7 +350,7 @@ province_event = {
 			name = switched_production
 			duration = 1825
 		}
-		
+		life_rating = 5
 	}
 }
 
@@ -363,11 +434,6 @@ province_event = {
 		name = "EVTOPTA1107"
 		owner = { set_global_flag = rubber_found }
 		trade_goods = rubber
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -453,16 +519,11 @@ province_event = {
 		name = "EVTOPTA1107"
 		owner = { set_global_flag = rubber_found }
 		trade_goods = rubber
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
 		}
-		# 
+		# life_rating = 5
 	}
 }
 
@@ -508,11 +569,6 @@ province_event = {
 		name = "EVTOPTA1109"
 		owner = { set_global_flag = oil_found }
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -557,11 +613,6 @@ province_event = {
 		name = "EVTOPTA1109"
 		owner = { set_global_flag = oil_found }
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -606,11 +657,6 @@ province_event = {
 		name = "EVTOPTA1109"
 		owner = { set_global_flag = oil_found }
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -655,11 +701,6 @@ province_event = {
 		name = "EVTOPTA1109"
 		owner = { set_global_flag = oil_found }
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -704,11 +745,6 @@ province_event = {
 		name = "EVTOPTA1109"
 		owner = { set_global_flag = oil_found }
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -753,11 +789,6 @@ province_event = {
 		name = "EVTOPTA1109"
 		owner = { set_global_flag = oil_found }
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -765,43 +796,6 @@ province_event = {
 		# life_rate = 5
 	}
 }
-
-province_event = {
-
-	id = 899955
-
-	trigger = {
-		year = 1875
-		province_id = 532		# Germany
-		not = { trade_goods = oil }
-		NOT = { has_province_modifier = switched_production }
-		OR = {
-			owner = { part_of_sphere = yes sphere_owner = { invention = cracking } }
-			owner = { part_of_sphere = yes sphere_owner = { any_owned_province = { has_building = fuel_refinery } } }
-			owner = { invention = cracking }
-			owner = { any_owned_province = { has_building = fuel_refinery } }
-			year = 1900
-		}
-	}
-
-	mean_time_to_happen = {
-		days = 2
-	}
-
-	title = "EVTNAME899955"
-	desc = "EVTDESC899955"
-
-	option = {
-		name = "EVTOPTA899955"
-		532 = {
-		trade_goods = oil
-	
-	   } 
-	
-     }
-
-   }
-
 
 province_event = {
 
@@ -839,11 +833,6 @@ province_event = {
 		name = "EVTOPTA1109"
 		owner = { set_global_flag = oil_found }
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -888,11 +877,6 @@ province_event = {
 		name = "EVTOPTA1109"
 		owner = { set_global_flag = oil_found }
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -937,11 +921,6 @@ province_event = {
 		name = "EVTOPTA1109"
 		owner = { set_global_flag = oil_found }
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -985,11 +964,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1037,11 +1011,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1057,7 +1026,7 @@ province_event = {
 	trigger = {
 		year = 1883
 		OR = {
-			province_id = 1398		# Palembang
+			province_id = 1399		# Palembang
 			province_id = 1055		# Grozny
 		}
 		NOT = { trade_goods = oil }
@@ -1088,11 +1057,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1109,7 +1073,9 @@ province_event = {
 		year = 1885
 		OR = {
 			province_id = 1393		# Brunei
-			province_id = 1424		# Mamuju
+			province_id = 1401		# Siak
+			province_id = 1425		# Tarakan
+			province_id = 1432		# Mamuju
 		}
 		NOT = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
@@ -1139,11 +1105,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1160,7 +1121,7 @@ province_event = {
 	trigger = {
 		year = 1886
 		OR = {
-			province_id = 1336		# Kyaukse
+			province_id = 1335		# Kyaukse
 			province_id = 134		# Dallas
 			province_id = 705		# Przemysl
 		}
@@ -1192,11 +1153,49 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
 		add_province_modifier = {
-			name = gold_rush
+			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1123
+
+	trigger = {
+		year = 1889
+		province_id = 1260		# Dibrugarh
+		NOT = { trade_goods = oil }
+		NOT = { has_province_modifier = switched_production }
+		OR = {
+			owner = { organic_chemistry = 1 }
+			any_greater_power = { organic_chemistry = 1 }
+			owner = {
+				any_neighbor_country = { organic_chemistry = 1 }
+			}
+			owner = { has_global_flag = oil_found }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+		modifier = {
+			factor = 3
+			owner = {
+				NOT = { organic_chemistry = 1 }
+			}
+		}
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1240,11 +1239,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1261,6 +1255,7 @@ province_event = {
 		year = 1893
 		OR = {
 			province_id = 129		# Oklahoma City
+			province_id = 1680		# Fez
 		}
 		NOT = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
@@ -1290,11 +1285,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1338,11 +1328,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1361,6 +1346,7 @@ province_event = {
 			province_id = 87		# Monterey
 			province_id = 2162		# Veracruz
 			province_id = 2163		# Tampico
+			province_id = 702		# Lvov
 		}
 		NOT = { trade_goods = oil }
 		NOT = { has_province_modifier = switched_production }
@@ -1390,11 +1376,49 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
 		add_province_modifier = {
-			name = gold_rush
+			name = switched_production
 			duration = 1825
 		}
+		# life_rate = 5
+	}
+}
+
+province_event = {
+
+	id = 1128
+
+	trigger = {
+		year = 1897
+		province_id = 1397		# Sandakan
+		NOT = { trade_goods = oil }
+		NOT = { has_province_modifier = switched_production }
+		OR = {
+			owner = { organic_chemistry = 1 }
+			any_greater_power = { organic_chemistry = 1 }
+			owner = {
+				any_neighbor_country = { organic_chemistry = 1 }
+			}
+			owner = { has_global_flag = oil_found }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 8
+		modifier = {
+			factor = 3
+			owner = {
+				NOT = { organic_chemistry = 1 }
+			}
+		}
+	}
+
+	title = "EVTNAME1109"
+	desc = "EVTDESC1109"
+
+	option = {
+		name = "EVTOPTA1109"
+		trade_goods = oil
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1438,11 +1462,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1486,11 +1505,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1534,11 +1548,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1589,11 +1598,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1637,11 +1641,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1685,11 +1684,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		change_province_name = "Calgary"
 		add_province_modifier = {
 			name = switched_production
@@ -1734,11 +1728,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1782,11 +1771,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1830,11 +1814,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
@@ -1878,11 +1857,6 @@ province_event = {
 	option = {
 		name = "EVTOPTA1109"
 		trade_goods = oil
-		
-		add_province_modifier = {
-			name = gold_rush
-			duration = 1825
-		}
 		add_province_modifier = {
 			name = switched_production
 			duration = 1825
