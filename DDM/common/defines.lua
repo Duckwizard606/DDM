@@ -506,7 +506,7 @@ diplomacy = {
 	
 	MIN_WARSCORE_TO_INTERVENE = -1,
 	MIN_MONTHS_TO_INTERVENE = 0,
-	MAX_WARSCORE_FROM_BATTLES = 50,
+	MAX_WARSCORE_FROM_BATTLES = 10,
 	
 	GUNBOAT_DIPLOMATIC_COST = 1,
 	GUNBOAT_RELATION_ON_ACCEPT = 1,
@@ -516,7 +516,7 @@ diplomacy = {
 	DISHONORED_CALLALLY_PRESTIGE_PENALTY = -3,
 	BASE_TRUCE_MONTHS = 60,
 	MAX_INFLUENCE = 100,
-	WARSUBSIDIES_PERCENT = 0.90, -- How many percent of imports you are going to pay each day(mil. constructions and mil. maintainence)
+	WARSUBSIDIES_PERCENT = 0.50, -- How many percent of imports you are going to pay each day(mil. constructions and mil. maintainence)
 	NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.50, -- Bonus to neighbouring countries when influencing
 	SPHERE_NEIGHBOUR_BONUS_INFLUENCE_PERCENT = 0.2, -- Bonus to countries in your sphere neighbouring when influencing
 	OTHER_CONTINENT_BONUS_INFLUENCE_PERCENT = -0.50, -- Bonus to neighbouring countries when influencing
@@ -536,8 +536,8 @@ diplomacy = {
 	GOODRELATION_MILITANCY_CLEAR_UNION_SPHERE = 2, -- Prestige for asserting hegemony with good relations
 	PEACE_COST_CLEAR_UNION_SPHERE = 0.5, -- Peace cost to assert hegemony per affected country
 	
-	GOOD_PEACE_REFUSAL_MILITANCY = 1.0, --Militancy hit from refusing a good peace offer
-	GOOD_PEACE_REFUSAL_WAREXH = 5.0, --War exhaustion hit from refusing a good peace offer
+	GOOD_PEACE_REFUSAL_MILITANCY = 0.3, --Militancy hit from refusing a good peace offer
+	GOOD_PEACE_REFUSAL_WAREXH = 2.0, --War exhaustion hit from refusing a good peace offer
 	
 	PEACE_COST_GUNBOAT = 5, -- Cost of forcing a defaulting country to pay its debt
 	INFAMY_GUNBOAT = 0, -- Infamy cost for debt collection
@@ -585,9 +585,9 @@ diplomacy = {
 	BACK_CRISIS_RELATION_ON_DECLINE = 0,
 	CRISIS_TEMPERATURE_ON_OFFER_DECLINE = 0,
 	CRISIS_TEMPERATURE_PARTICIPANT_FACTOR = 10, -- How much faster a crisis heats up if all interested parties have taken sides (linear, multiplied)
-	CRISIS_TEMPERATURE_ON_MOBILIZE = 10, -- added temperature if a participant mobilizes
-	CRISIS_WARGOAL_INFAMY_MULT = 1, -- Applied to all infamy from adding wargoals in a crisis
-	CRISIS_WARGOAL_PRESTIGE_MULT = 1, -- Applied to all prestige effects on wargoals in a crisis
+	CRISIS_TEMPERATURE_ON_MOBILIZE = 0, -- added temperature if a participant mobilizes
+	CRISIS_WARGOAL_INFAMY_MULT = 0.8, -- Applied to all infamy from adding wargoals in a crisis
+	CRISIS_WARGOAL_PRESTIGE_MULT = 1.2, -- Applied to all prestige effects on wargoals in a crisis
 	CRISIS_WARGOAL_MILITANCY_MULT = 0, -- Applied to all militancy from failed wargoals in a crisis
 	CRISIS_INTEREST_WAR_EXHAUSTION_LIMIT = 25, -- GPs with WE above this will not get invited to a crisis
 	
