@@ -1,0 +1,85 @@
+political_decisions = {
+	
+	enable_options = {
+		alert = no
+		
+		potential = {
+			ai = no
+			NOT = {
+				has_country_flag = enabled_option_menu
+			}
+		}
+		
+		allow = {
+			ai = no
+			NOT = {
+				has_country_flag = enabled_option_menu
+			}
+		}
+		
+		effect = {
+			set_country_flag = enabled_option_menu
+		}
+	}
+	
+	disable_options = {
+		alert = no
+		
+		potential = {
+			ai = no
+			has_country_flag = enabled_option_menu
+		}
+		
+		allow = {
+			ai = no
+			has_country_flag = enabled_option_menu
+		}
+		
+		effect = {
+			clr_country_flag = enabled_option_menu
+		}
+	}
+	
+	#PLAYER GRANTS#
+	
+	disable_grants = {
+		picture = player_grants
+		alert = no
+		
+		potential = {
+			ai = no
+			has_country_flag = enabled_option_menu
+			NOT = {
+				has_country_flag = disabled_grant_requests
+			}
+		}
+		
+		allow = {
+			ai = no
+		}
+		
+		effect = {
+			set_country_flag = disabled_grant_requests
+		}
+	}
+
+	enable_grants = {
+		picture = player_grants
+		alert = no
+		
+		potential = {
+			ai = no
+			has_country_flag = enabled_option_menu
+			has_country_flag = disabled_grant_requests		
+		}
+		
+		allow = {
+			ai = no
+			has_country_flag = disabled_grant_requests		
+		}
+		
+		effect = {
+			clr_country_flag = disabled_grant_requests
+		}
+	}
+}
