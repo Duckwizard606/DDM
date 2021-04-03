@@ -1,8 +1,12 @@
 political_decisions = {
 	request_grant = {
+		picture = player_grants
 		alert = no
 		potential = {
 			ai = no
+			NOT = {
+				has_country_flag = disabled_grant_requests
+			}
 		}
 		
 		allow = {
@@ -23,6 +27,7 @@ political_decisions = {
 	
 	
 	disable_grants = {
+		picture = player_grants
 		alert = no
 		potential = {
 			ai = no
@@ -42,6 +47,7 @@ political_decisions = {
 	}
 
 	enable_grants = {
+		picture = player_grants
 		alert = no
 		potential = {
 			ai = no
