@@ -40,10 +40,29 @@ political_decisions = {
 		}
 	}
 	
-	#PLAYER GRANTS#
+	#Checks for Event Bug#
+	
+	event_bug = {
+		alert = no
+		
+		potential = {
+			ai = no
+			has_country_flag = enabled_option_menu
+		}
+		
+		allow = { 
+			ai = no
+		}
+		
+		effect = {
+			country_event = 98500
+		}
+	}
+
+	#Player Grants#
 	
 	disable_grants = {
-		picture = player_grants
+		picture = player_grants_option
 		alert = no
 		
 		potential = {
@@ -64,7 +83,7 @@ political_decisions = {
 	}
 
 	enable_grants = {
-		picture = player_grants
+		picture = player_grants_option
 		alert = no
 		
 		potential = {
@@ -82,4 +101,46 @@ political_decisions = {
 			clr_country_flag = disabled_grant_requests
 		}
 	}
+	
+	#Tech Schools#
+		
+	disable_tech_school = {
+		picture = tech_school_option
+		alert = no
+		
+		potential = {
+			ai = no
+			has_country_flag = enabled_option_menu
+			NOT = { has_country_flag = disabled_tech_school }
+		}
+		
+		allow = {
+			ai = no
+		}
+		
+		effect = {
+			set_country_flag = disabled_tech_school
+		}
+	}
+
+	enable_tech_school = {
+		picture = tech_school_option
+		alert = no
+		
+		potential = {
+			ai = no
+			has_country_flag = enabled_option_menu
+			has_country_flag = disabled_tech_school		
+		}
+		
+		allow = {
+			ai = no
+			has_country_flag = disabled_tech_school		
+		}
+		
+		effect = {
+			clr_country_flag = disabled_tech_school
+		}
+	}
+	
 }

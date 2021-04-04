@@ -2,6 +2,7 @@ political_decisions = {
 	switch_to_army_tech = {
 		alert = no
 		potential = {
+			NOT = { has_country_flag = disabled_tech_school }
 			civilized = yes
 			tech_school = traditional_academic
 		}
@@ -21,7 +22,7 @@ political_decisions = {
 			prestige = -15
 			add_country_modifier = {
 				name = academic_confusion
-				duration = 3650
+				duration = 1095
 			}
 			tech_school = army_tech_school
 		}
@@ -29,6 +30,7 @@ political_decisions = {
 	switch_to_navy_tech = {
 		alert = no
 		potential = {
+			NOT = { has_country_flag = disabled_tech_school }
 			civilized = yes
 			tech_school = traditional_academic
 		}
@@ -50,7 +52,7 @@ political_decisions = {
 			prestige = -15
 			add_country_modifier = {
 				name = academic_confusion
-				duration = 3650
+				duration = 1095
 			}
 			tech_school = naval_tech_school
 		}
@@ -58,6 +60,7 @@ political_decisions = {
 	switch_to_culture_tech = {
 		alert = no
 		potential = {
+			NOT = { has_country_flag = disabled_tech_school }
 			civilized = yes
 			tech_school = traditional_academic
 		}
@@ -77,7 +80,7 @@ political_decisions = {
 			prestige = -15
 			add_country_modifier = {
 				name = academic_confusion
-				duration = 3650
+				duration = 1095
 			}
 			tech_school = culture_tech_school
 		}
@@ -85,6 +88,7 @@ political_decisions = {
 	switch_to_trade_tech = {
 		alert = no
 		potential = {
+			NOT = { has_country_flag = disabled_tech_school }
 			civilized = yes
 			tech_school = traditional_academic
 		}
@@ -103,7 +107,7 @@ political_decisions = {
 			prestige = -15
 			add_country_modifier = {
 				name = academic_confusion
-				duration = 3650
+				duration = 1095
 			}
 			tech_school = commerce_tech_school
 		}
@@ -111,6 +115,7 @@ political_decisions = {
 	switch_to_industry_tech = {
 		alert = no
 		potential = {
+			NOT = { has_country_flag = disabled_tech_school }
 			civilized = yes
 			tech_school = traditional_academic
 		}
@@ -130,7 +135,7 @@ political_decisions = {
 			prestige = -15
 			add_country_modifier = {
 				name = academic_confusion
-				duration = 3650
+				duration = 1095
 			}
 			tech_school = industrial_tech_school
 		}
@@ -138,6 +143,7 @@ political_decisions = {
 	switch_to_traditional_academic = {
 		alert = no
 		potential = {
+			NOT = { has_country_flag = disabled_tech_school }
 			NOT = { tech_school = traditional_academic }
 			civilized = yes
 		}
@@ -150,7 +156,7 @@ political_decisions = {
 			prestige = -15
 			add_country_modifier = {
 				name = academic_confusion
-				duration = 3650
+				duration = 1095
 			}
 			tech_school = traditional_academic
 		}

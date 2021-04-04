@@ -1,0 +1,13 @@
+country_event = {
+	id = 98500 # Event Bug Checker
+
+	title = "Am I Event Bugged?"
+	desc = "Are you?"
+	picture = "danishgovernment"
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "No, I am not."
+	}
+}
