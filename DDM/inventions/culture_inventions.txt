@@ -747,6 +747,7 @@ proto_existentialism = {
 }
 
 #empiricism
+
 pragmatism = {
 	limit = { empiricism = 1 }
 	news = no

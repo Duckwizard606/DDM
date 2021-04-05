@@ -1345,6 +1345,7 @@ exhibition = {
 }
 
 census = {
+	prestige = 0.05
 	icon = 7
 }
 

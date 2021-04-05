@@ -1324,16 +1324,11 @@ political_decisions = {
 		alert = yes
 		potential = {
 			civilized = yes
-			OR = {
-				is_greater_power = yes
-				is_secondary_power = yes
-			}
 			NOT = {
 				has_country_modifier = census
 			}
 		}
 		allow = {
-			war = no
 			state_n_government = 1
 			empiricism = 1
 		}
@@ -1341,7 +1336,7 @@ political_decisions = {
 			prestige = 10
 			add_country_modifier = {
 				name = census
-				duration = 3650
+				duration = -1
 			}
 		}
 		ai_will_do = {
@@ -1516,6 +1511,7 @@ political_decisions = {
 			NOT = {
 				has_country_modifier = the_rights_of_man
 			}
+			NOT = { has_country_flag = disabled_political_thought }
 		}
 		allow = {
 			enlightenment_thought = 1
@@ -1541,6 +1537,7 @@ political_decisions = {
 			NOT = {
 				has_country_modifier = political_ideology
 			}
+			NOT = { has_country_flag = disabled_political_thought }
 		}
 		allow = {
 			ideological_thought = 1
@@ -1567,6 +1564,7 @@ political_decisions = {
 			NOT = {
 				has_country_modifier = of_state_n_government
 			}
+			NOT = { has_country_flag = disabled_political_thought }
 		}
 		allow = {
 			state_n_government = 1
@@ -1594,6 +1592,7 @@ political_decisions = {
 			NOT = {
 				has_country_modifier = dreams_of_empire
 			}
+			NOT = { has_country_flag = disabled_political_thought }
 		}
 		allow = {
 			nationalism_n_imperialism = 1
@@ -1622,6 +1621,7 @@ political_decisions = {
 			NOT = {
 				has_country_modifier = the_means_of_production
 			}
+			NOT = { has_country_flag = disabled_political_thought }
 		}
 		allow = {
 			revolution_n_counterrevolution = 1
@@ -1648,6 +1648,7 @@ political_decisions = {
 			NOT = {
 				has_country_modifier = the_flaws_of_democracy
 			}
+			NOT = { has_country_flag = disabled_political_thought }
 		}
 		allow = {
 			mass_politics = 1

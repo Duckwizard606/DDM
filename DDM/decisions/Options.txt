@@ -143,4 +143,45 @@ political_decisions = {
 		}
 	}
 	
+	#Political Thought Effects#
+		
+	disable_political_thought = {
+		picture = political_thought_option
+		alert = no
+		
+		potential = {
+			ai = no
+			has_country_flag = enabled_option_menu
+			NOT = { has_country_flag = disabled_political_thought }
+		}
+		
+		allow = {
+			ai = no
+		}
+		
+		effect = {
+			set_country_flag = disabled_political_thought
+		}
+	}
+
+	enable_political_thought = {
+		picture = political_thought_option
+		alert = no
+		
+		potential = {
+			ai = no
+			has_country_flag = enabled_option_menu
+			has_country_flag = disabled_political_thought		
+		}
+		
+		allow = {
+			ai = no
+			has_country_flag = disabled_political_thought		
+		}
+		
+		effect = {
+			clr_country_flag = disabled_political_thought
+		}
+	}
+	
 }
