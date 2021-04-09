@@ -19,4 +19,8 @@ disable_political_thought_title;Disable Political Thought Decisions;;;;;;;;;;;;;
 disable_political_thought_desc;Disables the decisions that give modifiers based upon level of political thought researched in the nation.;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 enable_political_thought_title;Enable Political Thought Decisions;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
 enable_political_thought_desc;Enables the decisions that give modifiers based upon level of political thought researched in the nation.;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,
+disable_national_value_title;Disable National Value Decisions.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+disable_national_value_desc;Disables the decisions which allow for changing of national value. These scale with technology make sure not to forget about them.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+enable_national_value_title;Enable National Value Decisions.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
+enable_national_value_desc;Enables the decisions which allow for changing of national value. These scale with technology make sure not to forget about them.;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,,,
 xxxxxxxxxxxxxxxx;yyyyyyyyyyyyyyyyyyy;;;;;;;;;;;;;;;x,,,,,,,,,,,,,,,,,,,,

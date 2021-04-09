@@ -184,4 +184,41 @@ political_decisions = {
 		}
 	}
 	
+	#National Values#
+		
+	disable_national_value = {
+		alert = no
+		picture = national_value
+		potential = {
+			NOT = {	has_country_modifier = national_confusion }
+			NOT = {	has_country_flag = disabled_national_value }
+			ai = no
+			civilized = yes
+		}
+		
+		allow = {
+			ai = no
+		}
+		
+		effect = {
+			set_country_flag = disabled_national_value
+		}
+	}
+
+	enable_national_value = {
+		alert = no
+		picture = national_value
+		potential = {
+			ai = no
+			has_country_flag = disabled_national_value
+		}
+		
+		allow = {
+			ai = no
+		}
+		
+		effect = {
+			clr_country_flag = disabled_national_value
+		}
+	}
 }

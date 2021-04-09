@@ -226,7 +226,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				ai = yes
-				has_country_flag = nv_change
+				NOT = { has_country_flag = disabled_national_value }
 			}
 			civilized = yes
 			nationalvalue = nv_equality
@@ -267,7 +267,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				ai = yes
-				has_country_flag = nv_change
+				NOT = { has_country_flag = disabled_national_value }
 			}
 			civilized = yes
 			nationalvalue = nv_order
@@ -308,7 +308,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				ai = yes
-				has_country_flag = nv_change
+				NOT = { has_country_flag = disabled_national_value }
 			}
 			civilized = yes
 			nationalvalue = nv_equality
@@ -349,7 +349,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				ai = yes
-				has_country_flag = nv_change
+				NOT = { has_country_flag = disabled_national_value }
 			}
 			civilized = yes
 			nationalvalue = nv_liberty
@@ -390,7 +390,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				ai = yes
-				has_country_flag = nv_change
+				NOT = { has_country_flag = disabled_national_value }
 			}
 			civilized = yes
 			nationalvalue = nv_liberty
@@ -437,7 +437,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				ai = yes
-				has_country_flag = nv_change
+				NOT = { has_country_flag = disabled_national_value }
 			}
 			civilized = yes
 			nationalvalue = nv_might
@@ -478,7 +478,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				ai = yes
-				has_country_flag = nv_change
+				NOT = { has_country_flag = disabled_national_value }
 			}
 			civilized = yes
 			nationalvalue = nv_might
@@ -519,7 +519,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				ai = yes
-				has_country_flag = nv_change
+				NOT = { has_country_flag = disabled_national_value }
 			}
 			civilized = yes
 			nationalvalue = nv_order
@@ -565,7 +565,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				ai = yes
-				has_country_flag = nv_change
+				NOT = { has_country_flag = disabled_national_value }
 			}
 			civilized = yes
 			nationalvalue = nv_equality
@@ -600,7 +600,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				ai = yes
-				has_country_flag = nv_change
+				NOT = { has_country_flag = disabled_national_value }
 			}
 			civilized = yes
 			nationalvalue = nv_liberty
@@ -635,7 +635,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				ai = yes
-				has_country_flag = nv_change
+				NOT = { has_country_flag = disabled_national_value }
 			}
 			civilized = yes
 			nationalvalue = nv_might
@@ -670,7 +670,7 @@ political_decisions = {
 		potential = {
 			OR = {
 				ai = yes
-				has_country_flag = nv_change
+				NOT = { has_country_flag = disabled_national_value }
 			}
 			civilized = yes
 			nationalvalue = nv_order
@@ -704,7 +704,7 @@ political_decisions = {
 	switch_to_equality = {
 		potential = {
 			ai = no
-			has_country_flag = nv_change
+			NOT = { has_country_flag = disabled_national_value }
 			civilized = yes
 			OR = {
 				nationalvalue = nv_unity
@@ -737,7 +737,7 @@ political_decisions = {
 	switch_to_liberty = {
 		potential = {
 			ai = no
-			has_country_flag = nv_change
+			NOT = { has_country_flag = disabled_national_value }
 			civilized = yes
 			OR = {
 				nationalvalue = nv_glory
@@ -770,7 +770,7 @@ political_decisions = {
 	switch_to_might = {
 		potential = {
 			ai = no
-			has_country_flag = nv_change
+			NOT = { has_country_flag = disabled_national_value }
 			civilized = yes
 			OR = {
 				nationalvalue = nv_glory
@@ -803,7 +803,7 @@ political_decisions = {
 	switch_to_order = {
 		potential = {
 			ai = no
-			has_country_flag = nv_change
+			NOT = { has_country_flag = disabled_national_value }
 			civilized = yes
 			OR = {
 				nationalvalue = nv_unity
